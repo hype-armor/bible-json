@@ -1,6 +1,6 @@
 # 📖 Bible Versions JSON Dataset
 
-A free, open-source collection of **35 English Bible versions** and **38 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
+A free, open-source collection of **57 English Bible versions** and **41 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
 This is the **most comprehensive JSON dataset of English Bible translations** available, including popular versions like **NLT, NIV, NKJV, NASB, ESV, KJV, and more**.
 Each translation is stored as its own `.json` file for easy parsing, analysis, app development, or AI projects.
 
@@ -69,6 +69,130 @@ The following books are available in relevant versions within this dataset:
 * **First Maccabees**
 * **Second Maccabees**
 * **Prayer of Manasseh** (Found in Coptic canons; sometimes appended to Chronicles)
+
+## 🏛️ Ancient Witnesses
+
+Beyond the Hebrew, Greek and Latin already here, the corpus now carries the independent
+textual traditions that let a reading be cross-checked rather than just cited:
+
+| Version | Tradition | Why it matters |
+| --- | --- | --- |
+| `he/SAMARITAN PENTATEUCH` | Samaritan Hebrew | Split from the Jewish text c. 200 BCE, so agreement with the Masoretic Text is strong evidence of antiquity |
+| `syr/SYRIAC PESHITTA` | Syriac | The New Testament in the language closest to the Aramaic Jesus spoke — previously here only in English translation |
+| `en/TARGUM ONKELOS (ETHERIDGE)` | Aramaic Targum | The authoritative Jewish Aramaic paraphrase of the Pentateuch |
+| `la/LATIN: VULGATA SIXTINA` | Latin | The Sixtine edition of 1590, alongside the Clementine of 1592 — two official printed Vulgates to compare |
+| `got/GOTHIC BIBLE (WULFILA)` | Gothic | Ulfilas' 4th-century translation, one of the oldest Germanic texts of any kind |
+| `he/MIQRA AL PI HAMESORAH` | Jewish | A modern digital critical edition of the Masoretic Text |
+
+A worked example of why this matters — **Genesis 3:15**, where the Latin reads "*ipsa* conteret"
+("**she** shall crush"), the basis of the Marian reading and of Mary-crushing-the-serpent imagery:
+
+| Tradition | Subject |
+| --- | --- |
+| Masoretic Hebrew | masculine (*hu'*) |
+| **Samaritan Pentateuch** | **masculine** |
+| Septuagint | masculine |
+| **Targum Onkelos** | **masculine** |
+| Vulgate — *both* Sixtine **and** Clementine | **feminine** |
+
+Four independent ancient traditions against one, and the Latin's feminine appears in both official
+printed editions — so it was not a stray printing.
+
+## 📜 Historical English Versions
+
+The corpus now carries an unbroken English line from 1395, which makes it possible to date a
+rendering rather than only observe it:
+
+| Year | Version | Why it matters |
+| ---: | --- | --- |
+| 1395 | Wycliffe Bible | Translated from the **Vulgate**, so it shows which Latin readings reached English before the Greek did |
+| 1526 | Tyndale New Testament | First English NT from the Greek; most of the KJV's wording is his |
+| 1599 | Geneva Bible | The Bible of Shakespeare and the Pilgrims |
+| 1853 | Leeser Old Testament | First Jewish translation into English, 64 years before the JPS |
+| 1862 | Targum Onkelos (Etheridge) | English of the authoritative Aramaic paraphrase of the Pentateuch |
+| 1869 | Noyes Translation | Critical-text American translation |
+| 1873 | KJV Cambridge Paragraph Bible | Scrivener's critical edition of the KJV text itself |
+| 1890 | Darby Bible | Darby also originated the pre-tribulational rapture scheme |
+| 1902 | Rotherham Emphasised Bible | Transliterates Sheol and Hades instead of flattening both to "hell" |
+| 1949 | Bible in Basic English | ~1,000-word controlled vocabulary forces interpretive choices into the open |
+| 2016 | Family 35 New Testament | CC BY-SA |
+| 2022 | Text-Critical English New Testament | CC BY |
+
+**Not included, for licensing reasons:** the RSV, NRSVue and New World Translation are in
+copyright and cannot be redistributed. The modernised Wycliffe on ebible.org is CC BY-NC-**ND**,
+whose No-Derivatives term forbids format conversion — the edition here is the original
+public-domain 1395 text instead.
+
+⚠️ **Two versification traps**, documented in `versions.json`: Wycliffe's **Psalms follow Vulgate
+numbering** (Wycliffe Psalm 16 is the Hebrew Psalm 17), and Targum Onkelos' **Exodus is offset by
+one verse**. Both resolve fine as references — they are just the wrong verse.
+
+Converted by `tools/import_usfm.py` and `tools/import_scrollmapper.py`.
+
+## 🔤 Word-Level Tagging (`lexicon/`)
+
+Strong's numbers and morphology for every word of the Hebrew Old Testament and the Greek
+New Testament, **re-versified onto this repository's own chapter and verse numbering** so a
+reference that works against a version file works against the tagging too.
+
+| File | Contents |
+| --- | --- |
+| `lexicon/hebrew.json` | 306,785 tagged words — `{book: {chapter: {verse: [[strongs, morph, surface, lemma], …]}}}` |
+| `lexicon/greek.json` | 140,149 tagged words, same shape |
+| `lexicon/strongs-hebrew.json` | 8,674 dictionary entries |
+| `lexicon/strongs-greek.json` | 5,523 dictionary entries |
+| `lexicon/SOURCES.md` | Provenance, licences and the alignment report |
+
+```python
+import sys; sys.path.insert(0, "tools")
+from lexicon import Lexicon
+lex = Lexicon()
+lex.occurrences("H5959")      # ['Genesis 24:43', ..., 'Isaiah 7:14']
+lex.words("Isaiah 7:14")      # word by word, with Strong's and morphology
+lex.define("G26")             # ἀγάπη
+```
+
+Built by `tools/build_lexicon.py` from [morphhb](https://github.com/openscriptures/morphhb)
+(CC BY 4.0), [byztxt](https://github.com/byztxt/byzantine-majority-text) (public domain) and
+[openscriptures/strongs](https://github.com/openscriptures/strongs) (**CC BY-SA** — carry that
+licence forward if you redistribute `strongs-*.json`).
+
+Note the versification work: morphhb follows BHS, this repository follows English numbering.
+The mapping is derived by aligning consonantal word sequences rather than hand-coded rules —
+**99.01% of 306,785 words align exactly, and no verse is left untagged.**
+
+## 📋 Version Metadata (`versions.json`)
+
+Publication year, base text, translation philosophy, tradition, testament coverage and
+book-naming convention for all 125 versions. 113 carry a curated date; the rest are `null`
+rather than guessed.
+
+```json
+"en/KING JAMES BIBLE": {
+  "year": 1611, "base_text": "Textus Receptus", "philosophy": "formal",
+  "tradition": "Protestant (Church of England)", "testament": "both",
+  "books": 66, "verses": 31102, "book_naming": "english"
+}
+```
+
+Regenerate with `python3 tools/build_versions_manifest.py`. Structural fields are computed
+from the files, so the manifest cannot drift out of sync with them.
+
+## 🔬 Research: Mistranslations That Shaped Christianity
+
+`research/mistranslations/` holds a dataset of 36 translation decisions, transmission errors
+and interpolations with documented effects on Christian doctrine, practice, art or law — each
+anchored to verses that resolve against the version files here, with tooling that verifies
+every claim. See its [README](research/mistranslations/README.md).
+
+## 🧰 Tools
+
+| Script | Purpose |
+| --- | --- |
+| `tools/build_lexicon.py` | Build `lexicon/` from upstream tagged texts |
+| `tools/lexicon.py` | Read access to the tagging |
+| `tools/build_versions_manifest.py` | Build `versions.json` |
+| `tools/import_usfm.py` | Convert a USFM Bible into this repository's JSON shape |
 
 ## 🛠️ Contributing
 

@@ -1,0 +1,294 @@
+{
+  "id": "isa-7-14-almah",
+  "case_id": "isa-7-14-almah-parthenos",
+  "title": "The Virgin of Isaiah 7:14",
+  "question": "Does the title \"Virgin Mary\" rest on a mistranslation?",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "Short answer: no — but a famous *prophecy* does.\n\nThe question conflates two different texts written in two different languages, and separating them settles most of the argument before any Hebrew is examined.\n\n| | Text | Original language | Translation dispute? |\n| --- | --- | --- | --- |\n| The prophecy | Isaiah 7:14 | **Hebrew** | **Yes** — this is the famous one |\n| The narrative | Luke 1:27, 1:34; Matthew 1:18–25 | **Greek** | No |\n\nLuke was *written* in Greek. There is no Hebrew original behind it. Whatever Isaiah meant in the 8th century BCE, it does not change what Luke wrote in the 1st century CE."
+    },
+    {
+      "heading": "1. The two texts, in their own languages",
+      "type": "contrast",
+      "title": "Isaiah writes Hebrew; Luke writes Greek",
+      "refs": [
+        "Isaiah 7:14",
+        "Luke 1:27",
+        "Luke 1:34"
+      ],
+      "versions": [
+        "he/WESTMINSTER LENINGRAD CODEX",
+        "el/WESTCOTT AND HORT 1881",
+        "en/TYNDALE NEW TESTAMENT",
+        "en/NEW REVISED STANDARD VERSION",
+        "en/YOUNG'S LITERAL TRANSLATION"
+      ],
+      "text_chars": 165
+    },
+    {
+      "type": "prose",
+      "text": "Luke 1:34 is the decisive line. Mary's `ἄνδρα οὐ γινώσκω` — \"I do not know a man\" — is the author's own idiom in the author's own language, and Young's Literal renders it flatly: *\"seeing a husband I do not know.\"* No translator stands between the reader and that claim.\n\nSo the title **Virgin Mary comes from Luke's Greek, not from Isaiah's Hebrew.** What the translation shift produced is the *proof-text* — the claim that the Hebrew Bible foretold a virgin birth. That claim is what the rest of this study examines."
+    },
+    {
+      "heading": "2. The original text of Isaiah 7:14",
+      "type": "verse_table",
+      "ref": "Isaiah 7:14",
+      "versions": [
+        "en/GENEVA BIBLE 1599",
+        "en/KING JAMES BIBLE",
+        "en/DOUAY-RHEIMS BIBLE",
+        "en/LEESER OLD TESTAMENT 1853",
+        "en/NOYES TRANSLATION 1869",
+        "en/DARBY BIBLE 1890",
+        "en/ROTHERHAM EMPHASISED BIBLE",
+        "en/BIBLE IN BASIC ENGLISH",
+        "en/JPS TANAKH 1917",
+        "en/ENGLISH STANDARD VERSION",
+        "en/NEW INTERNATIONAL VERSION",
+        "en/NEW REVISED STANDARD VERSION",
+        "en/NEW AMERICAN BIBLE",
+        "en/NET BIBLE",
+        "en/BRENTON SEPTUAGINT TRANSLATION"
+      ]
+    },
+    {
+      "type": "interlinear",
+      "ref": "Isaiah 7:14",
+      "version": "he/WESTMINSTER LENINGRAD CODEX",
+      "words": [
+        [
+          "לכן",
+          "lākhēn",
+          "therefore"
+        ],
+        [
+          "יתן",
+          "yittēn",
+          "he will give"
+        ],
+        [
+          "אדני",
+          "'ădōnāy",
+          "the Lord"
+        ],
+        [
+          "הוא",
+          "hū'",
+          "himself"
+        ],
+        [
+          "לכם",
+          "lākhem",
+          "to you — **plural**, the house of David, not Ahaz alone"
+        ],
+        [
+          "אות",
+          "'ōt",
+          "a sign"
+        ],
+        [
+          "הנה",
+          "hinnēh",
+          "look, behold"
+        ],
+        [
+          "העלמה",
+          "hā-'almāh",
+          "**the** young woman — *definite article*, a specific person"
+        ],
+        [
+          "הרה",
+          "hārāh",
+          "pregnant — *stative*, she **is** pregnant, not \"shall conceive\""
+        ],
+        [
+          "וילדת",
+          "we-yōledet",
+          "and giving birth to — *participle*"
+        ],
+        [
+          "בן",
+          "bēn",
+          "a son"
+        ],
+        [
+          "וקראת",
+          "we-qārā't",
+          "and she shall call"
+        ],
+        [
+          "שמו",
+          "shemō",
+          "his name"
+        ],
+        [
+          "עמנו אל",
+          "'immānū 'ēl",
+          "God-with-us"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "text": "A literal rendering:\n\n> Therefore he will give — the Lord himself — to you (plural) a sign: **Look, the young woman is pregnant and giving birth to a son, and she shall call his name Immanu-El.**\n\nThree features the smooth English versions flatten:\n\n1. **`hā-'almāh` is definite.** \"*The* young woman\" — someone Isaiah could point at, not \"a virgin\" in the abstract.\n2. **`hārāh` is a stative, not a future.** She is already pregnant as Isaiah speaks. The NET and NRSV preserve this; the KJV's \"shall conceive\" does not.\n3. **`lākhem` is plural.** The sign is addressed to the dynasty, not to the king personally."
+    },
+    {
+      "heading": "3. What the sign is for",
+      "type": "contrast",
+      "title": "Isaiah 7:14 does not stand alone — verses 15 and 16 say what the sign measures",
+      "refs": [
+        "Isaiah 7:14",
+        "Isaiah 7:15",
+        "Isaiah 7:16"
+      ],
+      "versions": [
+        "en/NEW REVISED STANDARD VERSION"
+      ],
+      "text_chars": 230
+    },
+    {
+      "type": "prose",
+      "text": "The sign is a **military timetable**. A child is born now; before he is old enough to tell right from wrong, the two kings menacing Judah will be gone. This is the Syro-Ephraimite crisis of the 730s BCE, and Ahaz is being told how long he has to wait.\n\nA child conceived seven centuries later cannot function as a sign to Ahaz about a war in his own lifetime. That, rather than the lexicography, is the strongest argument that Isaiah 7:14 is not about Mary — and it does not depend on what `'almāh` means at all."
+    },
+    {
+      "heading": "4. How often does ʿalmāh occur, and of whom?",
+      "type": "concordance",
+      "title": "Every occurrence of the consonants ע-ל-מ in the Hebrew Bible",
+      "version": "he/WLC (CONSONANTS ONLY)",
+      "pattern": "[הבוכלמש]*עלמ(ה|ות|ת)",
+      "parallel": "en/JPS TANAKH 1917",
+      "gloss_chars": 105,
+      "expect_kept": 7,
+      "exclusions": {
+        "1 Chronicles 6:60": "the place-name Alemeth",
+        "1 Chronicles 7:8": "the personal name Alemeth",
+        "1 Chronicles 8:36": "the personal name Alemeth",
+        "1 Chronicles 9:42": "the personal name Alemeth",
+        "1 Chronicles 15:20": "ʿalāmōt, a musical direction",
+        "Psalms 46:1": "ʿalāmōt, a musical direction in the superscription",
+        "Psalms 9:1": "part of the phrase ʿal-mūt labbēn, a different expression"
+      }
+    },
+    {
+      "type": "prose",
+      "text": "The table above was built by matching Hebrew consonants and then excluding seven homographs by hand. The table below is built from `lexicon/`, which carries Strong's numbers and morphology for all 306,785 words of the Hebrew Bible, and needs no exclusion list at all.\n\n**They return the same seven verses.** Two independent methods - one that reasons about letters and one that reasons about lemmas - agree exactly. That is about as close to a controlled result as this subject allows, and it means the surface-form method used elsewhere in this dataset can be trusted where no Strong's number is available."
+    },
+    {
+      "type": "strongs",
+      "number": "H5959",
+      "parallel": "en/JPS TANAKH 1917",
+      "expect": 7,
+      "title": "The same question asked of the word-level tagging, which knows nothing about spelling",
+      "gloss_chars": 95
+    },
+    {
+      "type": "prose",
+      "text": "Seven occurrences, and not one of them requires virginity. `'almāh` marks **age and social status** — a young woman of marriageable age — not sexual history.\n\nTwo entries carry most of the weight, and they cut in opposite directions:\n\n- **Song 6:8** lists `'ălāmōt` alongside queens and concubines, in a book about erotic love. Not an obvious virginity context.\n- **Genesis 24:43** calls Rebekah an `'almāh`, and she *is* a virgin. This is the best evidence for the traditional reading — until you look at how the same chapter says so."
+    },
+    {
+      "heading": "5. The Rebekah test",
+      "type": "contrast",
+      "title": "One chapter, one woman, two different words",
+      "refs": [
+        "Genesis 24:16",
+        "Genesis 24:43"
+      ],
+      "versions": [
+        "en/JPS TANAKH 1917",
+        "he/WLC (CONSONANTS ONLY)"
+      ],
+      "text_chars": 190
+    },
+    {
+      "type": "prose",
+      "text": "Verse 16 establishes Rebekah's virginity. To do it, the text needs a **different word** — `bethulah`, the dedicated term — *and* an explicit clause: \"neither had any man known her.\" Only later, at verse 43, is she an `'almāh`.\n\nThat is the shape of the evidence. `'almāh` is compatible with virginity; it does not assert it. Where the Hebrew Bible wants to assert it, it reaches for other words."
+    },
+    {
+      "type": "concordance",
+      "title": "Hebrew had a dedicated word for virgin, and Isaiah did not use it: bethulah (ב-ת-ו-ל)",
+      "version": "he/WLC (CONSONANTS ONLY)",
+      "pattern": "[הבוכלמש]*בתול(ה|ת|ות|תי)",
+      "parallel": "en/JPS TANAKH 1917",
+      "gloss_chars": 95,
+      "limit": 6
+    },
+    {
+      "heading": "6. The Septuagint translators were not consistent — and that is the finding",
+      "type": "renderings",
+      "title": "How the Greek Old Testament rendered ʿalmāh at each of the seven places",
+      "refs": [
+        "Genesis 24:43",
+        "Exodus 2:8",
+        "Psalms 68:25",
+        "Proverbs 30:19",
+        "Song of Solomon 1:3",
+        "Song of Solomon 6:8",
+        "Isaiah 7:14"
+      ],
+      "target": "el/SWETE'S SEPTUAGINT",
+      "candidates": {
+        "παρθεν": "virgin (parthenos)",
+        "νεαν": "young woman (neanis)"
+      },
+      "text_chars": 90
+    },
+    {
+      "type": "prose",
+      "text": "This is the single most useful result in the study, and it is computed rather than asserted.\n\nThe Septuagint translators had `νεᾶνις` (*neanis*, \"young woman\") available and **used it four times** for `'almāh`. At Isaiah 7:14 they chose `παρθένος` (*parthenos*, \"virgin\") instead.\n\nThat forecloses the two most common ways of arguing about this verse:\n\n- It was **not a lexical accident**. A translator who writes *neanis* at Exodus 2:8 and Song 6:8 knows the word.\n- It was **not a Christian invention**. The Septuagint is a pre-Christian Jewish translation, made two centuries before Jesus, with no stake in the outcome.\n\nWhat happened at Isaiah 7:14 was an **interpretive decision** by a Jewish translator working in Alexandria. Matthew inherited it; the Vulgate hardened it into *virgo*; English inherited that.\n\n*One caveat visible in the table above:* Proverbs is heavily reordered in the Greek, so the reference does not align and the row shows no match. That is a versification artifact, not evidence. Genesis 24:16 — where the Hebrew has `bethulah` — reads `παρθένος` and then still adds \"a man had not known her,\" which suggests even *parthenos* was felt to need reinforcement."
+    },
+    {
+      "heading": "7. Where the English versions landed",
+      "type": "verse_table",
+      "ref": "Isaiah 7:14",
+      "versions": [
+        "en/GENEVA BIBLE 1599",
+        "en/KING JAMES BIBLE",
+        "en/DOUAY-RHEIMS BIBLE",
+        "en/LEESER OLD TESTAMENT 1853",
+        "en/NOYES TRANSLATION 1869",
+        "en/DARBY BIBLE 1890",
+        "en/ROTHERHAM EMPHASISED BIBLE",
+        "en/BIBLE IN BASIC ENGLISH",
+        "en/JPS TANAKH 1917",
+        "en/ENGLISH STANDARD VERSION",
+        "en/NEW INTERNATIONAL VERSION",
+        "en/NEW REVISED STANDARD VERSION",
+        "en/NEW AMERICAN BIBLE",
+        "en/NET BIBLE",
+        "en/BRENTON SEPTUAGINT TRANSLATION"
+      ]
+    },
+    {
+      "type": "prose",
+      "text": "**The single most useful thing in this table is the date column you have to supply yourself** — so here it is, from `versions.json`:\n\n| Year | Version | Reading |\n| ---: | --- | --- |\n| 1599 | Geneva | the **virgine** |\n| 1611 | King James | a **virgin** |\n| **1853** | **Leeser** (Jewish) | **this young woman** |\n| **1869** | **Noyes** | **the damsel** |\n| 1890 | Darby | the **virgin** |\n| 1902 | Rotherham | a **Virgin** |\n| 1917 | JPS (Jewish) | the **young woman** |\n| **1949** | **Bible in Basic English** | **a young woman** |\n| 1952 | *RSV — not in this corpus* | *young woman* |\n| 1989 | NRSV | the **young woman** |\n| 2016 | ESV | the **virgin** |\n\n**This overturns the story usually told about the RSV.** When the RSV printed \"young woman\" in 1952 and copies were burned from American pulpits, it was not introducing a novel reading. Leeser had printed it in 1853, Noyes in 1869, and the Bible in Basic English in 1949 — a century of English Bibles, sitting in this corpus, with the reading that supposedly appeared out of nowhere.\n\nWhat changed in 1952 was not the scholarship. It was that the reading reached a **mainline pulpit Bible** with denominational backing. The controversy was about authority, not philology.\n\nNote also that confessional allegiance predicts the rendering poorly. The **New American Bible** — the American Catholic Bible — reads \"the young woman.\" The **ESV and NIV**, both evangelical, read \"virgin.\" Darby and Rotherham, both working from critical texts, kept \"virgin\" while Leeser and the JPS did not.\n\nBrenton is in the table as a control: it translates the *Greek*, so \"virgin\" there is simply correct."
+    },
+    {
+      "heading": "8. Matthew quotes the Greek, so Matthew is not mistranslating",
+      "type": "verse_table",
+      "ref": "Matthew 1:23",
+      "versions": [
+        "el/WESTCOTT AND HORT 1881",
+        "la/LATIN: VULGATA CLEMENTINA",
+        "en/WYCLIFFE BIBLE",
+        "en/TYNDALE NEW TESTAMENT",
+        "en/KING JAMES BIBLE",
+        "en/NEW REVISED STANDARD VERSION"
+      ]
+    },
+    {
+      "type": "prose",
+      "text": "Matthew's `ἡ παρθένος` is lifted from the Septuagint, essentially verbatim. For Matthew 1:23, \"virgin\" is the **correct** translation of what Matthew wrote. His argument works in the language he wrote it in.\n\nThe mistranslation, if that is the word, happened around 200 BCE in Greek — not in the 1st century CE, and not in 1611."
+    },
+    {
+      "heading": "9. What scholars actually accept",
+      "type": "prose",
+      "text": "| Position | View of Isaiah 7:14 | Representative version here |\n| --- | --- | --- |\n| Critical / academic | `'almāh` = \"young woman\"; the sign concerns Ahaz's lifetime. Majority view across confessional lines. | `NEW REVISED STANDARD VERSION`, `NET BIBLE` |\n| Jewish | \"Young woman,\" unanimously; the verse has never been messianic in Jewish tradition. | `JPS TANAKH 1917` |\n| Catholic | Accepts the philology, keeps the doctrine — which rests on Luke and Matthew and on tradition, not on Isaiah's Hebrew. | `NEW AMERICAN BIBLE` |\n| Conservative evangelical | A real minority defends \"virgin\": `'almāh` is never demonstrably used of a non-virgin, the pre-Christian LXX read it as *parthenos*, and prophecy may have dual fulfilment. | `ENGLISH STANDARD VERSION`, `NEW INTERNATIONAL VERSION` |\n\n**Everyone agrees** that Matthew was quoting the Greek and that \"virgin\" is right for Matthew 1:23.\n\nSo the honest verdict, and the one recorded in the dataset as consensus `majority` rather than `strong`:\n\n> \"Young woman\" is the better rendering of `'almāh`. The Septuagint's `parthenos` was an interpretive narrowing, not an error of competence, and it was made by Jewish translators before Christianity existed. The virgin birth stands on Luke's Greek either way. What the shift produced is a **prophecy** — the claim that the Hebrew Bible foretold a virgin birth — and that claim does not survive contact with the Hebrew.\n\nThe collateral damage was real. This verse was a fixture of medieval Christian–Jewish disputations, where Jewish scholars pointing at `'almāh` were accused of corrupting their own scriptures. When the RSV printed \"young woman\" in 1952, copies were burned from American pulpits, and the controversy fed directly into the founding of the translation projects that became the NASB and NIV."
+    },
+    {
+      "heading": "10. Reusing this as a template",
+      "type": "prose",
+      "text": "This study is generated from `studies/isa-7-14-almah.json` by `tools/build_study.py`. Every table is computed; only the `prose` blocks are written by hand. To build another one, copy the spec and change the terms.\n\n| Block | What it answers | Reused for |\n| --- | --- | --- |\n| `contrast` | Is the doctrine actually resting on this verse? | Separating a claim from its proof-text — the move that does the most work here |\n| `interlinear` | What does the source literally say? | Any case where word order, definiteness or verb aspect is flattened in translation |\n| `concordance` | How is this word used elsewhere? (surface forms) | Terms with no Strong's number, or cross-version spelling checks |\n| `strongs` | The same question, lemma-accurate | `G733` arsenokoitai (2×), `G831` authentein (1×), `G1249` diakonos (28×), `H7585` sheol, `H5828` ezer |\n| `renderings` | Did the translator have alternatives, and use them elsewhere? | Any source→target pair in the corpus: Hebrew→LXX, Greek→Vulgate |\n| `verse_table` | Where did the versions land? | Every case |\n\nThe `strongs` and `renderings` blocks are the ones worth generalising. Together they answer the question that decides most of these cases: **did the translator have a choice, and what did they do with it elsewhere?** A translator who used two different equivalents for one source word was making decisions, and the decision at the disputed verse is the thing to explain.\n\nTwo guardrails are built into the builder. `expect_kept` pins the number of genuine occurrences, so if the corpus changes the build fails rather than quietly reporting a different number. `exclusions` requires every filtered hit to carry a stated reason, printed below the table — the seven `'almāh` occurrences here are what remains after seven homographs are excluded *in public*.\n\n**Known limits.** Surface-form matching is not lemmatisation: it misses suppletive forms and catches homographs, which is why `exclusions` exists and why the `strongs` block is preferred where a number is available. Reference alignment between the Hebrew and the Septuagint still fails wherever the Greek reorders material, as Proverbs 30:19 shows above - the Septuagint has no word-level tagging in this corpus, so that one is not yet fixable here."
+    }
+  ]
+}

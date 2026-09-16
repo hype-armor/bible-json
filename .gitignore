@@ -1,0 +1,3 @@
+.lexicon-src/
+__pycache__/
+*.pyc
