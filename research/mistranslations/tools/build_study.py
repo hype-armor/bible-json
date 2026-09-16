@@ -116,6 +116,36 @@ class StudyBuilder:
         out.append("")
         return out
 
+    def strongs(self, block) -> list[str]:
+        """Occurrences of a Strong's number, from lexicon/ rather than spelling."""
+        from concordance import TaggedConcordance
+        if not isinstance(self.conc, TaggedConcordance):
+            self.conc = TaggedConcordance()
+            self.bible = self.conc.bible
+        number = block["number"]
+        entry = self.conc.define(number)
+        hits = self.conc.by_strongs(number, parallel=block.get("parallel"))
+        expected = block.get("expect")
+        if expected is not None and len(hits) != expected:
+            self.checks.append(
+                f"STRONGS {number}: expected {expected} occurrences, lexicon gives {len(hits)}")
+        out = []
+        if block.get("title"):
+            out += [f"**{block['title']}**", ""]
+        if entry:
+            out += [f"`{number}` — {entry.get('lemma','')} (*{entry.get('xlit') or entry.get('translit','')}*) — "
+                    f"{(entry.get('strongs_def') or '').strip()} · KJV renders it: {entry.get('kjv_def','')}", ""]
+        out += ["| Reference | Form | Rendering |", "| --- | --- | --- |"]
+        for h in hits:
+            gloss = (h.parallel or "").strip()
+            limit = block.get("gloss_chars", 100)
+            if len(gloss) > limit:
+                gloss = gloss[:limit].rsplit(" ", 1)[0] + " …"
+            out.append(f"| {h.ref} | {h.token} | {gloss} |")
+        out += ["", f"**{len(hits)} occurrences**, from word-level tagging — no exclusion list, no "
+                    "surface-form guessing.", ""]
+        return out
+
     def renderings(self, block) -> list[str]:
         rows = self.conc.renderings(block["refs"], block["target"], block["candidates"])
         out = []
@@ -163,6 +193,7 @@ class StudyBuilder:
             "prose": self.prose, "verse_table": self.verse_table,
             "interlinear": self.interlinear, "concordance": self.concordance,
             "renderings": self.renderings, "contrast": self.contrast,
+            "strongs": self.strongs,
         }
         lines = [f"# {spec['title']}", ""]
         if spec.get("case_id"):

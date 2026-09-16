@@ -17,6 +17,13 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from bible import Bible, Ref  # noqa: E402
 
+sys.path.insert(0, os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "tools"))
+try:
+    from lexicon import Lexicon
+except ImportError:
+    Lexicon = None
+
 DATASET = os.path.join(os.path.dirname(__file__), "..", "mistranslations.json")
 
 REQUIRED = [
@@ -30,6 +37,7 @@ WITNESS_SIDES = ["source", "shifted", "corrected"]
 def main() -> int:
     data = json.load(open(DATASET, encoding="utf-8"))
     bible = Bible()
+    lex = Lexicon() if Lexicon else None
     errors: list[str] = []
     warnings: list[str] = []
     resolved = 0
@@ -88,6 +96,19 @@ def main() -> int:
                 else:
                     resolved += 1
 
+        # Optional: Strong's numbers must exist in the lexicon and be attested.
+        for number in case.get("strongs", []):
+            if lex is None:
+                warnings.append(f"{cid}: lexicon unavailable, cannot check {number}")
+                continue
+            if lex.define(number) is None:
+                errors.append(f"{cid}: Strong's {number} is not in the lexicon dictionary")
+            hits = lex.occurrences(number)
+            if not hits:
+                errors.append(f"{cid}: Strong's {number} occurs nowhere in the tagged corpus")
+            else:
+                resolved += len(hits)
+
         witnesses = case.get("witnesses", {})
         for side in WITNESS_SIDES:
             if side not in witnesses:
@@ -115,11 +136,13 @@ def main() -> int:
                             + " (partial witness, usually a NT-only or OT-only version)"
                         )
 
+    tagged = sum(1 for c in data["cases"] if c.get("strongs"))
     studies = sum(1 for c in data["cases"] if c.get("study"))
     distinguished = sum(1 for c in data["cases"] if c.get("distinguish_from"))
     print(f"cases:           {len(data['cases'])}")
     print(f"worked examples: {studies:>4}")
     print(f"distinguish_from:{distinguished:>4}")
+    print(f"Strong's-anchored:{tagged:>3}")
     print(f"versions indexed:{len(bible.versions):>4}")
     print(f"verse lookups OK:{resolved:>4}")
     print(f"warnings:        {len(warnings):>4}")

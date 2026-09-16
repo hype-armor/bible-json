@@ -25,9 +25,11 @@ Luke was *written* in Greek. There is no Hebrew original behind it. Whatever Isa
 | Isaiah 7:14 | `NEW REVISED STANDARD VERSION` | Therefore the Lord himself will give you a sign. Look, the young woman is with child and shall bear a son, and shall name him Immanuel. |
 | Isaiah 7:14 | `YOUNG'S LITERAL TRANSLATION` | Therefore the Lord Himself giveth to you a sign, Lo, the Virgin is conceiving, And is bringing forth a son, And hath called his name Immanuel, |
 | Luke 1:27 | `WESTCOTT AND HORT 1881` | πρὸς παρθένον ἐμνηστευμένην ἀνδρὶ ᾧ ὄνομα Ἰωσὴφ ἐξ οἴκου Δαυείδ, καὶ τὸ ὄνομα τῆς παρθένου Μαριάμ. |
+| Luke 1:27 | `TYNDALE NEW TESTAMENT` | to a virgin spoused to a man whose name was Ioseph of the housse of David and the virgins name was Mary. |
 | Luke 1:27 | `NEW REVISED STANDARD VERSION` | to a virgin engaged to a man whose name was Joseph, of the house of David. The virgin’s name was Mary. |
 | Luke 1:27 | `YOUNG'S LITERAL TRANSLATION` | to a virgin, betrothed to a man, whose name is Joseph, of the house of David, and the name of the virgin is Mary. |
 | Luke 1:34 | `WESTCOTT AND HORT 1881` | εἶπεν δὲ Μαριὰμ πρὸς τὸν ἄγγελον Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω; |
+| Luke 1:34 | `TYNDALE NEW TESTAMENT` | Then sayd Mary vnto the angell: How shall this be seinge I knowe not a man? |
 | Luke 1:34 | `NEW REVISED STANDARD VERSION` | Mary said to the angel, “How can this be, since I am a virgin?” |
 | Luke 1:34 | `YOUNG'S LITERAL TRANSLATION` | And Mary said unto the messenger, 'How shall this be, seeing a husband I do not know?' |
 
@@ -115,6 +117,26 @@ A child conceived seven centuries later cannot function as a sign to Ahaz about 
 - part of the phrase ʿal-mūt labbēn, a different expression — Psalms 9:1
 - ʿalāmōt, a musical direction in the superscription — Psalms 46:1
 
+The table above was built by matching Hebrew consonants and then excluding seven homographs by hand. The table below is built from `lexicon/`, which carries Strong's numbers and morphology for all 306,785 words of the Hebrew Bible, and needs no exclusion list at all.
+
+**They return the same seven verses.** Two independent methods - one that reasons about letters and one that reasons about lemmas - agree exactly. That is about as close to a controlled result as this subject allows, and it means the surface-form method used elsewhere in this dataset can be trusted where no Strong's number is available.
+
+**The same question asked of the word-level tagging, which knows nothing about spelling**
+
+`H5959` — עַלְמָה (*ʻalmâh*) — a lass (as veiled or private) · KJV renders it: damsel, maid, virgin.
+
+| Reference | Form | Rendering |
+| --- | --- | --- |
+| Genesis 24:43 | הָֽ/עַלְמָה֙ | behold, I stand by the fountain of water; and let it come to pass, that the maiden that cometh … |
+| Exodus 2:8 | הָֽ/עַלְמָ֔ה | And Pharaoh's daughter said to her: 'Go.' And the maiden went and called the child's mother. |
+| Psalms 68:25 | עֲ֝לָמ֗וֹת | The singers go before, the minstrels follow after, In the midst of damsels playing upon … |
+| Proverbs 30:19 | בְּ/עַלְמָֽה | The way of an eagle in the air; The way of a serpent upon a rock; The way of a ship in the … |
+| Song of Solomon 1:3 | עֲלָמ֥וֹת | Thine ointments have a goodly fragrance; Thy name is as ointment poured forth; Therefore do … |
+| Song of Solomon 6:8 | וַ/עֲלָמ֖וֹת | There are threescore queens, And fourscore concubines, And maidens without number. |
+| Isaiah 7:14 | הָ/עַלְמָ֗ה | Therefore the Lord Himself shall give you a sign: behold, the young woman shall conceive, and … |
+
+**7 occurrences**, from word-level tagging — no exclusion list, no surface-form guessing.
+
 Seven occurrences, and not one of them requires virginity. `'almāh` marks **age and social status** — a young woman of marriageable age — not sexual history.
 
 Two entries carry most of the weight, and they cut in opposite directions:
@@ -186,6 +208,7 @@ What happened at Isaiah 7:14 was an **interpretive decision** by a Jewish transl
 
 | Version | Reading |
 | --- | --- |
+| `GENEVA BIBLE 1599` | Therefore the Lord himselfe will giue you a signe. Beholde, the virgine shall conceiue and beare a sonne, and she shall call his name Immanu-el. |
 | `KING JAMES BIBLE` | Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel. |
 | `DOUAY-RHEIMS BIBLE` | Therefore the Lord himself shall give you a sign. Behold a virgin shall conceive, and bear a son, and his name shall be called Emmanuel. |
 | `ENGLISH STANDARD VERSION` | Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel. |
@@ -198,6 +221,8 @@ What happened at Isaiah 7:14 was an **interpretive decision** by a Jewish transl
 
 The split does not run where people expect. The **New American Bible** — the American Catholic Bible — reads "the young woman." The **ESV and NIV**, both evangelical projects, read "virgin." Confessional allegiance predicts the rendering less well than translation philosophy and date do.
 
+The **Geneva Bible of 1599** shows how old the English "virgine" is: it predates the KJV, and both descend from the Latin *virgo*, not from the Hebrew. The public-domain Wycliffe edition in this corpus covers only nine books and has no Isaiah, so the one English version translated wholly from the Vulgate cannot be quoted here — see [`../COVERAGE.md`](../COVERAGE.md).
+
 Brenton is in the table as a control: it translates the *Greek*, so "virgin" there is simply correct.
 
 ## 8. Matthew quotes the Greek, so Matthew is not mistranslating
@@ -208,6 +233,8 @@ Brenton is in the table as a control: it translates the *Greek*, so "virgin" the
 | --- | --- |
 | `WESTCOTT AND HORT 1881` | Ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν, καὶ καλέσουσιν τὸ ὄνομα αὐτοῦ Ἐμμανουήλ· ὅ ἐστιν μεθερμηνευόμενον Μεθ' ἡμῶν ὁ θεός. |
 | `LATIN: VULGATA CLEMENTINA` | Ecce virgo in utero habebit, et pariet filium : et vocabunt nomen ejus Emmanuel, quod est interpretatum Nobiscum Deus. |
+| `WYCLIFFE BIBLE` | a virgyn shal haue in wombe, and she schal bere a sone, and thei schulen clepe his name Emanuel, that is to seie, God with vs. |
+| `TYNDALE NEW TESTAMENT` | Beholde a mayde shall be with chylde and shall brynge forthe a sonne and they shall call his name Emanuel which is by interpretacion God with vs. |
 | `KING JAMES BIBLE` | Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which being interpreted is, God with us. |
 | `NEW REVISED STANDARD VERSION` | “Look, the virgin shall conceive and bear a son, and they shall name him Emmanuel,” which means, “God is with us.” |
 
@@ -240,12 +267,13 @@ This study is generated from `studies/isa-7-14-almah.json` by `tools/build_study
 | --- | --- | --- |
 | `contrast` | Is the doctrine actually resting on this verse? | Separating a claim from its proof-text — the move that does the most work here |
 | `interlinear` | What does the source literally say? | Any case where word order, definiteness or verb aspect is flattened in translation |
-| `concordance` | How is this word used elsewhere, and how often? | `arsenokoitai` (2×), `authentein` (1×), `diakonos`, `sheol`, `ezer` |
+| `concordance` | How is this word used elsewhere? (surface forms) | Terms with no Strong's number, or cross-version spelling checks |
+| `strongs` | The same question, lemma-accurate | `G733` arsenokoitai (2×), `G831` authentein (1×), `G1249` diakonos (28×), `H7585` sheol, `H5828` ezer |
 | `renderings` | Did the translator have alternatives, and use them elsewhere? | Any source→target pair in the corpus: Hebrew→LXX, Greek→Vulgate |
 | `verse_table` | Where did the versions land? | Every case |
 
-The `concordance` and `renderings` blocks are the ones worth generalising. Together they answer the question that decides most of these cases: **did the translator have a choice, and what did they do with it elsewhere?** A translator who used two different equivalents for one source word was making decisions, and the decision at the disputed verse is the thing to explain.
+The `strongs` and `renderings` blocks are the ones worth generalising. Together they answer the question that decides most of these cases: **did the translator have a choice, and what did they do with it elsewhere?** A translator who used two different equivalents for one source word was making decisions, and the decision at the disputed verse is the thing to explain.
 
 Two guardrails are built into the builder. `expect_kept` pins the number of genuine occurrences, so if the corpus changes the build fails rather than quietly reporting a different number. `exclusions` requires every filtered hit to carry a stated reason, printed below the table — the seven `'almāh` occurrences here are what remains after seven homographs are excluded *in public*.
 
-**Known limits.** Surface-form matching is not lemmatisation: it will miss suppletive forms and catch homographs, which is why `exclusions` exists. Reference alignment between the Hebrew and the Septuagint fails wherever the Greek reorders material, as Proverbs 30:19 shows above. Both are consequences of the missing word-level tagging described in [`../COVERAGE.md`](../COVERAGE.md).
+**Known limits.** Surface-form matching is not lemmatisation: it misses suppletive forms and catches homographs, which is why `exclusions` exists and why the `strongs` block is preferred where a number is available. Reference alignment between the Hebrew and the Septuagint still fails wherever the Greek reorders material, as Proverbs 30:19 shows above - the Septuagint has no word-level tagging in this corpus, so that one is not yet fixable here.

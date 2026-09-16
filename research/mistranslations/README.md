@@ -4,9 +4,15 @@ A research dataset of translation decisions, transmission errors and interpolati
 that measurably changed Christian doctrine, practice, art or law — each one anchored
 to verses that resolve against the version files in this repository.
 
-36 cases · 1 worked example · 572 verified cross-version verse lookups · 0 broken references
+36 cases · 1 worked example · 1,007 verified lookups · 18 Strong's-anchored terms · 0 broken references
 
 ## Why this repository is a good place to do this
+
+*(Updated: the three gaps the first audit named are now closed or narrowed — see
+[`COVERAGE.md`](COVERAGE.md). The corpus now carries word-level Strong's tagging in
+`lexicon/`, a metadata manifest in `versions.json`, and Wycliffe, Tyndale and Geneva
+in `versions/en/`.)*
+
 
 Most JSON Bible corpora hold English translations only, which lets you see *that*
 versions disagree but never *what they were translating from*. This one ships the
@@ -113,6 +119,42 @@ lemmatisation: it misses suppletive forms and catches homographs, which is why `
 exists. It is enough to answer the question, and it partially closes the gap the audit flagged
 as most costly.
 
+## What the historical versions changed
+
+Adding Wycliffe (1395), Tyndale (1526) and Geneva (1599) corrected four cases on arrival.
+This is what the missing English lineage had been costing:
+
+| Case | What the dataset said | What the early versions show |
+| --- | --- | --- |
+| `acts-12-4-easter` | The KJV rendered *pascha* as "Easter" | **Tyndale** wrote "after ester" in 1526, and **Geneva** had already corrected it to "after the Passeouer" in 1599. The KJV had the right reading in front of it and reverted. |
+| `exod-22-18-mekhashephah-witch` | "Witch" was fixed by the KJV | **Wycliffe**: "Thou schalt not suffre witchis to lyue". **Geneva** has the KJV's exact sentence, 12 years early. The KJV inherited it. |
+| `gen-3-15-ipsa-conteret` | The Vulgate's *ipsa* stayed in Latin and Catholic English | **Wycliffe**, translating the Vulgate: "sche schal breke thin heed". **Geneva**, from the Hebrew: "He shall breake thine head". The pronoun flips exactly where the source language does. |
+| `mal-2-16-hates-divorce` | The third-person reading is a 2010s revision | **Geneva 1599**: "If thou hatest her, put her away". The "I hate divorce" reading is the innovation, not the correction. |
+
+And one that makes the Reformation legible in two words — `matt-4-17-paenitentiam-agite`:
+
+> **Wycliffe (1395, from the Vulgate):** "Do ye penaunce, for the kyngdom of heuenes schal come niy."
+> **Tyndale (1526, from Erasmus' Greek):** "repet for ye kigdome of heven is at honed."
+
+## Word-level search
+
+`lexicon/` carries Strong's numbers and morphology for **306,785 Hebrew words** and
+**140,149 Greek words**, re-versified onto this repository's own numbering so a reference
+that works against a version file works against the tagging too.
+
+```python
+from lexicon import Lexicon          # repo-root tools/
+lex = Lexicon()
+lex.occurrences("H5959")             # every verse with 'almah — 7 of them
+lex.words("Isaiah 7:14")             # the verse, word by word, tagged
+lex.define("G733")                   # arsenokoites
+```
+
+18 cases now carry a `strongs` field, and `validate.py` checks every number exists and is
+attested. The payoff shows in the Isaiah study: the surface-form method needs seven
+homographs excluded by hand to reach seven occurrences of `'almāh`; the tagged method
+reaches the same seven knowing nothing about spelling. Two independent methods, one answer.
+
 ## What a case is not
 
 Five cases carry a `distinguish_from` field naming the doctrine people attach to the verse and
@@ -199,16 +241,17 @@ the gap in their `caveat`, and `COVERAGE.md` lists them all.
 
 The audit's verdict, in short:
 
-1. **No word-level tagging.** Every case here had to be anchored to a verse by hand. Without
-   Strong's numbers or morphology you cannot ask "where *else* does this version render
-   *diakonos* differently?" — which is exactly the question that makes the Phoebe case, or the
-   whole *sheol*/*hades*/*gehenna* family, analysable at scale. Highest-value addition by far.
-2. **The English lineage jumps from 1611 to the 20th century.** No Wycliffe, Tyndale, Geneva,
-   Bishops', or RSV. The dataset can show *that* a rendering changed, but often not *when* or
-   *with whom*. All four are public domain.
-3. **No version metadata.** Publication year, base text and translation philosophy exist
-   nowhere in the repository. A study about change over time currently has no time axis
-   except the one in the researcher's head. Cheapest fix, and every analysis wants it.
+1. ~~No word-level tagging.~~ **Closed.** `lexicon/` — 446,934 tagged words, built by
+   `tools/build_lexicon.py` from morphhb and Robinson-Pierpont. The Septuagint is still untagged.
+2. ~~The English lineage jumps from 1611 to the 20th century.~~ **Narrowed.** Wycliffe, Tyndale
+   and Geneva are in. The RSV, NRSVue and New World Translation are in copyright and cannot be
+   added; three cases carry that limitation in their `caveat`.
+3. ~~No version metadata.~~ **Closed.** `versions.json` — 125 versions, 113 with curated dates,
+   plus base text, translation philosophy and tradition.
+
+The largest remaining gap is the **absence of a textual apparatus**: versions that *bracket*
+Mark 16:9–20 look identical here to versions that print it plainly, and the NET Bible's
+translator notes are invisible, which is why some of its readings look unqualified.
 
 Two further findings worth knowing before citing anything:
 

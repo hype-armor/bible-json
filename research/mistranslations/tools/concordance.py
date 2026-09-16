@@ -143,3 +143,48 @@ class Concordance:
             {"version": key, "text": self.bible.try_verse(key, ref)}
             for key in version_keys
         ]
+
+
+# -- Strong's-number search -------------------------------------------------
+#
+# Surface-form matching (above) was the only option before lexicon/ existed.
+# Where a term has a Strong's number, prefer these: they are lemma-accurate, so
+# they need no exclusion list and they catch forms that share no spelling.
+
+class TaggedConcordance(Concordance):
+    """Concordance backed by lexicon/ word-level tagging."""
+
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args, **kwargs)
+        import os as _os
+        import sys as _sys
+        _sys.path.insert(0, _os.path.join(
+            _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.dirname(__file__)))), "tools"))
+        from lexicon import Lexicon  # noqa: E402
+        self.lex = Lexicon()
+
+    def by_strongs(
+        self,
+        strongs: str,
+        *,
+        parallel: str | None = None,
+        exact: bool = False,
+    ) -> list[Occurrence]:
+        """Every occurrence of a Strong's number, with a parallel rendering."""
+        out: list[Occurrence] = []
+        for ref in self.lex.occurrences(strongs, exact=exact):
+            book, _, rest = ref.rpartition(" ")
+            chapter, _, verse = rest.partition(":")
+            forms = [
+                w.surface for w in self.lex.words(ref)
+                if w.strongs == strongs or (not exact and w.strongs.rstrip("abcdefg") == strongs)
+            ]
+            out.append(Occurrence(
+                book=book, chapter=int(chapter), verse=int(verse),
+                token=" / ".join(dict.fromkeys(forms)) or "?",
+                parallel=self.bible.try_verse(parallel, ref) if parallel else None,
+            ))
+        return out
+
+    def define(self, strongs: str) -> dict | None:
+        return self.lex.define(strongs)

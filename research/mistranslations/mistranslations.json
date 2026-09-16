@@ -67,17 +67,19 @@
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
           "en/ENGLISH STANDARD VERSION",
           "en/NET BIBLE",
           "en/NEW AMERICAN BIBLE",
-          "en/CATHOLIC PUBLIC DOMAIN VERSION"
+          "en/CATHOLIC PUBLIC DOMAIN VERSION",
+          "en/TYNDALE NEW TESTAMENT"
         ]
       },
-      "caveat": "That 'in quo' is not what the Greek says is near-universally granted; whether Augustine's doctrine actually depends on it, or merely found support in it, is debated. Some read eph' hō as 'on the basis of which' or even 'on which condition'.",
+      "caveat": "That 'in quo' is not what the Greek says is near-universally granted; whether Augustine's doctrine actually depends on it, or merely found support in it, is debated. Some read eph' hō as 'on the basis of which' or even 'on which condition'. The English split is now datable: Geneva 1599 reads 'in who all men haue sinned', carrying the Latin; Tyndale 1526 reads 'in somoche that all men synned', which is the causal sense of the Greek. Tyndale, working from Erasmus, got there seventy years earlier.",
       "sources": [
         "https://ethosinstitute.sg/adams-sin/",
         "https://en.wikipedia.org/wiki/Original_sin"
@@ -128,18 +130,23 @@
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "en/WYCLIFFE BIBLE"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
           "en/JPS TANAKH 1917",
-          "en/NEW AMERICAN BIBLE"
+          "en/NEW AMERICAN BIBLE",
+          "en/GENEVA BIBLE 1599"
         ]
       },
       "caveat": "Some argue Jerome intended 'horned' as a recognised idiom for radiance rather than as an error. The Septuagint already read it as glorification (dedoxastai), showing the radiance reading was available to him.",
       "sources": [
         "https://en.wikipedia.org/wiki/Horns_of_Moses"
+      ],
+      "strongs": [
+        "H7160"
       ]
     },
     {
@@ -192,7 +199,9 @@
           "el/STEPHANUS TEXTUS RECEPTUS 1550",
           "en/KING JAMES BIBLE",
           "en/NEW KING JAMES VERSION",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -264,20 +273,26 @@
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "en/WYCLIFFE BIBLE"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
           "en/NET BIBLE",
           "en/NEW AMERICAN BIBLE",
-          "de/GERMAN: LUTHER (1912)"
+          "de/GERMAN: LUTHER (1912)",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "Catholic scholars note that 'paenitentiam agere' could carry a broader sense of 'be penitent' in Jerome's Latin, and that the penitential system did not derive from this verse alone. The historical effect is not in dispute.",
+      "caveat": "Catholic scholars note that 'paenitentiam agere' could carry a broader sense of 'be penitent' in Jerome's Latin, and that the penitential system did not derive from this verse alone. The historical effect is not in dispute. Now visible end to end in English: Wycliffe (1395), translating the Vulgate, reads 'Do ye penaunce'; Tyndale (1526), translating Erasmus' Greek, reads 'repent'; Geneva (1599) reads 'Amende your liues'. The Reformation's central exegetical claim is legible as a change of two English words between two translations.",
       "sources": [
         "https://en.wikipedia.org/wiki/Poenitentiam_agite",
         "https://www.1517.org/articles/the-mistranslation-that-sparked-the-reformation"
+      ],
+      "strongs": [
+        "G3340"
       ]
     },
     {
@@ -326,7 +341,8 @@
           "la/LATIN: VULGATA CLEMENTINA",
           "en/KING JAMES BIBLE",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/NEW KING JAMES VERSION"
+          "en/NEW KING JAMES VERSION",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -336,7 +352,7 @@
           "en/NET BIBLE"
         ]
       },
-      "caveat": "The identification of Isaiah 14 with Satan predates the Vulgate (it is in Origen and Tertullian), so the Latin word reinforced an existing reading rather than creating it from nothing. The capitalisation in English is what fixed it as a proper name.",
+      "caveat": "The identification of Isaiah 14 with Satan predates the Vulgate (it is in Origen and Tertullian), so the Latin word reinforced an existing reading rather than creating it from nothing. The capitalisation in English is what fixed it as a proper name. Geneva 1599 already reads 'O Lucifer, sonne of the morning', so the capitalised proper name entered English at least twelve years before the KJV.",
       "sources": [
         "https://en.wikipedia.org/wiki/Lucifer"
       ],
@@ -347,7 +363,10 @@
           "Revelation 12:9"
         ],
         "note": "The fall motif has New Testament texts of its own. What Isaiah 14:12 supplied was the devil's name and a pre-creation backstory, neither of which is in those texts."
-      }
+      },
+      "strongs": [
+        "H1966"
+      ]
     },
     {
       "id": "rom-16-7-junia",
@@ -399,7 +418,9 @@
           "en/ENGLISH STANDARD VERSION",
           "en/NEW INTERNATIONAL VERSION",
           "en/KING JAMES BIBLE",
-          "en/NET BIBLE"
+          "en/NET BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ]
       },
       "caveat": "A second question rides along: whether 'episēmoi en tois apostolois' means 'outstanding among the apostles' (she was one) or 'well known to the apostles' (she was not). That is a genuinely open grammatical dispute; the sex of the name is not. The mid-20th-century versions that printed 'Junias' are not in this repository, so the shift itself is only partly visible here.",
@@ -459,7 +480,9 @@
           "en/KING JAMES BIBLE",
           "en/DOUAY-RHEIMS BIBLE",
           "en/NEW INTERNATIONAL VERSION",
-          "en/ENGLISH STANDARD VERSION"
+          "en/ENGLISH STANDARD VERSION",
+          "en/WYCLIFFE BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -482,7 +505,10 @@
           "Matthew 1:18"
         ],
         "note": "Luke and Matthew were written in Greek; there is no Hebrew original behind them. Luke 1:34 has Mary say 'I do not know a man' in the author's own idiom. The doctrine is independent of Isaiah 7:14. What the Septuagint's rendering produced is the prophecy - the claim that the Hebrew Bible foretold a virgin birth - not the belief itself."
-      }
+      },
+      "strongs": [
+        "H5959"
+      ]
     },
     {
       "id": "1cor-6-9-arsenokoitai-malakoi",
@@ -538,7 +564,9 @@
           "en/KING JAMES BIBLE",
           "en/AMERICAN STANDARD VERSION",
           "en/NEW REVISED STANDARD VERSION",
-          "en/YOUNG'S LITERAL TRANSLATION"
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ]
       },
       "caveat": "Genuinely contested. That 'homosexuals' is an anachronism is widely granted even by traditionalist scholars; that the underlying Greek therefore does not condemn same-sex acts is not. The popular framing - that one 1946 decision created Christian homophobia - overstates a real translation problem, since Leviticus and Romans 1 were read restrictively long before 1946. The RSV 1946 itself is not in this repository, so the moment of the shift can only be inferred here from before-and-after versions. Verified here: the NASB family and the NET all use 'homosexual' language, while the KJV, ASV and NRSV use behavioural phrases ('abusers of themselves with mankind', 'male prostitutes, sodomites') - so in this repository the oldest and the newest versions land on the same side and the mid-century ones do not.",
@@ -555,7 +583,11 @@
           "Romans 1:27"
         ],
         "note": "These texts were read restrictively long before 1946, which is why the popular framing - that one translation decision created Christian homophobia - overstates a real translation problem. The 1946 rendering changed the register from acts to identity; it did not originate the prohibition."
-      }
+      },
+      "strongs": [
+        "G733",
+        "G3120"
+      ]
     },
     {
       "id": "gen-3-15-ipsa-conteret",
@@ -600,16 +632,18 @@
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "en/WYCLIFFE BIBLE"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
           "en/NEW AMERICAN BIBLE",
-          "en/CATHOLIC PUBLIC DOMAIN VERSION"
+          "en/CATHOLIC PUBLIC DOMAIN VERSION",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "Whether Jerome himself wrote 'ipsa' or it entered in transmission is disputed; his commentary on Isaiah shows he knew the Hebrew is masculine. Modern Catholic scholarship does not defend 'ipsa' as a translation, only the typology it came to carry.",
+      "caveat": "Whether Jerome himself wrote 'ipsa' or it entered in transmission is disputed; his commentary on Isaiah shows he knew the Hebrew is masculine. Modern Catholic scholarship does not defend 'ipsa' as a translation, only the typology it came to carry. Wycliffe, from the Vulgate, carries 'ipsa' into English: 'sche schal breke thin heed'. Geneva, from the Hebrew, reads 'He shall breake thine head'. The pronoun flips exactly where the source language does.",
       "sources": [
         "https://en.wikipedia.org/wiki/Protoevangelium"
       ]
@@ -663,12 +697,17 @@
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
           "en/NEW AMERICAN BIBLE",
-          "en/NET BIBLE"
+          "en/NET BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "In the 4th century 'sacramentum' was a reasonable equivalent; the drift happened in the Latin word, not at the moment of translation. This is a case of a translation aging badly rather than being wrong when made.",
+      "caveat": "In the 4th century 'sacramentum' was a reasonable equivalent; the drift happened in the Latin word, not at the moment of translation. This is a case of a translation aging badly rather than being wrong when made. Tyndale and Geneva both read 'a great secrete', refusing the sacramental vocabulary outright. The Reformation's rejection of marriage as a sacrament is visible in the word choice itself.",
       "sources": [
         "https://en.wikipedia.org/wiki/Sacrament"
+      ],
+      "strongs": [
+        "G3466"
       ]
     },
     {
@@ -715,19 +754,25 @@
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/CATHOLIC PUBLIC DOMAIN VERSION"
+          "en/CATHOLIC PUBLIC DOMAIN VERSION",
+          "en/WYCLIFFE BIBLE",
+          "en/TYNDALE NEW TESTAMENT"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
           "en/NEW INTERNATIONAL VERSION",
           "en/NEW AMERICAN BIBLE",
-          "en/NET BIBLE"
+          "en/NET BIBLE",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "'Full of grace' is defensible as dynamic equivalence; the perfect passive does imply a completed, abiding state. The dispute is over how much theological weight the participle can carry, not over a flat error.",
+      "caveat": "'Full of grace' is defensible as dynamic equivalence; the perfect passive does imply a completed, abiding state. The dispute is over how much theological weight the participle can carry, not over a flat error. Wycliffe and Tyndale both read 'full of grace'; Geneva 1599 breaks with them - 'Haile thou that art freely beloued' - which is close to what modern critical versions do, four centuries early.",
       "sources": [
         "https://en.wikipedia.org/wiki/Hail_Mary"
+      ],
+      "strongs": [
+        "G5487"
       ]
     },
     {
@@ -777,7 +822,9 @@
           "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
           "el/STEPHANUS TEXTUS RECEPTUS 1550",
           "en/KING JAMES BIBLE",
-          "en/NEW KING JAMES VERSION"
+          "en/NEW KING JAMES VERSION",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -831,7 +878,8 @@
           "el/SCRIVENER'S TEXTUS RECEPTUS 1894"
         ],
         "shifted": [
-          "en/KING JAMES BIBLE"
+          "en/KING JAMES BIBLE",
+          "en/TYNDALE NEW TESTAMENT"
         ],
         "corrected": [
           "en/NEW KING JAMES VERSION",
@@ -839,10 +887,11 @@
           "en/ENGLISH STANDARD VERSION",
           "en/AMERICAN STANDARD VERSION",
           "en/NET BIBLE",
-          "en/WEBSTER'S BIBLE TRANSLATION"
+          "en/WEBSTER'S BIBLE TRANSLATION",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "In early modern English 'Easter' could still denote the paschal season generally, so the KJV translators were less obviously wrong than they look now. The NKJV's silent correction is itself informative. Verified here: Webster's 1833 revision of the KJV silently reads 'the passover', so the correction was being made in the KJV's own line of descent nearly two centuries before the NKJV.",
+      "caveat": "In early modern English 'Easter' could still denote the paschal season generally, so the KJV translators were less obviously wrong than they look now. The NKJV's silent correction is itself informative. Verified here: Webster's 1833 revision of the KJV silently reads 'the passover', so the correction was being made in the KJV's own line of descent nearly two centuries before the NKJV. CORRECTION: the rendering originates with Tyndale (1526), who reads 'entendynge after ester'. More striking, Geneva 1599 had already corrected it to 'after the Passeouer' - so the KJV translators had the right reading in front of them and reverted to Tyndale's. That makes this a deliberate choice rather than an oversight.",
       "sources": [
         "https://en.wikipedia.org/wiki/Easter"
       ]
@@ -893,7 +942,10 @@
         "shifted": [
           "en/KING JAMES BIBLE",
           "en/NEW KING JAMES VERSION",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "en/WYCLIFFE BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -951,7 +1003,10 @@
         ],
         "shifted": [
           "en/KING JAMES BIBLE",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "en/WYCLIFFE BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1013,10 +1068,12 @@
           "en/NEW REVISED STANDARD VERSION",
           "en/ENGLISH STANDARD VERSION",
           "en/NET BIBLE",
-          "en/YOUNG'S LITERAL TRANSLATION"
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "The KJV is not really mistranslating; the popular proverb is. Useful as a control case: it tests whether an analysis pipeline can distinguish a translation problem from a reception problem.",
+      "caveat": "The KJV is not really mistranslating; the popular proverb is. Useful as a control case: it tests whether an analysis pipeline can distinguish a translation problem from a reception problem. Tyndale reads 'coveteousnes is the rote of all evyll' and Geneva 'the desire of money is the roote of all euill' - both keep the subject on the desire rather than the money.",
       "sources": [
         "https://en.wikipedia.org/wiki/Love_of_money"
       ]
@@ -1065,7 +1122,9 @@
         "shifted": [
           "en/KING JAMES BIBLE",
           "en/WEBSTER'S BIBLE TRANSLATION",
-          "la/LATIN: VULGATA CLEMENTINA"
+          "la/LATIN: VULGATA CLEMENTINA",
+          "en/WYCLIFFE BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1075,9 +1134,12 @@
           "en/NEW AMERICAN BIBLE"
         ]
       },
-      "caveat": "The scholarly dispute is over the semantic range of kishuf, not over whether 'witch' imports early modern baggage - that much is agreed. The causal claim about the trials is also contested by historians who note that the persecutions were driven by demonological treatises and legal procedure at least as much as by this verse.",
+      "caveat": "The scholarly dispute is over the semantic range of kishuf, not over whether 'witch' imports early modern baggage - that much is agreed. The causal claim about the trials is also contested by historians who note that the persecutions were driven by demonological treatises and legal procedure at least as much as by this verse. CORRECTION, on the evidence now in this repository: 'witch' is not a KJV coinage. Wycliffe (1395) reads 'Thou schalt not suffre witchis to lyue' and Geneva (1599) has the KJV's exact sentence, 'Thou shalt not suffer a witch to liue'. The KJV inherited the wording; the English tradition had settled on it two centuries earlier, well before King James wrote Daemonologie.",
       "sources": [
         "https://www.haaretz.com/archaeology/2017-08-17/ty-article/thou-shalt-not-suffer-a-witch-to-live-a-murderous-mistranslation/0000017f-e2c8-d804-ad7f-f3fa49340000"
+      ],
+      "strongs": [
+        "H3784"
       ]
     },
     {
@@ -1127,19 +1189,24 @@
           "en/KING JAMES BIBLE",
           "en/DOUAY-RHEIMS BIBLE",
           "la/LATIN: VULGATA CLEMENTINA",
-          "en/AMERICAN STANDARD VERSION"
+          "en/AMERICAN STANDARD VERSION",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW INTERNATIONAL VERSION",
           "en/ENGLISH STANDARD VERSION",
           "en/NEW REVISED STANDARD VERSION",
           "en/JPS TANAKH 1917",
-          "en/NET BIBLE"
+          "en/NET BIBLE",
+          "en/WYCLIFFE BIBLE"
         ]
       },
       "caveat": "A minority argues rātsach is broader than 'murder' because it covers negligent homicide, so 'murder' overcorrects. 'Kill' is nonetheless too broad.",
       "sources": [
         "https://en.wikipedia.org/wiki/Thou_shalt_not_kill"
+      ],
+      "strongs": [
+        "H7523"
       ]
     },
     {
@@ -1187,16 +1254,21 @@
           "en/NEW AMERICAN STANDARD BIBLE",
           "en/CHRISTIAN STANDARD BIBLE",
           "en/NEW REVISED STANDARD VERSION",
-          "en/NET BIBLE"
+          "en/NET BIBLE",
+          "en/TYNDALE NEW TESTAMENT"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
-          "en/NEW INTERNATIONAL VERSION"
+          "en/NEW INTERNATIONAL VERSION",
+          "en/GENEVA BIBLE 1599"
         ]
       },
       "caveat": "'Shifted' and 'corrected' are not neutral labels here and the dataset flags this case as contested for that reason. Serious scholars defend both renderings; the evidence base is a handful of occurrences in Greek literature spanning centuries. Verified here: the KJV's 'usurp authority' and the NIV 2011's 'assume authority' permit a narrower reading, while the ESV, NASB, CSB, NRSV and NET all use the ordinary office language. The split does not track conservative against progressive, which is itself the point.",
       "sources": [
         "https://en.wikipedia.org/wiki/1_Timothy_2:12"
+      ],
+      "strongs": [
+        "G831"
       ]
     },
     {
@@ -1247,7 +1319,9 @@
           "la/LATIN: VULGATA CLEMENTINA",
           "en/NEW INTERNATIONAL VERSION",
           "en/ENGLISH STANDARD VERSION",
-          "en/JPS TANAKH 1917"
+          "en/JPS TANAKH 1917",
+          "en/WYCLIFFE BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1258,6 +1332,9 @@
       "caveat": "'Helper' is not wrong, only underdetermined; the argument is about what English connotations it carries. Not every scholar accepts that kenegdo implies equality. Note that the JPS TANAKH 1917 reproduces the KJV's 'help meet' exactly, so this is not a Christian-versus-Jewish divergence - the versions that render kenegdo as 'partner' or 'counterpart' are all recent.",
       "sources": [
         "https://en.wikipedia.org/wiki/Ezer_kenegdo"
+      ],
+      "strongs": [
+        "H5828"
       ]
     },
     {
@@ -1307,7 +1384,8 @@
           "el/SWETE'S SEPTUAGINT",
           "la/LATIN: VULGATA CLEMENTINA",
           "en/KING JAMES BIBLE",
-          "en/ENGLISH STANDARD VERSION"
+          "en/ENGLISH STANDARD VERSION",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1372,7 +1450,9 @@
         "shifted": [
           "he/WESTMINSTER LENINGRAD CODEX",
           "en/KING JAMES BIBLE",
-          "en/JPS TANAKH 1917"
+          "en/JPS TANAKH 1917",
+          "en/WYCLIFFE BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1444,12 +1524,18 @@
           "en/NEW REVISED STANDARD VERSION",
           "en/NET BIBLE",
           "en/LITERAL STANDARD VERSION",
-          "en/YOUNG'S LITERAL TRANSLATION"
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "This is the dataset's one multi-reference lexical case; treat each reference separately when analysing. The ASV's consistent transliteration makes it the best control version in this repository for the whole word-family.",
+      "caveat": "This is the dataset's one multi-reference lexical case; treat each reference separately when analysing. The ASV's consistent transliteration makes it the best control version in this repository for the whole word-family. Geneva 1599 renders Psalm 16:10 'thou wilt not leaue my soule in the graue', not 'in hell' - so the correction the ASV is usually credited with had already been made in 1599 and was then undone by the KJV.",
       "sources": [
         "https://en.wikipedia.org/wiki/Christian_views_on_Hades"
+      ],
+      "strongs": [
+        "H7585",
+        "G86",
+        "G1067"
       ]
     },
     {
@@ -1498,7 +1584,9 @@
           "la/LATIN: VULGATA CLEMENTINA",
           "en/KING JAMES BIBLE",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/JPS TANAKH 1917"
+          "en/JPS TANAKH 1917",
+          "en/WYCLIFFE BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/ENGLISH STANDARD VERSION",
@@ -1509,6 +1597,9 @@
       "caveat": "Here the 'corrected' column is the disputed one: many scholars hold 'firmament' better conveys what the author meant, and 'expanse' is the tendentious rendering. A good test case for a dataset that should not assume newer is truer. Verified here: the JPS TANAKH 1917 reads 'firmament' alongside the KJV, so this is not a case where Jewish and Christian versions diverge.",
       "sources": [
         "https://en.wikipedia.org/wiki/Firmament"
+      ],
+      "strongs": [
+        "H7549"
       ]
     },
     {
@@ -1558,7 +1649,8 @@
           "el/WESTCOTT AND HORT 1881",
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
-          "en/NET BIBLE"
+          "en/NET BIBLE",
+          "en/TYNDALE NEW TESTAMENT"
         ],
         "corrected": [
           "en/NEW INTERNATIONAL VERSION"
@@ -1615,14 +1707,16 @@
         "shifted": [
           "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
           "en/KING JAMES BIBLE",
-          "en/NEW KING JAMES VERSION"
+          "en/NEW KING JAMES VERSION",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
           "en/ENGLISH STANDARD VERSION",
           "en/NEW INTERNATIONAL VERSION",
           "en/NET BIBLE",
-          "la/LATIN: VULGATA CLEMENTINA"
+          "la/LATIN: VULGATA CLEMENTINA",
+          "en/WYCLIFFE BIBLE"
         ]
       },
       "caveat": "Strictly a textual variant that then forces a translation choice. The Vulgate sides with the critical text here, which makes it a useful counterexample to any assumption that the Latin always follows the Byzantine.",
@@ -1672,17 +1766,19 @@
           "el/NESTLE GREEK NEW TESTAMENT 1904"
         ],
         "shifted": [
-          "en/ENGLISH REVISED VERSION"
+          "en/ENGLISH REVISED VERSION",
+          "en/TYNDALE NEW TESTAMENT"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
           "en/ENGLISH STANDARD VERSION",
           "en/NEW INTERNATIONAL VERSION",
           "en/NET BIBLE",
-          "en/NEW REVISED STANDARD VERSION"
+          "en/NEW REVISED STANDARD VERSION",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "Labels inverted on purpose: the majority of grammarians favour the predicative reading the KJV has, so here the older version is the better one and the revision is the outlier. Included to keep the dataset from encoding a 'newer is truer' bias. Verified here: only the English Revised Version carries the attributive reading; the NRSV reverted to 'All scripture is inspired by God', so the 1881 revision stands alone against every other version in this repository.",
+      "caveat": "Labels inverted on purpose: the majority of grammarians favour the predicative reading the KJV has, so here the older version is the better one and the revision is the outlier. Included to keep the dataset from encoding a 'newer is truer' bias. Verified here: only the English Revised Version carries the attributive reading; the NRSV reverted to 'All scripture is inspired by God', so the 1881 revision stands alone against every other version in this repository. The attributive reading is not an 1881 novelty: Tyndale 1526 reads 'all scripture geve by inspiracion of god is proffitable', which is the construction that caused an outcry when the Revised Version printed it 355 years later. Geneva 1599 has the predicative 'the whole Scripture is giuen by inspiration of God'.",
       "sources": [
         "https://en.wikipedia.org/wiki/Biblical_inspiration"
       ]
@@ -1735,12 +1831,17 @@
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
           "en/NET BIBLE",
-          "en/YOUNG'S LITERAL TRANSLATION"
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ]
       },
       "caveat": "No English version reads 'rapture' here, so this is reception rather than translation: the Latin made an English noun available and theology did the rest. Kept in the dataset because it shows a translation effect no verse-comparison alone would reveal.",
       "sources": [
         "https://en.wikipedia.org/wiki/Rapture"
+      ],
+      "strongs": [
+        "G726"
       ]
     },
     {
@@ -1794,13 +1895,19 @@
           "en/KING JAMES BIBLE",
           "en/NEW REVISED STANDARD VERSION",
           "en/NET BIBLE",
-          "la/LATIN: VULGATA CLEMENTINA"
+          "la/LATIN: VULGATA CLEMENTINA",
+          "en/WYCLIFFE BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ]
       },
       "caveat": "Included deliberately as a negative control. Every Greek witness in this repository reads kamēlos, which is exactly the point: an analysis pipeline that flags this verse as a mistranslation is finding something that is not there.",
       "sources": [
         "https://kiwihellenist.blogspot.com/2023/11/camel.html",
         "https://www.cambridge.org/core/journals/new-testament-studies/article/origin-of-the-needles-eye-gate-myth-theophylact-or-anselm/51F6B1FD504C36C42D6201F6D87F83C3"
+      ],
+      "strongs": [
+        "G2574"
       ]
     },
     {
@@ -1851,7 +1958,9 @@
           "la/LATIN: VULGATA CLEMENTINA",
           "en/KING JAMES BIBLE",
           "en/ENGLISH STANDARD VERSION",
-          "en/NET BIBLE"
+          "en/NET BIBLE",
+          "en/WYCLIFFE BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1914,10 +2023,11 @@
         ],
         "corrected": [
           "en/ARAMAIC BIBLE IN PLAIN ENGLISH",
-          "en/LAMSA BIBLE"
+          "en/LAMSA BIBLE",
+          "en/WYCLIFFE BIBLE"
         ]
       },
-      "caveat": "Not a mistranslation in any straightforward sense - it is a case where translation cannot preserve a pun, and the untranslatable residue became a confessional fault line. Verified here, and the result is blunt: the KJV, NRSV and NET obscure the wordplay exactly as the Vulgate and Douay-Rheims do, all reading 'Peter ... rock'. Only the two Peshitta-derived versions show it - the Aramaic Bible in Plain English reads 'you are Kaypha, and upon this stone', and the Lamsa Bible 'you are a stone, and upon this stone'. Confessional allegiance does not predict the rendering; source language does.",
+      "caveat": "Not a mistranslation in any straightforward sense - it is a case where translation cannot preserve a pun, and the untranslatable residue became a confessional fault line. Verified here, and the result is blunt: the KJV, NRSV and NET obscure the wordplay exactly as the Vulgate and Douay-Rheims do, all reading 'Peter ... rock'. Only the two Peshitta-derived versions show it - the Aramaic Bible in Plain English reads 'you are Kaypha, and upon this stone', and the Lamsa Bible 'you are a stone, and upon this stone'. Confessional allegiance does not predict the rendering; source language does. Wycliffe is a third witness that preserves something of the pun - 'thou art Petre, and on this stoon' - where Tyndale, Geneva and the KJV all read 'rocke'/'rock'.",
       "sources": [
         "https://en.wikipedia.org/wiki/Matthew_16:18"
       ]
@@ -1973,10 +2083,11 @@
         "corrected": [
           "en/ENGLISH STANDARD VERSION",
           "en/CHRISTIAN STANDARD BIBLE",
-          "en/NEW INTERNATIONAL VERSION"
+          "en/NEW INTERNATIONAL VERSION",
+          "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "The Hebrew is genuinely corrupt or elliptical here; no reading is comfortable. Contested rather than settled, and a good stress test for any pipeline: within this repository the NIV, ESV and CSB carry the third-person reading while the KJV, NASB, NET and JPS 1917 carry 'I hate', so the same verse splits the modern versions down the middle rather than along the usual old/new line.",
+      "caveat": "The Hebrew is genuinely corrupt or elliptical here; no reading is comfortable. Contested rather than settled, and a good stress test for any pipeline: within this repository the NIV, ESV and CSB carry the third-person reading while the KJV, NASB, NET and JPS 1917 carry 'I hate', so the same verse splits the modern versions down the middle rather than along the usual old/new line. Geneva 1599 reads 'If thou hatest her, put her away ... yet he couereth the iniurie vnder his garment' - the conditional third-person construction that the ESV and CSB adopted in the 2010s. The 'I hate divorce' reading is the innovation here, not the correction.",
       "sources": [
         "https://en.wikipedia.org/wiki/Malachi_2"
       ]
@@ -2025,7 +2136,9 @@
           "en/KING JAMES BIBLE",
           "la/LATIN: VULGATA CLEMENTINA",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/WEBSTER'S BIBLE TRANSLATION"
+          "en/WEBSTER'S BIBLE TRANSLATION",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -2037,6 +2150,9 @@
       "caveat": "The lexical dispute is technical and the word is rare; 'majority' rather than 'strong' for that reason.",
       "sources": [
         "https://en.wikipedia.org/wiki/Philippians_2"
+      ],
+      "strongs": [
+        "G725"
       ]
     },
     {
@@ -2141,7 +2257,9 @@
         "shifted": [
           "en/KING JAMES BIBLE",
           "en/NEW INTERNATIONAL VERSION",
-          "la/LATIN: VULGATA CLEMENTINA"
+          "la/LATIN: VULGATA CLEMENTINA",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -2153,6 +2271,9 @@
       "caveat": "No rendering is agreed; 'corrected' here means 'preserves the ambiguity' rather than 'gets it right'.",
       "sources": [
         "https://en.wikipedia.org/wiki/Divorce_in_Christianity"
+      ],
+      "strongs": [
+        "G4202"
       ]
     },
     {
@@ -2202,7 +2323,8 @@
           "en/ENGLISH STANDARD VERSION",
           "en/NEW AMERICAN STANDARD BIBLE",
           "en/NET BIBLE",
-          "en/CHRISTIAN STANDARD BIBLE"
+          "en/CHRISTIAN STANDARD BIBLE",
+          "en/GENEVA BIBLE 1599"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -2212,11 +2334,15 @@
       "caveat": "Some hold the office of deacon was not yet fixed when Romans was written, making 'servant' defensible. That defence has to explain the inconsistent handling of the same word within a single version, which is the analysable part and the reason this case is well suited to automated comparison. Verified here: the KJV, ESV, NASB, NET and CSB all read 'servant' at Romans 16:1 and 'deacons' at 1 Timothy 3:8; the NRSV and NIV read 'deacon' in both places.",
       "sources": [
         "https://en.wikipedia.org/wiki/Phoebe_(biblical_figure)"
+      ],
+      "strongs": [
+        "G1249"
       ]
     }
   ],
   "field_notes": {
     "study": "Path to a worked example under studies/, generated from a spec by tools/build_study.py.",
-    "distinguish_from": "What the case is NOT. Names the doctrinal claim people attach to the verse and the texts that claim actually rests on. Guards against the commonest failure mode in this subject: treating a translation shift in a proof-text as though it invented the doctrine."
+    "distinguish_from": "What the case is NOT. Names the doctrinal claim people attach to the verse and the texts that claim actually rests on. Guards against the commonest failure mode in this subject: treating a translation shift in a proof-text as though it invented the doctrine.",
+    "strongs": "Strong's numbers anchoring the disputed term. Resolvable against lexicon/ via tools/lexicon.py, which gives lemma-accurate occurrence lists without surface-form matching."
   }
 }

@@ -1,6 +1,6 @@
 # 📖 Bible Versions JSON Dataset
 
-A free, open-source collection of **35 English Bible versions** and **38 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
+A free, open-source collection of **47 English Bible versions** and **38 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
 This is the **most comprehensive JSON dataset of English Bible translations** available, including popular versions like **NLT, NIV, NKJV, NASB, ESV, KJV, and more**.
 Each translation is stored as its own `.json` file for easy parsing, analysis, app development, or AI projects.
 
@@ -69,6 +69,71 @@ The following books are available in relevant versions within this dataset:
 * **First Maccabees**
 * **Second Maccabees**
 * **Prayer of Manasseh** (Found in Coptic canons; sometimes appended to Chronicles)
+
+## 🔤 Word-Level Tagging (`lexicon/`)
+
+Strong's numbers and morphology for every word of the Hebrew Old Testament and the Greek
+New Testament, **re-versified onto this repository's own chapter and verse numbering** so a
+reference that works against a version file works against the tagging too.
+
+| File | Contents |
+| --- | --- |
+| `lexicon/hebrew.json` | 306,785 tagged words — `{book: {chapter: {verse: [[strongs, morph, surface, lemma], …]}}}` |
+| `lexicon/greek.json` | 140,149 tagged words, same shape |
+| `lexicon/strongs-hebrew.json` | 8,674 dictionary entries |
+| `lexicon/strongs-greek.json` | 5,523 dictionary entries |
+| `lexicon/SOURCES.md` | Provenance, licences and the alignment report |
+
+```python
+import sys; sys.path.insert(0, "tools")
+from lexicon import Lexicon
+lex = Lexicon()
+lex.occurrences("H5959")      # ['Genesis 24:43', ..., 'Isaiah 7:14']
+lex.words("Isaiah 7:14")      # word by word, with Strong's and morphology
+lex.define("G26")             # ἀγάπη
+```
+
+Built by `tools/build_lexicon.py` from [morphhb](https://github.com/openscriptures/morphhb)
+(CC BY 4.0), [byztxt](https://github.com/byztxt/byzantine-majority-text) (public domain) and
+[openscriptures/strongs](https://github.com/openscriptures/strongs) (**CC BY-SA** — carry that
+licence forward if you redistribute `strongs-*.json`).
+
+Note the versification work: morphhb follows BHS, this repository follows English numbering.
+The mapping is derived by aligning consonantal word sequences rather than hand-coded rules —
+**99.01% of 306,785 words align exactly, and no verse is left untagged.**
+
+## 📋 Version Metadata (`versions.json`)
+
+Publication year, base text, translation philosophy, tradition, testament coverage and
+book-naming convention for all 125 versions. 113 carry a curated date; the rest are `null`
+rather than guessed.
+
+```json
+"en/KING JAMES BIBLE": {
+  "year": 1611, "base_text": "Textus Receptus", "philosophy": "formal",
+  "tradition": "Protestant (Church of England)", "testament": "both",
+  "books": 66, "verses": 31102, "book_naming": "english"
+}
+```
+
+Regenerate with `python3 tools/build_versions_manifest.py`. Structural fields are computed
+from the files, so the manifest cannot drift out of sync with them.
+
+## 🔬 Research: Mistranslations That Shaped Christianity
+
+`research/mistranslations/` holds a dataset of 36 translation decisions, transmission errors
+and interpolations with documented effects on Christian doctrine, practice, art or law — each
+anchored to verses that resolve against the version files here, with tooling that verifies
+every claim. See its [README](research/mistranslations/README.md).
+
+## 🧰 Tools
+
+| Script | Purpose |
+| --- | --- |
+| `tools/build_lexicon.py` | Build `lexicon/` from upstream tagged texts |
+| `tools/lexicon.py` | Read access to the tagging |
+| `tools/build_versions_manifest.py` | Build `versions.json` |
+| `tools/import_usfm.py` | Convert a USFM Bible into this repository's JSON shape |
 
 ## 🛠️ Contributing
 

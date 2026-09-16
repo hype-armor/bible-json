@@ -33,37 +33,35 @@ PILLARS = {
 
 # Versions whose absence actually costs something for specific cases.
 MISSING_WITNESSES = [
-    ("Tyndale NT (1526/1534)", "The source of most KJV wording; needed to date any English shift earlier than 1611.", ["acts-12-4-easter", "1tim-6-10-root-of-all-evil", "exod-22-18-mekhashephah-witch"]),
-    ("Geneva Bible (1560)", "The Bible of the English Reformation and of Shakespeare; the KJV's main rival.", ["exod-22-18-mekhashephah-witch", "isa-14-12-lucifer"]),
-    ("Wycliffe (c. 1382)", "Translated from the Vulgate, so it shows which Latin-derived readings reached English before the Greek did.", ["rom-5-12-eph-ho-in-quo", "matt-4-17-paenitentiam-agite", "eph-5-32-mysterion-sacramentum"]),
-    ("Bishops' Bible (1568)", "The KJV translators' official base text.", ["acts-12-4-easter"]),
-    ("RSV 1946 / 1952", "The verse-by-verse pivot for two of this dataset's biggest cases.", ["1cor-6-9-arsenokoitai-malakoi", "isa-7-14-almah-parthenos"]),
-    ("NRSVue (2021)", "Reverses the 1946 rendering; the end of that arc is missing.", ["1cor-6-9-arsenokoitai-malakoi"]),
-    ("New World Translation", "The only version carrying the disputed John 1:1 rendering.", ["john-1-1-theos-anarthrous"]),
-    ("Dead Sea Scrolls / Qumran readings", "Decisive external evidence for two OT cases.", ["ps-22-16-kaaru-pierced", "deut-32-8-sons-of-god"]),
-    ("Samaritan Pentateuch, Targums, Syriac Peshitta in Syriac", "Independent ancient witnesses to the Hebrew.", ["gen-3-15-ipsa-conteret", "gen-1-1-bereshit-creatio-ex-nihilo"]),
-    ("NIV 2011 (as distinct from the edition here)", "Several contested renderings changed between NIV editions.", ["1tim-2-12-authentein", "mal-2-16-hates-divorce"]),
+    ("RSV 1946 / 1952", "The verse-by-verse pivot for two of this dataset's biggest cases. **Blocked: in copyright** (National Council of Churches), so it cannot be redistributed here.", ["1cor-6-9-arsenokoitai-malakoi", "isa-7-14-almah-parthenos"]),
+    ("NRSVue (2021)", "Reverses the 1946 rendering; the end of that arc. **Blocked: in copyright.**", ["1cor-6-9-arsenokoitai-malakoi"]),
+    ("New World Translation", "The only version carrying the disputed John 1:1 rendering. **Blocked: in copyright.**", ["john-1-1-theos-anarthrous"]),
+    ("Wycliffe, complete", "Only 9 books (Pentateuch and Gospels) exist in the public domain. The complete modernised edition on ebible.org is CC BY-NC-ND, and the No-Derivatives term forbids the format conversion this repository needs - so the one English version translated wholly from the Vulgate cannot witness Isaiah, Romans or the Epistles here.", ["isa-7-14-almah-parthenos", "rom-5-12-eph-ho-in-quo", "isa-14-12-lucifer"]),
+    ("Bishops' Bible (1568)", "The KJV translators' official base text. No public-domain digital edition located.", ["acts-12-4-easter"]),
+    ("Dead Sea Scrolls / Qumran readings", "Decisive external evidence for two OT cases. No suitably licensed machine-readable edition located.", ["ps-22-16-kaaru-pierced", "deut-32-8-sons-of-god"]),
+    ("Samaritan Pentateuch, Targums, Peshitta in Syriac", "Independent ancient witnesses to the Hebrew.", ["gen-3-15-ipsa-conteret", "gen-1-1-bereshit-creatio-ex-nihilo"]),
+    ("Septuagint word-level tagging", "lexicon/ covers the Hebrew OT and Greek NT but not the Greek OT, so Hebrew-to-LXX comparisons still rely on reference alignment, which fails where the Greek reorders material (Proverbs 30:19).", ["isa-7-14-almah-parthenos", "deut-32-8-sons-of-god"]),
 ]
 
 STRUCTURAL_GAPS = [
-    ("No lemma, morphology or Strong's tagging",
-     "Every case in this dataset had to be anchored to a verse reference by hand. Without word-level tagging you cannot ask 'where else does this version render arsenokoitai/diakonos/sheol differently?' - which is exactly the question that makes cases like Phoebe's diaconate or the sheol/hades/gehenna family analysable at scale.",
-     "Highest-value addition. An interlinear or a Strong's-tagged KJV/WLC/TR would turn this from a verse-quoting corpus into a searchable one. "
-     "PARTIALLY MITIGATED: tools/concordance.py matches surface forms on the unpointed Westminster Leningrad Codex and on diacritic-stripped Greek, "
-     "which is enough to build an occurrence table for a term (see studies/isa-7-14-almah.md, where it finds all seven occurrences of 'almah and the two of arsenokoitai). "
-     "It is not lemmatisation: it misses suppletive forms and catches homographs, so every study must declare its exclusions explicitly."),
+    ("RESOLVED - word-level tagging",
+     "lexicon/ now carries Strong's numbers and morphology for 306,785 Hebrew words and 140,149 Greek words, re-versified onto this repository's own numbering so references need no conversion. tools/lexicon.py answers 'where else does this word occur' lemma-accurately, and 18 dataset cases now carry Strong's anchors. The Isaiah 7:14 study uses it to confirm - independently of spelling - that 'almah occurs exactly 7 times, the same answer the surface-form method gives after seven homographs are excluded by hand.",
+     "Remaining: the Septuagint is untagged, so Hebrew-to-Greek-OT comparisons still go through reference alignment."),
+    ("RESOLVED - version metadata",
+     "versions.json records publication year, base text, translation philosophy, tradition, testament coverage and book-naming convention for all 125 versions. 113 carry a curated date; the rest are minor-language editions where the date is genuinely unknown, and the field is null rather than a guess.",
+     "Remaining: no per-version licence field, and one data error is documented rather than fixed - the Tagalog Ang Dating Biblia is filed under the es/ locale."),
+    ("PARTLY RESOLVED - the English lineage between 1395 and 1900",
+     "Wycliffe (1395, 9 books), Tyndale's New Testament (1526) and the Geneva Bible (1599) are now in versions/en/. They corrected four cases on arrival: 'witch' and 'Lucifer' predate the KJV via Geneva; 'Easter' at Acts 12:4 originates with Tyndale and had already been corrected by Geneva before the KJV reverted to it; Wycliffe carries the Vulgate's 'she shall crush' into English at Genesis 3:15; and Wycliffe's 'Do ye penaunce' against Tyndale's 'repent' makes the Reformation's central exegetical claim legible as two English words.",
+     "Remaining: the RSV, NRSVue and New World Translation are in copyright and cannot be added at all. The Bishops' Bible and a complete public-domain Wycliffe were not located."),
     ("No textual apparatus, brackets or translators' footnotes",
-     "Versions that bracket Mark 16:9-20 or footnote 'some manuscripts read...' are indistinguishable in this JSON from versions that print the text plainly. Two cases in the dataset are flagged for this.",
-     "Store an optional per-verse `notes`/`markers` field, or a parallel apparatus file keyed by reference."),
-    ("No version metadata",
-     "Publication year, translation philosophy (formal/dynamic), base text (TR/Byzantine/critical) and sponsoring tradition are nowhere in the repository. Chronology is the backbone of a 'shaped over time' study and currently lives only in the researcher's head.",
-     "A `versions.json` manifest. This is cheap to add and unblocks the most analysis per unit of effort after tagging."),
+     "Versions that bracket Mark 16:9-20 or footnote 'some manuscripts read...' are indistinguishable in this JSON from versions that print the text plainly. It also hides the NET Bible's translator notes, which is why some of its readings look unqualified in the dataset - its dependent reading of Genesis 1:1 lives in a note and is invisible here.",
+     "Store an optional per-verse notes/markers field, or a parallel apparatus file keyed by reference. This is now the largest remaining gap."),
     ("Hebrew is re-versified to English numbering",
-     "Verified: the Hebrew files follow KJV chapter and verse divisions, not BHS (Joel has 3 chapters, not 4; Psalm superscriptions are folded into verse 1). Convenient for alignment, but it silently discards the Masoretic versification, and anyone citing 'WLC Psalm 51:1' will be citing something the printed WLC does not have.",
-     "Document it prominently; optionally ship a versification map."),
-    ("Greek NT files carry no accents in the transliterated sets and vary in book naming",
-     "Handled by tools/bible.py, but three entries in book_name_mapping.json point at version names no longer present (BYZANTINE/MAJORITY TEXT (2000), WESTCOTT/HORT, WESTCOTT/HORT UBS4 VARIANTS) and two mapped versions have no file (SHUAR NT, UMA NT).",
-     "Reconcile book_name_mapping.json with the files on disk."),
+     "Verified: the Hebrew files follow KJV divisions, not BHS (Joel has 3 chapters, not 4; Psalm superscriptions fold into verse 1). A reference like 'WLC Malachi 4:1' exists in no printed Hebrew Bible.",
+     "Now exploited rather than fought: tools/build_lexicon.py aligns morphhb's BHS numbering onto this one by matching consonantal word sequences - 99.01% of 306,785 words align exactly, and no verse is left untagged."),
+    ("Stale entries in book_name_mapping.json",
+     "Three entries name versions no longer present (BYZANTINE/MAJORITY TEXT (2000), WESTCOTT/HORT, WESTCOTT/HORT UBS4 VARIANTS) and two mapped versions have no file (SHUAR NT, UMA NT).",
+     "Worked around by an alias table in tools/bible.py; reconciling the file itself would be cleaner."),
 ]
 
 
@@ -221,12 +219,22 @@ def main() -> int:
     # -- bottom line -------------------------------------------------------
     add("## 8. Bottom line")
     add("")
-    add("**Sufficient to start, and already producing results.** The three additions")
-    add("that would most increase what this corpus can answer, in order:")
+    add("**Sufficient - and the three gaps the first audit named are now closed or narrowed.**")
     add("")
-    add("1. **Word-level tagging** (Strong's or morphology) on at least the WLC, a Greek NT and the KJV. Turns hand-curated cases into corpus-wide queries. `tools/concordance.py` closes part of this gap by surface-form matching, but it cannot lemmatise.")
-    add("2. **Historical English versions** - Wycliffe, Tyndale, Geneva, RSV. Restores the chronology the study is about.")
-    add("3. **A `versions.json` manifest** with date, base text and translation philosophy. Cheapest of the three, and every analysis wants it.")
+    add("| Gap named by the first audit | Status |")
+    add("| --- | --- |")
+    add("| Word-level tagging | **Closed** for the Hebrew OT and Greek NT: 446,934 tagged words in `lexicon/` |")
+    add("| English versions between 1611 and the 20th century | **Narrowed**: Wycliffe, Tyndale and Geneva added; the RSV, NRSVue and NWT are in copyright and cannot be |")
+    add("| Version metadata | **Closed**: `versions.json`, 125 versions, 113 with curated dates |")
+    add("")
+    add("What remains, in order of what it would unlock:")
+    add("")
+    add("1. **A textual apparatus.** Bracketing, footnotes and translator notes are still invisible. This")
+    add("   affects every interpolation case and flatters versions that hedge. Now the biggest gap.")
+    add("2. **Septuagint word-level tagging.** Would put Hebrew-to-Greek comparisons on lemmas instead of")
+    add("   reference alignment, which breaks wherever the Greek reorders material.")
+    add("3. **Licensed access to the RSV and NRSVue.** Two of the most-cited cases turn on editions that")
+    add("   cannot be redistributed. No amount of tooling fixes this one.")
     add("")
 
     with open(OUT, "w", encoding="utf-8") as fh:
