@@ -43,6 +43,9 @@ USFM2NAME = {
 CANONICAL = list(USFM2NAME.values())
 
 NOTE_RE = re.compile(r"\\(f|x|fe)\b.*?\\\1\*", re.S)
+# \w word|strong="H0430"\w* and \fig ...|attrs\fig* carry attributes after a
+# pipe. Keep the word, drop the attributes.
+WORD_ATTR_RE = re.compile(r"\\\+?(w|rb|fig|jmp)\s+([^\\|]*?)(?:\|[^\\]*?)?\\\+?\1\*", re.S)
 CHAR_CLOSE_RE = re.compile(r"\\\+?(\w+)\*")
 CHAR_OPEN_RE = re.compile(r"\\\+?(add|wj|nd|bk|it|bd|em|sc|qt|tl|pn|sig|ord|no|w|rq|va|vp)\s")
 PARA_RE = re.compile(r"\\\w+\d?\s?")
@@ -53,6 +56,10 @@ V_RE = re.compile(r"\\v\s+(\d+[a-z]?(?:-\d+[a-z]?)?)\s?")
 
 def clean(text: str) -> str:
     text = NOTE_RE.sub(" ", text)
+    for _ in range(3):  # nested \w inside \add etc.
+        text, n = WORD_ATTR_RE.subn(r"\2", text)
+        if not n:
+            break
     text = CHAR_CLOSE_RE.sub("", text)
     text = CHAR_OPEN_RE.sub("", text)
     text = PARA_RE.sub(" ", text)

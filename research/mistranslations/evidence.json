@@ -44,6 +44,12 @@
             "text": {
               "Romans 5:12": "Wherefore, as by one man sinne entred into ye world, and death by sinne, and so death went ouer all men: in who all men haue sinned."
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "Romans 5:12": "Therfor as bi o man synne entride in to this world, and bi synne deth, and so deth passide forth in to alle men, in which man alle men synneden."
+            }
           }
         ],
         "corrected": [
@@ -81,6 +87,30 @@
             "version": "en/TYNDALE NEW TESTAMENT",
             "text": {
               "Romans 5:12": "Wherfore as by one man synne entred into the worlde and deeth by the meanes of synne. And so deeth went over all men in somoche that all men synned."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Romans 5:12": "For this cause,—just as, through one man, sin into the world entered, and through sin, death,—and, so, unto all men death passed through, for that all had sinned;—"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Romans 5:12": "For this [cause], even as by one man sin entered into the world, and by sin death; and thus death passed upon all men, for that all have sinned:"
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Romans 5:12": "For this reason, as through one man sin came into the world, and death because of sin, and so death came to all men, because all have done evil:"
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Romans 5:12": "Therefore, just as sin came into the world through one man, and death came through sin, in this way death has come to all men, because all have sinned."
             }
           }
         ]
@@ -274,6 +304,13 @@
               "1 John 5:7": "For there are three, which beare recorde in heauen, the Father, the Worde, and the holy Ghost: and these three are one.",
               "1 John 5:8": "And there are three, which beare record in the earth, the spirit, and the water and the blood: and these three agree in one."
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "1 John 5:7": "For thre ben, that yyuen witnessing in heuene, the Fadir, the Sone, and the Hooli Goost; and these thre ben oon.",
+              "1 John 5:8": "`And thre ben, that yyuen witnessing in erthe, the spirit, water, and blood; and these thre ben oon."
+            }
           }
         ],
         "corrected": [
@@ -310,6 +347,34 @@
             "text": {
               "1 John 5:7": "And it is the Spirit that beareth witness, because the Spirit is the truth.",
               "1 John 5:8": "For there are three who bear witness, the Spirit, and the water, and the blood: and the three agree in one."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "1 John 5:7": "Because, three, are they who are bearing witness—",
+              "1 John 5:8": "The Spirit, and the Water, and the Blood; and, the three, are, [witnesses], unto one thing."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "1 John 5:7": "For they that bear witness are three:",
+              "1 John 5:8": "the Spirit, and the water, and the blood; and the three agree in one."
+            }
+          },
+          {
+            "version": "en/FAMILY 35 NEW TESTAMENT",
+            "text": {
+              "1 John 5:7": "actually there are three who bear witness",
+              "1 John 5:8": "—the Spirit, the water and the blood—and the three are to one effect."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "1 John 5:7": "For there are three that testify:",
+              "1 John 5:8": "the Spirit, the water, and the blood; and these three are in agreement."
             }
           }
         ]
@@ -380,7 +445,8 @@
             "text": {
               "Matthew 4:17": "Fro that tyme Jhesus bigan to preche, and seie, Do ye penaunce, for the kyngdom of heuenes schal come niy.",
               "Matthew 3:2": "and seide, Do ye penaunce, for the kyngdom of heuenes shal neiye.",
-              "Mark 1:15": "and seide, That the tyme is fulfillid, and the kyngdoom of God schal come nyy; do ye penaunce, and bileue ye to the gospel."
+              "Mark 1:15": "and seide, That the tyme is fulfillid, and the kyngdoom of God schal come nyy; do ye penaunce, and bileue ye to the gospel.",
+              "Acts 2:38": "And Petre seide to hem, Do ye penaunce, and eche of you be baptisid in the name of Jhesu Crist, in to remissioun of youre synnes; and ye schulen take the yifte of the Hooli Goost."
             }
           }
         ],
@@ -447,6 +513,42 @@
               "Mark 1:15": "And saying, The time is fulfilled, and the kingdome of God is at hand: repent and beleeue the Gospel.",
               "Acts 2:38": "Then Peter said vnto them, Amend your liues, and bee baptized euery one of you in the Name of Iesus Christ for the remission of sinnes: and ye shall receiue the gift of the holy Ghost."
             }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Matthew 4:17": "From that time, began Jesus to be making proclamation, and saying,—Repent ye, for the kingdom of the heavens hath drawn near.",
+              "Matthew 3:2": "saying, Repent ye,—for the kingdom of the heavens hath drawn near.",
+              "Mark 1:15": "[and saying] —The season is fulfilled, and the kingdom of God hath drawn near,—Repent ye, and have faith in the glad-message.",
+              "Acts 2:38": "And Peter [said] unto them—Repent ye, and let each one of you be immersed, in the name of Jesus Christ, into the remission of your sins,—and ye shall receive the free-gift of the Holy Spirit;"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Matthew 4:17": "From that time began Jesus to preach and to say, Repent, for the kingdom of the heavens has drawn nigh.",
+              "Matthew 3:2": "and saying, Repent, for the kingdom of the heavens has drawn nigh.",
+              "Mark 1:15": "and saying, The time is fulfilled and the kingdom of God has drawn nigh; repent and believe in the glad tidings.",
+              "Acts 2:38": "And Peter said to them, Repent, and be baptised, each one of you, in the name of Jesus Christ, for remission of sins, and ye will receive the gift of the Holy Spirit."
+            }
+          },
+          {
+            "version": "en/FAMILY 35 NEW TESTAMENT",
+            "text": {
+              "Matthew 4:17": "From then on Jesus began to preach and to say, “Repent, for the kingdom of the heavens has come near.”",
+              "Matthew 3:2": "and saying, “Repent, for the kingdom of the heavens has come near!”",
+              "Mark 1:15": "and saying: “The time has been fulfilled and the Kingdom of God has approached. Repent and believe in the Gospel.” Peter, Andrew, James, John",
+              "Acts 2:38": "So Peter said to them: “Repent and be baptized, each one of you, upon the name of Jesus Christ, for forgiveness of sins, and you will receive the gift of the Holy Spirit."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Matthew 4:17": "From that time Jesus began to preach, “Repent, for the kingdom of heaven has drawn near.” Jesus Calls His First Disciples",
+              "Matthew 3:2": "“Repent, for the kingdom of heaven has drawn near.”",
+              "Mark 1:15": "and saying, “The time is fulfilled, and the kingdom of God has drawn near. Repent and believe in the gospel.” Jesus Calls His First Disciples",
+              "Acts 2:38": "Peter said to them, “Repent and be baptized, each one of you, in the name of Jesus Christ for the remission of sins, and you will receive the gift of the Holy Spirit."
+            }
           }
         ]
       }
@@ -504,6 +606,24 @@
             "text": {
               "Isaiah 14:12": "How art thou fallen from heauen, O Lucifer, sonne of the morning? and cutte downe to the grounde, which didest cast lottes vpon the nations?"
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "Isaiah 14:12": "A! Lucifer, that risidist eerli, hou feldist thou doun fro heuene; thou that woundist folkis, feldist doun togidere in to erthe."
+            }
+          },
+          {
+            "version": "en/NOYES TRANSLATION 1869",
+            "text": {
+              "Isaiah 14:12": "How art thou fallen from heaven, O Lucifer, son of the morning! How art thou cast down to the ground, Thou that didst trample upon the nations!"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Isaiah 14:12": "How art thou fallen from heaven, Lucifer, son of the morning! Thou art cut down to the ground, that didst prostrate the nations!"
+            }
           }
         ],
         "corrected": [
@@ -535,6 +655,24 @@
             "version": "en/NET BIBLE",
             "text": {
               "Isaiah 14:12": "Look how you have fallen from the sky, O shining one, son of the dawn! You have been cut down to the ground, O conqueror of the nations!"
+            }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Isaiah 14:12": "How art thou fallen from heaven, O morning-star, son of the dawn! how art thou hewn down to the ground, crusher of nations!"
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Isaiah 14:12": "How hast thou fallen from heaven, O Shining One—Son of the Dawn! Hewn down to the earth, O crusher of nations!"
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Isaiah 14:12": "How great is your fall from heaven, O shining one, son of the morning! How are you cut down to the earth, low among the dead bodies!"
             }
           }
         ]
@@ -619,6 +757,30 @@
             "text": {
               "Romans 16:7": "Salute Andronicus and Iunia my cousins and fellowe prisoners, which are notable among the Apostles, and were in Christ before me."
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "Romans 16:7": "Grete wel Andronyk and Julian, my cosyns, and myn euen prisouneris, which ben noble among the apostlis, and whiche weren bifor me in Crist."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Romans 16:7": "Salute Andronicus and Junias, my kinsmen and my fellow-captives, who, indeed, are of note among the Apostles, who also before me had come to be in Christ."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Romans 16:7": "Salute Andronicus and Junias, my kinsmen and fellow-captives, who are of note among the apostles; who were also in Christ before me."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Romans 16:7": "Greet Andronicus and Junia, my kinsfolk and my fellow prisoners, who are of note among the apostles, and who were in Christ before me."
+            }
           }
         ]
       }
@@ -692,6 +854,7 @@
           {
             "version": "en/WYCLIFFE BIBLE",
             "text": {
+              "Isaiah 7:14": "For this thing the Lord hym silf schal yyue a signe to you. Lo! a virgyn schal conseyue, and schal bere a sone; and his name schal be clepid Emanuel.",
               "Matthew 1:23": "a virgyn shal haue in wombe, and she schal bere a sone, and thei schulen clepe his name Emanuel, that is to seie, God with vs."
             }
           },
@@ -700,6 +863,20 @@
             "text": {
               "Isaiah 7:14": "Therefore the Lord himselfe will giue you a signe. Beholde, the virgine shall conceiue and beare a sonne, and she shall call his name Immanu-el.",
               "Matthew 1:23": "Behold, a virgine shalbe with childe, and shall beare a sonne, and they shall call his name Emmanuel, which is by interpretation, God with vs."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Isaiah 7:14": "Wherefore let My Lord Himself give you a sign,—Lo! a Virgin, being with child and giving birth to a son, thou wilt call his name Immanuel.",
+              "Matthew 1:23": "Lo! a Virgin, shall be with child, and shall bring forth a son,—and they shall call his name Emmanuel; which is, being translated, God with us."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Isaiah 7:14": "Therefore will the Lord himself give you a sign: Behold, the virgin shall conceive and shall bring forth a son, and call his name Immanuel.",
+              "Matthew 1:23": "Behold, the virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which is, being interpreted, 'God with us.'"
             }
           }
         ],
@@ -729,6 +906,26 @@
             "text": {
               "Isaiah 7:14": "Therefore the Lord himself will give you a sign; the young woman, pregnant and about to bear a son, shall name him Emmanuel.",
               "Matthew 1:23": "“Behold, the virgin shall be with child and bear a son, and they shall name him Emmanuel,” which means “God is with us.”"
+            }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Isaiah 7:14": "Therefore will the Lord himself give you a sign: behold, this young woman shall conceive, and bear a son, and she shall call his name 'Immanu-el, [God with us]."
+            }
+          },
+          {
+            "version": "en/NOYES TRANSLATION 1869",
+            "text": {
+              "Isaiah 7:14": "Therefore shall Jehovah himself give you a sign: Behold, the damsel shall conceive, and bear a son, And she shall call his name Immanuel.",
+              "Matthew 1:23": "“Behold, the virgin shall be with child, and shall bear a son, and they shall call his name Immanuel;” that is, when interpreted, God-is with-us."
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Isaiah 7:14": "For this cause the Lord himself will give you a sign; a young woman is now with child, and she will give birth to a son, and she will give him the name Immanuel.",
+              "Matthew 1:23": "See, the virgin will be with child, and will give birth to a son, and they will give him the name Immanuel, that is, God with us."
             }
           }
         ]
@@ -839,6 +1036,34 @@
               "1 Corinthians 6:9": "Knowe yee not that the vnrighteous shall not inherite the kingdome of God? Be not deceiued: neither fornicatours, nor idolaters, nor adulterers, nor wantons, nor buggerers,",
               "1 Timothy 1:10": "To whoremongers, to buggerers, to menstealers, to lyers, to the periured, and if there be any other thing, that is contrary to wholesome doctrine,"
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "1 Corinthians 6:9": "Whether ye witen not, that wickid men schulen not welde the kyngdom of God? Nyle ye erre; nethir letchours, nether men that seruen mawmetis, nether auouteris,",
+              "1 Timothy 1:10": "to hem that don letcherie with men, lesingmongeris and forsworun, and if ony othere thing is contrarie to the hoolsum teching,"
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "1 Corinthians 6:9": "Or know ye not that, wrong-doers, shall not inherit, God’s kingdom? Be not deceiving yourselves:—neither fornicators, nor idolaters, nor adulterers, nor effeminate, nor sodomites,",
+              "1 Timothy 1:10": "fornicators, sodomites, man-stealers, liars, false- swearers,—and, if anything else, unto the healthful teaching, is opposed;—"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "1 Corinthians 6:9": "Do ye not know that unrighteous [persons] shall not inherit [the] kingdom of God? Do not err: neither fornicators, nor idolaters, nor adulterers, nor those who make women of themselves, nor who abuse themselves with men,",
+              "1 Timothy 1:10": "fornicators, sodomites, kidnappers, liars, perjurers; and if any other thing is opposed to sound teaching,"
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "1 Corinthians 6:9": "Do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived! Neither fornicators, nor idolaters, nor adulterers, nor homosexuals, nor sodomites,",
+              "1 Timothy 1:10": "fornicators, homosexuals, slave traders, liars, perjurers, and whatever else is opposed to the sound teaching"
+            }
           }
         ]
       }
@@ -863,6 +1088,12 @@
             "version": "el/SWETE'S SEPTUAGINT",
             "text": {
               "Genesis 3:15": "καὶ ἔχθραν θήσω ἀνὰ μέσον σου καὶ ἀνὰ μέσον τῆς γυναικός, καὶ ἀνὰ μέσον τοῦ σπέρματός σου καὶ ἀνὰ μέσον τοῦ σπέρματος αὐτῆς· αὐτός σου τηρήσει κεφαλήν, καὶ σὺ τηρήσεις αὐτοῦ πτέρναν."
+            }
+          },
+          {
+            "version": "en/TARGUM ONKELOS (ETHERIDGE)",
+            "text": {
+              "Genesis 3:15": "And I will put enmity between thee and between the woman, and between thy son and her son. He will remember thee, what thou didst to him (at) from the beginning, and thou shalt be observant unto him at the end."
             }
           }
         ],
@@ -916,6 +1147,30 @@
             "text": {
               "Genesis 3:15": "I will also put enimitie betweene thee and the woman, and betweene thy seede and her seede. He shall breake thine head, and thou shalt bruise his heele."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Genesis 3:15": "And I will put enmity between thee and the woman, and between thy seed and her seed; he shall bruise thy head, and thou shalt wound his heel."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Genesis 3:15": "And enmity, will I put between thee, and the woman, and between thy seed and her seed,—He shall crush thy head, but, thou, shalt crush his heel."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Genesis 3:15": "And I will put enmity between thee and the woman, and between thy seed and her seed; he shall crush thy head, and thou shalt crush his heel."
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Genesis 3:15": "And there will be war between you and the woman and between your seed and her seed: by him will your head be crushed and by you his foot will be wounded."
+            }
           }
         ]
       }
@@ -955,6 +1210,12 @@
             "text": {
               "Ephesians 5:32": "This is a great sacrament; but I speak in Christ and in the church."
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "Ephesians 5:32": "This sacrament is greet; yhe, Y seie in Crist, and in the chirche."
+            }
           }
         ],
         "corrected": [
@@ -992,6 +1253,24 @@
             "version": "en/GENEVA BIBLE 1599",
             "text": {
               "Ephesians 5:32": "This is a great secrete, but I speake concerning Christ, and concerning the Church."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Ephesians 5:32": "This sacred secret, is, great,—I, however, am speaking as to Christ and [as to] the assembly;—"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Ephesians 5:32": "This mystery is great, but I speak as to Christ, and as to the assembly."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Ephesians 5:32": "This is a profound mystery, but I am talking about Christ and the church."
             }
           }
         ]
@@ -1088,6 +1367,24 @@
             "text": {
               "Luke 1:28": "And the Angel went in vnto her, and said, Haile thou that art freely beloued: the Lord is with thee: blessed art thou among women."
             }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Luke 1:28": "and entering in unto her, he said—Joy to thee, favoured one! The Lord, be with thee!"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Luke 1:28": "And the angel came in to her, and said, Hail, [thou] favoured one! the Lord [is] with thee: [blessed art thou amongst women]."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Luke 1:28": "The angel came to her and said, “Greetings, O favored one, the Lord is with yoʋ! Blessed are yoʋ among women!”"
+            }
           }
         ]
       }
@@ -1157,6 +1454,12 @@
             "text": {
               "Revelation 22:19": "And if any man shall diminish of the wordes of the booke of this prophecie, God shall take away his part out of the Booke of life, and out of the holie citie, and from those things which are written in this booke."
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "Revelation 22:19": "And if ony man do awei of the wordis of the book of this prophesie, God schal take awei the part of hym fro the book of lijf, and fro the hooli citee, and fro these thingis that ben writun in this book."
+            }
           }
         ],
         "corrected": [
@@ -1182,6 +1485,24 @@
             "version": "en/NET BIBLE",
             "text": {
               "Revelation 22:19": "And if anyone takes away from the words of this book of prophecy, God will take away his share in the tree of life and in the holy city that are described in this book."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Revelation 22:19": "And, if anyone shall take away from the words of this prophetic scroll, God, will take away his part,—from the tree of life, and out of the holy city,—[from] the things written in this scroll."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Revelation 22:19": "And if any one take from the words of the book of this prophecy, God shall take away his part from the tree of life, and out of the holy city, which are written in this book."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Revelation 22:19": "If anyone takes away from the words of the book of this prophecy, may God take away his share in the tree of life and in the holy city, which are written about in this book."
             }
           }
         ]
@@ -1265,6 +1586,24 @@
             "version": "en/GENEVA BIBLE 1599",
             "text": {
               "Acts 12:4": "And when he had caught him, he put him in prison, and deliuered him to foure quaternions of souldiers to be kept, intending after the Passeouer to bring him foorth to the people."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Acts 12:4": "Whom also having seized, he put into prison, delivering him up unto four quaternions of soldiers, to be guarding him,—intending, after the passover, to bring him up unto the people."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Acts 12:4": "whom having seized he put in prison, having delivered him to four quaternions of soldiers to keep, purposing after the passover to bring him out to the people."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Acts 12:4": "After seizing him, he put him in prison, handing him over to be guarded by four squads of four soldiers each. Herod planned to bring him out to the people after the Passover."
             }
           }
         ]
@@ -1361,6 +1700,20 @@
               "Mark 16:9": "When Jesus rose early on the first day of the week, he appeared first to Mary Magdalene, out of whom he had driven seven demons.",
               "Mark 16:18": "they will pick up snakes with their hands; and when they drink deadly poison, it will not hurt them at all; they will place their hands on sick people, and they will get well.”"
             }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Mark 16:9": "[[And, arising early, on the first of the week, he was manifested, first, unto Mary the Magdalene, from whom he had cast, seven demons.",
+              "Mark 16:18": "And, if, any deadly thing, they have drunk, in nowise, shall it, hurt, them: Upon sick persons, shall they lay, hands, and, well, shall they remain."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Mark 16:9": "Now when he had risen very early, the first [day] of the week, he appeared first to Mary of Magdala, out of whom he had cast seven demons.",
+              "Mark 16:18": "they shall take up serpents; and if they should drink any deadly thing it shall not injure them; they shall lay hands upon the infirm, and they shall be well."
+            }
           }
         ]
       }
@@ -1448,6 +1801,20 @@
             "text": {
               "John 8:7": "And as they continued to ask him, he stood up and said to them, “Let him who is without sin among you be the first to throw a stone at her.”",
               "John 8:11": "She said, “No one, Lord.” And Jesus said, “Neither do I condemn you; go, and from now on sin no more.” ]]"
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "John 8:7": "When, however, they still continued questioning him, he lifted himself up and said [unto them] —He of you, that is without sin, let him first cast at her a stone;",
+              "John 8:11": "And, she, said—No one, Sir! And Jesus said—Neither do, I, condemn thee,—be going thy way: Henceforth, be sinning, no more.]]"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "John 8:7": "But when they continued asking him, he lifted himself up and said to them, Let him that is without sin among you first cast the stone at her.",
+              "John 8:11": "And she said, No one, sir. And Jesus said to her, Neither do I condemn thee: go, and sin no more."
             }
           }
         ]
@@ -1538,6 +1905,24 @@
             "text": {
               "1 Timothy 6:10": "For the desire of money is the roote of all euill, which while some lusted after, they erred from the faith, and pearced themselues through with many sorowes."
             }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "1 Timothy 6:10": "For, a root of all the vices, is the love of money, which, some, being eager for, have been seduced from the faith, and have pierced, themselves, about with many pangs."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "1 Timothy 6:10": "For the love of money is [the] root of every evil; which some having aspired after, have wandered from the faith, and pierced themselves with many sorrows."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "1 Timothy 6:10": "For the love of money is the root of all kinds of evil, and in their eagerness to become rich some have wandered away from the faith, piercing themselves with many sorrows. Fight the Good Fight"
+            }
           }
         ]
       }
@@ -1595,6 +1980,18 @@
             "text": {
               "Exodus 22:18": "Thou shalt not suffer a witch to liue."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Exodus 22:18": "(22:17) Thou shalt not suffer a witch to live."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Exodus 22:18": "— Thou shalt not suffer a witch to live."
+            }
           }
         ],
         "corrected": [
@@ -1626,6 +2023,18 @@
             "version": "en/NEW AMERICAN BIBLE",
             "text": {
               "Exodus 22:18": "You shall not let a woman who practices sorcery live."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Exodus 22:18": "A sorceress, shalt thou not suffer to live."
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Exodus 22:18": "Any woman using unnatural powers or secret arts is to be put to death."
             }
           }
         ]
@@ -1692,6 +2101,27 @@
               "Exodus 20:13": "Thou shalt not kill.",
               "Deuteronomy 5:17": "Thou shalt not kill."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Exodus 20:13": "Thou shalt not kill.",
+              "Deuteronomy 5:17": "Thou shalt not kill."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Exodus 20:13": "Thou shalt not kill.",
+              "Deuteronomy 5:17": "Thou shalt not kill."
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Exodus 20:13": "Do not put anyone to death without cause.",
+              "Deuteronomy 5:17": "Do not put anyone to death without cause."
+            }
           }
         ],
         "corrected": [
@@ -1735,6 +2165,13 @@
             "text": {
               "Exodus 20:13": "Thou schalt not sle.",
               "Deuteronomy 5:17": "Thou schalt not sle."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Exodus 20:13": "Thou shalt not commit murder.",
+              "Deuteronomy 5:17": "Thou shalt not commit murder:"
             }
           }
         ]
@@ -1898,6 +2335,20 @@
               "Genesis 2:18": "Also the Lord God saide, It is not good that the man should be himself alone: I wil make him an helpe meete for him.",
               "Genesis 2:20": "The man therefore gaue names vnto all cattell, and to the foule of the heauen, and to euery beast of the fielde: but for Adam founde he not an helpe meete for him."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Genesis 2:18": "And the Lord God said, It is not good that the man should be alone; I will make him a help suitable for him.",
+              "Genesis 2:20": "And the man gave names to all cattle, and to the fowl of the heaven, and to every beast of the field; but for man there was not found a help suitable for him."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Genesis 2:18": "And Jehovah Elohim said, It is not good that Man should be alone; I will make him a helpmate, his like.",
+              "Genesis 2:20": "And Man gave names to all cattle, and to the fowl of the heavens, and to every beast of the field; but as for Adam, he found no helpmate, his like."
+            }
           }
         ],
         "corrected": [
@@ -1920,6 +2371,27 @@
             "text": {
               "Genesis 2:18": "And YHWH God says, “[It is] not good for the man to be alone; I make him a helper as his counterpart.”",
               "Genesis 2:20": "And the man calls names to all the livestock, and to bird of the heavens, and to every beast of the field; but for man a helper has not been found as his counterpart."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Genesis 2:18": "And Yahweh God said, It is, not good, that the man should remain alone,—I will make for him a helper as his counterpart.",
+              "Genesis 2:20": "So the man gave names to all the tame-beasts, and to the birds of the heavens, and to all the wild-beasts of the field,—but, for man, had there not been found a helper as his counterpart."
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Genesis 2:18": "And the Lord God said, It is not good for the man to be by himself: I will make one like himself as a help to him",
+              "Genesis 2:20": "And the man gave names to all cattle and to the birds of the air and to every beast of the field; but Adam had no one like himself as a help."
+            }
+          },
+          {
+            "version": "en/TARGUM ONKELOS (ETHERIDGE)",
+            "text": {
+              "Genesis 2:18": "And the Lord God said, It is not right that Adam should be solitary; I will make for him a helper as for his sake (or, as suited to him: Heb., kenegdo, as his counterpart).",
+              "Genesis 2:20": "And Adam called the name of all cattle, and of the fowl of the heaven, and of every beast of the field; but to Adam was not found a helper as for him."
             }
           }
         ]
@@ -1952,6 +2424,18 @@
             "text": {
               "Psalms 22:16": "For dogs have encompassed me; A company of evil-doers have inclosed me; Like a lion, they are at my hands and my feet."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Psalms 22:16": "(22:17) For dogs have encompassed me; the assembly of the wicked have enclosed me: like lions [they threaten] my hands and my feet."
+            }
+          },
+          {
+            "version": "en/NOYES TRANSLATION 1869",
+            "text": {
+              "Psalms 22:16": "For dogs have surrounded me; Bands of evil-doers have encompassed me,—Like lions my hands and my feet."
+            }
           }
         ],
         "shifted": [
@@ -1983,6 +2467,18 @@
             "version": "en/GENEVA BIBLE 1599",
             "text": {
               "Psalms 22:16": "For dogges haue compassed me, and the assemblie of the wicked haue inclosed me: they perced mine hands and my feete."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Psalms 22:16": "For dogs have surrounded me,—An assembly of evil doers, have encircled me, They have pierced my hands and my feet,"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Psalms 22:16": "For dogs have encompassed me; an assembly of evil-doers have surrounded me: they pierced my hands and my feet."
             }
           }
         ],
@@ -2054,6 +2550,18 @@
             "version": "en/GENEVA BIBLE 1599",
             "text": {
               "Deuteronomy 32:8": "When the most hie God deuided to the nations their inheritance, when he separated the sonnes of Adam, he appoynted the borders of the people, according to the nomber of the children of Israel."
+            }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Deuteronomy 32:8": "When the Most High divided to the nations their inheritance, when he separated the sons of man: he set the bounds of the tribes according to the number of the sons of Israel."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Deuteronomy 32:8": "When the Most High assigned to the nations their inheritance, When he separated the sons of Adam, He set the bounds of the peoples According to the number of the children of Israel."
             }
           }
         ],
@@ -2224,6 +2732,56 @@
               "2 Peter 2:4": "For if God spared not the Angels that had sinned, but cast them downe into hell, and deliuered them into chaines of darkenes, to be kept vnto damnation:",
               "Revelation 20:14": "And death and hell were cast into the lake of fire: this is the second death."
             }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Psalms 16:10": "For thou wilt not leave my soul to Sheol, neither wilt thou allow thy Holy One to see corruption.",
+              "Matthew 5:22": "But I say unto you, that every one that is lightly angry with his brother shall be subject to the judgment; but whosoever shall say to his brother, Raca, shall be subject to [be called before] the sanhedrim; but whosoever shall say, Fool, shall be subject to the penalty of the hell of fire.",
+              "Matthew 10:28": "And be not afraid of those who kill the body, but cannot kill the soul; but fear rather him who is able to destroy both soul and body in hell.",
+              "Luke 16:23": "And in hades lifting up his eyes, being in torments, he sees Abraham afar off, and Lazarus in his bosom.",
+              "2 Peter 2:4": "For if God spared not [the] angels who had sinned, but having cast them down to the deepest pit of gloom has delivered them to chains of darkness [to be] kept for judgment;",
+              "Revelation 20:14": "and death and hades were cast into the lake of fire. This is the second death, [even] the lake of fire."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Psalms 16:10": "For thou wilt not abandon my soul to hades, neither wilt thou suffer thy man of lovingkindness, to see corruption:",
+              "Matthew 5:22": "But, I, say unto you, that, every one who is angry with his brother, shall be, liable, to judgment,—and, whosoever shall say to his brother, Worthless one!, shall be, liable, to the high council; and, whosoever shall say, Rebel!, shall be, liable, unto the fiery gehenna.",
+              "Matthew 10:28": "And be not in fear, by reason of them that are killing the body,—and, the soul, are not able to kill. But fear, rather, him who is able, both soul and body, to destroy in gehenna!",
+              "Luke 16:23": "And, in hades, lifting up his eyes, being in torments, he seeth Abraham afar off, and Lazarus in his bosom.",
+              "2 Peter 2:4": "For—if, God, spared not, messengers, when they sinned, but, to pits of gloom, consigning them, in the lowest hades, delivered them up to be kept, unto judgment,—",
+              "Revelation 20:14": "And, death and hades, were cast into the lake of fire. This, is, the second death—the lake of fire."
+            }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Psalms 16:10": "For thou wilt not abandon my soul to the grave: thou wilt not suffer thy pious [servant] to see corruption."
+            }
+          },
+          {
+            "version": "en/NOYES TRANSLATION 1869",
+            "text": {
+              "Psalms 16:10": "For thou wilt not give me up to the underworld; Nor wilt thou suffer thy holy one to see the pit.",
+              "Matthew 5:22": "But I say to you, that whoever is angry with his brother shall be in danger of the Judges; and whoever shall say to his brother, Simpleton! shall be in danger of the Council; and whoever shall say, Fool! shall be in danger of hell-fire.",
+              "Matthew 10:28": "And fear not those who kill the body, but are not able to kill the soul; but rather fear him who is able to destroy both soul and body in hell.",
+              "Luke 16:23": "And in the underworld he lifted up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom.",
+              "2 Peter 2:4": "For if God spared not angels that sinned, but cast them down to hell, and delivered them over to chains of darkness, to be reserved unto judgment;",
+              "Revelation 20:14": "And death and the underworld were cast into the lake of fire; this is the second death, the lake of fire."
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Psalms 16:10": "For you will not let my soul be prisoned in the underworld; you will not let your loved one see the place of death.",
+              "Matthew 5:22": "But I say to you that everyone who is angry with his brother will be in danger of being judged; and he who says to his brother, Raca, will be in danger from the Sanhedrin; and whoever says, You foolish one, will be in danger of the hell of fire.",
+              "Matthew 10:28": "And have no fear of those who put to death the body, but are not able to put to death the soul. But have fear of him who has power to give soul and body to destruction in hell.",
+              "Luke 16:23": "And in hell, being in great pain, lifting up his eyes he saw Abraham, far away, and Lazarus on his breast.",
+              "2 Peter 2:4": "For if God did not have pity for the angels who did evil, but sent them down into hell, to be kept in chains of eternal night till they were judged;",
+              "Revelation 20:14": "And death and Hell were put into the sea of fire. This is the second death, even the sea of fire."
+            }
           }
         ]
       }
@@ -2296,6 +2854,20 @@
               "Genesis 1:6": "Againe God said, Let there be a firmament in the mids of the waters: and let it separate the waters from the waters.",
               "Genesis 1:7": "Then God made the firmament, and separated the waters, which were vnder the firmament, from the waters which were aboue the firmament: and it was so."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Genesis 1:6": "And God said, Let there be an expansion in the midst of the waters, and let it divide between waters and waters.",
+              "Genesis 1:7": "And God made the expansion, and divided between the waters which were under the expansion and the waters which were above the expansion: and it was so."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Genesis 1:6": "And God said, Let there be an expanse in the midst of the waters, and let it be a division between waters and waters.",
+              "Genesis 1:7": "And God made the expanse, and divided between the waters that are under the expanse and the waters that are above the expanse; and it was so."
+            }
           }
         ],
         "corrected": [
@@ -2318,6 +2890,20 @@
             "text": {
               "Genesis 1:6": "God said, \"Let there be an expanse in the midst of the waters and let it separate water from water.",
               "Genesis 1:7": "So God made the expanse and separated the water under the expanse from the water above it. It was so."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Genesis 1:6": "And God said, Let there be an expanse in the midst of the waters, and let it be a means of dividing, between waters and waters,",
+              "Genesis 1:7": "And God made the expanse, and it divided between the waters that were under the expanse and the waters that were above the expanse. And it was so."
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Genesis 1:6": "And God said, Let there be a solid arch stretching over the waters, parting the waters from the waters.",
+              "Genesis 1:7": "And God made the arch for a division between the waters which were under the arch and those which were over it: and it was so."
             }
           }
         ]
@@ -2453,6 +3039,12 @@
             "text": {
               "Luke 2:14": "Glory be to God in the high heauens, and peace in earth, and towards men good will."
             }
+          },
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "Luke 2:14": "and seiynge, Glorie be in the hiyeste thingis to God, and in erthe pees be to men of good wille."
+            }
           }
         ],
         "corrected": [
@@ -2490,6 +3082,24 @@
             "version": "en/WYCLIFFE BIBLE",
             "text": {
               "Luke 2:14": "and seiynge, Glorie be in the hiyeste thingis to God, and in erthe pees be to men of good wille."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Luke 2:14": "Glory, in the highest, unto God! And, on earth, peace, among men of goodwill."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Luke 2:14": "Glory to God in the highest, and on earth peace, good pleasure in men."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Luke 2:14": "“Glory to God in the highest, and peace on earth, good will among men.”"
             }
           }
         ]
@@ -2529,6 +3139,18 @@
             "version": "en/TYNDALE NEW TESTAMENT",
             "text": {
               "2 Timothy 3:16": "For all scripture geve by inspiracion of god is proffitable to teache to improve to amende and to instruct in rightewesnes"
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "2 Timothy 3:16": "Every scripture, [is] God-breathed, and profitable—unto teaching, unto conviction, unto correction, unto the discipline that is in righteousness,—"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "2 Timothy 3:16": "Every scripture [is] divinely inspired, and profitable for teaching, for conviction, for correction, for instruction in righteousness;"
             }
           }
         ],
@@ -2745,6 +3367,38 @@
               "Mark 10:25": "It is easier for a camel to goe through the eye of a needle, then for a riche man to enter into the kingdome of God.",
               "Luke 18:25": "Surely it is easier for a camel to go through a needles eye, then for a riche man to enter into the kingdome of God."
             }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Matthew 19:24": "Again I say unto you—Easier, is it for, a camel, through the eye of a needle, to enter, than a rich man—into the kingdom of God.",
+              "Mark 10:25": "It is, easier, for a camel, through the eye of a needle, to pass, than for, a rich man, into the kingdom of God, to enter.",
+              "Luke 18:25": "For it is, easier, for a camel, to enter, through the eye of a needle, than for, a rich man, to enter, into the kingdom of God."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Matthew 19:24": "and again I say unto you, It is easier for a camel to enter a needle's eye than a rich man into the kingdom of God.",
+              "Mark 10:25": "It is easier for a camel to go through the eye of a needle than for a rich man to enter into the kingdom of God.",
+              "Luke 18:25": "for it is easier for a camel to enter through a needle's eye than for a rich man to enter into the kingdom of God."
+            }
+          },
+          {
+            "version": "en/FAMILY 35 NEW TESTAMENT",
+            "text": {
+              "Matthew 19:24": "And again I say to you, it is easier for a camel to pass through the eye of a needle than for a rich person to enter into the kingdom of God.”",
+              "Mark 10:25": "It is actually easier for a camel to go through a needle's eye than for a rich man to enter the Kingdom of God.”",
+              "Luke 18:25": "It is actually easier for a camel to go through the eye of a needle than for a rich man to enter the Kingdom of God!”"
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Matthew 19:24": "Again I say to you, it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”",
+              "Mark 10:25": "It is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”",
+              "Luke 18:25": "For it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”"
+            }
           }
         ]
       }
@@ -2824,6 +3478,27 @@
               "Genesis 1:1": "In the beginning God created the heauen and the earth.",
               "Genesis 1:2": "And the earth was without forme and void, and darkenesse was vpon the deepe, and the Spirit of God mooued vpon the waters."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Genesis 1:1": "In the beginning God created the heaven and the earth.",
+              "Genesis 1:2": "And the earth was without form and void, and darkness was upon the face of the deep; and the spirit of God was waving over the face of the waters."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Genesis 1:1": "In the beginning God created the heavens and the earth.",
+              "Genesis 1:2": "And the earth was waste and empty, and darkness was on the face of the deep, and the Spirit of God was hovering over the face of the waters."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Genesis 1:1": "In the beginning, God created the heavens and the earth.",
+              "Genesis 1:2": "Now, the earth, had become waste and wild, and darkness, was on the face of the roaring deep,—but, the Spirit of God, was brooding on the face of the waters,"
+            }
           }
         ],
         "corrected": [
@@ -2897,6 +3572,24 @@
             "text": {
               "Matthew 16:18": "And I tell you that you are Peter, and on this rock I will build my church, and the gates of Hades will not overpower it."
             }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Matthew 16:18": "And, I also, unto thee, say—Thou, art Peter,—and, upon this rock, will I build my assembly, and, the gates of hades, shall not prevail against it."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Matthew 16:18": "And I also, I say unto thee that thou art Peter, and on this rock I will build my assembly, and hades' gates shall not prevail against it."
+            }
+          },
+          {
+            "version": "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+            "text": {
+              "Matthew 16:18": "And I tell yoʋ that yoʋ are Peter, and on this rock I will build my church, and the gates of Hades shall not prevail against it."
+            }
           }
         ],
         "corrected": [
@@ -2968,6 +3661,18 @@
             "text": {
               "Malachi 2:16": "For I hate putting away, Saith the LORD, the God of Israel, And him that covereth his garment with violence, Saith the LORD of hosts; Therefore take heed to your spirit, That ye deal not treacherously."
             }
+          },
+          {
+            "version": "en/LEESER OLD TESTAMENT 1853",
+            "text": {
+              "Malachi 2:16": "For he hateth putting away [the wife], so hath said the Lord the God of Israel, and him who covereth his garment with violence, so hath said the Lord of hosts: therefore take heed to your spirit, and deal not treacherously."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Malachi 2:16": "(for I hate putting away, saith Jehovah the God of Israel;) and he covereth with violence his garment, saith Jehovah of hosts: take heed then to your spirit, that ye deal not unfaithfully."
+            }
           }
         ],
         "corrected": [
@@ -2993,6 +3698,12 @@
             "version": "en/GENEVA BIBLE 1599",
             "text": {
               "Malachi 2:16": "If thou hatest her, put her away, sayeth the Lord God of Israel, yet he couereth the iniurie vnder his garment, saieth the Lord of hosts: therefore keepe your selues in your spirite, and transgresse not."
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Malachi 2:16": "For he hateth divorce, saith Yahweh, God of Israel, him also who covereth with violence his own clothing, saith Yahweh of hosts,—therefore should ye take heed to your spirit, and not deal treacherously."
             }
           }
         ]

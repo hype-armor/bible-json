@@ -4,7 +4,7 @@ A research dataset of translation decisions, transmission errors and interpolati
 that measurably changed Christian doctrine, practice, art or law — each one anchored
 to verses that resolve against the version files in this repository.
 
-36 cases · 1 worked example · 1,007 verified lookups · 18 Strong's-anchored terms · 0 broken references
+36 cases · 1 worked example · 1,188 verified lookups · 511 witnesses · 18 Strong's-anchored terms · 0 broken references
 
 ## Why this repository is a good place to do this
 
@@ -118,6 +118,25 @@ forms on the unpointed Westminster Leningrad Codex and on diacritic-stripped Gre
 lemmatisation: it misses suppletive forms and catches homographs, which is why `exclusions`
 exists. It is enough to answer the question, and it partially closes the gap the audit flagged
 as most costly.
+
+## The finding that most surprised me
+
+The RSV is usually credited — or blamed — with putting "young woman" into Isaiah 7:14 in 1952,
+and copies were burned from American pulpits for it. Adding the 19th-century English versions
+shows that story is wrong:
+
+| Year | Version | Isaiah 7:14 |
+| ---: | --- | --- |
+| 1853 | Leeser (Jewish) | "this **young woman** shall conceive" |
+| 1869 | Noyes | "the **damsel** shall conceive" |
+| 1949 | Bible in Basic English | "a **young woman** is now with child" |
+| 1952 | RSV | "a young woman shall conceive" |
+
+A century of English Bibles already had the reading. What changed in 1952 was not the
+scholarship but the **venue** — the reading reached a mainline pulpit Bible with denominational
+backing. The controversy was about authority, not philology.
+
+This is the kind of thing the corpus can now settle, and could not before.
 
 ## What the historical versions changed
 
@@ -243,9 +262,10 @@ The audit's verdict, in short:
 
 1. ~~No word-level tagging.~~ **Closed.** `lexicon/` — 446,934 tagged words, built by
    `tools/build_lexicon.py` from morphhb and Robinson-Pierpont. The Septuagint is still untagged.
-2. ~~The English lineage jumps from 1611 to the 20th century.~~ **Narrowed.** Wycliffe, Tyndale
-   and Geneva are in. The RSV, NRSVue and New World Translation are in copyright and cannot be
-   added; three cases carry that limitation in their `caveat`.
+2. ~~The English lineage jumps from 1611 to the 20th century.~~ **Closed for everything that can
+   legally be redistributed.** 13 versions added — an unbroken line from Wycliffe (1395) to 2022.
+   The RSV, NRSVue and New World Translation are in copyright; three cases carry that limitation
+   in their `caveat`.
 3. ~~No version metadata.~~ **Closed.** `versions.json` — 125 versions, 113 with curated dates,
    plus base text, translation philosophy and tradition.
 

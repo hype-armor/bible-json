@@ -18,6 +18,7 @@ References: Romans 5:12
 - `la/LATIN: VULGATA CLEMENTINA` — Romans 5:12 — Propterea sicut per unum hominem peccatum in hunc mundum intravit, et per peccatum mors, et ita in omnes homines mors pertransiit, in quo omnes peccaverunt.
 - `en/DOUAY-RHEIMS BIBLE` — Romans 5:12 — Wherefore as by one man sin entered into this world, and by sin death; and so death passed upon all men, in whom all have sinned.
 - `en/GENEVA BIBLE 1599` — Romans 5:12 — Wherefore, as by one man sinne entred into ye world, and death by sinne, and so death went ouer all men: in who all men haue sinned.
+- `en/WYCLIFFE BIBLE` — Romans 5:12 — Therfor as bi o man synne entride in to this world, and bi synne deth, and so deth passide forth in to alle men, in which man alle men synneden.
 
 **Reading that restores the source**
 
@@ -27,6 +28,10 @@ References: Romans 5:12
 - `en/NEW AMERICAN BIBLE` — Romans 5:12 — Therefore, just as through one person sin entered the world, and through sin, death, and thus death came to all, inasmuch as all sinned —
 - `en/CATHOLIC PUBLIC DOMAIN VERSION` — Romans 5:12 — Therefore, just as through one man sin entered into this world, and through sin, death; so also death was transferred to all men, to all who have sinned.
 - `en/TYNDALE NEW TESTAMENT` — Romans 5:12 — Wherfore as by one man synne entred into the worlde and deeth by the meanes of synne. And so deeth went over all men in somoche that all men synned.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Romans 5:12 — For this cause,—just as, through one man, sin into the world entered, and through sin, death,—and, so, unto all men death passed through, for that all had sinned;—
+- `en/DARBY BIBLE 1890` — Romans 5:12 — For this [cause], even as by one man sin entered into the world, and by sin death; and thus death passed upon all men, for that all have sinned:
+- `en/BIBLE IN BASIC ENGLISH` — Romans 5:12 — For this reason, as through one man sin came into the world, and death because of sin, and so death came to all men, because all have done evil:
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Romans 5:12 — Therefore, just as sin came into the world through one man, and death came through sin, in this way death has come to all men, because all have sinned.
 
 ---
 
@@ -108,6 +113,8 @@ References: 1 John 5:7, 1 John 5:8
 - `en/TYNDALE NEW TESTAMENT` — 1 John 5:8 — For there are thre which beare recorde (in erth:) the sprete and water and bloud: and these thre are one.
 - `en/GENEVA BIBLE 1599` — 1 John 5:7 — For there are three, which beare recorde in heauen, the Father, the Worde, and the holy Ghost: and these three are one.
 - `en/GENEVA BIBLE 1599` — 1 John 5:8 — And there are three, which beare record in the earth, the spirit, and the water and the blood: and these three agree in one.
+- `en/WYCLIFFE BIBLE` — 1 John 5:7 — For thre ben, that yyuen witnessing in heuene, the Fadir, the Sone, and the Hooli Goost; and these thre ben oon.
+- `en/WYCLIFFE BIBLE` — 1 John 5:8 — `And thre ben, that yyuen witnessing in erthe, the spirit, water, and blood; and these thre ben oon.
 
 **Reading that restores the source**
 
@@ -121,6 +128,14 @@ References: 1 John 5:7, 1 John 5:8
 - `en/NET BIBLE` — 1 John 5:8 — the Spirit and the water and the blood, and these three are in agreement.
 - `en/AMERICAN STANDARD VERSION` — 1 John 5:7 — And it is the Spirit that beareth witness, because the Spirit is the truth.
 - `en/AMERICAN STANDARD VERSION` — 1 John 5:8 — For there are three who bear witness, the Spirit, and the water, and the blood: and the three agree in one.
+- `en/ROTHERHAM EMPHASISED BIBLE` — 1 John 5:7 — Because, three, are they who are bearing witness—
+- `en/ROTHERHAM EMPHASISED BIBLE` — 1 John 5:8 — The Spirit, and the Water, and the Blood; and, the three, are, [witnesses], unto one thing.
+- `en/DARBY BIBLE 1890` — 1 John 5:7 — For they that bear witness are three:
+- `en/DARBY BIBLE 1890` — 1 John 5:8 — the Spirit, and the water, and the blood; and the three agree in one.
+- `en/FAMILY 35 NEW TESTAMENT` — 1 John 5:7 — actually there are three who bear witness
+- `en/FAMILY 35 NEW TESTAMENT` — 1 John 5:8 — —the Spirit, the water and the blood—and the three are to one effect.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 John 5:7 — For there are three that testify:
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 John 5:8 — the Spirit, the water, and the blood; and these three are in agreement.
 
 ---
 
@@ -157,6 +172,7 @@ References: Matthew 4:17, Matthew 3:2, Mark 1:15, Acts 2:38
 - `en/WYCLIFFE BIBLE` — Matthew 4:17 — Fro that tyme Jhesus bigan to preche, and seie, Do ye penaunce, for the kyngdom of heuenes schal come niy.
 - `en/WYCLIFFE BIBLE` — Matthew 3:2 — and seide, Do ye penaunce, for the kyngdom of heuenes shal neiye.
 - `en/WYCLIFFE BIBLE` — Mark 1:15 — and seide, That the tyme is fulfillid, and the kyngdoom of God schal come nyy; do ye penaunce, and bileue ye to the gospel.
+- `en/WYCLIFFE BIBLE` — Acts 2:38 — And Petre seide to hem, Do ye penaunce, and eche of you be baptisid in the name of Jhesu Crist, in to remissioun of youre synnes; and ye schulen take the yifte of the Hooli Goost.
 
 **Reading that restores the source**
 
@@ -188,6 +204,22 @@ References: Matthew 4:17, Matthew 3:2, Mark 1:15, Acts 2:38
 - `en/GENEVA BIBLE 1599` — Matthew 3:2 — And said, Repent: for the kingdome of heauen is at hand.
 - `en/GENEVA BIBLE 1599` — Mark 1:15 — And saying, The time is fulfilled, and the kingdome of God is at hand: repent and beleeue the Gospel.
 - `en/GENEVA BIBLE 1599` — Acts 2:38 — Then Peter said vnto them, Amend your liues, and bee baptized euery one of you in the Name of Iesus Christ for the remission of sinnes: and ye shall receiue the gift of the holy Ghost.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Matthew 4:17 — From that time, began Jesus to be making proclamation, and saying,—Repent ye, for the kingdom of the heavens hath drawn near.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Matthew 3:2 — saying, Repent ye,—for the kingdom of the heavens hath drawn near.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Mark 1:15 — [and saying] —The season is fulfilled, and the kingdom of God hath drawn near,—Repent ye, and have faith in the glad-message.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Acts 2:38 — And Peter [said] unto them—Repent ye, and let each one of you be immersed, in the name of Jesus Christ, into the remission of your sins,—and ye shall receive the free-gift of the Holy Spirit;
+- `en/DARBY BIBLE 1890` — Matthew 4:17 — From that time began Jesus to preach and to say, Repent, for the kingdom of the heavens has drawn nigh.
+- `en/DARBY BIBLE 1890` — Matthew 3:2 — and saying, Repent, for the kingdom of the heavens has drawn nigh.
+- `en/DARBY BIBLE 1890` — Mark 1:15 — and saying, The time is fulfilled and the kingdom of God has drawn nigh; repent and believe in the glad tidings.
+- `en/DARBY BIBLE 1890` — Acts 2:38 — And Peter said to them, Repent, and be baptised, each one of you, in the name of Jesus Christ, for remission of sins, and ye will receive the gift of the Holy Spirit.
+- `en/FAMILY 35 NEW TESTAMENT` — Matthew 4:17 — From then on Jesus began to preach and to say, “Repent, for the kingdom of the heavens has come near.”
+- `en/FAMILY 35 NEW TESTAMENT` — Matthew 3:2 — and saying, “Repent, for the kingdom of the heavens has come near!”
+- `en/FAMILY 35 NEW TESTAMENT` — Mark 1:15 — and saying: “The time has been fulfilled and the Kingdom of God has approached. Repent and believe in the Gospel.” Peter, Andrew, James, John
+- `en/FAMILY 35 NEW TESTAMENT` — Acts 2:38 — So Peter said to them: “Repent and be baptized, each one of you, upon the name of Jesus Christ, for forgiveness of sins, and you will receive the gift of the Holy Spirit.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Matthew 4:17 — From that time Jesus began to preach, “Repent, for the kingdom of heaven has drawn near.” Jesus Calls His First Disciples
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Matthew 3:2 — “Repent, for the kingdom of heaven has drawn near.”
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Mark 1:15 — and saying, “The time is fulfilled, and the kingdom of God has drawn near. Repent and believe in the gospel.” Jesus Calls His First Disciples
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Acts 2:38 — Peter said to them, “Repent and be baptized, each one of you, in the name of Jesus Christ for the remission of sins, and you will receive the gift of the Holy Spirit.
 
 ---
 
@@ -208,6 +240,9 @@ References: Isaiah 14:12
 - `en/DOUAY-RHEIMS BIBLE` — Isaiah 14:12 — How art thou fallen from heaven, O Lucifer, who didst rise in the morning? how art thou fallen to the earth, that didst wound the nations?
 - `en/NEW KING JAMES VERSION` — Isaiah 14:12 — “How you are fallen from heaven, O Lucifer, son of the morning! How you are cut down to the ground, You who weakened the nations!
 - `en/GENEVA BIBLE 1599` — Isaiah 14:12 — How art thou fallen from heauen, O Lucifer, sonne of the morning? and cutte downe to the grounde, which didest cast lottes vpon the nations?
+- `en/WYCLIFFE BIBLE` — Isaiah 14:12 — A! Lucifer, that risidist eerli, hou feldist thou doun fro heuene; thou that woundist folkis, feldist doun togidere in to erthe.
+- `en/NOYES TRANSLATION 1869` — Isaiah 14:12 — How art thou fallen from heaven, O Lucifer, son of the morning! How art thou cast down to the ground, Thou that didst trample upon the nations!
+- `en/DARBY BIBLE 1890` — Isaiah 14:12 — How art thou fallen from heaven, Lucifer, son of the morning! Thou art cut down to the ground, that didst prostrate the nations!
 
 **Reading that restores the source**
 
@@ -216,6 +251,9 @@ References: Isaiah 14:12
 - `en/NEW INTERNATIONAL VERSION` — Isaiah 14:12 — How you have fallen from heaven, morning star, son of the dawn! You have been cast down to the earth, you who once laid low the nations!
 - `en/JPS TANAKH 1917` — Isaiah 14:12 — How art thou fallen from heaven, O day-star, son of the morning! How art thou cut down to the ground, That didst cast lots over the nations!
 - `en/NET BIBLE` — Isaiah 14:12 — Look how you have fallen from the sky, O shining one, son of the dawn! You have been cut down to the ground, O conqueror of the nations!
+- `en/LEESER OLD TESTAMENT 1853` — Isaiah 14:12 — How art thou fallen from heaven, O morning-star, son of the dawn! how art thou hewn down to the ground, crusher of nations!
+- `en/ROTHERHAM EMPHASISED BIBLE` — Isaiah 14:12 — How hast thou fallen from heaven, O Shining One—Son of the Dawn! Hewn down to the earth, O crusher of nations!
+- `en/BIBLE IN BASIC ENGLISH` — Isaiah 14:12 — How great is your fall from heaven, O shining one, son of the morning! How are you cut down to the earth, low among the dead bodies!
 
 ---
 
@@ -243,6 +281,10 @@ References: Romans 16:7
 - `en/NET BIBLE` — Romans 16:7 — Greet Andronicus and Junia, my compatriots and my fellow prisoners. They are well known to the apostles, and they were in Christ before me.
 - `en/TYNDALE NEW TESTAMENT` — Romans 16:7 — Salute Andronicus and Iunia my cosyns which were presoners with me also which are wele taken amonge the Apostles and were in Christ before me.
 - `en/GENEVA BIBLE 1599` — Romans 16:7 — Salute Andronicus and Iunia my cousins and fellowe prisoners, which are notable among the Apostles, and were in Christ before me.
+- `en/WYCLIFFE BIBLE` — Romans 16:7 — Grete wel Andronyk and Julian, my cosyns, and myn euen prisouneris, which ben noble among the apostlis, and whiche weren bifor me in Crist.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Romans 16:7 — Salute Andronicus and Junias, my kinsmen and my fellow-captives, who, indeed, are of note among the Apostles, who also before me had come to be in Christ.
+- `en/DARBY BIBLE 1890` — Romans 16:7 — Salute Andronicus and Junias, my kinsmen and fellow-captives, who are of note among the apostles; who were also in Christ before me.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Romans 16:7 — Greet Andronicus and Junia, my kinsfolk and my fellow prisoners, who are of note among the apostles, and who were in Christ before me.
 
 ---
 
@@ -269,9 +311,14 @@ References: Isaiah 7:14, Matthew 1:23
 - `en/NEW INTERNATIONAL VERSION` — Matthew 1:23 — “The virgin will conceive and give birth to a son, and they will call him Immanuel” (which means “God with us”).
 - `en/ENGLISH STANDARD VERSION` — Isaiah 7:14 — Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.
 - `en/ENGLISH STANDARD VERSION` — Matthew 1:23 — “Behold, the virgin shall conceive and bear a son, and they shall call his name Immanuel” (which means, God with us).
+- `en/WYCLIFFE BIBLE` — Isaiah 7:14 — For this thing the Lord hym silf schal yyue a signe to you. Lo! a virgyn schal conseyue, and schal bere a sone; and his name schal be clepid Emanuel.
 - `en/WYCLIFFE BIBLE` — Matthew 1:23 — a virgyn shal haue in wombe, and she schal bere a sone, and thei schulen clepe his name Emanuel, that is to seie, God with vs.
 - `en/GENEVA BIBLE 1599` — Isaiah 7:14 — Therefore the Lord himselfe will giue you a signe. Beholde, the virgine shall conceiue and beare a sonne, and she shall call his name Immanu-el.
 - `en/GENEVA BIBLE 1599` — Matthew 1:23 — Behold, a virgine shalbe with childe, and shall beare a sonne, and they shall call his name Emmanuel, which is by interpretation, God with vs.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Isaiah 7:14 — Wherefore let My Lord Himself give you a sign,—Lo! a Virgin, being with child and giving birth to a son, thou wilt call his name Immanuel.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Matthew 1:23 — Lo! a Virgin, shall be with child, and shall bring forth a son,—and they shall call his name Emmanuel; which is, being translated, God with us.
+- `en/DARBY BIBLE 1890` — Isaiah 7:14 — Therefore will the Lord himself give you a sign: Behold, the virgin shall conceive and shall bring forth a son, and call his name Immanuel.
+- `en/DARBY BIBLE 1890` — Matthew 1:23 — Behold, the virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which is, being interpreted, 'God with us.'
 
 **Reading that restores the source**
 
@@ -282,6 +329,11 @@ References: Isaiah 7:14, Matthew 1:23
 - `en/NET BIBLE` — Matthew 1:23 — "Look! The virgin will conceive and bear a son, and they will call him Emmanuel," which means "God with us."
 - `en/NEW AMERICAN BIBLE` — Isaiah 7:14 — Therefore the Lord himself will give you a sign; the young woman, pregnant and about to bear a son, shall name him Emmanuel.
 - `en/NEW AMERICAN BIBLE` — Matthew 1:23 — “Behold, the virgin shall be with child and bear a son, and they shall name him Emmanuel,” which means “God is with us.”
+- `en/LEESER OLD TESTAMENT 1853` — Isaiah 7:14 — Therefore will the Lord himself give you a sign: behold, this young woman shall conceive, and bear a son, and she shall call his name 'Immanu-el, [God with us].
+- `en/NOYES TRANSLATION 1869` — Isaiah 7:14 — Therefore shall Jehovah himself give you a sign: Behold, the damsel shall conceive, and bear a son, And she shall call his name Immanuel.
+- `en/NOYES TRANSLATION 1869` — Matthew 1:23 — “Behold, the virgin shall be with child, and shall bear a son, and they shall call his name Immanuel;” that is, when interpreted, God-is with-us.
+- `en/BIBLE IN BASIC ENGLISH` — Isaiah 7:14 — For this cause the Lord himself will give you a sign; a young woman is now with child, and she will give birth to a son, and she will give him the name Immanuel.
+- `en/BIBLE IN BASIC ENGLISH` — Matthew 1:23 — See, the virgin will be with child, and will give birth to a son, and they will give him the name Immanuel, that is, God with us.
 
 ---
 
@@ -324,6 +376,14 @@ References: 1 Corinthians 6:9, 1 Timothy 1:10
 - `en/TYNDALE NEW TESTAMENT` — 1 Timothy 1:10 — and whormongers: to them that defile them selves with mankynde: to menstealers: to lyars and to periured and so forth yf ther be eny other thinge that is contrary to holsome doctrine
 - `en/GENEVA BIBLE 1599` — 1 Corinthians 6:9 — Knowe yee not that the vnrighteous shall not inherite the kingdome of God? Be not deceiued: neither fornicatours, nor idolaters, nor adulterers, nor wantons, nor buggerers,
 - `en/GENEVA BIBLE 1599` — 1 Timothy 1:10 — To whoremongers, to buggerers, to menstealers, to lyers, to the periured, and if there be any other thing, that is contrary to wholesome doctrine,
+- `en/WYCLIFFE BIBLE` — 1 Corinthians 6:9 — Whether ye witen not, that wickid men schulen not welde the kyngdom of God? Nyle ye erre; nethir letchours, nether men that seruen mawmetis, nether auouteris,
+- `en/WYCLIFFE BIBLE` — 1 Timothy 1:10 — to hem that don letcherie with men, lesingmongeris and forsworun, and if ony othere thing is contrarie to the hoolsum teching,
+- `en/ROTHERHAM EMPHASISED BIBLE` — 1 Corinthians 6:9 — Or know ye not that, wrong-doers, shall not inherit, God’s kingdom? Be not deceiving yourselves:—neither fornicators, nor idolaters, nor adulterers, nor effeminate, nor sodomites,
+- `en/ROTHERHAM EMPHASISED BIBLE` — 1 Timothy 1:10 — fornicators, sodomites, man-stealers, liars, false- swearers,—and, if anything else, unto the healthful teaching, is opposed;—
+- `en/DARBY BIBLE 1890` — 1 Corinthians 6:9 — Do ye not know that unrighteous [persons] shall not inherit [the] kingdom of God? Do not err: neither fornicators, nor idolaters, nor adulterers, nor those who make women of themselves, nor who abuse themselves with men,
+- `en/DARBY BIBLE 1890` — 1 Timothy 1:10 — fornicators, sodomites, kidnappers, liars, perjurers; and if any other thing is opposed to sound teaching,
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 Corinthians 6:9 — Do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived! Neither fornicators, nor idolaters, nor adulterers, nor homosexuals, nor sodomites,
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 Timothy 1:10 — fornicators, homosexuals, slave traders, liars, perjurers, and whatever else is opposed to the sound teaching
 
 ---
 
@@ -336,6 +396,7 @@ References: Genesis 3:15
 
 - `he/WESTMINSTER LENINGRAD CODEX` — Genesis 3:15 — וְאֵיבָ֣ה ׀ אָשִׁ֗ית בֵּֽינְךָ֙ וּבֵ֣ין הָֽאִשָּׁ֔ה וּבֵ֥ין זַרְעֲךָ֖ וּבֵ֣ין זַרְעָ֑הּ ה֚וּא יְשׁוּפְךָ֣ רֹ֔אשׁ וְאַתָּ֖ה תְּשׁוּפֶ֥נּוּ עָקֵֽב׃ ס
 - `el/SWETE'S SEPTUAGINT` — Genesis 3:15 — καὶ ἔχθραν θήσω ἀνὰ μέσον σου καὶ ἀνὰ μέσον τῆς γυναικός, καὶ ἀνὰ μέσον τοῦ σπέρματός σου καὶ ἀνὰ μέσον τοῦ σπέρματος αὐτῆς· αὐτός σου τηρήσει κεφαλήν, καὶ σὺ τηρήσεις αὐτοῦ πτέρναν.
+- `en/TARGUM ONKELOS (ETHERIDGE)` — Genesis 3:15 — And I will put enmity between thee and between the woman, and between thy son and her son. He will remember thee, what thou didst to him (at) from the beginning, and thou shalt be observant unto him at the end.
 
 **Shifted rendering**
 
@@ -350,6 +411,10 @@ References: Genesis 3:15
 - `en/NEW AMERICAN BIBLE` — Genesis 3:15 — I will put enmity between you and the woman, and between your offspring and hers; They will strike at your head, while you strike at their heel.
 - `en/CATHOLIC PUBLIC DOMAIN VERSION` — Genesis 3:15 — I will put enmities between you and the woman, between your offspring and her offspring. She will crush your head, and you will lie in wait for her heel.”
 - `en/GENEVA BIBLE 1599` — Genesis 3:15 — I will also put enimitie betweene thee and the woman, and betweene thy seede and her seede. He shall breake thine head, and thou shalt bruise his heele.
+- `en/LEESER OLD TESTAMENT 1853` — Genesis 3:15 — And I will put enmity between thee and the woman, and between thy seed and her seed; he shall bruise thy head, and thou shalt wound his heel.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 3:15 — And enmity, will I put between thee, and the woman, and between thy seed and her seed,—He shall crush thy head, but, thou, shalt crush his heel.
+- `en/DARBY BIBLE 1890` — Genesis 3:15 — And I will put enmity between thee and the woman, and between thy seed and her seed; he shall crush thy head, and thou shalt crush his heel.
+- `en/BIBLE IN BASIC ENGLISH` — Genesis 3:15 — And there will be war between you and the woman and between your seed and her seed: by him will your head be crushed and by you his foot will be wounded.
 
 ---
 
@@ -367,6 +432,7 @@ References: Ephesians 5:32
 
 - `la/LATIN: VULGATA CLEMENTINA` — Ephesians 5:32 — Sacramentum hoc magnum est, ego autem dico in Christo et in Ecclesia.
 - `en/DOUAY-RHEIMS BIBLE` — Ephesians 5:32 — This is a great sacrament; but I speak in Christ and in the church.
+- `en/WYCLIFFE BIBLE` — Ephesians 5:32 — This sacrament is greet; yhe, Y seie in Crist, and in the chirche.
 
 **Reading that restores the source**
 
@@ -376,6 +442,9 @@ References: Ephesians 5:32
 - `en/NET BIBLE` — Ephesians 5:32 — This mystery is great--but I am actually speaking with reference to Christ and the church.
 - `en/TYNDALE NEW TESTAMENT` — Ephesians 5:32 — This is a great secrete but I speake bitwene Christ and the congregacion.
 - `en/GENEVA BIBLE 1599` — Ephesians 5:32 — This is a great secrete, but I speake concerning Christ, and concerning the Church.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Ephesians 5:32 — This sacred secret, is, great,—I, however, am speaking as to Christ and [as to] the assembly;—
+- `en/DARBY BIBLE 1890` — Ephesians 5:32 — This mystery is great, but I speak as to Christ, and as to the assembly.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Ephesians 5:32 — This is a profound mystery, but I am talking about Christ and the church.
 
 ---
 
@@ -405,6 +474,9 @@ References: Luke 1:28
 - `en/NEW AMERICAN BIBLE` — Luke 1:28 — And coming to her, he said, “Hail, favored one! The Lord is with you.”
 - `en/NET BIBLE` — Luke 1:28 — The angel came to her and said, "Greetings, favored one, the Lord is with you!"
 - `en/GENEVA BIBLE 1599` — Luke 1:28 — And the Angel went in vnto her, and said, Haile thou that art freely beloued: the Lord is with thee: blessed art thou among women.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Luke 1:28 — and entering in unto her, he said—Joy to thee, favoured one! The Lord, be with thee!
+- `en/DARBY BIBLE 1890` — Luke 1:28 — And the angel came in to her, and said, Hail, [thou] favoured one! the Lord [is] with thee: [blessed art thou amongst women].
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Luke 1:28 — The angel came to her and said, “Greetings, O favored one, the Lord is with yoʋ! Blessed are yoʋ among women!”
 
 ---
 
@@ -427,6 +499,7 @@ References: Revelation 22:19
 - `en/NEW KING JAMES VERSION` — Revelation 22:19 — and if anyone takes away from the words of the book of this prophecy, God shall take away his part from the Book of Life, from the holy city, and from the things which are written in this book.
 - `en/TYNDALE NEW TESTAMENT` — Revelation 22:19 — And yf eny man shall mynyshe of the wordes of the boke of this prophesy god shall take a waye his parte out of the boke of lyfe and oute of the holy citie and from thoo thynge which are written in this boke.
 - `en/GENEVA BIBLE 1599` — Revelation 22:19 — And if any man shall diminish of the wordes of the booke of this prophecie, God shall take away his part out of the Booke of life, and out of the holie citie, and from those things which are written in this booke.
+- `en/WYCLIFFE BIBLE` — Revelation 22:19 — And if ony man do awei of the wordis of the book of this prophesie, God schal take awei the part of hym fro the book of lijf, and fro the hooli citee, and fro these thingis that ben writun in this book.
 
 **Reading that restores the source**
 
@@ -434,6 +507,9 @@ References: Revelation 22:19
 - `en/ENGLISH STANDARD VERSION` — Revelation 22:19 — and if anyone takes away from the words of the book of this prophecy, God will take away his share in the tree of life and in the holy city, which are described in this book.
 - `en/NEW INTERNATIONAL VERSION` — Revelation 22:19 — And if anyone takes words away from this scroll of prophecy, God will take away from that person any share in the tree of life and in the Holy City, which are described in this scroll.
 - `en/NET BIBLE` — Revelation 22:19 — And if anyone takes away from the words of this book of prophecy, God will take away his share in the tree of life and in the holy city that are described in this book.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Revelation 22:19 — And, if anyone shall take away from the words of this prophetic scroll, God, will take away his part,—from the tree of life, and out of the holy city,—[from] the things written in this scroll.
+- `en/DARBY BIBLE 1890` — Revelation 22:19 — And if any one take from the words of the book of this prophecy, God shall take away his part from the tree of life, and out of the holy city, which are written in this book.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Revelation 22:19 — If anyone takes away from the words of the book of this prophecy, may God take away his share in the tree of life and in the holy city, which are written about in this book.
 
 ---
 
@@ -461,6 +537,9 @@ References: Acts 12:4
 - `en/NET BIBLE` — Acts 12:4 — When he had seized him, he put him in prison, handing him over to four squads of soldiers to guard him. Herod planned to bring him out for public trial after the Passover.
 - `en/WEBSTER'S BIBLE TRANSLATION` — Acts 12:4 — And when he had apprehended him, he put him in prison, and delivered him to four quaternions of soldiers to keep him; intending after the passover to bring him forth to the people.
 - `en/GENEVA BIBLE 1599` — Acts 12:4 — And when he had caught him, he put him in prison, and deliuered him to foure quaternions of souldiers to be kept, intending after the Passeouer to bring him foorth to the people.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Acts 12:4 — Whom also having seized, he put into prison, delivering him up unto four quaternions of soldiers, to be guarding him,—intending, after the passover, to bring him up unto the people.
+- `en/DARBY BIBLE 1890` — Acts 12:4 — whom having seized he put in prison, having delivered him to four quaternions of soldiers to keep, purposing after the passover to bring him out to the people.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Acts 12:4 — After seizing him, he put him in prison, handing him over to be guarded by four squads of four soldiers each. Herod planned to bring him out to the people after the Passover.
 
 ---
 
@@ -499,6 +578,10 @@ References: Mark 16:9, Mark 16:18
 - `en/NET BIBLE` — Mark 16:18 — they will pick up snakes with their hands, and whatever poison they drink will not harm them; they will place their hands on the sick and they will be well."
 - `en/NEW INTERNATIONAL VERSION` — Mark 16:9 — When Jesus rose early on the first day of the week, he appeared first to Mary Magdalene, out of whom he had driven seven demons.
 - `en/NEW INTERNATIONAL VERSION` — Mark 16:18 — they will pick up snakes with their hands; and when they drink deadly poison, it will not hurt them at all; they will place their hands on sick people, and they will get well.”
+- `en/ROTHERHAM EMPHASISED BIBLE` — Mark 16:9 — [[And, arising early, on the first of the week, he was manifested, first, unto Mary the Magdalene, from whom he had cast, seven demons.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Mark 16:18 — And, if, any deadly thing, they have drunk, in nowise, shall it, hurt, them: Upon sick persons, shall they lay, hands, and, well, shall they remain.
+- `en/DARBY BIBLE 1890` — Mark 16:9 — Now when he had risen very early, the first [day] of the week, he appeared first to Mary of Magdala, out of whom he had cast seven demons.
+- `en/DARBY BIBLE 1890` — Mark 16:18 — they shall take up serpents; and if they should drink any deadly thing it shall not injure them; they shall lay hands upon the infirm, and they shall be well.
 
 ---
 
@@ -535,6 +618,10 @@ References: John 8:7, John 8:11
 - `en/NET BIBLE` — John 8:11 — She replied, "No one, Lord." And Jesus said, "I do not condemn you either. Go, and from now on do not sin any more."]]
 - `en/ENGLISH STANDARD VERSION` — John 8:7 — And as they continued to ask him, he stood up and said to them, “Let him who is without sin among you be the first to throw a stone at her.”
 - `en/ENGLISH STANDARD VERSION` — John 8:11 — She said, “No one, Lord.” And Jesus said, “Neither do I condemn you; go, and from now on sin no more.” ]]
+- `en/ROTHERHAM EMPHASISED BIBLE` — John 8:7 — When, however, they still continued questioning him, he lifted himself up and said [unto them] —He of you, that is without sin, let him first cast at her a stone;
+- `en/ROTHERHAM EMPHASISED BIBLE` — John 8:11 — And, she, said—No one, Sir! And Jesus said—Neither do, I, condemn thee,—be going thy way: Henceforth, be sinning, no more.]]
+- `en/DARBY BIBLE 1890` — John 8:7 — But when they continued asking him, he lifted himself up and said to them, Let him that is without sin among you first cast the stone at her.
+- `en/DARBY BIBLE 1890` — John 8:11 — And she said, No one, sir. And Jesus said to her, Neither do I condemn thee: go, and sin no more.
 
 ---
 
@@ -563,6 +650,9 @@ References: 1 Timothy 6:10
 - `en/YOUNG'S LITERAL TRANSLATION` — 1 Timothy 6:10 — for a root of all the evils is the love of money, which certain longing for did go astray from the faith, and themselves did pierce through with many sorrows;
 - `en/TYNDALE NEW TESTAMENT` — 1 Timothy 6:10 — For coveteousnes is the rote of all evyll which whill some lusted after they erred from the fayth and tanglyd them selves with many sorowes.
 - `en/GENEVA BIBLE 1599` — 1 Timothy 6:10 — For the desire of money is the roote of all euill, which while some lusted after, they erred from the faith, and pearced themselues through with many sorowes.
+- `en/ROTHERHAM EMPHASISED BIBLE` — 1 Timothy 6:10 — For, a root of all the vices, is the love of money, which, some, being eager for, have been seduced from the faith, and have pierced, themselves, about with many pangs.
+- `en/DARBY BIBLE 1890` — 1 Timothy 6:10 — For the love of money is [the] root of every evil; which some having aspired after, have wandered from the faith, and pierced themselves with many sorrows.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 Timothy 6:10 — For the love of money is the root of all kinds of evil, and in their eagerness to become rich some have wandered away from the faith, piercing themselves with many sorrows. Fight the Good Fight
 
 ---
 
@@ -583,6 +673,8 @@ References: Exodus 22:18
 - `la/LATIN: VULGATA CLEMENTINA` — Exodus 22:18 — Maleficos non patieris vivere.
 - `en/WYCLIFFE BIBLE` — Exodus 22:18 — Thou schalt not suffre witchis to lyue.
 - `en/GENEVA BIBLE 1599` — Exodus 22:18 — Thou shalt not suffer a witch to liue.
+- `en/LEESER OLD TESTAMENT 1853` — Exodus 22:18 — (22:17) Thou shalt not suffer a witch to live.
+- `en/DARBY BIBLE 1890` — Exodus 22:18 — — Thou shalt not suffer a witch to live.
 
 **Reading that restores the source**
 
@@ -591,6 +683,8 @@ References: Exodus 22:18
 - `en/NEW INTERNATIONAL VERSION` — Exodus 22:18 — “Do not allow a sorceress to live.
 - `en/NET BIBLE` — Exodus 22:18 — "You must not allow a sorceress to live.
 - `en/NEW AMERICAN BIBLE` — Exodus 22:18 — You shall not let a woman who practices sorcery live.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Exodus 22:18 — A sorceress, shalt thou not suffer to live.
+- `en/BIBLE IN BASIC ENGLISH` — Exodus 22:18 — Any woman using unnatural powers or secret arts is to be put to death.
 
 ---
 
@@ -618,6 +712,12 @@ References: Exodus 20:13, Deuteronomy 5:17
 - `en/AMERICAN STANDARD VERSION` — Deuteronomy 5:17 — Thou shalt not kill.
 - `en/GENEVA BIBLE 1599` — Exodus 20:13 — Thou shalt not kill.
 - `en/GENEVA BIBLE 1599` — Deuteronomy 5:17 — Thou shalt not kill.
+- `en/LEESER OLD TESTAMENT 1853` — Exodus 20:13 — Thou shalt not kill.
+- `en/LEESER OLD TESTAMENT 1853` — Deuteronomy 5:17 — Thou shalt not kill.
+- `en/DARBY BIBLE 1890` — Exodus 20:13 — Thou shalt not kill.
+- `en/DARBY BIBLE 1890` — Deuteronomy 5:17 — Thou shalt not kill.
+- `en/BIBLE IN BASIC ENGLISH` — Exodus 20:13 — Do not put anyone to death without cause.
+- `en/BIBLE IN BASIC ENGLISH` — Deuteronomy 5:17 — Do not put anyone to death without cause.
 
 **Reading that restores the source**
 
@@ -633,6 +733,8 @@ References: Exodus 20:13, Deuteronomy 5:17
 - `en/NET BIBLE` — Deuteronomy 5:17 — You must not murder.
 - `en/WYCLIFFE BIBLE` — Exodus 20:13 — Thou schalt not sle.
 - `en/WYCLIFFE BIBLE` — Deuteronomy 5:17 — Thou schalt not sle.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Exodus 20:13 — Thou shalt not commit murder.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Deuteronomy 5:17 — Thou shalt not commit murder:
 
 ---
 
@@ -691,6 +793,10 @@ References: Genesis 2:18, Genesis 2:20
 - `en/WYCLIFFE BIBLE` — Genesis 2:20 — And Adam clepide bi her names alle lyuynge thingis, and alle volatils, and alle vnresonable beestis of erthe. Forsothe to Adam was not foundun an helpere lijk hym.
 - `en/GENEVA BIBLE 1599` — Genesis 2:18 — Also the Lord God saide, It is not good that the man should be himself alone: I wil make him an helpe meete for him.
 - `en/GENEVA BIBLE 1599` — Genesis 2:20 — The man therefore gaue names vnto all cattell, and to the foule of the heauen, and to euery beast of the fielde: but for Adam founde he not an helpe meete for him.
+- `en/LEESER OLD TESTAMENT 1853` — Genesis 2:18 — And the Lord God said, It is not good that the man should be alone; I will make him a help suitable for him.
+- `en/LEESER OLD TESTAMENT 1853` — Genesis 2:20 — And the man gave names to all cattle, and to the fowl of the heaven, and to every beast of the field; but for man there was not found a help suitable for him.
+- `en/DARBY BIBLE 1890` — Genesis 2:18 — And Jehovah Elohim said, It is not good that Man should be alone; I will make him a helpmate, his like.
+- `en/DARBY BIBLE 1890` — Genesis 2:20 — And Man gave names to all cattle, and to the fowl of the heavens, and to every beast of the field; but as for Adam, he found no helpmate, his like.
 
 **Reading that restores the source**
 
@@ -700,6 +806,12 @@ References: Genesis 2:18, Genesis 2:20
 - `en/NET BIBLE` — Genesis 2:20 — So the man named all the animals, the birds of the air, and the living creatures of the field, but for Adam no companion who corresponded to him was found.
 - `en/LITERAL STANDARD VERSION` — Genesis 2:18 — And YHWH God says, “[It is] not good for the man to be alone; I make him a helper as his counterpart.”
 - `en/LITERAL STANDARD VERSION` — Genesis 2:20 — And the man calls names to all the livestock, and to bird of the heavens, and to every beast of the field; but for man a helper has not been found as his counterpart.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 2:18 — And Yahweh God said, It is, not good, that the man should remain alone,—I will make for him a helper as his counterpart.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 2:20 — So the man gave names to all the tame-beasts, and to the birds of the heavens, and to all the wild-beasts of the field,—but, for man, had there not been found a helper as his counterpart.
+- `en/BIBLE IN BASIC ENGLISH` — Genesis 2:18 — And the Lord God said, It is not good for the man to be by himself: I will make one like himself as a help to him
+- `en/BIBLE IN BASIC ENGLISH` — Genesis 2:20 — And the man gave names to all cattle and to the birds of the air and to every beast of the field; but Adam had no one like himself as a help.
+- `en/TARGUM ONKELOS (ETHERIDGE)` — Genesis 2:18 — And the Lord God said, It is not right that Adam should be solitary; I will make for him a helper as for his sake (or, as suited to him: Heb., kenegdo, as his counterpart).
+- `en/TARGUM ONKELOS (ETHERIDGE)` — Genesis 2:20 — And Adam called the name of all cattle, and of the fowl of the heaven, and of every beast of the field; but to Adam was not found a helper as for him.
 
 ---
 
@@ -713,6 +825,8 @@ References: Psalms 22:16
 - `he/WESTMINSTER LENINGRAD CODEX` — Psalms 22:16 — כִּ֥י סְבָב֗וּנִי כְּלָ֫בִ֥ים עֲדַ֣ת מְ֭רֵעִים הִקִּיפ֑וּנִי כָּ֝אֲרִ֗י יָדַ֥י וְרַגְלָֽי׃
 - `he/ALEPPO CODEX` — Psalms 22:16 — יז כי סבבוני כלבים עדת מרעים הקיפוני כארי ידי ורגלי
 - `en/JPS TANAKH 1917` — Psalms 22:16 — For dogs have encompassed me; A company of evil-doers have inclosed me; Like a lion, they are at my hands and my feet.
+- `en/LEESER OLD TESTAMENT 1853` — Psalms 22:16 — (22:17) For dogs have encompassed me; the assembly of the wicked have enclosed me: like lions [they threaten] my hands and my feet.
+- `en/NOYES TRANSLATION 1869` — Psalms 22:16 — For dogs have surrounded me; Bands of evil-doers have encompassed me,—Like lions my hands and my feet.
 
 **Shifted rendering**
 
@@ -721,6 +835,8 @@ References: Psalms 22:16
 - `en/KING JAMES BIBLE` — Psalms 22:16 — For dogs have compassed me: the assembly of the wicked have inclosed me: they pierced my hands and my feet.
 - `en/ENGLISH STANDARD VERSION` — Psalms 22:16 — For dogs encompass me; a company of evildoers encircles me; they have pierced my hands and feet—
 - `en/GENEVA BIBLE 1599` — Psalms 22:16 — For dogges haue compassed me, and the assemblie of the wicked haue inclosed me: they perced mine hands and my feete.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Psalms 22:16 — For dogs have surrounded me,—An assembly of evil doers, have encircled me, They have pierced my hands and my feet,
+- `en/DARBY BIBLE 1890` — Psalms 22:16 — For dogs have encompassed me; an assembly of evil-doers have surrounded me: they pierced my hands and my feet.
 
 **Reading that restores the source**
 
@@ -746,6 +862,8 @@ References: Deuteronomy 32:8
 - `en/JPS TANAKH 1917` — Deuteronomy 32:8 — When the Most High gave to the nations When He separated the children of men, He set the borders of the peoples According to the number of the children of Israel.
 - `en/WYCLIFFE BIBLE` — Deuteronomy 32:8 — Whanne the hiyeste departide folkis, whanne he departide the sones of Adam, he ordeynede the termes of puplis bi the noumbre of the sones of Israel.
 - `en/GENEVA BIBLE 1599` — Deuteronomy 32:8 — When the most hie God deuided to the nations their inheritance, when he separated the sonnes of Adam, he appoynted the borders of the people, according to the nomber of the children of Israel.
+- `en/LEESER OLD TESTAMENT 1853` — Deuteronomy 32:8 — When the Most High divided to the nations their inheritance, when he separated the sons of man: he set the bounds of the tribes according to the number of the sons of Israel.
+- `en/DARBY BIBLE 1890` — Deuteronomy 32:8 — When the Most High assigned to the nations their inheritance, When he separated the sons of Adam, He set the bounds of the peoples According to the number of the children of Israel.
 
 **Reading that restores the source**
 
@@ -830,6 +948,31 @@ References: Psalms 16:10, Matthew 5:22, Matthew 10:28, Luke 16:23, 2 Peter 2:4, 
 - `en/GENEVA BIBLE 1599` — Luke 16:23 — And being in hell in torments, he lift vp his eyes, and sawe Abraham a farre off, and Lazarus in his bosome.
 - `en/GENEVA BIBLE 1599` — 2 Peter 2:4 — For if God spared not the Angels that had sinned, but cast them downe into hell, and deliuered them into chaines of darkenes, to be kept vnto damnation:
 - `en/GENEVA BIBLE 1599` — Revelation 20:14 — And death and hell were cast into the lake of fire: this is the second death.
+- `en/DARBY BIBLE 1890` — Psalms 16:10 — For thou wilt not leave my soul to Sheol, neither wilt thou allow thy Holy One to see corruption.
+- `en/DARBY BIBLE 1890` — Matthew 5:22 — But I say unto you, that every one that is lightly angry with his brother shall be subject to the judgment; but whosoever shall say to his brother, Raca, shall be subject to [be called before] the sanhedrim; but whosoever shall say, Fool, shall be subject to the penalty of the hell of fire.
+- `en/DARBY BIBLE 1890` — Matthew 10:28 — And be not afraid of those who kill the body, but cannot kill the soul; but fear rather him who is able to destroy both soul and body in hell.
+- `en/DARBY BIBLE 1890` — Luke 16:23 — And in hades lifting up his eyes, being in torments, he sees Abraham afar off, and Lazarus in his bosom.
+- `en/DARBY BIBLE 1890` — 2 Peter 2:4 — For if God spared not [the] angels who had sinned, but having cast them down to the deepest pit of gloom has delivered them to chains of darkness [to be] kept for judgment;
+- `en/DARBY BIBLE 1890` — Revelation 20:14 — and death and hades were cast into the lake of fire. This is the second death, [even] the lake of fire.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Psalms 16:10 — For thou wilt not abandon my soul to hades, neither wilt thou suffer thy man of lovingkindness, to see corruption:
+- `en/ROTHERHAM EMPHASISED BIBLE` — Matthew 5:22 — But, I, say unto you, that, every one who is angry with his brother, shall be, liable, to judgment,—and, whosoever shall say to his brother, Worthless one!, shall be, liable, to the high council; and, whosoever shall say, Rebel!, shall be, liable, unto the fiery gehenna.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Matthew 10:28 — And be not in fear, by reason of them that are killing the body,—and, the soul, are not able to kill. But fear, rather, him who is able, both soul and body, to destroy in gehenna!
+- `en/ROTHERHAM EMPHASISED BIBLE` — Luke 16:23 — And, in hades, lifting up his eyes, being in torments, he seeth Abraham afar off, and Lazarus in his bosom.
+- `en/ROTHERHAM EMPHASISED BIBLE` — 2 Peter 2:4 — For—if, God, spared not, messengers, when they sinned, but, to pits of gloom, consigning them, in the lowest hades, delivered them up to be kept, unto judgment,—
+- `en/ROTHERHAM EMPHASISED BIBLE` — Revelation 20:14 — And, death and hades, were cast into the lake of fire. This, is, the second death—the lake of fire.
+- `en/LEESER OLD TESTAMENT 1853` — Psalms 16:10 — For thou wilt not abandon my soul to the grave: thou wilt not suffer thy pious [servant] to see corruption.
+- `en/NOYES TRANSLATION 1869` — Psalms 16:10 — For thou wilt not give me up to the underworld; Nor wilt thou suffer thy holy one to see the pit.
+- `en/NOYES TRANSLATION 1869` — Matthew 5:22 — But I say to you, that whoever is angry with his brother shall be in danger of the Judges; and whoever shall say to his brother, Simpleton! shall be in danger of the Council; and whoever shall say, Fool! shall be in danger of hell-fire.
+- `en/NOYES TRANSLATION 1869` — Matthew 10:28 — And fear not those who kill the body, but are not able to kill the soul; but rather fear him who is able to destroy both soul and body in hell.
+- `en/NOYES TRANSLATION 1869` — Luke 16:23 — And in the underworld he lifted up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his bosom.
+- `en/NOYES TRANSLATION 1869` — 2 Peter 2:4 — For if God spared not angels that sinned, but cast them down to hell, and delivered them over to chains of darkness, to be reserved unto judgment;
+- `en/NOYES TRANSLATION 1869` — Revelation 20:14 — And death and the underworld were cast into the lake of fire; this is the second death, the lake of fire.
+- `en/BIBLE IN BASIC ENGLISH` — Psalms 16:10 — For you will not let my soul be prisoned in the underworld; you will not let your loved one see the place of death.
+- `en/BIBLE IN BASIC ENGLISH` — Matthew 5:22 — But I say to you that everyone who is angry with his brother will be in danger of being judged; and he who says to his brother, Raca, will be in danger from the Sanhedrin; and whoever says, You foolish one, will be in danger of the hell of fire.
+- `en/BIBLE IN BASIC ENGLISH` — Matthew 10:28 — And have no fear of those who put to death the body, but are not able to put to death the soul. But have fear of him who has power to give soul and body to destruction in hell.
+- `en/BIBLE IN BASIC ENGLISH` — Luke 16:23 — And in hell, being in great pain, lifting up his eyes he saw Abraham, far away, and Lazarus on his breast.
+- `en/BIBLE IN BASIC ENGLISH` — 2 Peter 2:4 — For if God did not have pity for the angels who did evil, but sent them down into hell, to be kept in chains of eternal night till they were judged;
+- `en/BIBLE IN BASIC ENGLISH` — Revelation 20:14 — And death and Hell were put into the sea of fire. This is the second death, even the sea of fire.
 
 ---
 
@@ -859,6 +1002,10 @@ References: Genesis 1:6, Genesis 1:7
 - `en/WYCLIFFE BIBLE` — Genesis 1:7 — And God made the firmament, and departide the watris that weren vndur the firmament fro these watris that weren on the firmament; and it was don so.
 - `en/GENEVA BIBLE 1599` — Genesis 1:6 — Againe God said, Let there be a firmament in the mids of the waters: and let it separate the waters from the waters.
 - `en/GENEVA BIBLE 1599` — Genesis 1:7 — Then God made the firmament, and separated the waters, which were vnder the firmament, from the waters which were aboue the firmament: and it was so.
+- `en/LEESER OLD TESTAMENT 1853` — Genesis 1:6 — And God said, Let there be an expansion in the midst of the waters, and let it divide between waters and waters.
+- `en/LEESER OLD TESTAMENT 1853` — Genesis 1:7 — And God made the expansion, and divided between the waters which were under the expansion and the waters which were above the expansion: and it was so.
+- `en/DARBY BIBLE 1890` — Genesis 1:6 — And God said, Let there be an expanse in the midst of the waters, and let it be a division between waters and waters.
+- `en/DARBY BIBLE 1890` — Genesis 1:7 — And God made the expanse, and divided between the waters that are under the expanse and the waters that are above the expanse; and it was so.
 
 **Reading that restores the source**
 
@@ -868,6 +1015,10 @@ References: Genesis 1:6, Genesis 1:7
 - `en/NEW INTERNATIONAL VERSION` — Genesis 1:7 — So God made the vault and separated the water under the vault from the water above it. And it was so.
 - `en/NET BIBLE` — Genesis 1:6 — God said, "Let there be an expanse in the midst of the waters and let it separate water from water.
 - `en/NET BIBLE` — Genesis 1:7 — So God made the expanse and separated the water under the expanse from the water above it. It was so.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 1:6 — And God said, Let there be an expanse in the midst of the waters, and let it be a means of dividing, between waters and waters,
+- `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 1:7 — And God made the expanse, and it divided between the waters that were under the expanse and the waters that were above the expanse. And it was so.
+- `en/BIBLE IN BASIC ENGLISH` — Genesis 1:6 — And God said, Let there be a solid arch stretching over the waters, parting the waters from the waters.
+- `en/BIBLE IN BASIC ENGLISH` — Genesis 1:7 — And God made the arch for a division between the waters which were under the arch and those which were over it: and it was so.
 
 ---
 
@@ -922,6 +1073,7 @@ References: Luke 2:14
 - `en/KING JAMES BIBLE` — Luke 2:14 — Glory to God in the highest, and on earth peace, good will toward men.
 - `en/NEW KING JAMES VERSION` — Luke 2:14 — “Glory to God in the highest, And on earth peace, goodwill toward men!”
 - `en/GENEVA BIBLE 1599` — Luke 2:14 — Glory be to God in the high heauens, and peace in earth, and towards men good will.
+- `en/WYCLIFFE BIBLE` — Luke 2:14 — and seiynge, Glorie be in the hiyeste thingis to God, and in erthe pees be to men of good wille.
 
 **Reading that restores the source**
 
@@ -931,6 +1083,9 @@ References: Luke 2:14
 - `en/NET BIBLE` — Luke 2:14 — "Glory to God in the highest, and on earth peace among people with whom he is pleased!"
 - `la/LATIN: VULGATA CLEMENTINA` — Luke 2:14 — Gloria in altissimis Deo, et in terra pax hominibus bonæ voluntatis.
 - `en/WYCLIFFE BIBLE` — Luke 2:14 — and seiynge, Glorie be in the hiyeste thingis to God, and in erthe pees be to men of good wille.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Luke 2:14 — Glory, in the highest, unto God! And, on earth, peace, among men of goodwill.
+- `en/DARBY BIBLE 1890` — Luke 2:14 — Glory to God in the highest, and on earth peace, good pleasure in men.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Luke 2:14 — “Glory to God in the highest, and peace on earth, good will among men.”
 
 ---
 
@@ -948,6 +1103,8 @@ References: 2 Timothy 3:16
 
 - `en/ENGLISH REVISED VERSION` — 2 Timothy 3:16 — Every scripture inspired of God is also profitable for teaching, for reproof, for correction, for instruction which is in righteousness:
 - `en/TYNDALE NEW TESTAMENT` — 2 Timothy 3:16 — For all scripture geve by inspiracion of god is proffitable to teache to improve to amende and to instruct in rightewesnes
+- `en/ROTHERHAM EMPHASISED BIBLE` — 2 Timothy 3:16 — Every scripture, [is] God-breathed, and profitable—unto teaching, unto conviction, unto correction, unto the discipline that is in righteousness,—
+- `en/DARBY BIBLE 1890` — 2 Timothy 3:16 — Every scripture [is] divinely inspired, and profitable for teaching, for conviction, for correction, for instruction in righteousness;
 
 **Reading that restores the source**
 
@@ -1032,6 +1189,18 @@ _No witness in this repository._
 - `en/GENEVA BIBLE 1599` — Matthew 19:24 — And againe I say vnto you, It is easier for a camel to go through the eye of a needle, then for a rich man to enter into ye kingdome of God.
 - `en/GENEVA BIBLE 1599` — Mark 10:25 — It is easier for a camel to goe through the eye of a needle, then for a riche man to enter into the kingdome of God.
 - `en/GENEVA BIBLE 1599` — Luke 18:25 — Surely it is easier for a camel to go through a needles eye, then for a riche man to enter into the kingdome of God.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Matthew 19:24 — Again I say unto you—Easier, is it for, a camel, through the eye of a needle, to enter, than a rich man—into the kingdom of God.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Mark 10:25 — It is, easier, for a camel, through the eye of a needle, to pass, than for, a rich man, into the kingdom of God, to enter.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Luke 18:25 — For it is, easier, for a camel, to enter, through the eye of a needle, than for, a rich man, to enter, into the kingdom of God.
+- `en/DARBY BIBLE 1890` — Matthew 19:24 — and again I say unto you, It is easier for a camel to enter a needle's eye than a rich man into the kingdom of God.
+- `en/DARBY BIBLE 1890` — Mark 10:25 — It is easier for a camel to go through the eye of a needle than for a rich man to enter into the kingdom of God.
+- `en/DARBY BIBLE 1890` — Luke 18:25 — for it is easier for a camel to enter through a needle's eye than for a rich man to enter into the kingdom of God.
+- `en/FAMILY 35 NEW TESTAMENT` — Matthew 19:24 — And again I say to you, it is easier for a camel to pass through the eye of a needle than for a rich person to enter into the kingdom of God.”
+- `en/FAMILY 35 NEW TESTAMENT` — Mark 10:25 — It is actually easier for a camel to go through a needle's eye than for a rich man to enter the Kingdom of God.”
+- `en/FAMILY 35 NEW TESTAMENT` — Luke 18:25 — It is actually easier for a camel to go through the eye of a needle than for a rich man to enter the Kingdom of God!”
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Matthew 19:24 — Again I say to you, it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Mark 10:25 — It is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Luke 18:25 — For it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”
 
 ---
 
@@ -1063,6 +1232,12 @@ References: Genesis 1:1, Genesis 1:2
 - `en/WYCLIFFE BIBLE` — Genesis 1:2 — Forsothe the erthe was idel and voide, and derknessis weren on the face of depthe; and the Spiryt of the Lord was borun on the watris.
 - `en/GENEVA BIBLE 1599` — Genesis 1:1 — In the beginning God created the heauen and the earth.
 - `en/GENEVA BIBLE 1599` — Genesis 1:2 — And the earth was without forme and void, and darkenesse was vpon the deepe, and the Spirit of God mooued vpon the waters.
+- `en/LEESER OLD TESTAMENT 1853` — Genesis 1:1 — In the beginning God created the heaven and the earth.
+- `en/LEESER OLD TESTAMENT 1853` — Genesis 1:2 — And the earth was without form and void, and darkness was upon the face of the deep; and the spirit of God was waving over the face of the waters.
+- `en/DARBY BIBLE 1890` — Genesis 1:1 — In the beginning God created the heavens and the earth.
+- `en/DARBY BIBLE 1890` — Genesis 1:2 — And the earth was waste and empty, and darkness was on the face of the deep, and the Spirit of God was hovering over the face of the waters.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 1:1 — In the beginning, God created the heavens and the earth.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 1:2 — Now, the earth, had become waste and wild, and darkness, was on the face of the roaring deep,—but, the Spirit of God, was brooding on the face of the waters,
 
 **Reading that restores the source**
 
@@ -1090,6 +1265,9 @@ References: Matthew 16:18
 - `en/KING JAMES BIBLE` — Matthew 16:18 — And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.
 - `en/NEW REVISED STANDARD VERSION` — Matthew 16:18 — And I tell you, you are Peter, and on this rock I will build my church, and the gates of Hades will not prevail against it.
 - `en/NET BIBLE` — Matthew 16:18 — And I tell you that you are Peter, and on this rock I will build my church, and the gates of Hades will not overpower it.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Matthew 16:18 — And, I also, unto thee, say—Thou, art Peter,—and, upon this rock, will I build my assembly, and, the gates of hades, shall not prevail against it.
+- `en/DARBY BIBLE 1890` — Matthew 16:18 — And I also, I say unto thee that thou art Peter, and on this rock I will build my assembly, and hades' gates shall not prevail against it.
+- `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Matthew 16:18 — And I tell yoʋ that yoʋ are Peter, and on this rock I will build my church, and the gates of Hades shall not prevail against it.
 
 **Reading that restores the source**
 
@@ -1115,6 +1293,8 @@ References: Malachi 2:16
 - `en/NEW AMERICAN STANDARD BIBLE` — Malachi 2:16 — “For I hate divorce,” says the LORD, the God of Israel, “and him who covers his garment with violence,” says the LORD of armies. “So be careful about your spirit, that you do not deal treacherously.”
 - `en/NET BIBLE` — Malachi 2:16 — "I hate divorce," says the LORD God of Israel, "and the one who is guilty of violence," says the LORD who rules over all. "Pay attention to your conscience, and do not be unfaithful."
 - `en/JPS TANAKH 1917` — Malachi 2:16 — For I hate putting away, Saith the LORD, the God of Israel, And him that covereth his garment with violence, Saith the LORD of hosts; Therefore take heed to your spirit, That ye deal not treacherously.
+- `en/LEESER OLD TESTAMENT 1853` — Malachi 2:16 — For he hateth putting away [the wife], so hath said the Lord the God of Israel, and him who covereth his garment with violence, so hath said the Lord of hosts: therefore take heed to your spirit, and deal not treacherously.
+- `en/DARBY BIBLE 1890` — Malachi 2:16 — (for I hate putting away, saith Jehovah the God of Israel;) and he covereth with violence his garment, saith Jehovah of hosts: take heed then to your spirit, that ye deal not unfaithfully.
 
 **Reading that restores the source**
 
@@ -1122,6 +1302,7 @@ References: Malachi 2:16
 - `en/CHRISTIAN STANDARD BIBLE` — Malachi 2:16 — “If he hates and divorces his wife,” says the LORD God of Israel, “he covers his garment with injustice,” says the LORD of Armies. Therefore, watch yourselves carefully, and do not act treacherously.
 - `en/NEW INTERNATIONAL VERSION` — Malachi 2:16 — “The man who hates and divorces his wife,” says the LORD, the God of Israel, “does violence to the one he should protect,” says the LORD Almighty. So be on your guard, and do not be unfaithful.
 - `en/GENEVA BIBLE 1599` — Malachi 2:16 — If thou hatest her, put her away, sayeth the Lord God of Israel, yet he couereth the iniurie vnder his garment, saieth the Lord of hosts: therefore keepe your selues in your spirite, and transgresse not.
+- `en/ROTHERHAM EMPHASISED BIBLE` — Malachi 2:16 — For he hateth divorce, saith Yahweh, God of Israel, him also who covereth with violence his own clothing, saith Yahweh of hosts,—therefore should ye take heed to your spirit, and not deal treacherously.
 
 ---
 

@@ -1,6 +1,6 @@
 # 📖 Bible Versions JSON Dataset
 
-A free, open-source collection of **47 English Bible versions** and **38 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
+A free, open-source collection of **56 English Bible versions** and **38 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
 This is the **most comprehensive JSON dataset of English Bible translations** available, including popular versions like **NLT, NIV, NKJV, NASB, ESV, KJV, and more**.
 Each translation is stored as its own `.json` file for easy parsing, analysis, app development, or AI projects.
 
@@ -69,6 +69,37 @@ The following books are available in relevant versions within this dataset:
 * **First Maccabees**
 * **Second Maccabees**
 * **Prayer of Manasseh** (Found in Coptic canons; sometimes appended to Chronicles)
+
+## 📜 Historical English Versions
+
+The corpus now carries an unbroken English line from 1395, which makes it possible to date a
+rendering rather than only observe it:
+
+| Year | Version | Why it matters |
+| ---: | --- | --- |
+| 1395 | Wycliffe Bible | Translated from the **Vulgate**, so it shows which Latin readings reached English before the Greek did |
+| 1526 | Tyndale New Testament | First English NT from the Greek; most of the KJV's wording is his |
+| 1599 | Geneva Bible | The Bible of Shakespeare and the Pilgrims |
+| 1853 | Leeser Old Testament | First Jewish translation into English, 64 years before the JPS |
+| 1862 | Targum Onkelos (Etheridge) | English of the authoritative Aramaic paraphrase of the Pentateuch |
+| 1869 | Noyes Translation | Critical-text American translation |
+| 1873 | KJV Cambridge Paragraph Bible | Scrivener's critical edition of the KJV text itself |
+| 1890 | Darby Bible | Darby also originated the pre-tribulational rapture scheme |
+| 1902 | Rotherham Emphasised Bible | Transliterates Sheol and Hades instead of flattening both to "hell" |
+| 1949 | Bible in Basic English | ~1,000-word controlled vocabulary forces interpretive choices into the open |
+| 2016 | Family 35 New Testament | CC BY-SA |
+| 2022 | Text-Critical English New Testament | CC BY |
+
+**Not included, for licensing reasons:** the RSV, NRSVue and New World Translation are in
+copyright and cannot be redistributed. The modernised Wycliffe on ebible.org is CC BY-NC-**ND**,
+whose No-Derivatives term forbids format conversion — the edition here is the original
+public-domain 1395 text instead.
+
+⚠️ **Two versification traps**, documented in `versions.json`: Wycliffe's **Psalms follow Vulgate
+numbering** (Wycliffe Psalm 16 is the Hebrew Psalm 17), and Targum Onkelos' **Exodus is offset by
+one verse**. Both resolve fine as references — they are just the wrong verse.
+
+Converted by `tools/import_usfm.py` and `tools/import_scrollmapper.py`.
 
 ## 🔤 Word-Level Tagging (`lexicon/`)
 

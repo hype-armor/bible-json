@@ -29,9 +29,9 @@
   ]
  },
  "coverage": {
-  "total_versions": 125,
-  "with_year": 113,
-  "without_year": 12
+  "total_versions": 135,
+  "with_year": 122,
+  "without_year": 13
  },
  "versions": {
   "af/AFRIKAANS PWL": {
@@ -426,6 +426,20 @@
    "book_naming": "english",
    "note": null
   },
+  "en/BIBLE IN BASIC ENGLISH": {
+   "name": "BIBLE IN BASIC ENGLISH",
+   "locale": "en",
+   "path": "versions/en/BIBLE IN BASIC ENGLISH.json",
+   "year": 1949,
+   "base_text": "Critical (Alexandrian)",
+   "philosophy": "dynamic",
+   "tradition": "Protestant (British)",
+   "testament": "both",
+   "books": 66,
+   "verses": 31102,
+   "book_naming": "english",
+   "note": "Restricted to a controlled ~1,000-word vocabulary, which forces interpretive choices into the open."
+  },
   "en/BRENTON SEPTUAGINT TRANSLATION": {
    "name": "BRENTON SEPTUAGINT TRANSLATION",
    "locale": "en",
@@ -482,6 +496,20 @@
    "book_naming": "english",
    "note": null
   },
+  "en/DARBY BIBLE 1890": {
+   "name": "DARBY BIBLE 1890",
+   "locale": "en",
+   "path": "versions/en/DARBY BIBLE 1890.json",
+   "year": 1890,
+   "base_text": "Critical (Alexandrian)",
+   "philosophy": "formal",
+   "tradition": "Plymouth Brethren",
+   "testament": "both",
+   "books": 66,
+   "verses": 31099,
+   "book_naming": "english",
+   "note": "John Nelson Darby's translation. Darby also originated the pre-tribulational rapture scheme; his rendering of 1 Thessalonians 4:17 is worth reading against that."
+  },
   "en/DOUAY-RHEIMS BIBLE": {
    "name": "DOUAY-RHEIMS BIBLE",
    "locale": "en",
@@ -523,6 +551,20 @@
    "verses": 31085,
    "book_naming": "english",
    "note": "An RSV revision in a more conservative direction. Its 2016 change at Malachi 2:16 was contentious."
+  },
+  "en/FAMILY 35 NEW TESTAMENT": {
+   "name": "FAMILY 35 NEW TESTAMENT",
+   "locale": "en",
+   "path": "versions/en/FAMILY 35 NEW TESTAMENT.json",
+   "year": 2016,
+   "base_text": "Family 35",
+   "philosophy": "formal",
+   "tradition": "Byzantine priority",
+   "testament": "new-testament",
+   "books": 27,
+   "verses": 7953,
+   "book_naming": "english",
+   "note": "Wilbur Pickering. CC BY-SA 4.0. Follows the Family 35 manuscript line; omits the Comma Johanneum."
   },
   "en/GENEVA BIBLE 1599": {
    "name": "GENEVA BIBLE 1599",
@@ -650,6 +692,20 @@
    "book_naming": "english",
    "note": "The most influential English Bible; based on the Textus Receptus and heavily dependent on Tyndale."
   },
+  "en/KJV CAMBRIDGE PARAGRAPH BIBLE 1873": {
+   "name": "KJV CAMBRIDGE PARAGRAPH BIBLE 1873",
+   "locale": "en",
+   "path": "versions/en/KJV CAMBRIDGE PARAGRAPH BIBLE 1873.json",
+   "year": 1873,
+   "base_text": "Textus Receptus",
+   "philosophy": "formal",
+   "tradition": "Protestant (Church of England)",
+   "testament": "both",
+   "books": 66,
+   "verses": 31102,
+   "book_naming": "english",
+   "note": "Scrivener's critical edition of the KJV text, correcting printing-history corruptions. Useful as a control on what the KJV actually said."
+  },
   "en/LAMSA BIBLE": {
    "name": "LAMSA BIBLE",
    "locale": "en",
@@ -663,6 +719,20 @@
    "verses": 31101,
    "book_naming": "english",
    "note": "George Lamsa's translation from the Syriac, so it renders from the Aramaic side."
+  },
+  "en/LEESER OLD TESTAMENT 1853": {
+   "name": "LEESER OLD TESTAMENT 1853",
+   "locale": "en",
+   "path": "versions/en/LEESER OLD TESTAMENT 1853.json",
+   "year": 1853,
+   "base_text": "Masoretic Text",
+   "philosophy": "formal",
+   "tradition": "Jewish",
+   "testament": "old-testament",
+   "books": 39,
+   "verses": 23143,
+   "book_naming": "english",
+   "note": "The first Jewish translation of the Hebrew Bible into English, 64 years before the JPS. Reads 'this young woman' at Isaiah 7:14."
   },
   "en/LEGACY STANDARD BIBLE": {
    "name": "LEGACY STANDARD BIBLE",
@@ -860,6 +930,20 @@
    "book_naming": "english",
    "note": "Successor to the RSV. Restored Junia at Romans 16:7."
   },
+  "en/NOYES TRANSLATION 1869": {
+   "name": "NOYES TRANSLATION 1869",
+   "locale": "en",
+   "path": "versions/en/NOYES TRANSLATION 1869.json",
+   "year": 1869,
+   "base_text": "Critical (Alexandrian)",
+   "philosophy": "formal",
+   "tradition": "Unitarian",
+   "testament": "partial",
+   "books": 49,
+   "verses": 18213,
+   "book_naming": "local",
+   "note": "George Noyes' translation. Reads 'the damsel' at Isaiah 7:14 - 77 years before the RSV was accused of inventing that reading."
+  },
   "en/PESHITTA HOLY BIBLE TRANSLATED": {
    "name": "PESHITTA HOLY BIBLE TRANSLATED",
    "locale": "en",
@@ -874,6 +958,20 @@
    "book_naming": "english",
    "note": null
   },
+  "en/ROTHERHAM EMPHASISED BIBLE": {
+   "name": "ROTHERHAM EMPHASISED BIBLE",
+   "locale": "en",
+   "path": "versions/en/ROTHERHAM EMPHASISED BIBLE.json",
+   "year": 1902,
+   "base_text": "Critical (Alexandrian)",
+   "philosophy": "formal",
+   "tradition": "Restoration movement",
+   "testament": "both",
+   "books": 66,
+   "verses": 31086,
+   "book_naming": "english",
+   "note": "Rotherham's Emphasised Bible. Transliterates Sheol and Hades rather than flattening both to 'hell', and marks emphasis typographically."
+  },
   "en/SMITH'S LITERAL TRANSLATION": {
    "name": "SMITH'S LITERAL TRANSLATION",
    "locale": "en",
@@ -887,6 +985,34 @@
    "verses": 31102,
    "book_naming": "english",
    "note": "Julia E. Smith's translation - the first complete Bible into English by a woman."
+  },
+  "en/TARGUM ONKELOS (ETHERIDGE)": {
+   "name": "TARGUM ONKELOS (ETHERIDGE)",
+   "locale": "en",
+   "path": "versions/en/TARGUM ONKELOS (ETHERIDGE).json",
+   "year": 1862,
+   "base_text": "Aramaic Targum",
+   "philosophy": "formal",
+   "tradition": "Jewish (Targumic)",
+   "testament": "old-testament",
+   "books": 5,
+   "verses": 5848,
+   "book_naming": "english",
+   "note": "Etheridge's English of Targum Onkelos, the authoritative Aramaic paraphrase of the Pentateuch (c. 2nd c. CE). An independent ancient witness to how Jewish readers understood the Hebrew - it renders Genesis 3:15 'He will remember thee'. WARNING: Exodus is offset by one verse (Hebrew numbering) - Targum Exodus 22:17 is the KJV's 22:18. Genesis is aligned."
+  },
+  "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT": {
+   "name": "TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+   "locale": "en",
+   "path": "versions/en/TEXT-CRITICAL ENGLISH NEW TESTAMENT.json",
+   "year": 2022,
+   "base_text": "Byzantine/Majority",
+   "philosophy": "formal",
+   "tradition": "Byzantine priority",
+   "testament": "new-testament",
+   "books": 27,
+   "verses": 7954,
+   "book_naming": "english",
+   "note": "Robert Adam Boyd. CC BY 4.0. Byzantine base with text-critical apparatus."
   },
   "en/TYNDALE NEW TESTAMENT": {
    "name": "TYNDALE NEW TESTAMENT",
@@ -980,11 +1106,11 @@
    "base_text": "Vulgate",
    "philosophy": "formal",
    "tradition": "Lollard / pre-Reformation",
-   "testament": "partial",
-   "books": 9,
-   "verses": 9622,
+   "testament": "both",
+   "books": 66,
+   "verses": 31378,
    "book_naming": "english",
-   "note": "Translated from the Vulgate, not the Hebrew or Greek - so it shows which Latin-derived readings reached English before the source texts did. This public-domain edition covers 9 books only (Pentateuch and the four Gospels)."
+   "note": "Translated from the Vulgate, not the Hebrew or Greek - so it shows which Latin-derived readings reached English before the source texts did. Complete (66 books plus 10 deuterocanonical, including the Epistle to the Laodiceans)."
   },
   "en/YOUNG'S LITERAL TRANSLATION": {
    "name": "YOUNG'S LITERAL TRANSLATION",
@@ -1781,6 +1907,20 @@
    "testament": "apocrypha",
    "books": 8,
    "verses": 1060,
+   "book_naming": "local",
+   "note": null
+  },
+  "apocrypha/WYCLIFFE BIBLE": {
+   "name": "WYCLIFFE BIBLE",
+   "locale": "apocrypha",
+   "path": "apocrypha-versions/WYCLIFFE BIBLE.json",
+   "year": null,
+   "base_text": null,
+   "philosophy": null,
+   "tradition": null,
+   "testament": "apocrypha",
+   "books": 10,
+   "verses": 4849,
    "book_naming": "local",
    "note": null
   }

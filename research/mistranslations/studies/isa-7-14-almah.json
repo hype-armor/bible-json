@@ -35,10 +35,21 @@
       "type": "verse_table",
       "ref": "Isaiah 7:14",
       "versions": [
-        "he/WESTMINSTER LENINGRAD CODEX",
-        "he/WLC (CONSONANTS ONLY)",
-        "el/SWETE'S SEPTUAGINT",
-        "la/LATIN: VULGATA CLEMENTINA"
+        "en/GENEVA BIBLE 1599",
+        "en/KING JAMES BIBLE",
+        "en/DOUAY-RHEIMS BIBLE",
+        "en/LEESER OLD TESTAMENT 1853",
+        "en/NOYES TRANSLATION 1869",
+        "en/DARBY BIBLE 1890",
+        "en/ROTHERHAM EMPHASISED BIBLE",
+        "en/BIBLE IN BASIC ENGLISH",
+        "en/JPS TANAKH 1917",
+        "en/ENGLISH STANDARD VERSION",
+        "en/NEW INTERNATIONAL VERSION",
+        "en/NEW REVISED STANDARD VERSION",
+        "en/NEW AMERICAN BIBLE",
+        "en/NET BIBLE",
+        "en/BRENTON SEPTUAGINT TRANSLATION"
       ]
     },
     {
@@ -234,18 +245,23 @@
         "en/GENEVA BIBLE 1599",
         "en/KING JAMES BIBLE",
         "en/DOUAY-RHEIMS BIBLE",
+        "en/LEESER OLD TESTAMENT 1853",
+        "en/NOYES TRANSLATION 1869",
+        "en/DARBY BIBLE 1890",
+        "en/ROTHERHAM EMPHASISED BIBLE",
+        "en/BIBLE IN BASIC ENGLISH",
+        "en/JPS TANAKH 1917",
         "en/ENGLISH STANDARD VERSION",
         "en/NEW INTERNATIONAL VERSION",
         "en/NEW REVISED STANDARD VERSION",
         "en/NEW AMERICAN BIBLE",
-        "en/JPS TANAKH 1917",
         "en/NET BIBLE",
         "en/BRENTON SEPTUAGINT TRANSLATION"
       ]
     },
     {
       "type": "prose",
-      "text": "The split does not run where people expect. The **New American Bible** — the American Catholic Bible — reads \"the young woman.\" The **ESV and NIV**, both evangelical projects, read \"virgin.\" Confessional allegiance predicts the rendering less well than translation philosophy and date do.\n\nThe **Geneva Bible of 1599** shows how old the English \"virgine\" is: it predates the KJV, and both descend from the Latin *virgo*, not from the Hebrew. The public-domain Wycliffe edition in this corpus covers only nine books and has no Isaiah, so the one English version translated wholly from the Vulgate cannot be quoted here — see [`../COVERAGE.md`](../COVERAGE.md).\n\nBrenton is in the table as a control: it translates the *Greek*, so \"virgin\" there is simply correct."
+      "text": "**The single most useful thing in this table is the date column you have to supply yourself** — so here it is, from `versions.json`:\n\n| Year | Version | Reading |\n| ---: | --- | --- |\n| 1599 | Geneva | the **virgine** |\n| 1611 | King James | a **virgin** |\n| **1853** | **Leeser** (Jewish) | **this young woman** |\n| **1869** | **Noyes** | **the damsel** |\n| 1890 | Darby | the **virgin** |\n| 1902 | Rotherham | a **Virgin** |\n| 1917 | JPS (Jewish) | the **young woman** |\n| **1949** | **Bible in Basic English** | **a young woman** |\n| 1952 | *RSV — not in this corpus* | *young woman* |\n| 1989 | NRSV | the **young woman** |\n| 2016 | ESV | the **virgin** |\n\n**This overturns the story usually told about the RSV.** When the RSV printed \"young woman\" in 1952 and copies were burned from American pulpits, it was not introducing a novel reading. Leeser had printed it in 1853, Noyes in 1869, and the Bible in Basic English in 1949 — a century of English Bibles, sitting in this corpus, with the reading that supposedly appeared out of nowhere.\n\nWhat changed in 1952 was not the scholarship. It was that the reading reached a **mainline pulpit Bible** with denominational backing. The controversy was about authority, not philology.\n\nNote also that confessional allegiance predicts the rendering poorly. The **New American Bible** — the American Catholic Bible — reads \"the young woman.\" The **ESV and NIV**, both evangelical, read \"virgin.\" Darby and Rotherham, both working from critical texts, kept \"virgin\" while Leeser and the JPS did not.\n\nBrenton is in the table as a control: it translates the *Greek*, so \"virgin\" there is simply correct."
     },
     {
       "heading": "8. Matthew quotes the Greek, so Matthew is not mistranslating",

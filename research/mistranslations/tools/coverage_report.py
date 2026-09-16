@@ -27,8 +27,11 @@ PILLARS = {
     "Greek NT - Textus Receptus": ["el/SCRIVENER'S TEXTUS RECEPTUS 1894", "el/STEPHANUS TEXTUS RECEPTUS 1550"],
     "Latin": ["la/LATIN: VULGATA CLEMENTINA"],
     "Syriac tradition (via English)": ["en/LAMSA BIBLE", "en/ARAMAIC BIBLE IN PLAIN ENGLISH", "en/PESHITTA HOLY BIBLE TRANSLATED"],
-    "Jewish English OT": ["en/JPS TANAKH 1917"],
+    "Aramaic Targum (via English)": ["en/TARGUM ONKELOS (ETHERIDGE)"],
+    "Jewish English OT": ["en/JPS TANAKH 1917", "en/LEESER OLD TESTAMENT 1853"],
     "Reformation-era vernacular": ["de/GERMAN: LUTHER (1912)", "en/KING JAMES BIBLE", "en/DOUAY-RHEIMS BIBLE"],
+    "Pre-KJV English": ["en/WYCLIFFE BIBLE", "en/TYNDALE NEW TESTAMENT", "en/GENEVA BIBLE 1599"],
+    "19th-c. English (pre-RSV 'young woman')": ["en/LEESER OLD TESTAMENT 1853", "en/NOYES TRANSLATION 1869", "en/BIBLE IN BASIC ENGLISH"],
 }
 
 # Versions whose absence actually costs something for specific cases.
@@ -36,8 +39,8 @@ MISSING_WITNESSES = [
     ("RSV 1946 / 1952", "The verse-by-verse pivot for two of this dataset's biggest cases. **Blocked: in copyright** (National Council of Churches), so it cannot be redistributed here.", ["1cor-6-9-arsenokoitai-malakoi", "isa-7-14-almah-parthenos"]),
     ("NRSVue (2021)", "Reverses the 1946 rendering; the end of that arc. **Blocked: in copyright.**", ["1cor-6-9-arsenokoitai-malakoi"]),
     ("New World Translation", "The only version carrying the disputed John 1:1 rendering. **Blocked: in copyright.**", ["john-1-1-theos-anarthrous"]),
-    ("Wycliffe, complete", "Only 9 books (Pentateuch and Gospels) exist in the public domain. The complete modernised edition on ebible.org is CC BY-NC-ND, and the No-Derivatives term forbids the format conversion this repository needs - so the one English version translated wholly from the Vulgate cannot witness Isaiah, Romans or the Epistles here.", ["isa-7-14-almah-parthenos", "rom-5-12-eph-ho-in-quo", "isa-14-12-lucifer"]),
-    ("Bishops' Bible (1568)", "The KJV translators' official base text. No public-domain digital edition located.", ["acts-12-4-easter"]),
+    ("Emphatic Diaglott (1864)", "A public-domain interlinear whose Greek-English line reads 'a god was the Word' at John 1:1 - the historical precedent behind the New World Translation's rendering. No machine-readable edition located, so this case still has no shifted witness.", ["john-1-1-theos-anarthrous"]),
+    ("Bishops' Bible (1568) and Coverdale (1535)", "The KJV translators' official base text, and the first complete printed English Bible. No machine-readable public-domain editions located; Wycliffe, Tyndale and Geneva now cover most of what they would show.", ["acts-12-4-easter"]),
     ("Dead Sea Scrolls / Qumran readings", "Decisive external evidence for two OT cases. No suitably licensed machine-readable edition located.", ["ps-22-16-kaaru-pierced", "deut-32-8-sons-of-god"]),
     ("Samaritan Pentateuch, Targums, Peshitta in Syriac", "Independent ancient witnesses to the Hebrew.", ["gen-3-15-ipsa-conteret", "gen-1-1-bereshit-creatio-ex-nihilo"]),
     ("Septuagint word-level tagging", "lexicon/ covers the Hebrew OT and Greek NT but not the Greek OT, so Hebrew-to-LXX comparisons still rely on reference alignment, which fails where the Greek reorders material (Proverbs 30:19).", ["isa-7-14-almah-parthenos", "deut-32-8-sons-of-god"]),
@@ -172,6 +175,26 @@ def main() -> int:
         add("the New World Translation is not in this repository.")
         add("")
 
+    # -- alignment traps ---------------------------------------------------
+    add("## 4b. Versification traps in the newly added versions")
+    add("")
+    add("Two of the versions added to close the English-lineage gap do **not** follow this")
+    add("repository's verse numbering everywhere. Both were caught by reading the text rather")
+    add("than trusting the reference, and neither is detectable by a tool that only checks")
+    add("whether a reference resolves - it resolves, it is just the wrong verse.")
+    add("")
+    add("| Version | Trap | Evidence |")
+    add("| --- | --- | --- |")
+    wyc = bible.try_verse("en/WYCLIFFE BIBLE", "Psalms 16:10") or ""
+    tgm = bible.try_verse("en/TARGUM ONKELOS (ETHERIDGE)", "Exodus 22:17") or ""
+    add(f"| `WYCLIFFE BIBLE` | Psalms follow **Vulgate** numbering. Wycliffe Psalm 16 is the Hebrew Psalm 17. | Wycliffe Psalms 16:10 reads \"{wyc[:60]}…\" where the KJV has \"thou wilt not leave my soul in hell\". |")
+    add(f"| `TARGUM ONKELOS (ETHERIDGE)` | Exodus is offset by one verse (Hebrew numbering). Genesis is aligned. | Targum Exodus 22:17 reads \"{tgm[:45]}…\", which is the KJV's 22:18. |")
+    add("")
+    add("Both are recorded in `versions.json` as WARNING notes on those versions, and the")
+    add("affected cases say explicitly which witness is *not* being cited and why. A corpus")
+    add("this heterogeneous will have more of these; reading the text is the only way to find them.")
+    add("")
+
     # -- missing witnesses ------------------------------------------------
     add("## 5. Missing witnesses that cost something")
     add("")
@@ -224,7 +247,7 @@ def main() -> int:
     add("| Gap named by the first audit | Status |")
     add("| --- | --- |")
     add("| Word-level tagging | **Closed** for the Hebrew OT and Greek NT: 446,934 tagged words in `lexicon/` |")
-    add("| English versions between 1611 and the 20th century | **Narrowed**: Wycliffe, Tyndale and Geneva added; the RSV, NRSVue and NWT are in copyright and cannot be |")
+    add("| English versions between 1611 and the 20th century | **Closed for everything redistributable**: 13 versions added, an unbroken English line from 1395. The RSV, NRSVue and NWT are in copyright and cannot be added at all. |")
     add("| Version metadata | **Closed**: `versions.json`, 125 versions, 113 with curated dates |")
     add("")
     add("What remains, in order of what it would unlock:")

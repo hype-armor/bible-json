@@ -43,10 +43,21 @@ So the title **Virgin Mary comes from Luke's Greek, not from Isaiah's Hebrew.** 
 
 | Version | Reading |
 | --- | --- |
-| `WESTMINSTER LENINGRAD CODEX` | לָ֠כֵן יִתֵּ֨ן אֲדֹנָ֥י ה֛וּא לָכֶ֖ם אֹ֑ות הִנֵּ֣ה הָעַלְמָ֗ה הָרָה֙ וְיֹלֶ֣דֶת בֵּ֔ן וְקָרָ֥את שְׁמֹ֖ו עִמָּ֥נוּ אֵֽל׃ |
-| `WLC (CONSONANTS ONLY)` | לכן יתן אדני הוא לכם אות הנה העלמה הרה וילדת בן וקראת שמו עמנו אל׃ |
-| `SWETE'S SEPTUAGINT` | διὰ τοῦτο δώσει Κύριος αὐτὸς ὑμῖν σημεῖον· ἰδοὺ ἡ παρθένος ἐν γαστρὶ λήμψεται καὶ τέξεται υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἐμμανουήλ· |
-| `LATIN: VULGATA CLEMENTINA` | Propter hoc dabit Dominus ipse vobis signum : ecce virgo concipiet, et pariet filium, et vocabitur nomen ejus Emmanuel. |
+| `GENEVA BIBLE 1599` | Therefore the Lord himselfe will giue you a signe. Beholde, the virgine shall conceiue and beare a sonne, and she shall call his name Immanu-el. |
+| `KING JAMES BIBLE` | Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel. |
+| `DOUAY-RHEIMS BIBLE` | Therefore the Lord himself shall give you a sign. Behold a virgin shall conceive, and bear a son, and his name shall be called Emmanuel. |
+| `LEESER OLD TESTAMENT 1853` | Therefore will the Lord himself give you a sign: behold, this young woman shall conceive, and bear a son, and she shall call his name 'Immanu-el, [God with us]. |
+| `NOYES TRANSLATION 1869` | Therefore shall Jehovah himself give you a sign: Behold, the damsel shall conceive, and bear a son, And she shall call his name Immanuel. |
+| `DARBY BIBLE 1890` | Therefore will the Lord himself give you a sign: Behold, the virgin shall conceive and shall bring forth a son, and call his name Immanuel. |
+| `ROTHERHAM EMPHASISED BIBLE` | Wherefore let My Lord Himself give you a sign,—Lo! a Virgin, being with child and giving birth to a son, thou wilt call his name Immanuel. |
+| `BIBLE IN BASIC ENGLISH` | For this cause the Lord himself will give you a sign; a young woman is now with child, and she will give birth to a son, and she will give him the name Immanuel. |
+| `JPS TANAKH 1917` | Therefore the Lord Himself shall give you a sign: behold, the young woman shall conceive, and bear a son, and shall call his name Immanuel. |
+| `ENGLISH STANDARD VERSION` | Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel. |
+| `NEW INTERNATIONAL VERSION` | Therefore the Lord himself will give you a sign: The virgin will conceive and give birth to a son, and will call him Immanuel. |
+| `NEW REVISED STANDARD VERSION` | Therefore the Lord himself will give you a sign. Look, the young woman is with child and shall bear a son, and shall name him Immanuel. |
+| `NEW AMERICAN BIBLE` | Therefore the Lord himself will give you a sign; the young woman, pregnant and about to bear a son, shall name him Emmanuel. |
+| `NET BIBLE` | For this reason the sovereign master himself will give you a confirming sign. Look, this young woman is about to conceive and will give birth to a son. You, young woman, will name him Immanuel. |
+| `BRENTON SEPTUAGINT TRANSLATION` | Therefore the Lord himself shall give you a sign; behold, a virgin shall conceive in the womb, and shall bring forth a son, and thou shalt call his name Emmanuel. |
 
 **Isaiah 7:14** — `WESTMINSTER LENINGRAD CODEX`
 
@@ -211,17 +222,40 @@ What happened at Isaiah 7:14 was an **interpretive decision** by a Jewish transl
 | `GENEVA BIBLE 1599` | Therefore the Lord himselfe will giue you a signe. Beholde, the virgine shall conceiue and beare a sonne, and she shall call his name Immanu-el. |
 | `KING JAMES BIBLE` | Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel. |
 | `DOUAY-RHEIMS BIBLE` | Therefore the Lord himself shall give you a sign. Behold a virgin shall conceive, and bear a son, and his name shall be called Emmanuel. |
+| `LEESER OLD TESTAMENT 1853` | Therefore will the Lord himself give you a sign: behold, this young woman shall conceive, and bear a son, and she shall call his name 'Immanu-el, [God with us]. |
+| `NOYES TRANSLATION 1869` | Therefore shall Jehovah himself give you a sign: Behold, the damsel shall conceive, and bear a son, And she shall call his name Immanuel. |
+| `DARBY BIBLE 1890` | Therefore will the Lord himself give you a sign: Behold, the virgin shall conceive and shall bring forth a son, and call his name Immanuel. |
+| `ROTHERHAM EMPHASISED BIBLE` | Wherefore let My Lord Himself give you a sign,—Lo! a Virgin, being with child and giving birth to a son, thou wilt call his name Immanuel. |
+| `BIBLE IN BASIC ENGLISH` | For this cause the Lord himself will give you a sign; a young woman is now with child, and she will give birth to a son, and she will give him the name Immanuel. |
+| `JPS TANAKH 1917` | Therefore the Lord Himself shall give you a sign: behold, the young woman shall conceive, and bear a son, and shall call his name Immanuel. |
 | `ENGLISH STANDARD VERSION` | Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel. |
 | `NEW INTERNATIONAL VERSION` | Therefore the Lord himself will give you a sign: The virgin will conceive and give birth to a son, and will call him Immanuel. |
 | `NEW REVISED STANDARD VERSION` | Therefore the Lord himself will give you a sign. Look, the young woman is with child and shall bear a son, and shall name him Immanuel. |
 | `NEW AMERICAN BIBLE` | Therefore the Lord himself will give you a sign; the young woman, pregnant and about to bear a son, shall name him Emmanuel. |
-| `JPS TANAKH 1917` | Therefore the Lord Himself shall give you a sign: behold, the young woman shall conceive, and bear a son, and shall call his name Immanuel. |
 | `NET BIBLE` | For this reason the sovereign master himself will give you a confirming sign. Look, this young woman is about to conceive and will give birth to a son. You, young woman, will name him Immanuel. |
 | `BRENTON SEPTUAGINT TRANSLATION` | Therefore the Lord himself shall give you a sign; behold, a virgin shall conceive in the womb, and shall bring forth a son, and thou shalt call his name Emmanuel. |
 
-The split does not run where people expect. The **New American Bible** — the American Catholic Bible — reads "the young woman." The **ESV and NIV**, both evangelical projects, read "virgin." Confessional allegiance predicts the rendering less well than translation philosophy and date do.
+**The single most useful thing in this table is the date column you have to supply yourself** — so here it is, from `versions.json`:
 
-The **Geneva Bible of 1599** shows how old the English "virgine" is: it predates the KJV, and both descend from the Latin *virgo*, not from the Hebrew. The public-domain Wycliffe edition in this corpus covers only nine books and has no Isaiah, so the one English version translated wholly from the Vulgate cannot be quoted here — see [`../COVERAGE.md`](../COVERAGE.md).
+| Year | Version | Reading |
+| ---: | --- | --- |
+| 1599 | Geneva | the **virgine** |
+| 1611 | King James | a **virgin** |
+| **1853** | **Leeser** (Jewish) | **this young woman** |
+| **1869** | **Noyes** | **the damsel** |
+| 1890 | Darby | the **virgin** |
+| 1902 | Rotherham | a **Virgin** |
+| 1917 | JPS (Jewish) | the **young woman** |
+| **1949** | **Bible in Basic English** | **a young woman** |
+| 1952 | *RSV — not in this corpus* | *young woman* |
+| 1989 | NRSV | the **young woman** |
+| 2016 | ESV | the **virgin** |
+
+**This overturns the story usually told about the RSV.** When the RSV printed "young woman" in 1952 and copies were burned from American pulpits, it was not introducing a novel reading. Leeser had printed it in 1853, Noyes in 1869, and the Bible in Basic English in 1949 — a century of English Bibles, sitting in this corpus, with the reading that supposedly appeared out of nowhere.
+
+What changed in 1952 was not the scholarship. It was that the reading reached a **mainline pulpit Bible** with denominational backing. The controversy was about authority, not philology.
+
+Note also that confessional allegiance predicts the rendering poorly. The **New American Bible** — the American Catholic Bible — reads "the young woman." The **ESV and NIV**, both evangelical, read "virgin." Darby and Rotherham, both working from critical texts, kept "virgin" while Leeser and the JPS did not.
 
 Brenton is in the table as a control: it translates the *Greek*, so "virgin" there is simply correct.
 
