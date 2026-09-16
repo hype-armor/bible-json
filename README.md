@@ -194,6 +194,24 @@ every claim. See its [README](research/mistranslations/README.md).
 | `tools/build_versions_manifest.py` | Build `versions.json` |
 | `tools/import_usfm.py` | Convert a USFM Bible into this repository's JSON shape |
 
+## ⚖️ Licence
+
+See [`LICENSE`](LICENSE). There is no single licence covering this repository — it holds
+material with different and incompatible terms:
+
+- **Code** (`tools/`, `research/mistranslations/tools/`) — MIT
+- **Curated research data** — CC BY 4.0
+- **`lexicon/`** — third-party, and **two files are CC BY-SA**: `strongs-hebrew.json` and
+  `strongs-greek.json`. Share-alike travels with them, so redistributing those files or
+  anything derived from them means licensing that redistribution CC BY-SA too.
+  `versions/en/FAMILY 35 NEW TESTAMENT.json` is CC BY-SA 4.0 on the same terms.
+- **Bible texts** — status varies per text; `versions.json` is the place to start.
+
+⚠️ **The corpus includes complete texts of modern translations that are under active
+copyright** (NIV, ESV, NASB, NLT, CSB, NKJV, NRSV, NET and others). They predate the
+tooling work and no licensing arrangement for them is recorded here. `LICENSE` §4 lists
+them. Anyone redistributing this repository should resolve that first.
+
 ## 🛠️ Contributing
 
 Pull requests are welcome! If you’d like to:
