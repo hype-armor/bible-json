@@ -205,7 +205,16 @@
       "caveat": "This repository is unusually good for this case: the Byzantine Majority Text omits the Comma while the two Textus Receptus editions include it, so the contrast is visible inside the Greek files alone.",
       "sources": [
         "https://en.wikipedia.org/wiki/Johannine_Comma"
-      ]
+      ],
+      "distinguish_from": {
+        "claim": "The doctrine of the Trinity",
+        "rests_on": [
+          "Matthew 28:19",
+          "John 1:1",
+          "2 Corinthians 13:14"
+        ],
+        "note": "The Comma was the most-quoted English proof-text for three centuries, but the doctrine was defined at Nicaea and Constantinople by Greek-speaking bishops whose manuscripts did not contain it. Removing it removes a proof-text, not the doctrine."
+      }
     },
     {
       "id": "matt-4-17-paenitentiam-agite",
@@ -330,7 +339,15 @@
       "caveat": "The identification of Isaiah 14 with Satan predates the Vulgate (it is in Origen and Tertullian), so the Latin word reinforced an existing reading rather than creating it from nothing. The capitalisation in English is what fixed it as a proper name.",
       "sources": [
         "https://en.wikipedia.org/wiki/Lucifer"
-      ]
+      ],
+      "distinguish_from": {
+        "claim": "Satan's fall from heaven",
+        "rests_on": [
+          "Luke 10:18",
+          "Revelation 12:9"
+        ],
+        "note": "The fall motif has New Testament texts of its own. What Isaiah 14:12 supplied was the devil's name and a pre-creation backstory, neither of which is in those texts."
+      }
     },
     {
       "id": "rom-16-7-junia",
@@ -455,7 +472,17 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Isaiah_7:14",
         "https://bibleinterp.arizona.edu/opeds/hag368019"
-      ]
+      ],
+      "study": "studies/isa-7-14-almah.md",
+      "distinguish_from": {
+        "claim": "The virgin birth of Jesus",
+        "rests_on": [
+          "Luke 1:27",
+          "Luke 1:34",
+          "Matthew 1:18"
+        ],
+        "note": "Luke and Matthew were written in Greek; there is no Hebrew original behind them. Luke 1:34 has Mary say 'I do not know a man' in the author's own idiom. The doctrine is independent of Isaiah 7:14. What the Septuagint's rendering produced is the prophecy - the claim that the Hebrew Bible foretold a virgin birth - not the belief itself."
+      }
     },
     {
       "id": "1cor-6-9-arsenokoitai-malakoi",
@@ -518,7 +545,17 @@
       "sources": [
         "https://sojo.net/magazine/may-2024/culture/can-christian-homophobia-really-be-traced-single-mistranslation",
         "https://um-insight.net/perspectives/has-%E2%80%9Chomosexual%E2%80%9D-always-been-in-the-bible/"
-      ]
+      ],
+      "distinguish_from": {
+        "claim": "Christian prohibition of same-sex acts",
+        "rests_on": [
+          "Leviticus 18:22",
+          "Leviticus 20:13",
+          "Romans 1:26",
+          "Romans 1:27"
+        ],
+        "note": "These texts were read restrictively long before 1946, which is why the popular framing - that one translation decision created Christian homophobia - overstates a real translation problem. The 1946 rendering changed the register from acts to identity; it did not originate the prohibition."
+      }
     },
     {
       "id": "gen-3-15-ipsa-conteret",
@@ -1280,7 +1317,16 @@
       "caveat": "Calling either reading the 'mistranslation' is tendentious, which is why the consensus grade is contested. The Dead Sea Scrolls evidence that bears on it is not in this repository - see the coverage report.",
       "sources": [
         "https://en.wikipedia.org/wiki/Psalm_22"
-      ]
+      ],
+      "distinguish_from": {
+        "claim": "That Jesus was crucified",
+        "rests_on": [
+          "John 19:18",
+          "John 19:37",
+          "Mark 15:24"
+        ],
+        "note": "The crucifixion narrative is independent of Psalm 22:16. The disputed vocalization bears on whether the Hebrew Bible prophesied it, not on whether the Gospels report it."
+      }
     },
     {
       "id": "deut-32-8-sons-of-god",
@@ -2168,5 +2214,9 @@
         "https://en.wikipedia.org/wiki/Phoebe_(biblical_figure)"
       ]
     }
-  ]
+  ],
+  "field_notes": {
+    "study": "Path to a worked example under studies/, generated from a spec by tools/build_study.py.",
+    "distinguish_from": "What the case is NOT. Names the doctrinal claim people attach to the verse and the texts that claim actually rests on. Guards against the commonest failure mode in this subject: treating a translation shift in a proof-text as though it invented the doctrine."
+  }
 }

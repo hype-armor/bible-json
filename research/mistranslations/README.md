@@ -4,7 +4,7 @@ A research dataset of translation decisions, transmission errors and interpolati
 that measurably changed Christian doctrine, practice, art or law — each one anchored
 to verses that resolve against the version files in this repository.
 
-36 cases · 61 verse references · 557 verified cross-version verse lookups · 0 broken references
+36 cases · 1 worked example · 572 verified cross-version verse lookups · 0 broken references
 
 ## Why this repository is a good place to do this
 
@@ -29,15 +29,19 @@ See [`COVERAGE.md`](COVERAGE.md) for the full audit, including what is missing.
 | `mistranslations.json` | The dataset. Hand-curated, cited, graded for scholarly consensus. |
 | `evidence.json` / `EVIDENCE.md` | **Generated.** The actual verse text for every witness of every case, quoted verbatim from `versions/`. |
 | `COVERAGE.md` | **Generated.** Whether this corpus can support the research, and what it cannot yet do. |
+| `studies/*.json` → `studies/*.md` | **Generated.** Worked examples: a declarative spec in, a study with computed tables out. |
 | `tools/bible.py` | Cross-version verse access. Resolves "Isaiah 7:14" in the Hebrew, the Vulgate (`Isaias`) and the Greek NT (`ΚΑΤΑ ΜΑΤΘΑΙΟΝ`) alike. |
 | `tools/validate.py` | Checks every case against the real files. Non-zero exit on failure. |
 | `tools/build_evidence.py` | Regenerates `evidence.json` and `EVIDENCE.md`. |
 | `tools/coverage_report.py` | Regenerates `COVERAGE.md`. |
+| `tools/concordance.py` | Word-occurrence search over unpointed Hebrew and diacritic-stripped Greek, plus source→target rendering comparison. |
+| `tools/build_study.py` | Builds `studies/*.md` from their specs. |
 
 ```bash
 python3 research/mistranslations/tools/validate.py        # verify the dataset
 python3 research/mistranslations/tools/build_evidence.py  # regenerate evidence
 python3 research/mistranslations/tools/coverage_report.py # regenerate coverage
+python3 research/mistranslations/tools/build_study.py     # regenerate worked examples
 ```
 
 No dependencies beyond the standard library.
@@ -69,6 +73,63 @@ No dependencies beyond the standard library.
 real file, and `validate.py` confirms that every listed witness actually resolves the
 case's references. Run it and the claim "the Douay-Rheims reads *in whom all have
 sinned*" stops being something you take on trust.
+
+## Worked examples
+
+A case record is a summary. A **study** is the argument, with every table computed from the
+corpus. The first one is [`studies/isa-7-14-almah.md`](studies/isa-7-14-almah.md) — *The Virgin
+of Isaiah 7:14* — and it is built to be copied.
+
+Studies are declarative. `studies/isa-7-14-almah.json` names a sequence of blocks; only the
+`prose` blocks are written by hand:
+
+| Block | Answers | Reusable for |
+| --- | --- | --- |
+| `contrast` | Is the doctrine actually resting on this verse? | Separating a claim from its proof-text |
+| `interlinear` | What does the source literally say? | Definiteness, verb aspect, word order — things translation flattens |
+| `concordance` | How is this word used elsewhere, and how often? | `arsenokoitai`, `authentein`, `diakonos`, `sheol`, `ezer` |
+| `renderings` | Did the translator have alternatives, and use them elsewhere? | Any source→target pair: Hebrew→LXX, Greek→Vulgate |
+| `verse_table` | Where did the versions land? | Every case |
+
+`concordance` and `renderings` are the two that matter, because together they answer the
+question that decides most of these cases: **did the translator have a choice, and what did
+they do with it elsewhere?**
+
+The Isaiah study is the proof. The Septuagint rendered `'almāh` as *neanis* ("young woman")
+at four of the seven places it occurs — and chose *parthenos* ("virgin") at Isaiah 7:14. That
+single computed table rules out both of the usual arguments at once: it was not a lexical
+accident, because the translator demonstrably knew the other word; and it was not a Christian
+invention, because the Septuagint is pre-Christian Jewish work. What is left is an interpretive
+decision, which is exactly what the case record grades it as.
+
+Two guardrails are built into the builder. `expect_kept` pins the number of genuine occurrences,
+so the build fails rather than quietly reporting a different number if the corpus changes.
+`exclusions` requires every filtered hit to carry a stated reason, printed below the table — the
+seven `'almāh` occurrences survive after seven homographs are excluded **in public**.
+
+Since the corpus has no lemma tagging (see `COVERAGE.md`), `concordance.py` matches surface
+forms on the unpointed Westminster Leningrad Codex and on diacritic-stripped Greek. It is not
+lemmatisation: it misses suppletive forms and catches homographs, which is why `exclusions`
+exists. It is enough to answer the question, and it partially closes the gap the audit flagged
+as most costly.
+
+## What a case is not
+
+Five cases carry a `distinguish_from` field naming the doctrine people attach to the verse and
+the texts that doctrine **actually** rests on. This is the guard against the commonest failure
+mode in this subject — treating a translation shift in a proof-text as though it invented the
+belief.
+
+| Case | Claim | Actually rests on |
+| --- | --- | --- |
+| `isa-7-14-almah-parthenos` | The virgin birth | Luke 1:27, 1:34; Matthew 1:18 — Greek originals |
+| `1john-5-7-comma-johanneum` | The Trinity | Matthew 28:19; John 1:1 — Nicaea's bishops had no Comma |
+| `isa-14-12-lucifer` | Satan's fall | Luke 10:18; Revelation 12:9 |
+| `1cor-6-9-arsenokoitai-malakoi` | Prohibition of same-sex acts | Leviticus 18:22; Romans 1:26–27 |
+| `ps-22-16-kaaru-pierced` | That Jesus was crucified | John 19:18, 19:37; Mark 15:24 |
+
+Every reference is validated. The pattern generalises: for each case, ask what would survive if
+the disputed verse were deleted. Usually the doctrine survives and a *prophecy* does not.
 
 ## Composition
 

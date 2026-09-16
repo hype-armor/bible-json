@@ -48,7 +48,10 @@ MISSING_WITNESSES = [
 STRUCTURAL_GAPS = [
     ("No lemma, morphology or Strong's tagging",
      "Every case in this dataset had to be anchored to a verse reference by hand. Without word-level tagging you cannot ask 'where else does this version render arsenokoitai/diakonos/sheol differently?' - which is exactly the question that makes cases like Phoebe's diaconate or the sheol/hades/gehenna family analysable at scale.",
-     "Highest-value addition. An interlinear or a Strong's-tagged KJV/WLC/TR would turn this from a verse-quoting corpus into a searchable one."),
+     "Highest-value addition. An interlinear or a Strong's-tagged KJV/WLC/TR would turn this from a verse-quoting corpus into a searchable one. "
+     "PARTIALLY MITIGATED: tools/concordance.py matches surface forms on the unpointed Westminster Leningrad Codex and on diacritic-stripped Greek, "
+     "which is enough to build an occurrence table for a term (see studies/isa-7-14-almah.md, where it finds all seven occurrences of 'almah and the two of arsenokoitai). "
+     "It is not lemmatisation: it misses suppletive forms and catches homographs, so every study must declare its exclusions explicitly."),
     ("No textual apparatus, brackets or translators' footnotes",
      "Versions that bracket Mark 16:9-20 or footnote 'some manuscripts read...' are indistinguishable in this JSON from versions that print the text plainly. Two cases in the dataset are flagged for this.",
      "Store an optional per-verse `notes`/`markers` field, or a parallel apparatus file keyed by reference."),
@@ -221,7 +224,7 @@ def main() -> int:
     add("**Sufficient to start, and already producing results.** The three additions")
     add("that would most increase what this corpus can answer, in order:")
     add("")
-    add("1. **Word-level tagging** (Strong's or morphology) on at least the WLC, a Greek NT and the KJV. Turns hand-curated cases into corpus-wide queries.")
+    add("1. **Word-level tagging** (Strong's or morphology) on at least the WLC, a Greek NT and the KJV. Turns hand-curated cases into corpus-wide queries. `tools/concordance.py` closes part of this gap by surface-form matching, but it cannot lemmatise.")
     add("2. **Historical English versions** - Wycliffe, Tyndale, Geneva, RSV. Restores the chronology the study is about.")
     add("3. **A `versions.json` manifest** with date, base text and translation philosophy. Cheapest of the three, and every analysis wants it.")
     add("")

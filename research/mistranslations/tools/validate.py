@@ -63,6 +63,31 @@ def main() -> int:
             errors.append(f"{cid}: no usable references")
             continue
 
+        # Optional: a worked example must exist on disk.
+        study = case.get("study")
+        if study:
+            study_path = os.path.join(os.path.dirname(DATASET), study)
+            if not os.path.exists(study_path):
+                errors.append(f"{cid}: study {study!r} does not exist")
+
+        # Optional: the texts a doctrine actually rests on must resolve somewhere.
+        distinguish = case.get("distinguish_from")
+        if distinguish:
+            for field in ("claim", "rests_on", "note"):
+                if not distinguish.get(field):
+                    errors.append(f"{cid}: distinguish_from missing {field!r}")
+            for raw in distinguish.get("rests_on", []):
+                try:
+                    alt = Ref.parse(raw)
+                except ValueError as exc:
+                    errors.append(f"{cid}: distinguish_from: {exc}")
+                    continue
+                if not any(bible.has(v, alt) for v in
+                           ("en/NEW REVISED STANDARD VERSION", "en/KING JAMES BIBLE")):
+                    errors.append(f"{cid}: distinguish_from reference {raw!r} does not resolve")
+                else:
+                    resolved += 1
+
         witnesses = case.get("witnesses", {})
         for side in WITNESS_SIDES:
             if side not in witnesses:
@@ -90,7 +115,11 @@ def main() -> int:
                             + " (partial witness, usually a NT-only or OT-only version)"
                         )
 
+    studies = sum(1 for c in data["cases"] if c.get("study"))
+    distinguished = sum(1 for c in data["cases"] if c.get("distinguish_from"))
     print(f"cases:           {len(data['cases'])}")
+    print(f"worked examples: {studies:>4}")
+    print(f"distinguish_from:{distinguished:>4}")
     print(f"versions indexed:{len(bible.versions):>4}")
     print(f"verse lookups OK:{resolved:>4}")
     print(f"warnings:        {len(warnings):>4}")

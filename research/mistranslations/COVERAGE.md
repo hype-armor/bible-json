@@ -130,7 +130,7 @@ of that, and all four are public domain or widely available.
 
 Every case in this dataset had to be anchored to a verse reference by hand. Without word-level tagging you cannot ask 'where else does this version render arsenokoitai/diakonos/sheol differently?' - which is exactly the question that makes cases like Phoebe's diaconate or the sheol/hades/gehenna family analysable at scale.
 
-*Fix:* Highest-value addition. An interlinear or a Strong's-tagged KJV/WLC/TR would turn this from a verse-quoting corpus into a searchable one.
+*Fix:* Highest-value addition. An interlinear or a Strong's-tagged KJV/WLC/TR would turn this from a verse-quoting corpus into a searchable one. PARTIALLY MITIGATED: tools/concordance.py matches surface forms on the unpointed Westminster Leningrad Codex and on diacritic-stripped Greek, which is enough to build an occurrence table for a term (see studies/isa-7-14-almah.md, where it finds all seven occurrences of 'almah and the two of arsenokoitai). It is not lemmatisation: it misses suppletive forms and catches homographs, so every study must declare its exclusions explicitly.
 
 ### No textual apparatus, brackets or translators' footnotes
 
@@ -175,7 +175,7 @@ all 122 files - and bad news for citation, since a reference like
 **Sufficient to start, and already producing results.** The three additions
 that would most increase what this corpus can answer, in order:
 
-1. **Word-level tagging** (Strong's or morphology) on at least the WLC, a Greek NT and the KJV. Turns hand-curated cases into corpus-wide queries.
+1. **Word-level tagging** (Strong's or morphology) on at least the WLC, a Greek NT and the KJV. Turns hand-curated cases into corpus-wide queries. `tools/concordance.py` closes part of this gap by surface-form matching, but it cannot lemmatise.
 2. **Historical English versions** - Wycliffe, Tyndale, Geneva, RSV. Restores the chronology the study is about.
 3. **A `versions.json` manifest** with date, base text and translation philosophy. Cheapest of the three, and every analysis wants it.
 
