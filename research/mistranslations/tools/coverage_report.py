@@ -26,7 +26,11 @@ PILLARS = {
     "Greek NT - Byzantine/Majority": ["el/RP BYZANTINE MAJORITY TEXT 2005", "el/GREEK ORTHODOX CHURCH 1904"],
     "Greek NT - Textus Receptus": ["el/SCRIVENER'S TEXTUS RECEPTUS 1894", "el/STEPHANUS TEXTUS RECEPTUS 1550"],
     "Latin": ["la/LATIN: VULGATA CLEMENTINA"],
+    "Syriac tradition (in Syriac)": ["syr/SYRIAC PESHITTA"],
     "Syriac tradition (via English)": ["en/LAMSA BIBLE", "en/ARAMAIC BIBLE IN PLAIN ENGLISH", "en/PESHITTA HOLY BIBLE TRANSLATED"],
+    "Samaritan Hebrew": ["he/SAMARITAN PENTATEUCH"],
+    "Latin (two printed editions)": ["la/LATIN: VULGATA CLEMENTINA", "la/LATIN: VULGATA SIXTINA"],
+    "Gothic (4th c.)": ["got/GOTHIC BIBLE (WULFILA)"],
     "Aramaic Targum (via English)": ["en/TARGUM ONKELOS (ETHERIDGE)"],
     "Jewish English OT": ["en/JPS TANAKH 1917", "en/LEESER OLD TESTAMENT 1853"],
     "Reformation-era vernacular": ["de/GERMAN: LUTHER (1912)", "en/KING JAMES BIBLE", "en/DOUAY-RHEIMS BIBLE"],
@@ -41,8 +45,7 @@ MISSING_WITNESSES = [
     ("New World Translation", "The only version carrying the disputed John 1:1 rendering. **Blocked: in copyright.**", ["john-1-1-theos-anarthrous"]),
     ("Emphatic Diaglott (1864)", "A public-domain interlinear whose Greek-English line reads 'a god was the Word' at John 1:1 - the historical precedent behind the New World Translation's rendering. No machine-readable edition located, so this case still has no shifted witness.", ["john-1-1-theos-anarthrous"]),
     ("Bishops' Bible (1568) and Coverdale (1535)", "The KJV translators' official base text, and the first complete printed English Bible. No machine-readable public-domain editions located; Wycliffe, Tyndale and Geneva now cover most of what they would show.", ["acts-12-4-easter"]),
-    ("Dead Sea Scrolls / Qumran readings", "Decisive external evidence for two OT cases. No suitably licensed machine-readable edition located.", ["ps-22-16-kaaru-pierced", "deut-32-8-sons-of-god"]),
-    ("Samaritan Pentateuch, Targums, Peshitta in Syriac", "Independent ancient witnesses to the Hebrew.", ["gen-3-15-ipsa-conteret", "gen-1-1-bereshit-creatio-ex-nihilo"]),
+    ("Dead Sea Scrolls / Qumran readings", "Still the one decisive external witness this corpus lacks. No suitably licensed machine-readable edition located. Its absence is felt most at Deuteronomy 32:8, where the Samaritan Pentateuch has now been added and sides with the Masoretic Text - leaving the Septuagint alone, and Qumran as the tiebreak nobody here can consult.", ["ps-22-16-kaaru-pierced", "deut-32-8-sons-of-god"]),
     ("Septuagint word-level tagging", "lexicon/ covers the Hebrew OT and Greek NT but not the Greek OT, so Hebrew-to-LXX comparisons still rely on reference alignment, which fails where the Greek reorders material (Proverbs 30:19).", ["isa-7-14-almah-parthenos", "deut-32-8-sons-of-god"]),
 ]
 

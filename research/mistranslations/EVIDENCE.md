@@ -19,6 +19,7 @@ References: Romans 5:12
 - `en/DOUAY-RHEIMS BIBLE` — Romans 5:12 — Wherefore as by one man sin entered into this world, and by sin death; and so death passed upon all men, in whom all have sinned.
 - `en/GENEVA BIBLE 1599` — Romans 5:12 — Wherefore, as by one man sinne entred into ye world, and death by sinne, and so death went ouer all men: in who all men haue sinned.
 - `en/WYCLIFFE BIBLE` — Romans 5:12 — Therfor as bi o man synne entride in to this world, and bi synne deth, and so deth passide forth in to alle men, in which man alle men synneden.
+- `la/LATIN: VULGATA SIXTINA` — Romans 5:12 — Propterea sicut per unum hominem peccatum in hunc mundum intravit, et per peccatum mors, et ita in omnes homines mors pertransiit, in quo omnes peccaverunt:
 
 **Reading that restores the source**
 
@@ -32,6 +33,7 @@ References: Romans 5:12
 - `en/DARBY BIBLE 1890` — Romans 5:12 — For this [cause], even as by one man sin entered into the world, and by sin death; and thus death passed upon all men, for that all have sinned:
 - `en/BIBLE IN BASIC ENGLISH` — Romans 5:12 — For this reason, as through one man sin came into the world, and death because of sin, and so death came to all men, because all have done evil:
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Romans 5:12 — Therefore, just as sin came into the world through one man, and death came through sin, in this way death has come to all men, because all have sinned.
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Romans 5:12 — Therefore, just as sin came into the world through one man, and through sin came death; so, also, death spread to all mankind, because all men had sinned.
 
 ---
 
@@ -48,6 +50,12 @@ References: Exodus 34:29, Exodus 34:30, Exodus 34:35
 - `he/ALEPPO CODEX` — Exodus 34:29 — כט ויהי ברדת משה מהר סיני ושני לחת העדת ביד משה ברדתו מן ההר ומשה לא ידע כי קרן עור פניו--בדברו אתו
 - `he/ALEPPO CODEX` — Exodus 34:30 — ל וירא אהרן וכל בני ישראל את משה והנה קרן עור פניו וייראו מגשת אליו
 - `he/ALEPPO CODEX` — Exodus 34:35 — לה וראו בני ישראל את פני משה כי קרן עור פני משה והשיב משה את המסוה על פניו עד באו לדבר אתו {ס}
+- `he/SAMARITAN PENTATEUCH` — Exodus 34:29 — ויהי ברדת משה מהר סיני ושני לוחת העדות בידו. ברדתו מן ההר ומשה לא ידע כי קרן עור פניו בדברו אתו
+- `he/SAMARITAN PENTATEUCH` — Exodus 34:30 — וירא אהרן וכל בני ישראל את משה והנה קרן עור פניו וייראו מגשת אליו
+- `he/SAMARITAN PENTATEUCH` — Exodus 34:35 — וראו בני ישראל את פני משה כי קרן עור פני משה והשיב. את המסוה על פניו עד באו לדבר אתו
+- `he/MIQRA AL PI HAMESORAH` — Exodus 34:29 — וַיְהִ֗י בְּרֶ֤דֶת מֹשֶׁה֙ מֵהַ֣ר סִינַ֔י וּשְׁנֵ֨י לֻחֹ֤ת הָֽעֵדֻת֙ בְּיַד־מֹשֶׁ֔ה בְּרִדְתּ֖וֹ מִן־הָהָ֑ר וּמֹשֶׁ֣ה לֹֽא־יָדַ֗ע כִּ֥י קָרַ֛ן ע֥וֹר פָּנָ֖יו בְּדַבְּר֥וֹ אִתּֽוֹ׃
+- `he/MIQRA AL PI HAMESORAH` — Exodus 34:30 — וַיַּ֨רְא אַהֲרֹ֜ן וְכׇל־בְּנֵ֤י יִשְׂרָאֵל֙ אֶת־מֹשֶׁ֔ה וְהִנֵּ֥ה קָרַ֖ן ע֣וֹר פָּנָ֑יו וַיִּֽירְא֖וּ מִגֶּ֥שֶׁת אֵלָֽיו׃
+- `he/MIQRA AL PI HAMESORAH` — Exodus 34:35 — וְרָא֤וּ בְנֵֽי־יִשְׂרָאֵל֙ אֶת־פְּנֵ֣י מֹשֶׁ֔ה כִּ֣י קָרַ֔ן ע֖וֹר פְּנֵ֣י מֹשֶׁ֑ה וְהֵשִׁ֨יב מֹשֶׁ֤ה אֶת־הַמַּסְוֶה֙ עַל־פָּנָ֔יו עַד־בֹּא֖וֹ לְדַבֵּ֥ר אִתּֽוֹ׃
 
 **Shifted rendering**
 
@@ -60,6 +68,9 @@ References: Exodus 34:29, Exodus 34:30, Exodus 34:35
 - `en/WYCLIFFE BIBLE` — Exodus 34:29 — And whanne Moises cam doun fro the hil of Synai, he helde twei tablis of witnessyng, and he wiste not that his face was horned of the felouschipe of Goddis word.
 - `en/WYCLIFFE BIBLE` — Exodus 34:30 — Forsothe Aaron and the sones of Israel sien Moises face horned,
 - `en/WYCLIFFE BIBLE` — Exodus 34:35 — whiche sien that the face of Moyses goynge out was horned, but eft he hilide his face, if ony tyme he spak to hem.
+- `la/LATIN: VULGATA SIXTINA` — Exodus 34:29 — Cumque descenderet Moyses de monte Sinai, tenebat duas tabulas testimonii, et ignorabat quod cornuta esset facies sua ex consortio sermonis Domini.
+- `la/LATIN: VULGATA SIXTINA` — Exodus 34:30 — Videntes autem Aaron et filii Israel cornutam Moysi faciem, timuerunt prope accedere.
+- `la/LATIN: VULGATA SIXTINA` — Exodus 34:35 — Qui videbant faciem egredientis Moysi esse cornutam, sed operiebat ille rursus faciem suam, si quando loquebatur ad eos.
 
 **Reading that restores the source**
 
@@ -96,6 +107,8 @@ References: 1 John 5:7, 1 John 5:8
 - `el/TISCHENDORF 8TH EDITION` — 1 John 5:8 — ὁ πνεῦμα καί ὁ ὕδωρ καί ὁ αἷμα καί ὁ τρεῖς εἰς ὁ εἷς εἰμί
 - `el/RP BYZANTINE MAJORITY TEXT 2005` — 1 John 5:7 — Ὅτι τρεῖς εἰσὶν οἱ μαρτυροῦντες,
 - `el/RP BYZANTINE MAJORITY TEXT 2005` — 1 John 5:8 — τὸ πνεῦμα, καὶ τὸ ὕδωρ, καὶ τὸ αἷμα· καὶ οἱ τρεῖς εἰς τὸ ἕν εἰσιν.
+- `syr/SYRIAC PESHITTA` — 1 John 5:7 — ܘܪܘܚܐ ܡܤܗܕܐ ܕܗܝ ܪܘܚܐ ܐܝܬܝܗ ܫܪܪܐ ܀
+- `syr/SYRIAC PESHITTA` — 1 John 5:8 — ܘܐܝܬܝܗܘܢ ܬܠܬܐ ܤܗܕܝܢ ܪܘܚܐ ܘܡܝܐ ܘܕܡܐ ܘܬܠܬܝܗܘܢ ܒܚܕ ܐܢܘܢ ܀
 
 **Shifted rendering**
 
@@ -136,6 +149,8 @@ References: 1 John 5:7, 1 John 5:8
 - `en/FAMILY 35 NEW TESTAMENT` — 1 John 5:8 — —the Spirit, the water and the blood—and the three are to one effect.
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 John 5:7 — For there are three that testify:
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 John 5:8 — the Spirit, the water, and the blood; and these three are in agreement.
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 John 5:7 — It is a three-fold testimony —
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 John 5:8 — that of the Spirit, the Water, and the Blood — and these three are at one.
 
 ---
 
@@ -158,6 +173,10 @@ References: Matthew 4:17, Matthew 3:2, Mark 1:15, Acts 2:38
 - `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — Matthew 3:2 — καὶ λέγων, Μετανοεῖτε· ἤγγικε γὰρ ἡ βασιλεία τῶν οὐρανῶν.
 - `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — Mark 1:15 — καὶ λέγων ὅτι Πεπλήρωται ὁ καιρός, καὶ ἤγγικεν ἡ βασιλεία τοῦ Θεοῦ· μετανοεῖτε, καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ.
 - `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — Acts 2:38 — Πέτρος δὲ ἔφη πρὸς αὐτούς, Μετανοήσατε, καὶ βαπτισθήτω ἕκαστος ὑμῶν ἐπὶ τῷ ὀνόματι Ἰησοῦ Χριστοῦ εἰς ἄφεσιν ἁμαρτιῶν, καὶ λήψεσθε τὴν δωρεὰν τοῦ Ἁγίου Πνεύματος.
+- `syr/SYRIAC PESHITTA` — Matthew 4:17 — ܡܢ ܗܝܕܝܢ ܫܪܝ ܝܫܘܥ ܠܡܟܪܙܘ ܘܠܡܐܡܪ ܬܘܒܘ ܩܪܒܬ ܠܗ ܓܝܪ ܡܠܟܘܬܐ ܕܫܡܝܐ ܀
+- `syr/SYRIAC PESHITTA` — Matthew 3:2 — ܘܐܡܪ ܬܘܒܘ ܩܪܒܬ ܠܗ ܡܠܟܘܬܐ ܕܫܡܝܐ ܀
+- `syr/SYRIAC PESHITTA` — Mark 1:15 — ܘܐܡܪ ܫܠܡ ܠܗ ܙܒܢܐ ܘܡܛܬ ܡܠܟܘܬܐ ܕܐܠܗܐ ܬܘܒܘ ܘܗܝܡܢܘ ܒܤܒܪܬܐ ܀
+- `syr/SYRIAC PESHITTA` — Acts 2:38 — ܐܡܪ ܠܗܘܢ ܫܡܥܘܢ ܬܘܒܘ ܘܥܡܕܘ ܐܢܫ ܐܢܫ ܡܢܟܘܢ ܒܫܡܗ ܕܡܪܝܐ ܝܫܘܥ ܠܫܘܒܩܢ ܚܛܗܐ ܕܬܩܒܠܘܢ ܡܘܗܒܬܐ ܕܪܘܚܐ ܕܩܘܕܫܐ ܀
 
 **Shifted rendering**
 
@@ -173,6 +192,10 @@ References: Matthew 4:17, Matthew 3:2, Mark 1:15, Acts 2:38
 - `en/WYCLIFFE BIBLE` — Matthew 3:2 — and seide, Do ye penaunce, for the kyngdom of heuenes shal neiye.
 - `en/WYCLIFFE BIBLE` — Mark 1:15 — and seide, That the tyme is fulfillid, and the kyngdoom of God schal come nyy; do ye penaunce, and bileue ye to the gospel.
 - `en/WYCLIFFE BIBLE` — Acts 2:38 — And Petre seide to hem, Do ye penaunce, and eche of you be baptisid in the name of Jhesu Crist, in to remissioun of youre synnes; and ye schulen take the yifte of the Hooli Goost.
+- `la/LATIN: VULGATA SIXTINA` — Matthew 4:17 — Exinde coepit Iesus praedicare, et dicere: Poenitentiam agite: appropinquabit enim regnum caelorum.
+- `la/LATIN: VULGATA SIXTINA` — Matthew 3:2 — et dicens: Poenitentiam agite: appropinquabit enim regnum caelorum.
+- `la/LATIN: VULGATA SIXTINA` — Mark 1:15 — et dicens: Quoniam impletum est tempus, et appropinquavit regnum Dei: poenitemini, et credite Evangelio.
+- `la/LATIN: VULGATA SIXTINA` — Acts 2:38 — Petrus vero ad illos: Poenitentiam (inquit) agite, et baptizetur unusquisque vestrum in nomine Iesu Christi in remissionem peccatorum vestrorum: et accipietis donum Spiritus sancti.
 
 **Reading that restores the source**
 
@@ -220,6 +243,10 @@ References: Matthew 4:17, Matthew 3:2, Mark 1:15, Acts 2:38
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Matthew 3:2 — “Repent, for the kingdom of heaven has drawn near.”
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Mark 1:15 — and saying, “The time is fulfilled, and the kingdom of God has drawn near. Repent and believe in the gospel.” Jesus Calls His First Disciples
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Acts 2:38 — Peter said to them, “Repent and be baptized, each one of you, in the name of Jesus Christ for the remission of sins, and you will receive the gift of the Holy Spirit.
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Matthew 4:17 — At that time Jesus began to proclaim — “Repent, for the Kingdom of Heaven is at hand.”
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Matthew 3:2 — “Repent, for the Kingdom of Heaven is at hand.”
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Mark 1:15 — “The time has come, and the Kingdom of God is at hand; repent, and believe the Good News.”
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Acts 2:38 — “Repent,” answered Peter, “and be baptized every one of you in the Faith of Jesus Christ for the forgiveness of your sins; and then you will receive the gift of the Holy Spirit.
 
 ---
 
@@ -232,6 +259,7 @@ References: Isaiah 14:12
 
 - `he/WESTMINSTER LENINGRAD CODEX` — Isaiah 14:12 — אֵ֛יךְ נָפַ֥לְתָּ מִשָּׁמַ֖יִם הֵילֵ֣ל בֶּן־שָׁ֑חַר נִגְדַּ֣עְתָּ לָאָ֔רֶץ חֹולֵ֖שׁ עַל־גֹּויִֽם׃
 - `el/SWETE'S SEPTUAGINT` — Isaiah 14:12 — πῶς ἐξέπεσεν ἐκ τοῦ οὐρανοῦ ὁ ἑωσφόρος ὁ πρωὶ ἀνατέλλων; συνετρίβη εἰς τὴν γῆν ὁ ἀποστέλλων πρὸς πάντα τὰ ἔθνη.
+- `he/MIQRA AL PI HAMESORAH` — Isaiah 14:12 — אֵ֛יךְ נָפַ֥לְתָּ מִשָּׁמַ֖יִם הֵילֵ֣ל בֶּן־שָׁ֑חַר נִגְדַּ֣עְתָּ לָאָ֔רֶץ חוֹלֵ֖שׁ עַל־גּוֹיִֽם׃
 
 **Shifted rendering**
 
@@ -285,6 +313,7 @@ References: Romans 16:7
 - `en/ROTHERHAM EMPHASISED BIBLE` — Romans 16:7 — Salute Andronicus and Junias, my kinsmen and my fellow-captives, who, indeed, are of note among the Apostles, who also before me had come to be in Christ.
 - `en/DARBY BIBLE 1890` — Romans 16:7 — Salute Andronicus and Junias, my kinsmen and fellow-captives, who are of note among the apostles; who were also in Christ before me.
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Romans 16:7 — Greet Andronicus and Junia, my kinsfolk and my fellow prisoners, who are of note among the apostles, and who were in Christ before me.
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Romans 16:7 — to Andronicus and Junias, my countrymen and once my fellow-prisoners, who are men of note among the Apostles, and who became Christians before I did;
 
 ---
 
@@ -297,6 +326,7 @@ References: Isaiah 7:14, Matthew 1:23
 
 - `he/WESTMINSTER LENINGRAD CODEX` — Isaiah 7:14 — לָ֠כֵן יִתֵּ֨ן אֲדֹנָ֥י ה֛וּא לָכֶ֖ם אֹ֑ות הִנֵּ֣ה הָעַלְמָ֗ה הָרָה֙ וְיֹלֶ֣דֶת בֵּ֔ן וְקָרָ֥את שְׁמֹ֖ו עִמָּ֥נוּ אֵֽל׃
 - `he/ALEPPO CODEX` — Isaiah 7:14 — יד לכן יתן אדני הוא לכם--אות הנה העלמה הרה וילדת בן וקראת שמו עמנו אל
+- `he/MIQRA AL PI HAMESORAH` — Isaiah 7:14 — לָ֠כֵ֠ן יִתֵּ֨ן אֲדֹנָ֥י ה֛וּא לָכֶ֖ם א֑וֹת הִנֵּ֣ה הָעַלְמָ֗ה הָרָה֙ וְיֹלֶ֣דֶת בֵּ֔ן וְקָרָ֥את שְׁמ֖וֹ עִמָּ֥נוּ אֵֽל׃
 
 **Shifted rendering**
 
@@ -384,6 +414,8 @@ References: 1 Corinthians 6:9, 1 Timothy 1:10
 - `en/DARBY BIBLE 1890` — 1 Timothy 1:10 — fornicators, sodomites, kidnappers, liars, perjurers; and if any other thing is opposed to sound teaching,
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 Corinthians 6:9 — Do you not know that the unrighteous will not inherit the kingdom of God? Do not be deceived! Neither fornicators, nor idolaters, nor adulterers, nor homosexuals, nor sodomites,
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 Timothy 1:10 — fornicators, homosexuals, slave traders, liars, perjurers, and whatever else is opposed to the sound teaching
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 Corinthians 6:9 — Do not you know that wrong-doers will have no share in God’s Kingdom? Do not be deceived. No one who is immoral, or an idolater, or an adulterer, or licentious, or a sodomite,
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 Timothy 1:10 — for the immoral, for people guilty of sodomy, for slave-dealers, for liars, for perjurers, and for whatever else is opposed to sound Christian teaching —
 
 ---
 
@@ -397,12 +429,15 @@ References: Genesis 3:15
 - `he/WESTMINSTER LENINGRAD CODEX` — Genesis 3:15 — וְאֵיבָ֣ה ׀ אָשִׁ֗ית בֵּֽינְךָ֙ וּבֵ֣ין הָֽאִשָּׁ֔ה וּבֵ֥ין זַרְעֲךָ֖ וּבֵ֣ין זַרְעָ֑הּ ה֚וּא יְשׁוּפְךָ֣ רֹ֔אשׁ וְאַתָּ֖ה תְּשׁוּפֶ֥נּוּ עָקֵֽב׃ ס
 - `el/SWETE'S SEPTUAGINT` — Genesis 3:15 — καὶ ἔχθραν θήσω ἀνὰ μέσον σου καὶ ἀνὰ μέσον τῆς γυναικός, καὶ ἀνὰ μέσον τοῦ σπέρματός σου καὶ ἀνὰ μέσον τοῦ σπέρματος αὐτῆς· αὐτός σου τηρήσει κεφαλήν, καὶ σὺ τηρήσεις αὐτοῦ πτέρναν.
 - `en/TARGUM ONKELOS (ETHERIDGE)` — Genesis 3:15 — And I will put enmity between thee and between the woman, and between thy son and her son. He will remember thee, what thou didst to him (at) from the beginning, and thou shalt be observant unto him at the end.
+- `he/SAMARITAN PENTATEUCH` — Genesis 3:15 — ואיבה אשית בינך ובין האשה ובין זרעך ובין זרעה הוא ישופך ראש ואתה תשופנו עקב
+- `he/MIQRA AL PI HAMESORAH` — Genesis 3:15 — וְאֵיבָ֣ה ׀ אָשִׁ֗ית בֵּֽינְךָ֙ וּבֵ֣ין הָֽאִשָּׁ֔ה וּבֵ֥ין זַרְעֲךָ֖ וּבֵ֣ין זַרְעָ֑הּ ה֚וּא יְשׁוּפְךָ֣ רֹ֔אשׁ וְאַתָּ֖ה תְּשׁוּפֶ֥נּוּ עָקֵֽב׃
 
 **Shifted rendering**
 
 - `la/LATIN: VULGATA CLEMENTINA` — Genesis 3:15 — Inimicitias ponam inter te et mulierem, et semen tuum et semen illius : ipsa conteret caput tuum, et tu insidiaberis calcaneo ejus.
 - `en/DOUAY-RHEIMS BIBLE` — Genesis 3:15 — I will put enmities between thee and the woman, and thy seed and her seed: she shall crush thy head, and thou shalt lie in wait for her heel.
 - `en/WYCLIFFE BIBLE` — Genesis 3:15 — Y schal sette enemytees bitwixe thee and the womman, and bitwixe thi seed and hir seed; sche schal breke thin heed, and thou schalt sette aspies to hir heele.
+- `la/LATIN: VULGATA SIXTINA` — Genesis 3:15 — Inimicitias ponam inter te et mulierem, et semen tuum et semen illius: ipsa conteret caput tuum, et tu insidiaberis calcaneo eius.
 
 **Reading that restores the source**
 
@@ -433,6 +468,7 @@ References: Ephesians 5:32
 - `la/LATIN: VULGATA CLEMENTINA` — Ephesians 5:32 — Sacramentum hoc magnum est, ego autem dico in Christo et in Ecclesia.
 - `en/DOUAY-RHEIMS BIBLE` — Ephesians 5:32 — This is a great sacrament; but I speak in Christ and in the church.
 - `en/WYCLIFFE BIBLE` — Ephesians 5:32 — This sacrament is greet; yhe, Y seie in Crist, and in the chirche.
+- `la/LATIN: VULGATA SIXTINA` — Ephesians 5:32 — Sacramentum hoc magnum est, ego autem dico in Christo et in Ecclesia.
 
 **Reading that restores the source**
 
@@ -465,6 +501,7 @@ References: Luke 1:28
 - `en/CATHOLIC PUBLIC DOMAIN VERSION` — Luke 1:28 — And upon entering, the Angel said to her: “Hail, full of grace. The Lord is with you. Blessed are you among women.”
 - `en/WYCLIFFE BIBLE` — Luke 1:28 — And the aungel entride to hir, and seide, Heil, ful of grace; the Lord be with thee; blessid be thou among wymmen.
 - `en/TYNDALE NEW TESTAMENT` — Luke 1:28 — And the angell went in vnto her and sayde: Hayle full of grace the Lorde is with the: blessed arte thou amonge wemen.
+- `la/LATIN: VULGATA SIXTINA` — Luke 1:28 — Et ingressus Angelus ad eam dixit: Ave gratia plena: Dominus tecum: Benedicta tu in mulieribus.
 
 **Reading that restores the source**
 
@@ -500,6 +537,7 @@ References: Revelation 22:19
 - `en/TYNDALE NEW TESTAMENT` — Revelation 22:19 — And yf eny man shall mynyshe of the wordes of the boke of this prophesy god shall take a waye his parte out of the boke of lyfe and oute of the holy citie and from thoo thynge which are written in this boke.
 - `en/GENEVA BIBLE 1599` — Revelation 22:19 — And if any man shall diminish of the wordes of the booke of this prophecie, God shall take away his part out of the Booke of life, and out of the holie citie, and from those things which are written in this booke.
 - `en/WYCLIFFE BIBLE` — Revelation 22:19 — And if ony man do awei of the wordis of the book of this prophesie, God schal take awei the part of hym fro the book of lijf, and fro the hooli citee, and fro these thingis that ben writun in this book.
+- `la/LATIN: VULGATA SIXTINA` — Revelation 22:19 — Et si quis diminuerit de verbis libri prophetiae huius, auferet Deus partem eius de libro vitae, et de civitate sancta, et de his, quae scripta sunt in libro isto.
 
 **Reading that restores the source**
 
@@ -540,6 +578,7 @@ References: Acts 12:4
 - `en/ROTHERHAM EMPHASISED BIBLE` — Acts 12:4 — Whom also having seized, he put into prison, delivering him up unto four quaternions of soldiers, to be guarding him,—intending, after the passover, to bring him up unto the people.
 - `en/DARBY BIBLE 1890` — Acts 12:4 — whom having seized he put in prison, having delivered him to four quaternions of soldiers to keep, purposing after the passover to bring him out to the people.
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Acts 12:4 — After seizing him, he put him in prison, handing him over to be guarded by four squads of four soldiers each. Herod planned to bring him out to the people after the Passover.
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Acts 12:4 — After seizing Peter, Herod put him in prison, and entrusted him to the keeping of four Guards of four soldiers each, intending, after the Passover, to bring him up before the people.
 
 ---
 
@@ -596,6 +635,8 @@ References: John 8:7, John 8:11
 - `el/RP BYZANTINE MAJORITY TEXT 2005` — John 8:11 — Ἡ δὲ εἴπεν, Οὐδείς, κύριε. Εἴπεν δὲ ὁ Ἰησοῦς, Οὐδὲ ἐγώ σε κρίνω· πορεύου καὶ μηκέτι ἁμάρτανε. Ἡ δὲ εἴπεν, Οὐδείς, κύριε. Εἴπεν δὲ αὐτῇ ὁ Ἰησοῦς, Οὐδὲ ἐγώ σε κατακρίνω· πορεύου καὶ ἀπὸ τοῦ νῦν μηκέτι ἁμάρτανε.
 - `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — John 8:7 — ὡς δὲ ἐπέμενον ἐρωτῶντες αὐτόν, ἀνακύψας εἶπε πρὸς αὐτούς, Ὁ ἀναμάρτητος ὑμῶν, πρῶτος τὸν λίθον ἐπ’ αὐτῇ βαλέτω.
 - `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — John 8:11 — ἡ δὲ εἶπεν, Οὐδείς, Κύριε. εἶπε δὲ αὐτῇ ὁ Ἰησοῦς, Οὐδὲ ἐγώ σε κατακρίνω· πορεύου καὶ μηκέτι ἁμάρτανε.
+- `syr/SYRIAC PESHITTA` — John 8:7 — ܟܕ ܕܝܢ ܟܬܪܘ ܟܕ ܡܫܐܠܝܢ ܠܗ ܐܬܦܫܛ ܘܐܡܪ ܠܗܘܢ ܐܝܢܐ ܡܢܟܘܢ ܕܐܝܬܘܗܝ ܕܠܐ ܚܛܗ ܩܕܡܝܐ ܢܫܕܐ ܥܠܝܗ ܟܐܦܐ ܀
+- `syr/SYRIAC PESHITTA` — John 8:11 — ܗܝ ܕܝܢ ܐܡܪܬ ܘܠܐ ܐܢܫ ܡܪܝܐ ܐܡܪ ܕܝܢ ܝܫܘܥ ܐܦܠܐ ܐܢܐ ܡܚܝܒ ܐܢܐ ܠܟܝ ܙܠܝ ܘܡܢ ܗܫܐ ܬܘܒ ܠܐ ܬܚܛܝܢ ܀
 
 **Shifted rendering**
 
@@ -640,6 +681,7 @@ References: 1 Timothy 6:10
 - `en/KING JAMES BIBLE` — 1 Timothy 6:10 — For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.
 - `en/WEBSTER'S BIBLE TRANSLATION` — 1 Timothy 6:10 — For the love of money is the root of all evil: which while some have coveted, they have erred from the faith, and pierced themselves through with many sorrows.
 - `en/DOUAY-RHEIMS BIBLE` — 1 Timothy 6:10 — For the desire of money is the root of all evils; which some coveting have erred from the faith, and have entangled themselves in many sorrows.
+- `la/LATIN: VULGATA SIXTINA` — 1 Timothy 6:10 — Radix enim omnium malorum est cupiditas: quam quidam appetentes erraverunt a fide, et inseruerunt se doloribus multis.
 
 **Reading that restores the source**
 
@@ -653,6 +695,7 @@ References: 1 Timothy 6:10
 - `en/ROTHERHAM EMPHASISED BIBLE` — 1 Timothy 6:10 — For, a root of all the vices, is the love of money, which, some, being eager for, have been seduced from the faith, and have pierced, themselves, about with many pangs.
 - `en/DARBY BIBLE 1890` — 1 Timothy 6:10 — For the love of money is [the] root of every evil; which some having aspired after, have wandered from the faith, and pierced themselves with many sorrows.
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — 1 Timothy 6:10 — For the love of money is the root of all kinds of evil, and in their eagerness to become rich some have wandered away from the faith, piercing themselves with many sorrows. Fight the Good Fight
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 Timothy 6:10 — Love of money is a source of all kinds of evil; and in their eagerness to be rich some have wandered away from the Faith, and have been pierced to the heart by many a regret.
 
 ---
 
@@ -665,6 +708,8 @@ References: Exodus 22:18
 
 - `he/WESTMINSTER LENINGRAD CODEX` — Exodus 22:18 — מְכַשֵּׁפָ֖ה לֹ֥א תְחַיֶּֽה׃ ס
 - `el/SWETE'S SEPTUAGINT` — Exodus 22:18 — Φαρμακοὺς οὐ περιποιήσετε.
+- `he/SAMARITAN PENTATEUCH` — Exodus 22:18 — כל שכב עם בהמה מות יומת
+- `he/MIQRA AL PI HAMESORAH` — Exodus 22:18 — כׇּל־שֹׁכֵ֥ב עִם־בְּהֵמָ֖ה מ֥וֹת יוּמָֽת׃
 
 **Shifted rendering**
 
@@ -675,6 +720,7 @@ References: Exodus 22:18
 - `en/GENEVA BIBLE 1599` — Exodus 22:18 — Thou shalt not suffer a witch to liue.
 - `en/LEESER OLD TESTAMENT 1853` — Exodus 22:18 — (22:17) Thou shalt not suffer a witch to live.
 - `en/DARBY BIBLE 1890` — Exodus 22:18 — — Thou shalt not suffer a witch to live.
+- `la/LATIN: VULGATA SIXTINA` — Exodus 22:18 — Maleficos non patieris vivere.
 
 **Reading that restores the source**
 
@@ -699,6 +745,10 @@ References: Exodus 20:13, Deuteronomy 5:17
 - `he/WESTMINSTER LENINGRAD CODEX` — Deuteronomy 5:17 — לֹ֥֖א תִּֿרְצָֽח׃ ס
 - `he/ALEPPO CODEX` — Exodus 20:13 — יב לא תרצח {ס}
 - `he/ALEPPO CODEX` — Deuteronomy 5:17 — יז ולא תחמד אשת רעך {ס} ולא תתאוה בית רעך שדהו ועבדו ואמתו שורו וחמרו וכל אשר לרעך {ס}
+- `he/SAMARITAN PENTATEUCH` — Exodus 20:13 — לא תרצח
+- `he/SAMARITAN PENTATEUCH` — Deuteronomy 5:17 — לא תרצח
+- `he/MIQRA AL PI HAMESORAH` — Exodus 20:13 — לֹ֥֖א תִּֿרְצָ֖͏ֽח׃
+- `he/MIQRA AL PI HAMESORAH` — Deuteronomy 5:17 — לֹ֥֖א תִּֿרְצָ֖͏ֽח׃
 
 **Shifted rendering**
 
@@ -718,6 +768,8 @@ References: Exodus 20:13, Deuteronomy 5:17
 - `en/DARBY BIBLE 1890` — Deuteronomy 5:17 — Thou shalt not kill.
 - `en/BIBLE IN BASIC ENGLISH` — Exodus 20:13 — Do not put anyone to death without cause.
 - `en/BIBLE IN BASIC ENGLISH` — Deuteronomy 5:17 — Do not put anyone to death without cause.
+- `la/LATIN: VULGATA SIXTINA` — Exodus 20:13 — Non occides.
+- `la/LATIN: VULGATA SIXTINA` — Deuteronomy 5:17 — Non occides.
 
 **Reading that restores the source**
 
@@ -776,6 +828,10 @@ References: Genesis 2:18, Genesis 2:20
 - `he/WESTMINSTER LENINGRAD CODEX` — Genesis 2:20 — וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמֹ֗ות לְכָל־הַבְּהֵמָה֙ וּלְעֹ֣וף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדֹּֽו׃
 - `he/ALEPPO CODEX` — Genesis 2:18 — יח ויאמר יהוה אלהים לא טוב היות האדם לבדו אעשה לו עזר כנגדו
 - `he/ALEPPO CODEX` — Genesis 2:20 — כ ויקרא האדם שמות לכל הבהמה ולעוף השמים ולכל חית השדה ולאדם לא מצא עזר כנגדו
+- `he/SAMARITAN PENTATEUCH` — Genesis 2:18 — ויאמר יהוה אלהים לא טוב היות האדם לבדו אעשה לו עזר כנגדו
+- `he/SAMARITAN PENTATEUCH` — Genesis 2:20 — ויקרא האדם שמות לכל הבהמה ולעוף השמים ולכל חית השדה ולאדם לא מצא עזר כנגדו
+- `he/MIQRA AL PI HAMESORAH` — Genesis 2:18 — וַיֹּ֙אמֶר֙ יְהֹוָ֣ה אֱלֹהִ֔ים לֹא־ט֛וֹב הֱי֥וֹת הָֽאָדָ֖ם לְבַדּ֑וֹ אֶֽעֱשֶׂה־לּ֥וֹ עֵ֖זֶר כְּנֶגְדּֽוֹ׃
+- `he/MIQRA AL PI HAMESORAH` — Genesis 2:20 — וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכׇל־הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃
 
 **Shifted rendering**
 
@@ -797,6 +853,8 @@ References: Genesis 2:18, Genesis 2:20
 - `en/LEESER OLD TESTAMENT 1853` — Genesis 2:20 — And the man gave names to all cattle, and to the fowl of the heaven, and to every beast of the field; but for man there was not found a help suitable for him.
 - `en/DARBY BIBLE 1890` — Genesis 2:18 — And Jehovah Elohim said, It is not good that Man should be alone; I will make him a helpmate, his like.
 - `en/DARBY BIBLE 1890` — Genesis 2:20 — And Man gave names to all cattle, and to the fowl of the heavens, and to every beast of the field; but as for Adam, he found no helpmate, his like.
+- `la/LATIN: VULGATA SIXTINA` — Genesis 2:18 — Dixit quoque Dominus Deus: Non est bonum esse hominem solum: faciamus ei adiutorium simile sibi.
+- `la/LATIN: VULGATA SIXTINA` — Genesis 2:20 — Appellavitque Adam nominibus suis cuncta animantia, et universa volatilia caeli, et omnes bestias terrae: Adae vero non inveniebatur adiutor similis eius.
 
 **Reading that restores the source**
 
@@ -827,6 +885,7 @@ References: Psalms 22:16
 - `en/JPS TANAKH 1917` — Psalms 22:16 — For dogs have encompassed me; A company of evil-doers have inclosed me; Like a lion, they are at my hands and my feet.
 - `en/LEESER OLD TESTAMENT 1853` — Psalms 22:16 — (22:17) For dogs have encompassed me; the assembly of the wicked have enclosed me: like lions [they threaten] my hands and my feet.
 - `en/NOYES TRANSLATION 1869` — Psalms 22:16 — For dogs have surrounded me; Bands of evil-doers have encompassed me,—Like lions my hands and my feet.
+- `he/MIQRA AL PI HAMESORAH` — Psalms 22:16 — יָ֘בֵ֤שׁ כַּחֶ֨רֶשׂ ׀ כֹּחִ֗י וּ֭לְשׁוֹנִי מֻדְבָּ֣ק מַלְקוֹחָ֑י וְֽלַעֲפַר־מָ֥וֶת תִּשְׁפְּתֵֽנִי׃
 
 **Shifted rendering**
 
@@ -864,6 +923,9 @@ References: Deuteronomy 32:8
 - `en/GENEVA BIBLE 1599` — Deuteronomy 32:8 — When the most hie God deuided to the nations their inheritance, when he separated the sonnes of Adam, he appoynted the borders of the people, according to the nomber of the children of Israel.
 - `en/LEESER OLD TESTAMENT 1853` — Deuteronomy 32:8 — When the Most High divided to the nations their inheritance, when he separated the sons of man: he set the bounds of the tribes according to the number of the sons of Israel.
 - `en/DARBY BIBLE 1890` — Deuteronomy 32:8 — When the Most High assigned to the nations their inheritance, When he separated the sons of Adam, He set the bounds of the peoples According to the number of the children of Israel.
+- `he/MIQRA AL PI HAMESORAH` — Deuteronomy 32:8 — בְּהַנְחֵ֤ל עֶלְיוֹן֙ גּוֹיִ֔ם בְּהַפְרִיד֖וֹ בְּנֵ֣י אָדָ֑ם יַצֵּב֙ גְּבֻלֹ֣ת עַמִּ֔ים לְמִסְפַּ֖ר בְּנֵ֥י יִשְׂרָאֵֽל׃
+- `la/LATIN: VULGATA SIXTINA` — Deuteronomy 32:8 — Quando dividebat Altissimus gentes: quando separabat filios Adam, constituit terminos populorum iuxta numerum filiorum Israel.
+- `he/SAMARITAN PENTATEUCH` — Deuteronomy 32:8 — בהנחל עליון גוים בהפרידו בני אדם יצב גבלות עמים למספר בני. ישראל
 
 **Reading that restores the source**
 
@@ -888,6 +950,7 @@ References: Psalms 16:10, Matthew 5:22, Matthew 10:28, Luke 16:23, 2 Peter 2:4, 
 - `el/WESTCOTT AND HORT 1881` — 2 Peter 2:4 — εἰ γὰρ ὁ θεὸς ἀγγέλων ἁμαρτησάντων οὐκ ἐφείσατο, ἀλλὰ σειροῖς ζόφου ταρταρώσας παρέδωκεν εἰς κρίσιν τηρουμένους,
 - `el/WESTCOTT AND HORT 1881` — Revelation 20:14 — καὶ ὁ θάνατος καὶ ὁ ᾅδης ἐβλήθησαν εἰς τὴν λίμνην τοῦ πυρός. οὗτος ὁ θάνατος ὁ δεύτερός ἐστιν, ἡ λίμνη τοῦ πυρός.
 - `el/SWETE'S SEPTUAGINT` — Psalms 16:10 — ὅτι οὐκ ἐνκαταλείψεις τὴν ψυχήν μου εἰς ᾅδην, οὐδὲ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν.
+- `he/MIQRA AL PI HAMESORAH` — Psalms 16:10 — כִּ֤י ׀ לֹא־תַעֲזֹ֣ב נַפְשִׁ֣י לִשְׁא֑וֹל לֹֽא־תִתֵּ֥ן חֲ֝סִידְךָ֗ לִרְא֥וֹת שָֽׁחַת׃
 
 **Shifted rendering**
 
@@ -987,6 +1050,10 @@ References: Genesis 1:6, Genesis 1:7
 - `he/WESTMINSTER LENINGRAD CODEX` — Genesis 1:7 — וַיַּ֣עַשׂ אֱלֹהִים֮ אֶת־הָרָקִיעַ֒ וַיַּבְדֵּ֗ל בֵּ֤ין הַמַּ֙יִם֙ אֲשֶׁר֙ מִתַּ֣חַת לָרָקִ֔יעַ וּבֵ֣ין הַמַּ֔יִם אֲשֶׁ֖ר מֵעַ֣ל לָרָקִ֑יעַ וַֽיְהִי־כֵֽן׃
 - `el/SWETE'S SEPTUAGINT` — Genesis 1:6 — Καὶ εἶπεν ὁ θεός Γενηθήτω στερέωμα ἐν μέσῳ τοῦ ὕδατος, καὶ ἔστω διαχωρίζον ἀνὰ μέσον ὕδατος καὶ ὕδατος· καὶ ἐγένετο οὕτως.
 - `el/SWETE'S SEPTUAGINT` — Genesis 1:7 — καὶ ἐποίησεν ὁ θεὸς τὸ στερέωμα· καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ ὕδατος ὃ ἦν ὑποκάτω τοῦ στερεώματος, καὶ ἀνὰ μέσον τοῦ ὕδατος τοῦ ἐπάνω τοῦ στερεώματος.
+- `he/SAMARITAN PENTATEUCH` — Genesis 1:6 — ויאמר אלהים יהי רקיע בתוך המים ויהי מבדיל בין מים למים
+- `he/SAMARITAN PENTATEUCH` — Genesis 1:7 — ויעש אלהים את הרקיע ויבדל בין המים אשר מתחת לרקיע ובין המים אשר מעל לרקיע ויהי כן
+- `he/MIQRA AL PI HAMESORAH` — Genesis 1:6 — וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּת֣וֹךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃
+- `he/MIQRA AL PI HAMESORAH` — Genesis 1:7 — וַיַּ֣עַשׂ אֱלֹהִים֮ אֶת־הָרָקִ֒יעַ֒ וַיַּבְדֵּ֗ל בֵּ֤ין הַמַּ֙יִם֙ אֲשֶׁר֙ מִתַּ֣חַת לָרָקִ֔יעַ וּבֵ֣ין הַמַּ֔יִם אֲשֶׁ֖ר מֵעַ֣ל לָרָקִ֑יעַ וַֽיְהִי־כֵֽן׃
 
 **Shifted rendering**
 
@@ -1006,6 +1073,8 @@ References: Genesis 1:6, Genesis 1:7
 - `en/LEESER OLD TESTAMENT 1853` — Genesis 1:7 — And God made the expansion, and divided between the waters which were under the expansion and the waters which were above the expansion: and it was so.
 - `en/DARBY BIBLE 1890` — Genesis 1:6 — And God said, Let there be an expanse in the midst of the waters, and let it be a division between waters and waters.
 - `en/DARBY BIBLE 1890` — Genesis 1:7 — And God made the expanse, and divided between the waters that are under the expanse and the waters that are above the expanse; and it was so.
+- `la/LATIN: VULGATA SIXTINA` — Genesis 1:6 — Dixit quoque Deus: Fiat firmamentum in medio aquarum: et dividat aquas ab aquis.
+- `la/LATIN: VULGATA SIXTINA` — Genesis 1:7 — Et fecit Deus firmamentum, divisitque aquas, quae erant sub firmamento, ab his, quae erant super firmamentum. Et factum est ita.
 
 **Reading that restores the source**
 
@@ -1031,6 +1100,7 @@ References: Zechariah 9:9, Matthew 21:5, Matthew 21:7
 
 - `he/WESTMINSTER LENINGRAD CODEX` — Zechariah 9:9 — גִּילִ֨י מְאֹ֜ד בַּת־צִיֹּ֗ון הָרִ֙יעִי֙ בַּ֣ת יְרוּשָׁלִַ֔ם הִנֵּ֤ה מַלְכֵּךְ֙ יָ֣בֹוא לָ֔ךְ צַדִּ֥יק וְנֹושָׁ֖ע ה֑וּא עָנִי֙ וְרֹכֵ֣ב עַל־חֲמֹ֔ור וְעַל־עַ֖יִר בֶּן־אֲתֹנֹֽות׃
 - `en/JPS TANAKH 1917` — Zechariah 9:9 — Rejoice greatly, O daughter of Zion, Shout, O daughter of Jerusalem; Behold, thy king cometh unto thee, He is triumphant, and victorious, Lowly, and riding upon an ass, Even upon a colt the foal of an ass.
+- `he/MIQRA AL PI HAMESORAH` — Zechariah 9:9 — גִּילִ֨י מְאֹ֜ד בַּת־צִיּ֗וֹן הָרִ֙יעִי֙ בַּ֣ת יְרוּשָׁלַ֔͏ִם הִנֵּ֤ה מַלְכֵּךְ֙ יָ֣בוֹא לָ֔ךְ צַדִּ֥יק וְנוֹשָׁ֖ע ה֑וּא עָנִי֙ וְרֹכֵ֣ב עַל־חֲמ֔וֹר וְעַל־עַ֖יִר בֶּן־אֲתֹנֽוֹת׃
 
 **Shifted rendering**
 
@@ -1066,6 +1136,7 @@ References: Luke 2:14
 - `el/WESTCOTT AND HORT 1881` — Luke 2:14 — Δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας.
 - `el/NESTLE GREEK NEW TESTAMENT 1904` — Luke 2:14 — Δόξα ἐν ὑψίστοις Θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας.
 - `el/TISCHENDORF 8TH EDITION` — Luke 2:14 — δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας.
+- `syr/SYRIAC PESHITTA` — Luke 2:14 — ܬܫܒܘܚܬܐ ܠܐܠܗܐ ܒܡܪܘܡܐ ܘܥܠ ܐܪܥܐ ܫܠܡܐ ܘܤܒܪܐ ܛܒܐ ܠܒܢܝ ܐܢܫܐ ܀
 
 **Shifted rendering**
 
@@ -1086,6 +1157,7 @@ References: Luke 2:14
 - `en/ROTHERHAM EMPHASISED BIBLE` — Luke 2:14 — Glory, in the highest, unto God! And, on earth, peace, among men of goodwill.
 - `en/DARBY BIBLE 1890` — Luke 2:14 — Glory to God in the highest, and on earth peace, good pleasure in men.
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Luke 2:14 — “Glory to God in the highest, and peace on earth, good will among men.”
+- `la/LATIN: VULGATA SIXTINA` — Luke 2:14 — Gloria in altissimis Deo, et in terra pax hominibus bonae voluntatis.
 
 ---
 
@@ -1139,6 +1211,7 @@ References: 1 Thessalonians 4:17
 - `en/YOUNG'S LITERAL TRANSLATION` — 1 Thessalonians 4:17 — then we who are living, who are remaining over, together with them shall be caught away in clouds to meet the Lord in air, and so always with the Lord we shall be;
 - `en/TYNDALE NEW TESTAMENT` — 1 Thessalonians 4:17 — then shall we which live and remayne be caught vp with them also in the cloudes to mete the Lorde in the ayer. And so shall we ever be with the Lorde.
 - `en/GENEVA BIBLE 1599` — 1 Thessalonians 4:17 — Then shall we which liue and remaine, be caught vp with them also in the clouds, to meete the Lord in the ayre: and so shall we euer be with the Lord.
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 Thessalonians 4:17 — Then those who died in union with Christ shall rise first; and afterwards we who are still living shall be caught up in the clouds, with them, to meet the Lord in the air; and so we shall be for ever with the Lord.
 
 ---
 
@@ -1161,6 +1234,9 @@ References: Matthew 19:24, Mark 10:25, Luke 18:25
 - `el/RP BYZANTINE MAJORITY TEXT 2005` — Matthew 19:24 — Πάλιν δὲ λέγω ὑμῖν, εὐκοπώτερόν ἐστιν κάμηλον διὰ τρυπήματος ῥαφίδος διελθεῖν, ἢ πλούσιον εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν.
 - `el/RP BYZANTINE MAJORITY TEXT 2005` — Mark 10:25 — Εὐκοπώτερόν ἐστιν κάμηλον διὰ τῆς τρυμαλιᾶς τῆς ῥαφίδος εἰσελθεῖν, ἢ πλούσιον εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν.
 - `el/RP BYZANTINE MAJORITY TEXT 2005` — Luke 18:25 — Εὐκοπώτερον γάρ ἐστιν κάμηλον διὰ τρυμαλιᾶς ῥαφίδος εἰσελθεῖν, ἢ πλούσιον εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν.
+- `syr/SYRIAC PESHITTA` — Matthew 19:24 — ܬܘܒ ܕܝܢ ܐܡܪܢܐ ܠܟܘܢ ܕܕܠܝܠ ܗܘ ܠܓܡܠܐ ܠܡܥܠ ܒܚܪܘܪܐ ܕܡܚܛܐ ܐܘ ܥܬܝܪܐ ܕܢܥܘܠ ܠܡܠܟܘܬܐ ܕܐܠܗܐ ܀
+- `syr/SYRIAC PESHITTA` — Mark 10:25 — ܦܫܝܩ ܗܘ ܠܓܡܠܐ ܕܢܥܘܠ ܒܚܪܘܪܐ ܕܡܚܛܐ ܐܘ ܥܬܝܪܐ ܠܡܠܟܘܬܗ ܕܐܠܗܐ ܠܡܥܠ ܀
+- `syr/SYRIAC PESHITTA` — Luke 18:25 — ܕܠܝܠܐ ܗܝ ܠܓܡܠܐ ܕܒܚܪܘܪܐ ܕܡܚܛܐ ܢܥܘܠ ܐܘ ܥܬܝܪܐ ܠܡܠܟܘܬܗ ܕܐܠܗܐ ܀
 
 **Shifted rendering**
 
@@ -1201,6 +1277,9 @@ _No witness in this repository._
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Matthew 19:24 — Again I say to you, it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Mark 10:25 — It is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”
 - `en/TEXT-CRITICAL ENGLISH NEW TESTAMENT` — Luke 18:25 — For it is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God.”
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Matthew 19:24 — I say again, it is easier for a camel to get through a needle’s eye than for a rich man to enter the Kingdom of Heaven!”
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Mark 10:25 — It is easier for a camel to get through a needle’s eye, than for a rich man to enter the Kingdom of God.”
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Luke 18:25 — It is easier, indeed, for a camel to get through a needle’s eye than for a rich man to enter the Kingdom of God!”
 
 ---
 
@@ -1215,6 +1294,10 @@ References: Genesis 1:1, Genesis 1:2
 - `he/WESTMINSTER LENINGRAD CODEX` — Genesis 1:2 — וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְהֹ֑ום וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃
 - `he/ALEPPO CODEX` — Genesis 1:1 — א בראשית ברא אלהים את השמים ואת הארץ
 - `he/ALEPPO CODEX` — Genesis 1:2 — ב והארץ היתה תהו ובהו וחשך על פני תהום ורוח אלהים מרחפת על פני המים
+- `he/SAMARITAN PENTATEUCH` — Genesis 1:1 — בראשית ברא אלהים את השמים ואת הארץ
+- `he/SAMARITAN PENTATEUCH` — Genesis 1:2 — והארץ היתה תהו ובהו וחשך על פני תהום ורוח אלהים מרחפת על פני המים
+- `he/MIQRA AL PI HAMESORAH` — Genesis 1:1 — בְּ רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃
+- `he/MIQRA AL PI HAMESORAH` — Genesis 1:2 — וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃
 
 **Shifted rendering**
 
@@ -1238,6 +1321,8 @@ References: Genesis 1:1, Genesis 1:2
 - `en/DARBY BIBLE 1890` — Genesis 1:2 — And the earth was waste and empty, and darkness was on the face of the deep, and the Spirit of God was hovering over the face of the waters.
 - `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 1:1 — In the beginning, God created the heavens and the earth.
 - `en/ROTHERHAM EMPHASISED BIBLE` — Genesis 1:2 — Now, the earth, had become waste and wild, and darkness, was on the face of the roaring deep,—but, the Spirit of God, was brooding on the face of the waters,
+- `la/LATIN: VULGATA SIXTINA` — Genesis 1:1 — In principio creavit Deus caelum, et terram.
+- `la/LATIN: VULGATA SIXTINA` — Genesis 1:2 — Terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi: et Spiritus Domini ferebatur super aquas.
 
 **Reading that restores the source**
 
@@ -1257,6 +1342,7 @@ References: Matthew 16:18
 
 - `el/WESTCOTT AND HORT 1881` — Matthew 16:18 — κἀγὼ δέ σοι λέγω ὅτι σὺ εἶ Πέτρος, καὶ ἐπὶ ταύτῃ τῇ πέτρᾳ οἰκοδομήσω μου τὴν ἐκκλησίαν, καὶ πύλαι ᾅδου οὐ κατισχύσουσιν αὐτῆς·
 - `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — Matthew 16:18 — κἀγὼ δέ σοι λέγω, ὅτι σὺ εἶ Πέτρος, καὶ ἐπὶ ταύτῃ τῇ πέτρᾳ οἰκοδομήσω μου τὴν ἐκκλησίαν, καὶ πύλαι ᾅδου οὐ κατισχύσουσιν αὐτῆς.
+- `syr/SYRIAC PESHITTA` — Matthew 16:18 — ܐܦ ܐܢܐ ܐܡܪ ܐܢܐ ܠܟ ܕܐܢܬ ܗܘ ܟܐܦܐ ܘܥܠ ܗܕܐ ܟܐܦܐ ܐܒܢܝܗ ܠܥܕܬܝ ܘܬܪܥܐ ܕܫܝܘܠ ܠܐ ܢܚܤܢܘܢܗ ܀
 
 **Shifted rendering**
 
@@ -1286,6 +1372,7 @@ References: Malachi 2:16
 
 - `he/WESTMINSTER LENINGRAD CODEX` — Malachi 2:16 — כִּֽי־שָׂנֵ֣א שַׁלַּ֗ח אָמַ֤ר יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל וְכִסָּ֤ה חָמָס֙ עַל־לְבוּשֹׁ֔ו אָמַ֖ר יְהוָ֣ה צְבָאֹ֑ות וְנִשְׁמַרְתֶּ֥ם בְּרוּחֲכֶ֖ם וְלֹ֥א תִבְגֹּֽדוּ׃ ס
 - `he/ALEPPO CODEX` — Malachi 2:16 — טז כי שנא שלח אמר יהוה אלהי ישראל וכסה חמס על לבושו אמר יהוה צבאות ונשמרתם ברוחכם ולא תבגדו {פ}
+- `he/MIQRA AL PI HAMESORAH` — Malachi 2:16 — כִּֽי־שָׂנֵ֣א שַׁלַּ֗ח אָמַ֤ר יְהֹוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל וְכִסָּ֤ה חָמָס֙ עַל־לְבוּשׁ֔וֹ אָמַ֖ר יְהֹוָ֣ה צְבָא֑וֹת וְנִשְׁמַרְתֶּ֥ם בְּרוּחֲכֶ֖ם וְלֹ֥א תִבְגֹּֽדוּ׃
 
 **Shifted rendering**
 
@@ -1324,6 +1411,7 @@ References: Philippians 2:6
 - `en/WEBSTER'S BIBLE TRANSLATION` — Philippians 2:6 — Who, being in the form of God, thought it not robbery to be equal with God:
 - `en/TYNDALE NEW TESTAMENT` — Philippians 2:6 — Which beynge in the shape of god and thought it not robbery to be equall with god.
 - `en/GENEVA BIBLE 1599` — Philippians 2:6 — Who being in ye forme of God, thought it no robberie to be equall with God:
+- `la/LATIN: VULGATA SIXTINA` — Philippians 2:6 — qui cum in forma Dei esset, non rapinam arbitratus est esse se aequalem Deo:
 
 **Reading that restores the source**
 
@@ -1383,6 +1471,8 @@ References: Matthew 5:32, Matthew 19:9
 - `en/TYNDALE NEW TESTAMENT` — Matthew 19:9 — I saye therfore vnto you whosoever putteth awaye his wyfe (except it be for fornicacion) and maryeth another breaketh wedlocke. And whosoever maryeth her which is divorsed doeth commyt advoutry.
 - `en/GENEVA BIBLE 1599` — Matthew 5:32 — But I say vnto you, whosoeuer shall put away his wife (except it be for fornication) causeth her to commit adulterie: and whosoeuer shall marrie her that is diuorced, committeth adulterie.
 - `en/GENEVA BIBLE 1599` — Matthew 19:9 — I say therefore vnto you, that whosoeuer shall put away his wife, except it be for whoredome, and marry another, committeth adulterie: and whosoeuer marieth her which is diuorced, doeth commit adulterie.
+- `la/LATIN: VULGATA SIXTINA` — Matthew 5:32 — Ego autem dico vobis: Quia omnis, qui dimiserit uxorem suam, excepta fornicationis causa, facit eam moechari: et qui dimissam duxerit, adulterat.
+- `la/LATIN: VULGATA SIXTINA` — Matthew 19:9 — Dico autem vobis, quia quicumque dimiserit uxorem suam, nisi ob fornicationem, et aliam duxerit, moechatur: et qui dimissam duxerit, moechatur.
 
 **Reading that restores the source**
 
@@ -1430,5 +1520,7 @@ References: Romans 16:1, 1 Timothy 3:8
 - `en/NEW REVISED STANDARD VERSION` — 1 Timothy 3:8 — Deacons likewise must be serious, not double-tongued, not indulging in much wine, not greedy for money;
 - `en/NEW INTERNATIONAL VERSION` — Romans 16:1 — I commend to you our sister Phoebe, a deacon of the church in Cenchreae.
 - `en/NEW INTERNATIONAL VERSION` — 1 Timothy 3:8 — In the same way, deacons are to be worthy of respect, sincere, not indulging in much wine, and not pursuing dishonest gain.
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Romans 16:1 — I commend to your care our Sister, Phoebe, who helps in the work of the Church at Cenchreae;
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 Timothy 3:8 — So, too, Assistant-Officers should be serious and straightforward men, not given to taking much drink or to questionable money-making,
 
 ---

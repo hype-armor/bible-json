@@ -1,6 +1,6 @@
 # 📖 Bible Versions JSON Dataset
 
-A free, open-source collection of **56 English Bible versions** and **38 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
+A free, open-source collection of **57 English Bible versions** and **41 total languages** in **JSON format**, structured by book, chapter, and verse. Some versions include the **Full Bible**, while others are **New Testament only**.
 This is the **most comprehensive JSON dataset of English Bible translations** available, including popular versions like **NLT, NIV, NKJV, NASB, ESV, KJV, and more**.
 Each translation is stored as its own `.json` file for easy parsing, analysis, app development, or AI projects.
 
@@ -69,6 +69,34 @@ The following books are available in relevant versions within this dataset:
 * **First Maccabees**
 * **Second Maccabees**
 * **Prayer of Manasseh** (Found in Coptic canons; sometimes appended to Chronicles)
+
+## 🏛️ Ancient Witnesses
+
+Beyond the Hebrew, Greek and Latin already here, the corpus now carries the independent
+textual traditions that let a reading be cross-checked rather than just cited:
+
+| Version | Tradition | Why it matters |
+| --- | --- | --- |
+| `he/SAMARITAN PENTATEUCH` | Samaritan Hebrew | Split from the Jewish text c. 200 BCE, so agreement with the Masoretic Text is strong evidence of antiquity |
+| `syr/SYRIAC PESHITTA` | Syriac | The New Testament in the language closest to the Aramaic Jesus spoke — previously here only in English translation |
+| `en/TARGUM ONKELOS (ETHERIDGE)` | Aramaic Targum | The authoritative Jewish Aramaic paraphrase of the Pentateuch |
+| `la/LATIN: VULGATA SIXTINA` | Latin | The Sixtine edition of 1590, alongside the Clementine of 1592 — two official printed Vulgates to compare |
+| `got/GOTHIC BIBLE (WULFILA)` | Gothic | Ulfilas' 4th-century translation, one of the oldest Germanic texts of any kind |
+| `he/MIQRA AL PI HAMESORAH` | Jewish | A modern digital critical edition of the Masoretic Text |
+
+A worked example of why this matters — **Genesis 3:15**, where the Latin reads "*ipsa* conteret"
+("**she** shall crush"), the basis of the Marian reading and of Mary-crushing-the-serpent imagery:
+
+| Tradition | Subject |
+| --- | --- |
+| Masoretic Hebrew | masculine (*hu'*) |
+| **Samaritan Pentateuch** | **masculine** |
+| Septuagint | masculine |
+| **Targum Onkelos** | **masculine** |
+| Vulgate — *both* Sixtine **and** Clementine | **feminine** |
+
+Four independent ancient traditions against one, and the Latin's feminine appears in both official
+printed editions — so it was not a stray printing.
 
 ## 📜 Historical English Versions
 

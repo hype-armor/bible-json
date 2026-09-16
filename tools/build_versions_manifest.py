@@ -47,6 +47,12 @@ META: dict[str, tuple] = {
     "el/STEPHENS TEXTUS RECEPTUS (1550) - TRANSLITERATED": (1550, TR, "source", "Protestant (TR tradition)", None),
     "el/RP BYZANTINE MAJORITY TEXT 2005": (2005, BYZ, "source", "Byzantine priority", "Robinson-Pierpont. Omits the Comma Johanneum, unlike the TR - which makes the Comma's late entry visible inside the Greek alone."),
     "el/GREEK ORTHODOX CHURCH 1904": (1904, BYZ, "source", "Eastern Orthodox", "The Patriarchal Text, official for the Greek Orthodox Church."),
+    "he/SAMARITAN PENTATEUCH": (-200, None, "source", "Samaritan", "The Samaritan community's Hebrew Pentateuch, a textual tradition independent of the Jewish one since roughly the 2nd century BCE. Its agreement with the Masoretic Text is strong evidence for a reading's antiquity - at Genesis 3:15 it reads the masculine hu', against the Vulgate's 'ipsa'."),
+    "he/MIQRA AL PI HAMESORAH": (2013, MT, "source", "Jewish (Masoretic)", "A modern digital critical edition of the Masoretic Text with full cantillation."),
+    "syr/SYRIAC PESHITTA": (200, "Syriac", "source", "Syriac Christianity", "The Peshitta New Testament in Syriac - the language closest to the Aramaic Jesus spoke. Previously this repository held only English translations of it (Lamsa, Etheridge)."),
+    "la/LATIN: VULGATA SIXTINA": (1590, VUL, "formal", "Roman Catholic", "The Sixtine Vulgate, promulgated by Sixtus V and withdrawn within a year. Useful as a control on the Clementine: at Genesis 3:15 both read 'ipsa conteret', so the feminine was stable across the two official printed editions."),
+    "got/GOTHIC BIBLE (WULFILA)": (350, "Greek", "formal", "Arian Christianity", "Ulfilas' 4th-century Gothic translation, one of the oldest surviving Germanic texts of any kind. Fragmentary - 18 books partially extant, mostly the Gospels and Pauline epistles."),
+    "en/TWENTIETH CENTURY NEW TESTAMENT": (1904, CRIT, "dynamic", "Ecumenical (British)", "An early experiment in modern-language translation, produced by a committee of ordinary readers rather than scholars."),
     "la/LATIN: VULGATA CLEMENTINA": (1592, VUL, "formal", "Roman Catholic", "Clementine edition of Jerome's Vulgate (c. 400). The Bible of Western Christendom for a millennium; the source of 'in quo', 'cornuta', 'Lucifer', 'paenitentiam agite' and 'sacramentum'."),
 
     # --- historical English -----------------------------------------------

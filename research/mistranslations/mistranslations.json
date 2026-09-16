@@ -69,7 +69,8 @@
           "la/LATIN: VULGATA CLEMENTINA",
           "en/DOUAY-RHEIMS BIBLE",
           "en/GENEVA BIBLE 1599",
-          "en/WYCLIFFE BIBLE"
+          "en/WYCLIFFE BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -81,7 +82,8 @@
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
           "en/BIBLE IN BASIC ENGLISH",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "That 'in quo' is not what the Greek says is near-universally granted; whether Augustine's doctrine actually depends on it, or merely found support in it, is debated. Some read eph' hō as 'on the basis of which' or even 'on which condition'. The English split is now datable: Geneva 1599 reads 'in who all men haue sinned', carrying the Latin; Tyndale 1526 reads 'in somoche that all men synned', which is the causal sense of the Greek. Tyndale, working from Erasmus, got there seventy years earlier. Wycliffe (1395) is now the earliest English witness and carries the Latin straight through: 'deth passide forth in to alle men, in whic alle men synneden'.",
@@ -131,12 +133,15 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "he/ALEPPO CODEX"
+          "he/ALEPPO CODEX",
+          "he/SAMARITAN PENTATEUCH",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/WYCLIFFE BIBLE"
+          "en/WYCLIFFE BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
@@ -197,7 +202,8 @@
           "el/WESTCOTT AND HORT 1881",
           "el/NESTLE GREEK NEW TESTAMENT 1904",
           "el/TISCHENDORF 8TH EDITION",
-          "el/RP BYZANTINE MAJORITY TEXT 2005"
+          "el/RP BYZANTINE MAJORITY TEXT 2005",
+          "syr/SYRIAC PESHITTA"
         ],
         "shifted": [
           "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
@@ -218,7 +224,8 @@
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
           "en/FAMILY 35 NEW TESTAMENT",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "This repository is unusually good for this case: the Byzantine Majority Text omits the Comma while the two Textus Receptus editions include it, so the contrast is visible inside the Greek files alone. Wycliffe 1395 carries the Comma into English from the Vulgate, four generations before Erasmus admitted it to the printed Greek - which is the clearest demonstration that it reached English through Latin, not through Greek manuscripts.",
@@ -279,12 +286,14 @@
         "source": [
           "el/WESTCOTT AND HORT 1881",
           "el/NESTLE GREEK NEW TESTAMENT 1904",
-          "el/SCRIVENER'S TEXTUS RECEPTUS 1894"
+          "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
+          "syr/SYRIAC PESHITTA"
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/WYCLIFFE BIBLE"
+          "en/WYCLIFFE BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
@@ -297,7 +306,8 @@
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
           "en/FAMILY 35 NEW TESTAMENT",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "Catholic scholars note that 'paenitentiam agere' could carry a broader sense of 'be penitent' in Jerome's Latin, and that the penitential system did not derive from this verse alone. The historical effect is not in dispute. Now visible end to end in English: Wycliffe (1395), translating the Vulgate, reads 'Do ye penaunce'; Tyndale (1526), translating Erasmus' Greek, reads 'repent'; Geneva (1599) reads 'Amende your liues'. The Reformation's central exegetical claim is legible as a change of two English words between two translations.",
@@ -349,7 +359,8 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "el/SWETE'S SEPTUAGINT"
+          "el/SWETE'S SEPTUAGINT",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
@@ -444,7 +455,8 @@
           "en/WYCLIFFE BIBLE",
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "A second question rides along: whether 'episēmoi en tois apostolois' means 'outstanding among the apostles' (she was one) or 'well known to the apostles' (she was not). That is a genuinely open grammatical dispute; the sex of the name is not. The mid-20th-century versions that printed 'Junias' are not in this repository, so the shift itself is only partly visible here.",
@@ -496,7 +508,8 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "he/ALEPPO CODEX"
+          "he/ALEPPO CODEX",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "el/SWETE'S SEPTUAGINT",
@@ -599,7 +612,8 @@
           "en/WYCLIFFE BIBLE",
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "Genuinely contested. That 'homosexuals' is an anachronism is widely granted even by traditionalist scholars; that the underlying Greek therefore does not condemn same-sex acts is not. The popular framing - that one 1946 decision created Christian homophobia - overstates a real translation problem, since Leviticus and Romans 1 were read restrictively long before 1946. The RSV 1946 itself is not in this repository, so the moment of the shift can only be inferred here from before-and-after versions. Verified here: the NASB family and the NET all use 'homosexual' language, while the KJV, ASV and NRSV use behavioural phrases ('abusers of themselves with mankind', 'male prostitutes, sodomites') - so in this repository the oldest and the newest versions land on the same side and the mid-century ones do not.",
@@ -662,12 +676,15 @@
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
           "el/SWETE'S SEPTUAGINT",
-          "en/TARGUM ONKELOS (ETHERIDGE)"
+          "en/TARGUM ONKELOS (ETHERIDGE)",
+          "he/SAMARITAN PENTATEUCH",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/WYCLIFFE BIBLE"
+          "en/WYCLIFFE BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
@@ -681,7 +698,7 @@
           "en/BIBLE IN BASIC ENGLISH"
         ]
       },
-      "caveat": "Whether Jerome himself wrote 'ipsa' or it entered in transmission is disputed; his commentary on Isaiah shows he knew the Hebrew is masculine. Modern Catholic scholarship does not defend 'ipsa' as a translation, only the typology it came to carry. Wycliffe, from the Vulgate, carries 'ipsa' into English: 'sche schal breke thin heed'. Geneva, from the Hebrew, reads 'He shall breake thine head'. The pronoun flips exactly where the source language does. Targum Onkelos, the authoritative Aramaic paraphrase (c. 2nd c. CE), is now a third ancient witness alongside the Hebrew and the Septuagint, and it reads a masculine subject: 'He will remember thee'. No ancient tradition outside the Latin reads a feminine.",
+      "caveat": "Whether Jerome himself wrote 'ipsa' or it entered in transmission is disputed; his commentary on Isaiah shows he knew the Hebrew is masculine. Modern Catholic scholarship does not defend 'ipsa' as a translation, only the typology it came to carry. This case is now as close to settled as the dataset gets. FOUR independent ancient traditions read a masculine subject: the Masoretic Text, the Samaritan Pentateuch (a Hebrew tradition separate from the Jewish one since c. 200 BCE), the Septuagint, and Targum Onkelos. Only the Latin reads a feminine - and it does so in BOTH official printed editions, the Sixtine of 1590 and the Clementine of 1592, so this was not a stray printing. Wycliffe then carried it into English as 'sche schal breke thin heed'.",
       "sources": [
         "https://en.wikipedia.org/wiki/Protoevangelium"
       ]
@@ -730,7 +747,8 @@
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
           "en/DOUAY-RHEIMS BIBLE",
-          "en/WYCLIFFE BIBLE"
+          "en/WYCLIFFE BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
@@ -798,7 +816,8 @@
           "en/DOUAY-RHEIMS BIBLE",
           "en/CATHOLIC PUBLIC DOMAIN VERSION",
           "en/WYCLIFFE BIBLE",
-          "en/TYNDALE NEW TESTAMENT"
+          "en/TYNDALE NEW TESTAMENT",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/KING JAMES BIBLE",
@@ -870,7 +889,8 @@
           "en/NEW KING JAMES VERSION",
           "en/TYNDALE NEW TESTAMENT",
           "en/GENEVA BIBLE 1599",
-          "en/WYCLIFFE BIBLE"
+          "en/WYCLIFFE BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -940,7 +960,8 @@
           "en/GENEVA BIBLE 1599",
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "In early modern English 'Easter' could still denote the paschal season generally, so the KJV translators were less obviously wrong than they look now. The NKJV's silent correction is itself informative. Verified here: Webster's 1833 revision of the KJV silently reads 'the passover', so the correction was being made in the KJV's own line of descent nearly two centuries before the NKJV. CORRECTION: the rendering originates with Tyndale (1526), who reads 'entendynge after ester'. More striking, Geneva 1599 had already corrected it to 'after the Passeouer' - so the KJV translators had the right reading in front of them and reverted to Tyndale's. That makes this a deliberate choice rather than an oversight.",
@@ -1053,7 +1074,8 @@
       "witnesses": {
         "source": [
           "el/RP BYZANTINE MAJORITY TEXT 2005",
-          "el/SCRIVENER'S TEXTUS RECEPTUS 1894"
+          "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
+          "syr/SYRIAC PESHITTA"
         ],
         "shifted": [
           "en/KING JAMES BIBLE",
@@ -1117,7 +1139,8 @@
         "shifted": [
           "en/KING JAMES BIBLE",
           "en/WEBSTER'S BIBLE TRANSLATION",
-          "en/DOUAY-RHEIMS BIBLE"
+          "en/DOUAY-RHEIMS BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW INTERNATIONAL VERSION",
@@ -1129,7 +1152,8 @@
           "en/GENEVA BIBLE 1599",
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "The KJV is not really mistranslating; the popular proverb is. Useful as a control case: it tests whether an analysis pipeline can distinguish a translation problem from a reception problem. Tyndale reads 'coveteousnes is the rote of all evyll' and Geneva 'the desire of money is the roote of all euill' - both keep the subject on the desire rather than the money.",
@@ -1176,7 +1200,9 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "el/SWETE'S SEPTUAGINT"
+          "el/SWETE'S SEPTUAGINT",
+          "he/SAMARITAN PENTATEUCH",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "en/KING JAMES BIBLE",
@@ -1185,7 +1211,8 @@
           "en/WYCLIFFE BIBLE",
           "en/GENEVA BIBLE 1599",
           "en/LEESER OLD TESTAMENT 1853",
-          "en/DARBY BIBLE 1890"
+          "en/DARBY BIBLE 1890",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1246,7 +1273,9 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "he/ALEPPO CODEX"
+          "he/ALEPPO CODEX",
+          "he/SAMARITAN PENTATEUCH",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "en/KING JAMES BIBLE",
@@ -1256,7 +1285,8 @@
           "en/GENEVA BIBLE 1599",
           "en/LEESER OLD TESTAMENT 1853",
           "en/DARBY BIBLE 1890",
-          "en/BIBLE IN BASIC ENGLISH"
+          "en/BIBLE IN BASIC ENGLISH",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW INTERNATIONAL VERSION",
@@ -1379,7 +1409,9 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "he/ALEPPO CODEX"
+          "he/ALEPPO CODEX",
+          "he/SAMARITAN PENTATEUCH",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "en/KING JAMES BIBLE",
@@ -1390,7 +1422,8 @@
           "en/WYCLIFFE BIBLE",
           "en/GENEVA BIBLE 1599",
           "en/LEESER OLD TESTAMENT 1853",
-          "en/DARBY BIBLE 1890"
+          "en/DARBY BIBLE 1890",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1452,7 +1485,8 @@
           "he/ALEPPO CODEX",
           "en/JPS TANAKH 1917",
           "en/LEESER OLD TESTAMENT 1853",
-          "en/NOYES TRANSLATION 1869"
+          "en/NOYES TRANSLATION 1869",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "el/SWETE'S SEPTUAGINT",
@@ -1530,7 +1564,10 @@
           "en/WYCLIFFE BIBLE",
           "en/GENEVA BIBLE 1599",
           "en/LEESER OLD TESTAMENT 1853",
-          "en/DARBY BIBLE 1890"
+          "en/DARBY BIBLE 1890",
+          "he/MIQRA AL PI HAMESORAH",
+          "la/LATIN: VULGATA SIXTINA",
+          "he/SAMARITAN PENTATEUCH"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -1539,7 +1576,7 @@
           "en/NEW AMERICAN BIBLE"
         ]
       },
-      "caveat": "The direction of the change is inferred, not observed; a minority holds the Masoretic reading original. The Qumran witness is decisive for most scholars and is absent from this repository, but Brenton and Swete let you see the Septuagint side.",
+      "caveat": "The direction of the change is inferred, not observed; a minority holds the Masoretic reading original. The Qumran witness is decisive for most scholars and is absent from this repository, but Brenton and Swete let you see the Septuagint side. New evidence here, and it cuts against the majority view: the Samaritan Pentateuch - an independent Hebrew tradition - also reads 'sons of Israel'. So the Hebrew manuscript traditions agree with each other and the Greek stands alone, which is the opposite of the pattern at Genesis 3:15. Anyone using this dataset should notice that the same kind of argument points different ways at these two verses.",
       "sources": [
         "https://en.wikipedia.org/wiki/Deuteronomy_32"
       ]
@@ -1590,7 +1627,8 @@
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
           "el/WESTCOTT AND HORT 1881",
-          "el/SWETE'S SEPTUAGINT"
+          "el/SWETE'S SEPTUAGINT",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "en/KING JAMES BIBLE",
@@ -1661,7 +1699,9 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "el/SWETE'S SEPTUAGINT"
+          "el/SWETE'S SEPTUAGINT",
+          "he/SAMARITAN PENTATEUCH",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
@@ -1671,7 +1711,8 @@
           "en/WYCLIFFE BIBLE",
           "en/GENEVA BIBLE 1599",
           "en/LEESER OLD TESTAMENT 1853",
-          "en/DARBY BIBLE 1890"
+          "en/DARBY BIBLE 1890",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/ENGLISH STANDARD VERSION",
@@ -1730,7 +1771,8 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "en/JPS TANAKH 1917"
+          "en/JPS TANAKH 1917",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "el/WESTCOTT AND HORT 1881",
@@ -1789,7 +1831,8 @@
         "source": [
           "el/WESTCOTT AND HORT 1881",
           "el/NESTLE GREEK NEW TESTAMENT 1904",
-          "el/TISCHENDORF 8TH EDITION"
+          "el/TISCHENDORF 8TH EDITION",
+          "syr/SYRIAC PESHITTA"
         ],
         "shifted": [
           "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
@@ -1807,7 +1850,8 @@
           "en/WYCLIFFE BIBLE",
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "la/LATIN: VULGATA SIXTINA"
         ]
       },
       "caveat": "Strictly a textual variant that then forces a translation choice. The Vulgate sides with the critical text here, which makes it a useful counterexample to any assumption that the Latin always follows the Byzantine.",
@@ -1926,7 +1970,8 @@
           "en/NET BIBLE",
           "en/YOUNG'S LITERAL TRANSLATION",
           "en/TYNDALE NEW TESTAMENT",
-          "en/GENEVA BIBLE 1599"
+          "en/GENEVA BIBLE 1599",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "No English version reads 'rapture' here, so this is reception rather than translation: the Latin made an English noun available and theology did the rest. Kept in the dataset because it shows a translation effect no verse-comparison alone would reveal.",
@@ -1981,7 +2026,8 @@
           "el/WESTCOTT AND HORT 1881",
           "el/NESTLE GREEK NEW TESTAMENT 1904",
           "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
-          "el/RP BYZANTINE MAJORITY TEXT 2005"
+          "el/RP BYZANTINE MAJORITY TEXT 2005",
+          "syr/SYRIAC PESHITTA"
         ],
         "shifted": [],
         "corrected": [
@@ -1995,7 +2041,8 @@
           "en/ROTHERHAM EMPHASISED BIBLE",
           "en/DARBY BIBLE 1890",
           "en/FAMILY 35 NEW TESTAMENT",
-          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT"
+          "en/TEXT-CRITICAL ENGLISH NEW TESTAMENT",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "Included deliberately as a negative control. Every Greek witness in this repository reads kamēlos, which is exactly the point: an analysis pipeline that flags this verse as a mistranslation is finding something that is not there.",
@@ -2048,7 +2095,9 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "he/ALEPPO CODEX"
+          "he/ALEPPO CODEX",
+          "he/SAMARITAN PENTATEUCH",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "el/SWETE'S SEPTUAGINT",
@@ -2060,7 +2109,8 @@
           "en/GENEVA BIBLE 1599",
           "en/LEESER OLD TESTAMENT 1853",
           "en/DARBY BIBLE 1890",
-          "en/ROTHERHAM EMPHASISED BIBLE"
+          "en/ROTHERHAM EMPHASISED BIBLE",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -2112,7 +2162,8 @@
       "witnesses": {
         "source": [
           "el/WESTCOTT AND HORT 1881",
-          "el/SCRIVENER'S TEXTUS RECEPTUS 1894"
+          "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
+          "syr/SYRIAC PESHITTA"
         ],
         "shifted": [
           "la/LATIN: VULGATA CLEMENTINA",
@@ -2130,7 +2181,7 @@
           "en/WYCLIFFE BIBLE"
         ]
       },
-      "caveat": "Not a mistranslation in any straightforward sense - it is a case where translation cannot preserve a pun, and the untranslatable residue became a confessional fault line. Verified here, and the result is blunt: the KJV, NRSV and NET obscure the wordplay exactly as the Vulgate and Douay-Rheims do, all reading 'Peter ... rock'. Only the two Peshitta-derived versions show it - the Aramaic Bible in Plain English reads 'you are Kaypha, and upon this stone', and the Lamsa Bible 'you are a stone, and upon this stone'. Confessional allegiance does not predict the rendering; source language does. Wycliffe is a third witness that preserves something of the pun - 'thou art Petre, and on this stoon' - where Tyndale, Geneva and the KJV all read 'rocke'/'rock'.",
+      "caveat": "Not a mistranslation in any straightforward sense - it is a case where translation cannot preserve a pun, and the untranslatable residue became a confessional fault line. Verified here, and the result is blunt: the KJV, NRSV and NET obscure the wordplay exactly as the Vulgate and Douay-Rheims do, all reading 'Peter ... rock'. Only the two Peshitta-derived versions show it - the Aramaic Bible in Plain English reads 'you are Kaypha, and upon this stone', and the Lamsa Bible 'you are a stone, and upon this stone'. Confessional allegiance does not predict the rendering; source language does. Wycliffe is a third witness that preserves something of the pun - 'thou art Petre, and on this stoon' - where Tyndale, Geneva and the KJV all read 'rocke'/'rock'. The Peshitta is now present in Syriac itself, not only in English translation: at Matthew 16:18 it reads kepha twice, which is the Aramaic situation the whole Protestant-Catholic argument is reconstructing from a distance.",
       "sources": [
         "https://en.wikipedia.org/wiki/Matthew_16:18"
       ]
@@ -2175,7 +2226,8 @@
       "witnesses": {
         "source": [
           "he/WESTMINSTER LENINGRAD CODEX",
-          "he/ALEPPO CODEX"
+          "he/ALEPPO CODEX",
+          "he/MIQRA AL PI HAMESORAH"
         ],
         "shifted": [
           "en/KING JAMES BIBLE",
@@ -2244,7 +2296,8 @@
           "en/DOUAY-RHEIMS BIBLE",
           "en/WEBSTER'S BIBLE TRANSLATION",
           "en/TYNDALE NEW TESTAMENT",
-          "en/GENEVA BIBLE 1599"
+          "en/GENEVA BIBLE 1599",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -2365,7 +2418,8 @@
           "en/NEW INTERNATIONAL VERSION",
           "la/LATIN: VULGATA CLEMENTINA",
           "en/TYNDALE NEW TESTAMENT",
-          "en/GENEVA BIBLE 1599"
+          "en/GENEVA BIBLE 1599",
+          "la/LATIN: VULGATA SIXTINA"
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
@@ -2434,7 +2488,8 @@
         ],
         "corrected": [
           "en/NEW REVISED STANDARD VERSION",
-          "en/NEW INTERNATIONAL VERSION"
+          "en/NEW INTERNATIONAL VERSION",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
         ]
       },
       "caveat": "Some hold the office of deacon was not yet fixed when Romans was written, making 'servant' defensible. That defence has to explain the inconsistent handling of the same word within a single version, which is the analysable part and the reason this case is well suited to automated comparison. Verified here: the KJV, ESV, NASB, NET and CSB all read 'servant' at Romans 16:1 and 'deacons' at 1 Timothy 3:8; the NRSV and NIV read 'deacon' in both places.",

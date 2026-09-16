@@ -4,7 +4,7 @@ A research dataset of translation decisions, transmission errors and interpolati
 that measurably changed Christian doctrine, practice, art or law — each one anchored
 to verses that resolve against the version files in this repository.
 
-36 cases · 1 worked example · 1,188 verified lookups · 511 witnesses · 18 Strong's-anchored terms · 0 broken references
+36 cases · 1 worked example · 1,280 verified lookups · 566 witnesses · 18 Strong's-anchored terms · 0 broken references
 
 ## Why this repository is a good place to do this
 
@@ -118,6 +118,34 @@ forms on the unpointed Westminster Leningrad Codex and on diacritic-stripped Gre
 lemmatisation: it misses suppletive forms and catches homographs, which is why `exclusions`
 exists. It is enough to answer the question, and it partially closes the gap the audit flagged
 as most costly.
+
+## The case that is now effectively settled
+
+**Genesis 3:15.** The Vulgate reads "*ipsa* conteret caput tuum" — "**she** shall crush thy head" —
+which is the textual basis for the Marian reading of the protoevangelium, for Mary-standing-on-the-
+serpent imagery, and for a citation in the 1854 bull defining the Immaculate Conception.
+
+With the ancient witnesses now in the corpus:
+
+| Tradition | Subject | In this repo |
+| --- | --- | --- |
+| Masoretic Hebrew | masculine (*hu'*) | `he/WESTMINSTER LENINGRAD CODEX` |
+| **Samaritan Pentateuch** (split c. 200 BCE) | **masculine** | `he/SAMARITAN PENTATEUCH` |
+| Septuagint | masculine | `el/SWETE'S SEPTUAGINT` |
+| **Targum Onkelos** (Aramaic) | **masculine** | `en/TARGUM ONKELOS (ETHERIDGE)` |
+| Vulgate — Sixtine 1590 | **feminine** | `la/LATIN: VULGATA SIXTINA` |
+| Vulgate — Clementine 1592 | **feminine** | `la/LATIN: VULGATA CLEMENTINA` |
+| Wycliffe 1395, from the Latin | **"sche schal breke thin heed"** | `en/WYCLIFFE BIBLE` |
+
+Four independent ancient traditions read masculine. Only the Latin reads feminine — and it does so
+in *both* official printed editions, so this was not a printing accident. Then Wycliffe carries it
+into English.
+
+**And a counter-example in the same dataset.** At Deuteronomy 32:8 the Samaritan Pentateuch was
+expected to side with the Septuagint's "sons of God" against the Masoretic "sons of Israel". It
+does not — it reads "sons of Israel", leaving the Greek standing alone. The same form of argument
+points opposite ways at the two verses, which is a useful corrective against treating "the ancient
+witnesses agree" as a reusable move.
 
 ## The finding that most surprised me
 

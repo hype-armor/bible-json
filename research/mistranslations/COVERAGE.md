@@ -20,7 +20,11 @@ translations. This repository has it - which is unusual for a JSON Bible corpus.
 | Greek NT - Byzantine/Majority | yes | `el/RP BYZANTINE MAJORITY TEXT 2005`, `el/GREEK ORTHODOX CHURCH 1904` |
 | Greek NT - Textus Receptus | yes | `el/SCRIVENER'S TEXTUS RECEPTUS 1894`, `el/STEPHANUS TEXTUS RECEPTUS 1550` |
 | Latin | yes | `la/LATIN: VULGATA CLEMENTINA` |
+| Syriac tradition (in Syriac) | yes | `syr/SYRIAC PESHITTA` |
 | Syriac tradition (via English) | yes | `en/LAMSA BIBLE`, `en/ARAMAIC BIBLE IN PLAIN ENGLISH`, `en/PESHITTA HOLY BIBLE TRANSLATED` |
+| Samaritan Hebrew | yes | `he/SAMARITAN PENTATEUCH` |
+| Latin (two printed editions) | yes | `la/LATIN: VULGATA CLEMENTINA`, `la/LATIN: VULGATA SIXTINA` |
+| Gothic (4th c.) | yes | `got/GOTHIC BIBLE (WULFILA)` |
 | Aramaic Targum (via English) | yes | `en/TARGUM ONKELOS (ETHERIDGE)` |
 | Jewish English OT | yes | `en/JPS TANAKH 1917`, `en/LEESER OLD TESTAMENT 1853` |
 | Reformation-era vernacular | yes | `de/GERMAN: LUTHER (1912)`, `en/KING JAMES BIBLE`, `en/DOUAY-RHEIMS BIBLE` |
@@ -35,9 +39,9 @@ and Luke 2:14 cases self-contained here.
 
 ## 2. Scale
 
-- 135 version files across 40 locales
-- 56 English, 13 Greek, 3 Hebrew, 1 Latin
-- 3,069,459 verse records in total
+- 142 version files across 42 locales
+- 57 English, 13 Greek, 5 Hebrew, 2 Latin
+- 3,153,853 verse records in total
 
 ## 3. Interpolations are detectable automatically
 
@@ -62,42 +66,42 @@ controls where no witness is *expected*.
 
 | Case | Consensus | source | shifted | corrected |
 | --- | --- | ---: | ---: | ---: |
-| `rom-5-12-eph-ho-in-quo` | strong | 2 | 4 | 10 |
-| `exod-34-29-qaran-horned` | strong | 2 | 3 | 5 |
-| `1john-5-7-comma-johanneum` | strong | 4 | 8 | 9 |
-| `matt-4-17-paenitentiam-agite` | strong | 3 | 3 | 11 |
-| `isa-14-12-lucifer` | strong | 2 | 8 | 8 |
-| `rom-16-7-junia` | strong | 3 | 1 | 11 |
-| `isa-7-14-almah-parthenos` | majority | 2 | 10 | 7 |
-| `1cor-6-9-arsenokoitai-malakoi` | contested | 2 | 5 | 10 |
-| `gen-3-15-ipsa-conteret` | strong | 3 | 3 | 9 |
-| `eph-5-32-mysterion-sacramentum` | strong | 2 | 3 | 9 |
-| `luke-1-28-kecharitomene` | majority | 2 | 5 | 9 |
-| `rev-22-19-book-of-life` | strong | 3 | 7 | 7 |
-| `acts-12-4-easter` | strong | 2 | 2 | 10 |
+| `rom-5-12-eph-ho-in-quo` | strong | 2 | 5 | 11 |
+| `exod-34-29-qaran-horned` | strong | 4 | 4 | 5 |
+| `1john-5-7-comma-johanneum` | strong | 5 | 8 | 10 |
+| `matt-4-17-paenitentiam-agite` | strong | 4 | 4 | 12 |
+| `isa-14-12-lucifer` | strong | 3 | 8 | 8 |
+| `rom-16-7-junia` | strong | 3 | 1 | 12 |
+| `isa-7-14-almah-parthenos` | majority | 3 | 10 | 7 |
+| `1cor-6-9-arsenokoitai-malakoi` | contested | 2 | 5 | 11 |
+| `gen-3-15-ipsa-conteret` | strong | 5 | 4 | 9 |
+| `eph-5-32-mysterion-sacramentum` | strong | 2 | 4 | 9 |
+| `luke-1-28-kecharitomene` | majority | 2 | 6 | 9 |
+| `rev-22-19-book-of-life` | strong | 3 | 8 | 7 |
+| `acts-12-4-easter` | strong | 2 | 2 | 11 |
 | `mark-16-9-20-longer-ending` | strong | 2 | 6 | 5 |
-| `john-7-53-8-11-pericope-adulterae` | strong | 2 | 5 | 5 |
-| `1tim-6-10-root-of-all-evil` | strong | 2 | 3 | 10 |
-| `exod-22-18-mekhashephah-witch` | majority | 2 | 7 | 7 |
-| `exod-20-13-ratsach-kill` | majority | 2 | 8 | 7 |
+| `john-7-53-8-11-pericope-adulterae` | strong | 3 | 5 | 5 |
+| `1tim-6-10-root-of-all-evil` | strong | 2 | 4 | 11 |
+| `exod-22-18-mekhashephah-witch` | majority | 4 | 8 | 7 |
+| `exod-20-13-ratsach-kill` | majority | 4 | 9 | 7 |
 | `1tim-2-12-authentein` | contested | 2 | 6 | 3 |
-| `gen-2-18-ezer-kenegdo` | majority | 2 | 9 | 6 |
-| `ps-22-16-kaaru-pierced` | contested | 5 | 7 | 2 |
-| `deut-32-8-sons-of-god` | strong | 2 | 7 | 4 |
-| `hell-sheol-hades-gehenna` | strong | 3 | 3 | 11 |
-| `gen-1-6-raqia-firmament` | majority | 2 | 8 | 5 |
-| `matt-21-5-two-donkeys` | majority | 2 | 5 | 1 |
-| `luke-2-14-eudokias` | strong | 3 | 5 | 9 |
+| `gen-2-18-ezer-kenegdo` | majority | 4 | 10 | 6 |
+| `ps-22-16-kaaru-pierced` | contested | 6 | 7 | 2 |
+| `deut-32-8-sons-of-god` | strong | 2 | 10 | 4 |
+| `hell-sheol-hades-gehenna` | strong | 4 | 3 | 11 |
+| `gen-1-6-raqia-firmament` | majority | 4 | 9 | 5 |
+| `matt-21-5-two-donkeys` | majority | 3 | 5 | 1 |
+| `luke-2-14-eudokias` | strong | 4 | 5 | 10 |
 | `2tim-3-16-theopneustos` | majority | 2 | 4 | 6 |
-| `1thess-4-17-harpazo-rapture` | strong | 2 | 1 | 6 |
-| `matt-19-24-camel-rope` | debunked | 4 | 0 | 11 |
-| `gen-1-1-bereshit-creatio-ex-nihilo` | contested | 2 | 10 | 2 |
-| `matt-16-18-petros-petra` | contested | 2 | 8 | 3 |
-| `mal-2-16-hates-divorce` | contested | 2 | 6 | 5 |
-| `phil-2-6-harpagmos` | majority | 2 | 6 | 4 |
+| `1thess-4-17-harpazo-rapture` | strong | 2 | 1 | 7 |
+| `matt-19-24-camel-rope` | debunked | 5 | 0 | 12 |
+| `gen-1-1-bereshit-creatio-ex-nihilo` | contested | 4 | 11 | 2 |
+| `matt-16-18-petros-petra` | contested | 3 | 8 | 3 |
+| `mal-2-16-hates-divorce` | contested | 3 | 6 | 5 |
+| `phil-2-6-harpagmos` | majority | 2 | 7 | 4 |
 | `john-1-1-theos-anarthrous` | contested | 3 | 0 | 5 |
-| `matt-5-32-porneia` | contested | 2 | 5 | 4 |
-| `rom-16-1-phoebe-diakonos` | majority | 2 | 6 | 2 |
+| `matt-5-32-porneia` | contested | 2 | 6 | 4 |
+| `rom-16-1-phoebe-diakonos` | majority | 2 | 6 | 3 |
 
 Cases with no shifted witness here: `matt-19-24-camel-rope`, `john-1-1-theos-anarthrous`.
 `matt-19-24-camel-rope` is a debunked claim, so the absence confirms the
@@ -131,8 +135,7 @@ These are absences that affect specific cases, not a wish list.
 | New World Translation | The only version carrying the disputed John 1:1 rendering. **Blocked: in copyright.** | `john-1-1-theos-anarthrous` |
 | Emphatic Diaglott (1864) | A public-domain interlinear whose Greek-English line reads 'a god was the Word' at John 1:1 - the historical precedent behind the New World Translation's rendering. No machine-readable edition located, so this case still has no shifted witness. | `john-1-1-theos-anarthrous` |
 | Bishops' Bible (1568) and Coverdale (1535) | The KJV translators' official base text, and the first complete printed English Bible. No machine-readable public-domain editions located; Wycliffe, Tyndale and Geneva now cover most of what they would show. | `acts-12-4-easter` |
-| Dead Sea Scrolls / Qumran readings | Decisive external evidence for two OT cases. No suitably licensed machine-readable edition located. | `ps-22-16-kaaru-pierced`, `deut-32-8-sons-of-god` |
-| Samaritan Pentateuch, Targums, Peshitta in Syriac | Independent ancient witnesses to the Hebrew. | `gen-3-15-ipsa-conteret`, `gen-1-1-bereshit-creatio-ex-nihilo` |
+| Dead Sea Scrolls / Qumran readings | Still the one decisive external witness this corpus lacks. No suitably licensed machine-readable edition located. Its absence is felt most at Deuteronomy 32:8, where the Samaritan Pentateuch has now been added and sides with the Masoretic Text - leaving the Septuagint alone, and Qumran as the tiebreak nobody here can consult. | `ps-22-16-kaaru-pierced`, `deut-32-8-sons-of-god` |
 | Septuagint word-level tagging | lexicon/ covers the Hebrew OT and Greek NT but not the Greek OT, so Hebrew-to-LXX comparisons still rely on reference alignment, which fails where the Greek reorders material (Proverbs 30:19). | `isa-7-14-almah-parthenos`, `deut-32-8-sons-of-god` |
 
 The English-lineage gap is the sharpest of these. This repository jumps from
