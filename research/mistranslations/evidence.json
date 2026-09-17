@@ -4411,6 +4411,339 @@
           }
         ]
       }
+    },
+    {
+      "id": "luke-1-34-andra-ou-ginosko",
+      "title": "andra ou ginōskō -> 'I am a virgin': a verb becomes an identity",
+      "type": "interpretive-gloss",
+      "consensus": "majority",
+      "references": [
+        "Luke 1:34"
+      ],
+      "readings": {
+        "source": [
+          {
+            "version": "el/WESTCOTT AND HORT 1881",
+            "text": {
+              "Luke 1:34": "εἶπεν δὲ Μαριὰμ πρὸς τὸν ἄγγελον Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω;"
+            }
+          },
+          {
+            "version": "el/NESTLE GREEK NEW TESTAMENT 1904",
+            "text": {
+              "Luke 1:34": "εἶπεν δὲ Μαριὰμ πρὸς τὸν ἄγγελον Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω;"
+            }
+          },
+          {
+            "version": "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
+            "text": {
+              "Luke 1:34": "εἶπε δὲ Μαριὰμ πρὸς τὸν ἄγγελον, Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω;"
+            }
+          }
+        ],
+        "shifted": [
+          {
+            "version": "en/NEW INTERNATIONAL VERSION",
+            "text": {
+              "Luke 1:34": "“How will this be,” Mary asked the angel, “since I am a virgin?”"
+            }
+          },
+          {
+            "version": "en/ENGLISH STANDARD VERSION",
+            "text": {
+              "Luke 1:34": "And Mary said to the angel, “How will this be, since I am a virgin?”"
+            }
+          },
+          {
+            "version": "en/NEW REVISED STANDARD VERSION",
+            "text": {
+              "Luke 1:34": "Mary said to the angel, “How can this be, since I am a virgin?”"
+            }
+          },
+          {
+            "version": "en/NEW AMERICAN STANDARD BIBLE",
+            "text": {
+              "Luke 1:34": "But Mary said to the angel, “How will this be, since I am a virgin?”"
+            }
+          },
+          {
+            "version": "en/NASB 1995",
+            "text": {
+              "Luke 1:34": "Mary said to the angel, “How can this be, since I am a virgin?”"
+            }
+          },
+          {
+            "version": "en/NEW LIVING TRANSLATION",
+            "text": {
+              "Luke 1:34": "Mary asked the angel, “But how can this happen? I am a virgin.”"
+            }
+          },
+          {
+            "version": "en/GOOD NEWS TRANSLATION",
+            "text": {
+              "Luke 1:34": "Mary said to the angel, \"I am a virgin. How, then, can this be?\""
+            }
+          },
+          {
+            "version": "en/LEGACY STANDARD BIBLE",
+            "text": {
+              "Luke 1:34": "But Mary said to the angel, “How will this be, since I am a virgin?”"
+            }
+          },
+          {
+            "version": "en/AMPLIFIED BIBLE",
+            "text": {
+              "Luke 1:34": "Mary said to the angel, “How will this be, since I am a virgin and have no intimacy with any man?”"
+            }
+          },
+          {
+            "version": "en/WORLD ENGLISH BIBLE",
+            "text": {
+              "Luke 1:34": "Mary said to the angel, “How can this be, seeing I am a virgin?”"
+            }
+          }
+        ],
+        "corrected": [
+          {
+            "version": "en/WYCLIFFE BIBLE",
+            "text": {
+              "Luke 1:34": "And Marie seide to the aungel, On what maner schal this thing be doon, for Y knowe not man?"
+            }
+          },
+          {
+            "version": "en/TYNDALE NEW TESTAMENT",
+            "text": {
+              "Luke 1:34": "Then sayd Mary vnto the angell: How shall this be seinge I knowe not a man?"
+            }
+          },
+          {
+            "version": "en/GENEVA BIBLE 1599",
+            "text": {
+              "Luke 1:34": "Then sayde Marie vnto the Angel, How shall this be, seeing I knowe not man?"
+            }
+          },
+          {
+            "version": "en/KING JAMES BIBLE",
+            "text": {
+              "Luke 1:34": "Then said Mary unto the angel, How shall this be, seeing I know not a man?"
+            }
+          },
+          {
+            "version": "en/YOUNG'S LITERAL TRANSLATION",
+            "text": {
+              "Luke 1:34": "And Mary said unto the messenger, 'How shall this be, seeing a husband I do not know?'"
+            }
+          },
+          {
+            "version": "en/ROTHERHAM EMPHASISED BIBLE",
+            "text": {
+              "Luke 1:34": "But Mary said unto the messenger—How, shall this thing be, seeing that, a man, I know not?"
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Luke 1:34": "But Mary said to the angel, How shall this be, since I know not a man?"
+            }
+          },
+          {
+            "version": "en/NET BIBLE",
+            "text": {
+              "Luke 1:34": "Mary said to the angel, \"How will this be, since I have not had sexual relations with a man?\""
+            }
+          },
+          {
+            "version": "en/CHRISTIAN STANDARD BIBLE",
+            "text": {
+              "Luke 1:34": "Mary asked the angel, “How can this be, since I have not had sexual relations with a man? ”"
+            }
+          },
+          {
+            "version": "en/NEW AMERICAN BIBLE",
+            "text": {
+              "Luke 1:34": "But Mary said to the angel, “How can this be, since I have no relations with a man?”"
+            }
+          },
+          {
+            "version": "en/TWENTIETH CENTURY NEW TESTAMENT",
+            "text": {
+              "Luke 1:34": "“How can this be?” Mary asked the angel. “For I have no husband.”"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "luke-2-33-joseph-for-father",
+      "title": "'his father' -> 'Joseph': scribes edit Joseph out of fatherhood",
+      "type": "scribal-harmonization",
+      "consensus": "strong",
+      "references": [
+        "Luke 2:33",
+        "Luke 2:43"
+      ],
+      "readings": {
+        "source": [
+          {
+            "version": "el/WESTCOTT AND HORT 1881",
+            "text": {
+              "Luke 2:33": "καὶ ἦν ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.",
+              "Luke 2:43": "καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἰερουσαλήμ, καὶ οὐκ ἔγνωσαν οἱ γονεῖς αὐτοῦ."
+            }
+          },
+          {
+            "version": "el/NESTLE GREEK NEW TESTAMENT 1904",
+            "text": {
+              "Luke 2:33": "καὶ ἦν ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.",
+              "Luke 2:43": "καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ, καὶ οὐκ ἔγνωσαν οἱ γονεῖς αὐτοῦ."
+            }
+          },
+          {
+            "version": "el/TISCHENDORF 8TH EDITION",
+            "text": {
+              "Luke 2:33": "καὶ ἦν ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.",
+              "Luke 2:43": "καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ, καὶ οὐκ ἔγνωσαν οἱ γονεῖς αὐτοῦ."
+            }
+          },
+          {
+            "version": "la/LATIN: VULGATA CLEMENTINA",
+            "text": {
+              "Luke 2:33": "Et erat pater ejus et mater mirantes super his quæ dicebantur de illo.",
+              "Luke 2:43": "consummatisque diebus, cum redirent, remansit puer Jesus in Jerusalem, et non cognoverunt parentes ejus."
+            }
+          },
+          {
+            "version": "la/LATIN: VULGATA SIXTINA",
+            "text": {
+              "Luke 2:33": "Et erat pater et mater eius mirantes super his, quae dicebantur de illo.",
+              "Luke 2:43": "consummatisque diebus, cum redirent, remansit puer Iesus in Ierusalem, et non cognoverunt parentes eius."
+            }
+          }
+        ],
+        "shifted": [
+          {
+            "version": "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
+            "text": {
+              "Luke 2:33": "καὶ ἦν Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.",
+              "Luke 2:43": "καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτούς, ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἰερουσαλήμ· καὶ οὐκ ἔγνω Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ·"
+            }
+          },
+          {
+            "version": "el/STEPHANUS TEXTUS RECEPTUS 1550",
+            "text": {
+              "Luke 2:33": "και ην ιωσηφ και η μητηρ αυτου θαυμαζοντες επι τοις λαλουμενοις περι αυτου",
+              "Luke 2:43": "και τελειωσαντων τας ημερας εν τω υποστρεφειν αυτους υπεμεινεν ιησους ο παις εν ιερουσαλημ και ουκ εγνω ιωσηφ και η μητηρ αυτου"
+            }
+          },
+          {
+            "version": "el/RP BYZANTINE MAJORITY TEXT 2005",
+            "text": {
+              "Luke 2:33": "Καὶ ἦν Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.",
+              "Luke 2:43": "καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτούς, ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ· καὶ οὐκ ἔγνω Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ·"
+            }
+          },
+          {
+            "version": "el/GREEK ORTHODOX CHURCH 1904",
+            "text": {
+              "Luke 2:33": "καὶ ἦν Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.",
+              "Luke 2:43": "καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ, καὶ οὐκ ἔγνω Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ."
+            }
+          },
+          {
+            "version": "en/KING JAMES BIBLE",
+            "text": {
+              "Luke 2:33": "And Joseph and his mother marvelled at those things which were spoken of him.",
+              "Luke 2:43": "And when they had fulfilled the days, as they returned, the child Jesus tarried behind in Jerusalem; and Joseph and his mother knew not of it ."
+            }
+          },
+          {
+            "version": "en/NEW KING JAMES VERSION",
+            "text": {
+              "Luke 2:33": "And Joseph and His mother marveled at those things which were spoken of Him.",
+              "Luke 2:43": "When they had finished the days, as they returned, the Boy Jesus lingered behind in Jerusalem. And Joseph and His mother did not know it;"
+            }
+          },
+          {
+            "version": "en/GENEVA BIBLE 1599",
+            "text": {
+              "Luke 2:33": "And Ioseph and his mother marueiled at those things, which were spoken touching him.",
+              "Luke 2:43": "And had finished the dayes thereof, as they returned, the childe Iesus remained in Hierusalem, and Ioseph knew not, nor his mother,"
+            }
+          },
+          {
+            "version": "en/YOUNG'S LITERAL TRANSLATION",
+            "text": {
+              "Luke 2:33": "And Joseph and his mother were wondering at the things spoken concerning him,",
+              "Luke 2:43": "and having finished the days, in their returning the child Jesus remained behind in Jerusalem, and Joseph and his mother did not know,"
+            }
+          },
+          {
+            "version": "en/WORLD ENGLISH BIBLE",
+            "text": {
+              "Luke 2:33": "Joseph and his mother were marveling at the things which were spoken concerning him.",
+              "Luke 2:43": "and when they had fulfilled the days, as they were returning, the boy Jesus stayed behind in Jerusalem. Joseph and his mother didn’t know it,"
+            }
+          }
+        ],
+        "corrected": [
+          {
+            "version": "en/TYNDALE NEW TESTAMENT",
+            "text": {
+              "Luke 2:33": "And his father and mother mervelled at those thinges which were spoke of him.",
+              "Luke 2:43": "And when they had fulfilled the dayes as they returned home the chylde Iesus boode styll in Hierusalem vnknowynge to his father and mother."
+            }
+          },
+          {
+            "version": "en/AMERICAN STANDARD VERSION",
+            "text": {
+              "Luke 2:33": "And his father and his mother were marvelling at the things which were spoken concerning him;",
+              "Luke 2:43": "and when they had fulfilled the days, as they were returning, the boy Jesus tarried behind in Jerusalem: and his parents knew it not;"
+            }
+          },
+          {
+            "version": "en/ENGLISH REVISED VERSION",
+            "text": {
+              "Luke 2:33": "And his father and his mother were marveling at the things which were spoken concerning him;",
+              "Luke 2:43": "and when they had fulfilled the days, as they were returning, the boy Jesus tarried behind in Jerusalem; and his parents knew it not;"
+            }
+          },
+          {
+            "version": "en/NEW REVISED STANDARD VERSION",
+            "text": {
+              "Luke 2:33": "And the child’s father and mother were amazed at what was being said about him.",
+              "Luke 2:43": "When the festival was ended and they started to return, the boy Jesus stayed behind in Jerusalem, but his parents did not know it."
+            }
+          },
+          {
+            "version": "en/ENGLISH STANDARD VERSION",
+            "text": {
+              "Luke 2:33": "And his father and his mother marveled at what was said about him.",
+              "Luke 2:43": "And when the feast was ended, as they were returning, the boy Jesus stayed behind in Jerusalem. His parents did not know it,"
+            }
+          },
+          {
+            "version": "en/CHRISTIAN STANDARD BIBLE",
+            "text": {
+              "Luke 2:33": "His father and mother were amazed at what was being said about him.",
+              "Luke 2:43": "After those days were over, as they were returning, the boy Jesus stayed behind in Jerusalem, but his parents did not know it."
+            }
+          },
+          {
+            "version": "en/DARBY BIBLE 1890",
+            "text": {
+              "Luke 2:33": "And his father and mother wondered at the things which were said concerning him.",
+              "Luke 2:43": "and had completed the days, as they returned, the boy Jesus remained behind in Jerusalem, and his parents knew not [of it];"
+            }
+          },
+          {
+            "version": "en/BIBLE IN BASIC ENGLISH",
+            "text": {
+              "Luke 2:33": "And his father and mother were full of wonder at the things which were said about him.",
+              "Luke 2:43": "And when the days of the feast came to an end and they were going back, the boy Jesus was still in Jerusalem, but they had no knowledge of it:"
+            }
+          }
+        ]
+      }
     }
   ]
 }

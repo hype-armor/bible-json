@@ -1524,3 +1524,103 @@ References: Romans 16:1, 1 Timothy 3:8
 - `en/TWENTIETH CENTURY NEW TESTAMENT` — 1 Timothy 3:8 — So, too, Assistant-Officers should be serious and straightforward men, not given to taking much drink or to questionable money-making,
 
 ---
+
+## andra ou ginōskō -> 'I am a virgin': a verb becomes an identity
+
+`luke-1-34-andra-ou-ginosko` &middot; *interpretive-gloss* &middot; consensus: **majority**  
+References: Luke 1:34
+
+**Source-language reading**
+
+- `el/WESTCOTT AND HORT 1881` — Luke 1:34 — εἶπεν δὲ Μαριὰμ πρὸς τὸν ἄγγελον Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω;
+- `el/NESTLE GREEK NEW TESTAMENT 1904` — Luke 1:34 — εἶπεν δὲ Μαριὰμ πρὸς τὸν ἄγγελον Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω;
+- `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — Luke 1:34 — εἶπε δὲ Μαριὰμ πρὸς τὸν ἄγγελον, Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γινώσκω;
+
+**Shifted rendering**
+
+- `en/NEW INTERNATIONAL VERSION` — Luke 1:34 — “How will this be,” Mary asked the angel, “since I am a virgin?”
+- `en/ENGLISH STANDARD VERSION` — Luke 1:34 — And Mary said to the angel, “How will this be, since I am a virgin?”
+- `en/NEW REVISED STANDARD VERSION` — Luke 1:34 — Mary said to the angel, “How can this be, since I am a virgin?”
+- `en/NEW AMERICAN STANDARD BIBLE` — Luke 1:34 — But Mary said to the angel, “How will this be, since I am a virgin?”
+- `en/NASB 1995` — Luke 1:34 — Mary said to the angel, “How can this be, since I am a virgin?”
+- `en/NEW LIVING TRANSLATION` — Luke 1:34 — Mary asked the angel, “But how can this happen? I am a virgin.”
+- `en/GOOD NEWS TRANSLATION` — Luke 1:34 — Mary said to the angel, "I am a virgin. How, then, can this be?"
+- `en/LEGACY STANDARD BIBLE` — Luke 1:34 — But Mary said to the angel, “How will this be, since I am a virgin?”
+- `en/AMPLIFIED BIBLE` — Luke 1:34 — Mary said to the angel, “How will this be, since I am a virgin and have no intimacy with any man?”
+- `en/WORLD ENGLISH BIBLE` — Luke 1:34 — Mary said to the angel, “How can this be, seeing I am a virgin?”
+
+**Reading that restores the source**
+
+- `en/WYCLIFFE BIBLE` — Luke 1:34 — And Marie seide to the aungel, On what maner schal this thing be doon, for Y knowe not man?
+- `en/TYNDALE NEW TESTAMENT` — Luke 1:34 — Then sayd Mary vnto the angell: How shall this be seinge I knowe not a man?
+- `en/GENEVA BIBLE 1599` — Luke 1:34 — Then sayde Marie vnto the Angel, How shall this be, seeing I knowe not man?
+- `en/KING JAMES BIBLE` — Luke 1:34 — Then said Mary unto the angel, How shall this be, seeing I know not a man?
+- `en/YOUNG'S LITERAL TRANSLATION` — Luke 1:34 — And Mary said unto the messenger, 'How shall this be, seeing a husband I do not know?'
+- `en/ROTHERHAM EMPHASISED BIBLE` — Luke 1:34 — But Mary said unto the messenger—How, shall this thing be, seeing that, a man, I know not?
+- `en/DARBY BIBLE 1890` — Luke 1:34 — But Mary said to the angel, How shall this be, since I know not a man?
+- `en/NET BIBLE` — Luke 1:34 — Mary said to the angel, "How will this be, since I have not had sexual relations with a man?"
+- `en/CHRISTIAN STANDARD BIBLE` — Luke 1:34 — Mary asked the angel, “How can this be, since I have not had sexual relations with a man? ”
+- `en/NEW AMERICAN BIBLE` — Luke 1:34 — But Mary said to the angel, “How can this be, since I have no relations with a man?”
+- `en/TWENTIETH CENTURY NEW TESTAMENT` — Luke 1:34 — “How can this be?” Mary asked the angel. “For I have no husband.”
+
+---
+
+## 'his father' -> 'Joseph': scribes edit Joseph out of fatherhood
+
+`luke-2-33-joseph-for-father` &middot; *scribal-harmonization* &middot; consensus: **strong**  
+References: Luke 2:33, Luke 2:43
+
+**Source-language reading**
+
+- `el/WESTCOTT AND HORT 1881` — Luke 2:33 — καὶ ἦν ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.
+- `el/WESTCOTT AND HORT 1881` — Luke 2:43 — καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἰερουσαλήμ, καὶ οὐκ ἔγνωσαν οἱ γονεῖς αὐτοῦ.
+- `el/NESTLE GREEK NEW TESTAMENT 1904` — Luke 2:33 — καὶ ἦν ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.
+- `el/NESTLE GREEK NEW TESTAMENT 1904` — Luke 2:43 — καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ, καὶ οὐκ ἔγνωσαν οἱ γονεῖς αὐτοῦ.
+- `el/TISCHENDORF 8TH EDITION` — Luke 2:33 — καὶ ἦν ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.
+- `el/TISCHENDORF 8TH EDITION` — Luke 2:43 — καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ, καὶ οὐκ ἔγνωσαν οἱ γονεῖς αὐτοῦ.
+- `la/LATIN: VULGATA CLEMENTINA` — Luke 2:33 — Et erat pater ejus et mater mirantes super his quæ dicebantur de illo.
+- `la/LATIN: VULGATA CLEMENTINA` — Luke 2:43 — consummatisque diebus, cum redirent, remansit puer Jesus in Jerusalem, et non cognoverunt parentes ejus.
+- `la/LATIN: VULGATA SIXTINA` — Luke 2:33 — Et erat pater et mater eius mirantes super his, quae dicebantur de illo.
+- `la/LATIN: VULGATA SIXTINA` — Luke 2:43 — consummatisque diebus, cum redirent, remansit puer Iesus in Ierusalem, et non cognoverunt parentes eius.
+
+**Shifted rendering**
+
+- `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — Luke 2:33 — καὶ ἦν Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.
+- `el/SCRIVENER'S TEXTUS RECEPTUS 1894` — Luke 2:43 — καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτούς, ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἰερουσαλήμ· καὶ οὐκ ἔγνω Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ·
+- `el/STEPHANUS TEXTUS RECEPTUS 1550` — Luke 2:33 — και ην ιωσηφ και η μητηρ αυτου θαυμαζοντες επι τοις λαλουμενοις περι αυτου
+- `el/STEPHANUS TEXTUS RECEPTUS 1550` — Luke 2:43 — και τελειωσαντων τας ημερας εν τω υποστρεφειν αυτους υπεμεινεν ιησους ο παις εν ιερουσαλημ και ουκ εγνω ιωσηφ και η μητηρ αυτου
+- `el/RP BYZANTINE MAJORITY TEXT 2005` — Luke 2:33 — Καὶ ἦν Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.
+- `el/RP BYZANTINE MAJORITY TEXT 2005` — Luke 2:43 — καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτούς, ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ· καὶ οὐκ ἔγνω Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ·
+- `el/GREEK ORTHODOX CHURCH 1904` — Luke 2:33 — καὶ ἦν Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ θαυμάζοντες ἐπὶ τοῖς λαλουμένοις περὶ αὐτοῦ.
+- `el/GREEK ORTHODOX CHURCH 1904` — Luke 2:43 — καὶ τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς ὑπέμεινεν Ἰησοῦς ὁ παῖς ἐν Ἱερουσαλήμ, καὶ οὐκ ἔγνω Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ.
+- `en/KING JAMES BIBLE` — Luke 2:33 — And Joseph and his mother marvelled at those things which were spoken of him.
+- `en/KING JAMES BIBLE` — Luke 2:43 — And when they had fulfilled the days, as they returned, the child Jesus tarried behind in Jerusalem; and Joseph and his mother knew not of it .
+- `en/NEW KING JAMES VERSION` — Luke 2:33 — And Joseph and His mother marveled at those things which were spoken of Him.
+- `en/NEW KING JAMES VERSION` — Luke 2:43 — When they had finished the days, as they returned, the Boy Jesus lingered behind in Jerusalem. And Joseph and His mother did not know it;
+- `en/GENEVA BIBLE 1599` — Luke 2:33 — And Ioseph and his mother marueiled at those things, which were spoken touching him.
+- `en/GENEVA BIBLE 1599` — Luke 2:43 — And had finished the dayes thereof, as they returned, the childe Iesus remained in Hierusalem, and Ioseph knew not, nor his mother,
+- `en/YOUNG'S LITERAL TRANSLATION` — Luke 2:33 — And Joseph and his mother were wondering at the things spoken concerning him,
+- `en/YOUNG'S LITERAL TRANSLATION` — Luke 2:43 — and having finished the days, in their returning the child Jesus remained behind in Jerusalem, and Joseph and his mother did not know,
+- `en/WORLD ENGLISH BIBLE` — Luke 2:33 — Joseph and his mother were marveling at the things which were spoken concerning him.
+- `en/WORLD ENGLISH BIBLE` — Luke 2:43 — and when they had fulfilled the days, as they were returning, the boy Jesus stayed behind in Jerusalem. Joseph and his mother didn’t know it,
+
+**Reading that restores the source**
+
+- `en/TYNDALE NEW TESTAMENT` — Luke 2:33 — And his father and mother mervelled at those thinges which were spoke of him.
+- `en/TYNDALE NEW TESTAMENT` — Luke 2:43 — And when they had fulfilled the dayes as they returned home the chylde Iesus boode styll in Hierusalem vnknowynge to his father and mother.
+- `en/AMERICAN STANDARD VERSION` — Luke 2:33 — And his father and his mother were marvelling at the things which were spoken concerning him;
+- `en/AMERICAN STANDARD VERSION` — Luke 2:43 — and when they had fulfilled the days, as they were returning, the boy Jesus tarried behind in Jerusalem: and his parents knew it not;
+- `en/ENGLISH REVISED VERSION` — Luke 2:33 — And his father and his mother were marveling at the things which were spoken concerning him;
+- `en/ENGLISH REVISED VERSION` — Luke 2:43 — and when they had fulfilled the days, as they were returning, the boy Jesus tarried behind in Jerusalem; and his parents knew it not;
+- `en/NEW REVISED STANDARD VERSION` — Luke 2:33 — And the child’s father and mother were amazed at what was being said about him.
+- `en/NEW REVISED STANDARD VERSION` — Luke 2:43 — When the festival was ended and they started to return, the boy Jesus stayed behind in Jerusalem, but his parents did not know it.
+- `en/ENGLISH STANDARD VERSION` — Luke 2:33 — And his father and his mother marveled at what was said about him.
+- `en/ENGLISH STANDARD VERSION` — Luke 2:43 — And when the feast was ended, as they were returning, the boy Jesus stayed behind in Jerusalem. His parents did not know it,
+- `en/CHRISTIAN STANDARD BIBLE` — Luke 2:33 — His father and mother were amazed at what was being said about him.
+- `en/CHRISTIAN STANDARD BIBLE` — Luke 2:43 — After those days were over, as they were returning, the boy Jesus stayed behind in Jerusalem, but his parents did not know it.
+- `en/DARBY BIBLE 1890` — Luke 2:33 — And his father and mother wondered at the things which were said concerning him.
+- `en/DARBY BIBLE 1890` — Luke 2:43 — and had completed the days, as they returned, the boy Jesus remained behind in Jerusalem, and his parents knew not [of it];
+- `en/BIBLE IN BASIC ENGLISH` — Luke 2:33 — And his father and mother were full of wonder at the things which were said about him.
+- `en/BIBLE IN BASIC ENGLISH` — Luke 2:43 — And when the days of the feast came to an end and they were going back, the boy Jesus was still in Jerusalem, but they had no knowledge of it:
+
+---

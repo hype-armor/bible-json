@@ -4,7 +4,7 @@ A research dataset of translation decisions, transmission errors and interpolati
 that measurably changed Christian doctrine, practice, art or law — each one anchored
 to verses that resolve against the version files in this repository.
 
-36 cases · 1 worked example · 1,280 verified lookups · 566 witnesses · 18 Strong's-anchored terms · 0 broken references
+38 cases · 1 worked example · 1,763 verified lookups · 612 witnesses · 19 Strong's-anchored terms · 0 broken references
 
 ## Why this repository is a good place to do this
 
@@ -147,6 +147,48 @@ does not — it reads "sons of Israel", leaving the Greek standing alone. The sa
 points opposite ways at the two verses, which is a useful corrective against treating "the ancient
 witnesses agree" as a reusable move.
 
+## Who testifies to the virgin birth
+
+Two cases added together, because they answer one question: **does Mary claim she was a
+virgin, or that Jesus had no father?** Neither, on the Greek.
+
+**`luke-1-34-andra-ou-ginosko`.** Her only statement about herself is a verb phrase in the
+present tense — *ἄνδρα οὐ γινώσκω*, "I do not know a man" — inside a **question**. Sixteen
+English versions render it as a predicate noun, "I am a virgin", turning what she has not done
+into what she is. The tagging settles it: *parthenos* (`G3933`) appears at Luke 1:27, where the
+**narrator** introduces her, and not in her own speech.
+
+**She is not yet pregnant when she asks**, and the morphology proves it rather than assuming it:
+
+| Verse | Verb | Parse |
+| --- | --- | --- |
+| 1:31 | *syllēmpsē* "you will conceive" | `V-FDI-2S` — future |
+| 1:34 | *estai* "how will this be" · *ginōskō* "I do not know" | `V-FDI-3S` · `V-PAI-1S` |
+| 1:35 | *epeleusetai* · *episkiasei* | `V-FDI-3S` · `V-FAI-3S` — both future |
+| 1:38 | *genoito* "may it be" | `V-2ADO-3S` — aorist optative of wish |
+| 1:42 | Elizabeth: "blessed is the fruit of your womb" | she is pregnant by now |
+
+Luke never narrates the conception. Everything around her question is future, so it cannot be a
+claim about any child's paternity. (In Matthew there is no annunciation to Mary at all — 1:18
+opens with her already pregnant, and Mary never speaks in that gospel.)
+
+Every assertion about the child's origin is made by someone else: the angel at Luke 1:35, the
+narrator at Matthew 1:18, the angel to Joseph at 1:20. The doctrine is untouched; its
+attribution is not.
+
+**`luke-2-33-joseph-for-father`.** Luke calls Joseph Jesus' father without embarrassment — and
+scribes fixed some of it. At Luke 2:33 the earliest witnesses read "his father and his mother";
+the Byzantine text and Textus Receptus read "**Joseph** and his mother". Same substitution at
+2:43. "His father" is the harder reading and nobody defending a virgin birth introduces it.
+
+Two things complicate it, both recorded: the **Latin sides with the critical text** — both
+Vulgates read *pater eius*, so this is a Greek Byzantine development, not a Latin one — and
+**Tyndale already had "his father and mother" in 1526**, eighty-five years before the KJV
+adopted the Byzantine reading.
+
+A new taxonomy type, `scribal-harmonization`, covers this: nothing is added, a word is swapped
+for a safer one.
+
 ## The finding that most surprised me
 
 The RSV is usually credited — or blamed — with putting "young woman" into Isaiah 7:14 in 1952,
@@ -224,12 +266,12 @@ the disputed verse were deleted. Usually the doctrine survives and a *prophecy* 
 
 | Consensus | Cases | Meaning |
 | --- | ---: | --- |
-| `strong` | 17 | Broad cross-confessional agreement that the rendering departs from the source. |
-| `majority` | 10 | Most critical scholars agree; a reasoned minority defends the traditional reading. |
+| `strong` | 18 | Broad cross-confessional agreement that the rendering departs from the source. |
+| `majority` | 11 | Most critical scholars agree; a reasoned minority defends the traditional reading. |
 | `contested` | 8 | Live dispute. The dataset records the dispute, not a verdict. |
 | `debunked` | 1 | A popular mistranslation claim that fails on the evidence. |
 
-Nine categories, led by `semantic-narrowing` (11) and `grammatical-misreading` (10).
+Ten categories, led by `semantic-narrowing` (11) and `grammatical-misreading` (10).
 Impact spans soteriology, ecclesiology, marriage, art, civil law and — in two cases —
 executions.
 

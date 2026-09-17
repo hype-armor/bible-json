@@ -13,7 +13,8 @@
     "transliteration-as-name": "A common noun or epithet was carried over as if it were a proper name.",
     "anachronism": "A term was rendered with a concept that did not exist when the text was written.",
     "interpretive-gloss": "The rendering imports a later doctrinal reading rather than translating the words.",
-    "folk-etymology": "A popular claim of mistranslation that scholarship does not support. Included so the dataset can be used to test claims, not only to confirm them."
+    "folk-etymology": "A popular claim of mistranslation that scholarship does not support. Included so the dataset can be used to test claims, not only to confirm them.",
+    "scribal-harmonization": "A scribe altered wording to remove a theological difficulty. Distinguished from textual-interpolation by motive and shape: nothing is added, a word is swapped for a safer one."
   },
   "consensus_levels": {
     "strong": "Broad agreement across confessional lines that the rendering departs from the source.",
@@ -2499,11 +2500,174 @@
       "strongs": [
         "G1249"
       ]
+    },
+    {
+      "id": "luke-1-34-andra-ou-ginosko",
+      "title": "andra ou ginōskō -> 'I am a virgin': a verb becomes an identity",
+      "type": "interpretive-gloss",
+      "consensus": "majority",
+      "references": [
+        "Luke 1:34"
+      ],
+      "source_term": {
+        "language": "greek",
+        "form": "ἄνδρα οὐ γινώσκω",
+        "translit": "andra ou ginōskō",
+        "gloss": "I do not know a man (or: a husband) - present indicative active"
+      },
+      "rendered_as": {
+        "language": "english",
+        "form": "since I am a virgin",
+        "gloss": "a statement of status"
+      },
+      "transmission_chain": [
+        "Greek NT",
+        "Latin (virum non cognosco)",
+        "literal English through the KJV",
+        "20th-century English versions"
+      ],
+      "what_happened": "Mary's only statement about her own sexual history is a verb phrase in the present tense: 'I do not know a man'. Sixteen English versions in this repository render it as a predicate noun - 'I am a virgin' - converting a statement about what she has not done into a statement about what she is. The Greek noun for virgin, parthenos (G3933), does occur in this chapter, at Luke 1:27, where the NARRATOR introduces Mary. It does not occur in her own speech. That contrast is computable from lexicon/ and is the cleanest evidence in the case.",
+      "narrative_context": "Mary is NOT yet pregnant when she says this, and the verb morphology settles it. At Luke 1:31 Gabriel says syllēmpsē, 'you WILL conceive' (V-FDI-2S, future). Mary's question at 1:34 uses estai, 'how WILL this be' (V-FDI-3S, future), with ginōskō in the present (V-PAI-1S). Gabriel's answer at 1:35 is future throughout: epeleusetai 'will come upon' (V-FDI-3S), episkiasei 'will overshadow' (V-FAI-3S). At 1:38 she consents with genoito, an aorist optative of wish - 'may it be'. Luke never narrates the conception itself; by Elizabeth's greeting at 1:42 she is pregnant. So her question precedes the conception, and cannot be a claim about any child's paternity. In Matthew there is no annunciation to Mary at all - 1:18 opens with her already 'found to be with child', and Mary never speaks anywhere in that gospel.",
+      "doctrinal_impact": "Shapes who is understood to be the witness to the virgin birth. Under 'I am a virgin', Mary appears to assert her own status, and the verse reads as her testimony. Under the Greek, she asks a question whose premise is that she has not had sex, and every assertion about the child's origin is made by someone else: the angel at Luke 1:35, the narrator at Matthew 1:18, the angel to Joseph at 1:20. The doctrine is unaffected; its attribution is not. The same verse is also the textual anchor for later claims about Mary's perpetual virginity, which the present-tense verb does not support on its own.",
+      "impact_domains": [
+        "mariology",
+        "christology",
+        "doctrine-of-scripture"
+      ],
+      "first_attested": {
+        "where": "20th-century English versions; not in the KJV line",
+        "approx_date": "c. 1901-1970"
+      },
+      "strongs": [
+        "G435",
+        "G1097",
+        "G3933"
+      ],
+      "witnesses": {
+        "source": [
+          "el/WESTCOTT AND HORT 1881",
+          "el/NESTLE GREEK NEW TESTAMENT 1904",
+          "el/SCRIVENER'S TEXTUS RECEPTUS 1894"
+        ],
+        "shifted": [
+          "en/NEW INTERNATIONAL VERSION",
+          "en/ENGLISH STANDARD VERSION",
+          "en/NEW REVISED STANDARD VERSION",
+          "en/NEW AMERICAN STANDARD BIBLE",
+          "en/NASB 1995",
+          "en/NEW LIVING TRANSLATION",
+          "en/GOOD NEWS TRANSLATION",
+          "en/LEGACY STANDARD BIBLE",
+          "en/AMPLIFIED BIBLE",
+          "en/WORLD ENGLISH BIBLE"
+        ],
+        "corrected": [
+          "en/WYCLIFFE BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599",
+          "en/KING JAMES BIBLE",
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/ROTHERHAM EMPHASISED BIBLE",
+          "en/DARBY BIBLE 1890",
+          "en/NET BIBLE",
+          "en/CHRISTIAN STANDARD BIBLE",
+          "en/NEW AMERICAN BIBLE",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
+        ]
+      },
+      "distinguish_from": {
+        "claim": "The virgin birth of Jesus",
+        "rests_on": [
+          "Luke 1:35",
+          "Matthew 1:18",
+          "Matthew 1:20"
+        ],
+        "note": "Nothing here weakens the virgin birth, which Luke and Matthew assert plainly in their own voice. What it changes is who is said to testify to it. Mary never uses the word 'virgin' of herself and never says the child has no human father; at Luke 2:48 she calls Joseph 'your father', which is ordinarily read as legal or adoptive fatherhood."
+      },
+      "caveat": "'I am a virgin' is defensible as dynamic equivalence - it conveys the presupposition of her question accurately enough, and no one disputes that Luke means she has not had sex. Graded majority, not strong, for that reason. Note also that the versions split three ways rather than two: 16 use the identity noun; the KJV line keeps the literal 'I know not a man'; and a third group (CSB, NET, NAB, HCSB, ISV, GWT) keeps the verb but modernises it - 'I have not had sexual relations with a man'. That third group is arguably the best rendering and is filed here as corrected. A minority reads andra as 'husband' rather than 'man', giving 'I have no husband' (Weymouth, Twentieth Century), which shifts the sense toward her betrothed but unconsummated status.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Annunciation",
+        "https://en.wikipedia.org/wiki/Virgin_birth_of_Jesus"
+      ]
+    },
+    {
+      "id": "luke-2-33-joseph-for-father",
+      "title": "'his father' -> 'Joseph': scribes edit Joseph out of fatherhood",
+      "type": "scribal-harmonization",
+      "consensus": "strong",
+      "references": [
+        "Luke 2:33",
+        "Luke 2:43"
+      ],
+      "source_term": {
+        "language": "greek",
+        "form": "ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ",
+        "translit": "ho patēr autou kai hē mētēr",
+        "gloss": "his father and his mother"
+      },
+      "rendered_as": {
+        "language": "greek",
+        "form": "Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ",
+        "translit": "Iōsēph kai hē mētēr autou",
+        "gloss": "Joseph and his mother"
+      },
+      "transmission_chain": [
+        "Greek NT",
+        "Byzantine text",
+        "Textus Receptus",
+        "KJV"
+      ],
+      "what_happened": "At Luke 2:33 the earliest witnesses read 'his father and his mother'; the Byzantine text and the Textus Receptus read 'Joseph and his mother'. The same substitution recurs at 2:43, where the critical text has 'his parents' (hoi goneis autou) and the TR again names Joseph. The direction of change is not seriously disputed: 'his father' is the harder reading, and no scribe defending the virgin birth would introduce it, while the motive for removing it is obvious.",
+      "doctrinal_impact": "A rare case where a scribal motive is legible from the change itself. Luke's own narrative calls Joseph Jesus' father without embarrassment - at 2:41 and 2:43 the parents are 'his parents', at 2:48 Mary says 'your father and I', and at 3:23 Luke adds his own hedge, 'as was supposed'. Scribes smoothed some of these and not others, so the KJV reader meets a Luke slightly more anxious about Joseph's status than Luke was. Relevant to Mariology, to perpetual-virginity debates, and as a demonstration that doctrinal pressure on the text is measurable rather than merely alleged.",
+      "impact_domains": [
+        "mariology",
+        "textual-criticism",
+        "christology"
+      ],
+      "first_attested": {
+        "where": "Byzantine tradition",
+        "approx_date": "5th c. CE onward"
+      },
+      "witnesses": {
+        "source": [
+          "el/WESTCOTT AND HORT 1881",
+          "el/NESTLE GREEK NEW TESTAMENT 1904",
+          "el/TISCHENDORF 8TH EDITION",
+          "la/LATIN: VULGATA CLEMENTINA",
+          "la/LATIN: VULGATA SIXTINA"
+        ],
+        "shifted": [
+          "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
+          "el/STEPHANUS TEXTUS RECEPTUS 1550",
+          "el/RP BYZANTINE MAJORITY TEXT 2005",
+          "el/GREEK ORTHODOX CHURCH 1904",
+          "en/KING JAMES BIBLE",
+          "en/NEW KING JAMES VERSION",
+          "en/GENEVA BIBLE 1599",
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/WORLD ENGLISH BIBLE"
+        ],
+        "corrected": [
+          "en/TYNDALE NEW TESTAMENT",
+          "en/AMERICAN STANDARD VERSION",
+          "en/ENGLISH REVISED VERSION",
+          "en/NEW REVISED STANDARD VERSION",
+          "en/ENGLISH STANDARD VERSION",
+          "en/CHRISTIAN STANDARD BIBLE",
+          "en/DARBY BIBLE 1890",
+          "en/BIBLE IN BASIC ENGLISH"
+        ]
+      },
+      "caveat": "Two things complicate the neat story. First, the LATIN sides with the critical text: both the Clementine and Sixtine Vulgates read 'pater eius', so this is a Greek Byzantine development, not a Latin one - which cuts against any account that makes the Vulgate the villain of Marian readings generally. Second, Tyndale (1526) already has 'his father and mother', so the English tradition had the critical reading eighty-five years before the KJV adopted the Byzantine one. The repository's plain-text JSON carries no apparatus, so versions that footnote the variant are indistinguishable here from versions that print one reading silently.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Textual_variants_in_the_Gospel_of_Luke"
+      ]
     }
   ],
   "field_notes": {
     "study": "Path to a worked example under studies/, generated from a spec by tools/build_study.py.",
     "distinguish_from": "What the case is NOT. Names the doctrinal claim people attach to the verse and the texts that claim actually rests on. Guards against the commonest failure mode in this subject: treating a translation shift in a proof-text as though it invented the doctrine.",
-    "strongs": "Strong's numbers anchoring the disputed term. Resolvable against lexicon/ via tools/lexicon.py, which gives lemma-accurate occurrence lists without surface-form matching."
+    "strongs": "Strong's numbers anchoring the disputed term. Resolvable against lexicon/ via tools/lexicon.py, which gives lemma-accurate occurrence lists without surface-form matching.",
+    "narrative_context": "Where a case turns on WHEN something is said inside the story, this records the sequence and the verb morphology that establishes it. Added because 'what the text says' and 'what the character could have known at that point' are different questions, and the second is easy to get wrong."
   }
 }
