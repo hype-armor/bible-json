@@ -1,0 +1,794 @@
+{
+  "dataset": "christian-beliefs-not-founded-in-the-bible",
+  "schema_version": "1.0.0",
+  "compiled": "2026-09-18",
+  "scope": "Beliefs, images, sayings and doctrines widely held by Christians that the biblical text does not state. Companion to research/mistranslations, which covers a different problem: that dataset is about text being rendered wrongly, this one is about text that was never there.",
+  "fairness_note": "\"Not in the Bible\" is a criticism only under a theology that makes scripture the sole authority. Catholic and Orthodox Christianity holds scripture and sacred tradition together, so a doctrine developed after the New Testament is not thereby suspect in those traditions - it is how they expect doctrine to work. The sharp cases are the ones where people believe something IS in the text and it is not, and where a tradition claims biblical warrant that the text does not supply. The `held_by` field records who actually holds each belief so the point lands where it applies.",
+  "method": "Where a claim can be settled mechanically it carries a `verified` block that tools/verify.py runs against all 142 versions - a phrase that appears in zero English Bibles, or a Hebrew word that never occurs in the book people place it in. Where it cannot, the case carries citations instead and is flagged as historical.",
+  "taxonomy": {
+    "misattributed-quote": "A saying widely quoted as scripture that appears nowhere in it.",
+    "detail-supplied": "The text is silent on a detail and tradition filled it in.",
+    "detail-altered": "The text says something, and popular belief says something different.",
+    "figures-merged": "Two or more distinct people or things were conflated into one.",
+    "later-doctrine": "A doctrine formulated after the New Testament, whether or not it claims biblical warrant.",
+    "imported-imagery": "A picture that comes from art, poetry or drama rather than from scripture."
+  },
+  "consensus_levels": {
+    "strong": "The text plainly does not say it; essentially undisputed.",
+    "majority": "Most scholars agree; a reasoned minority reads the text otherwise.",
+    "contested": "Live dispute, often about whether a text implies the belief rather than states it."
+  },
+  "cases": [
+    {
+      "id": "god-helps-those-who-help-themselves",
+      "title": "\"God helps those who help themselves\"",
+      "type": "misattributed-quote",
+      "consensus": "strong",
+      "claim": "A proverb widely believed to be a Bible verse. Surveys in the US have repeatedly found it to be among the most-cited 'verses', sometimes named by a majority of respondents.",
+      "what_the_text_says": "Nothing resembling it. The New Testament's emphasis runs the other way - grace toward the helpless is the recurring theme, and 2 Corinthians 12:9 has 'my power is made perfect in weakness'.",
+      "references": [
+        "2 Corinthians 12:9",
+        "Romans 5:6"
+      ],
+      "what_it_rests_on": "Nothing biblical. The sentiment is in Aesop, appears in English in Algernon Sidney (c. 1698), and was popularised by Benjamin Franklin in Poor Richard's Almanack (1736).",
+      "origin": {
+        "who": "Aesop; Algernon Sidney; popularised by Benjamin Franklin",
+        "when": "1736"
+      },
+      "held_by": [
+        "popular Christianity",
+        "cross-denominational"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "god[^.]{0,30}help(s|eth)? (them|those) (that|who) help",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "Proverbs does commend diligence (e.g. 6:6-11), so the sentiment is not anti-biblical - it simply is not a verse.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/God_helps_those_who_help_themselves"
+      ]
+    },
+    {
+      "id": "cleanliness-next-to-godliness",
+      "title": "\"Cleanliness is next to godliness\"",
+      "type": "misattributed-quote",
+      "consensus": "strong",
+      "claim": "Quoted as scripture, often in the context of tidiness or hygiene as a virtue.",
+      "what_the_text_says": "The phrase does not occur. Ritual cleanness is a major biblical category, but it is about cultic purity, not hygiene - and Jesus explicitly downgrades handwashing rules at Mark 7:15.",
+      "references": [
+        "Mark 7:15",
+        "Matthew 23:25"
+      ],
+      "what_it_rests_on": "A sermon by John Wesley (1778), who was himself quoting it as an existing proverb rather than as scripture.",
+      "origin": {
+        "who": "John Wesley, 'On Dress'",
+        "when": "1778"
+      },
+      "held_by": [
+        "popular Christianity",
+        "Methodist folk memory"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "cleanliness is next to",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "The word 'cleanliness' does appear in a few versions at 2 Samuel 22:21-25, rendering a Hebrew term for moral innocence, not hygiene.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cleanliness_is_next_to_godliness"
+      ]
+    },
+    {
+      "id": "god-works-in-mysterious-ways",
+      "title": "\"God works in mysterious ways\"",
+      "type": "misattributed-quote",
+      "consensus": "strong",
+      "claim": "Offered as a scriptural consolation in the face of suffering or unanswered prayer.",
+      "what_the_text_says": "Not a verse. Isaiah 55:8-9 makes a related point - 'my thoughts are not your thoughts' - and Romans 11:33 speaks of God's 'inscrutable' ways, but the sentence is not scripture.",
+      "references": [
+        "Isaiah 55:8",
+        "Isaiah 55:9",
+        "Romans 11:33"
+      ],
+      "what_it_rests_on": "William Cowper's hymn 'Light Shining out of Darkness' (1773): 'God moves in a mysterious way, His wonders to perform.'",
+      "origin": {
+        "who": "William Cowper",
+        "when": "1773"
+      },
+      "held_by": [
+        "popular Christianity",
+        "cross-denominational"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "works in mysterious ways|moves in a mysterious way",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "The Contemporary English Version uses 'mysterious ways' as ordinary English in a few places (1 Corinthians 4:1, Ephesians 1:9), which is not the proverb.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/God_Moves_in_a_Mysterious_Way"
+      ]
+    },
+    {
+      "id": "spare-the-rod-spoil-the-child",
+      "title": "\"Spare the rod and spoil the child\"",
+      "type": "misattributed-quote",
+      "consensus": "majority",
+      "claim": "Quoted as a biblical mandate for corporal punishment of children.",
+      "what_the_text_says": "Proverbs 13:24 reads 'those who spare the rod hate their children' - close in sense, but the familiar rhyming form is not scripture.",
+      "references": [
+        "Proverbs 13:24",
+        "Proverbs 22:15",
+        "Proverbs 23:13"
+      ],
+      "what_it_rests_on": "Samuel Butler's satirical poem Hudibras (1662), where it appears in a bawdy context: 'Love is a boy by poets styl'd; Then spare the rod and spoil the child.'",
+      "origin": {
+        "who": "Samuel Butler, Hudibras",
+        "when": "1662"
+      },
+      "held_by": [
+        "popular Christianity",
+        "conservative Protestant parenting literature"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "spare the rod and spoil",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "Graded majority rather than strong because the underlying Proverbs verses do exist and do commend the rod. The dispute is over the proverb's form and the reading of 'rod' (shevet, also a shepherd's implement and a symbol of authority), not over whether Proverbs discusses discipline.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spare_the_rod_and_spoil_the_child"
+      ]
+    },
+    {
+      "id": "hate-the-sin-love-the-sinner",
+      "title": "\"Hate the sin, love the sinner\"",
+      "type": "misattributed-quote",
+      "consensus": "strong",
+      "claim": "Cited as a scriptural principle, usually when discussing how to treat people whose conduct is disapproved of.",
+      "what_the_text_says": "Not present in any form.",
+      "references": [
+        "Matthew 7:1",
+        "Romans 12:9"
+      ],
+      "what_it_rests_on": "Augustine comes closest - 'cum dilectione hominum et odio vitiorum', with love for people and hatred of vices (Letter 211, c. 424). The modern English wording was popularised by Gandhi's autobiography (1929).",
+      "origin": {
+        "who": "Augustine, then Gandhi",
+        "when": "c. 424 / 1929"
+      },
+      "held_by": [
+        "popular Christianity",
+        "evangelical Protestant"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "love the sinner|hate the sin,",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "That the phrase is not scripture says nothing about whether the principle is sound; that is a separate argument.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hate_the_sin,_love_the_sinner"
+      ]
+    },
+    {
+      "id": "this-too-shall-pass",
+      "title": "\"This too shall pass\"",
+      "type": "misattributed-quote",
+      "consensus": "strong",
+      "claim": "Quoted as a verse of comfort in hardship.",
+      "what_the_text_says": "Nowhere. The nearest biblical sentiment is 2 Corinthians 4:17-18 on affliction being temporary.",
+      "references": [
+        "2 Corinthians 4:17",
+        "2 Corinthians 4:18"
+      ],
+      "what_it_rests_on": "Persian Sufi folklore about a ring inscribed for a king; it entered English through Edward FitzGerald and was retold by Abraham Lincoln in an 1859 address.",
+      "origin": {
+        "who": "Persian wisdom literature; popularised in English by FitzGerald and Lincoln",
+        "when": "c. 1200 / 1859"
+      },
+      "held_by": [
+        "popular Christianity",
+        "general Anglophone culture"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "this too shall pass|this, too, shall pass",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "Occasionally defended as a paraphrase of 2 Corinthians 4:17-18, but that passage contrasts temporary affliction with eternal glory rather than counselling patience - a different consolation. The saying is also widely attributed to Solomon, which is how it acquires its biblical air.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/This_too_shall_pass"
+      ]
+    },
+    {
+      "id": "three-wise-men",
+      "title": "Three wise men, named, and kings",
+      "type": "detail-supplied",
+      "consensus": "strong",
+      "claim": "Three magi, named Caspar, Melchior and Balthasar, who were kings, visited the newborn Jesus in the stable.",
+      "what_the_text_says": "Matthew 2:1 says only 'magi from the East' - no number, no names, and not kings. Matthew 2:11 has them enter a HOUSE, not a stable, and the child is called paidion (a young child), not brephos (newborn), consistent with Herod's order at 2:16 killing boys up to two years old.",
+      "references": [
+        "Matthew 2:1",
+        "Matthew 2:11",
+        "Matthew 2:16"
+      ],
+      "what_it_rests_on": "The number three is inferred from the three gifts. The names first appear in the Excerpta Latina Barbari (c. 6th c.) and were fixed by later Western tradition; the kingly status comes from reading Psalm 72:11 and Isaiah 60:3 back into the story.",
+      "origin": {
+        "who": "Western medieval tradition",
+        "when": "6th-9th c."
+      },
+      "held_by": [
+        "popular Christianity",
+        "Catholic",
+        "Protestant"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "three (wise men|magi)",
+        "scope": "english",
+        "books": [
+          "Matthew"
+        ],
+        "expect_versions": 0
+      },
+      "caveat": "Eastern traditions often count twelve magi, which shows the number was never fixed by the text. The Christmas card conflation of magi and shepherds at the manger merges Matthew's account with Luke's, which share no scene.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Biblical_Magi"
+      ]
+    },
+    {
+      "id": "forbidden-fruit-was-an-apple",
+      "title": "The forbidden fruit was an apple",
+      "type": "detail-altered",
+      "consensus": "strong",
+      "claim": "Eve ate an apple in the Garden of Eden.",
+      "what_the_text_says": "Genesis 3:6 says peri (H6529), the generic word for fruit. The species is never named.",
+      "references": [
+        "Genesis 2:17",
+        "Genesis 3:6"
+      ],
+      "what_it_rests_on": "A Latin pun. In the Vulgate the tree is of the knowledge of good and evil - bonum et malum - and malum also means 'apple'. The visual tradition followed the pun, cemented by Renaissance painting and by Milton.",
+      "origin": {
+        "who": "Latin wordplay, then Western art",
+        "when": "from c. 400, fixed by the 16th-17th c."
+      },
+      "held_by": [
+        "popular Christianity",
+        "Western art tradition"
+      ],
+      "verified": {
+        "kind": "strongs_absent",
+        "strongs": "H8598",
+        "absent_from": [
+          "Genesis"
+        ],
+        "note": "H8598 tappuach, 'apple', occurs in Proverbs, Song of Solomon and Joel - never in Genesis."
+      },
+      "caveat": "Jewish tradition variously suggests a fig, a grape or wheat; the pomegranate appears in other strands. The point is not that apple is wrong so much as that the text declines to say.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Forbidden_fruit"
+      ]
+    },
+    {
+      "id": "jonah-and-the-whale",
+      "title": "Jonah was swallowed by a whale",
+      "type": "detail-altered",
+      "consensus": "majority",
+      "claim": "A whale swallowed Jonah.",
+      "what_the_text_says": "Jonah 1:17 has dag gadol, a 'great fish'. Matthew 12:40 in Greek has kētos, a sea monster or huge sea creature - a category word, not a cetacean.",
+      "references": [
+        "Jonah 1:17",
+        "Matthew 12:40"
+      ],
+      "what_it_rests_on": "The King James Version rendered kētos as 'whale' at Matthew 12:40, and the picture stuck. The NRSV reads 'sea monster'.",
+      "origin": {
+        "who": "the English translation tradition",
+        "when": "1611"
+      },
+      "held_by": [
+        "popular Christianity",
+        "cross-denominational"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "\\bwhale",
+        "scope": "english",
+        "books": [
+          "Jonah"
+        ],
+        "expect_versions": 1,
+        "note": "Brenton's translation of the Greek Old Testament reads 'a great whale' at Jonah 1:17, rendering the Septuagint's ketos. Allowed for, and informative: it shows the whale entering through the Greek, not the Hebrew."
+      },
+      "caveat": "Ancient categories did not separate whales from large fish, so 'whale' is not straightforwardly wrong for ketos - it is anachronistically precise. This case sits on the boundary with the mistranslations dataset. The corpus check turned up a useful detail: of 57 English versions, exactly one has 'whale' in Jonah - Brenton, who is translating the GREEK Old Testament, not the Hebrew. The Hebrew says great fish in every English version there is; the whale arrives via Greek ketos, and the KJV then put it into Matthew 12:40.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Book_of_Jonah"
+      ]
+    },
+    {
+      "id": "serpent-in-eden-is-satan",
+      "title": "The serpent in Eden was Satan",
+      "type": "figures-merged",
+      "consensus": "strong",
+      "claim": "Satan, in the form of a snake, tempted Eve.",
+      "what_the_text_says": "Genesis 3 never says so. The serpent is introduced at 3:1 simply as the craftiest of the wild animals the LORD God had made - a creature, not a fallen angel. The words 'Satan' and 'devil' do not occur anywhere in Genesis 3.",
+      "references": [
+        "Genesis 3:1",
+        "Genesis 3:14",
+        "Revelation 12:9"
+      ],
+      "what_it_rests_on": "The identification is made much later. Wisdom of Solomon 2:24 links death to the devil's envy; Revelation 12:9 calls the dragon 'that ancient serpent, who is called the Devil and Satan', and Christian reading folded that back into Genesis.",
+      "origin": {
+        "who": "Second Temple Jewish literature, then Revelation, then patristic exegesis",
+        "when": "1st c. BCE - 2nd c. CE"
+      },
+      "held_by": [
+        "Catholic",
+        "Orthodox",
+        "Protestant",
+        "popular Christianity"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "satan|devil",
+        "scope": "english",
+        "books": [
+          "Genesis"
+        ],
+        "expect_versions": 1,
+        "chapters": [
+          3
+        ],
+        "note": "Allowed for, and the single hit is the strongest evidence in the case: the Amplified Bible inserts '(Satan)' into the verse itself - 'And the serpent (Satan) said to the woman'. One modern version supplies the identification inside the text that the Hebrew declines to make."
+      },
+      "caveat": "Revelation 12:9 is a real biblical basis for the identification, so this is not a belief invented from nothing - it is a belief read into Genesis from elsewhere in the canon. The verified check proves only that Genesis itself does not make it. Caught while running that check: of 57 English versions, exactly one puts the word into the verse - the Amplified Bible reads 'And the serpent (Satan) said to the woman'. That is the whole phenomenon this dataset tracks, visible in a single parenthesis.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Serpents_in_the_Bible"
+      ]
+    },
+    {
+      "id": "mary-magdalene-was-a-prostitute",
+      "title": "Mary Magdalene was a prostitute",
+      "type": "figures-merged",
+      "consensus": "strong",
+      "claim": "Mary Magdalene was a reformed prostitute who washed Jesus' feet.",
+      "what_the_text_says": "Nothing of the kind. Luke 8:2 introduces her as a woman from whom seven demons had gone out, and lists her among the women who funded Jesus' ministry. The unnamed 'sinful woman' who anoints his feet is a different person in a different chapter (Luke 7:37). The four gospels never call Mary Magdalene a prostitute, and she is the first witness of the resurrection in all four.",
+      "references": [
+        "Luke 8:2",
+        "Luke 7:37",
+        "John 20:16",
+        "Mark 16:9"
+      ],
+      "what_it_rests_on": "A homily by Pope Gregory the Great on 14 September 591, which merged three women - Mary Magdalene, the unnamed sinner of Luke 7, and Mary of Bethany - and read the seven demons as the seven deadly sins, foremost lust.",
+      "origin": {
+        "who": "Pope Gregory I, Homily 33",
+        "when": "591"
+      },
+      "held_by": [
+        "Western Christianity until 1969",
+        "popular culture still"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "magdalene[^.]{0,80}(harlot|prostitut|whore)",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "The Catholic Church corrected this in 1969, when the revised calendar separated the three figures; the Eastern churches never merged them. Fourteen centuries of Western art did, which is why the image persists.",
+      "sources": [
+        "https://uscatholic.org/articles/201603/who-framed-mary-magdalene/",
+        "https://en.wikipedia.org/wiki/Mary_Magdalene"
+      ]
+    },
+    {
+      "id": "nativity-stable-and-innkeeper",
+      "title": "The innkeeper turned them away to a stable",
+      "type": "detail-supplied",
+      "consensus": "majority",
+      "claim": "An innkeeper refused Mary and Joseph a room, so Jesus was born in a stable among animals.",
+      "what_the_text_says": "Luke 2:7 says there was no room in the kataluma and the child was laid in a manger. There is no innkeeper, no stable, and no animals anywhere in the account.",
+      "references": [
+        "Luke 2:7",
+        "Luke 2:12",
+        "Luke 2:16",
+        "Luke 22:11"
+      ],
+      "what_it_rests_on": "Kataluma (G2646) occurs three times in the New Testament, and in the other two - Luke 22:11 and Mark 14:14 - it means the GUEST ROOM where the Last Supper is held. Luke uses a different word, pandocheion, for a commercial inn at 10:34. The likely picture is a crowded family home whose guest room was full, with the household's animal quarters on the lower level.",
+      "origin": {
+        "who": "the English translation 'inn', plus the Protoevangelium of James (c. 150) which supplies a cave",
+        "when": "2nd c. onward"
+      },
+      "held_by": [
+        "popular Christianity",
+        "nativity play tradition"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "innkeeper",
+        "scope": "english",
+        "books": [
+          "Luke"
+        ],
+        "expect_versions": 0,
+        "chapters": [
+          2
+        ]
+      },
+      "caveat": "A minority of scholars defend 'inn'. The ox and ass come from reading Isaiah 1:3 into the scene, and appear in art from the 4th century.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nativity_of_Jesus"
+      ]
+    },
+    {
+      "id": "jesus-was-33",
+      "title": "Jesus was 33 when he died",
+      "type": "detail-supplied",
+      "consensus": "strong",
+      "claim": "Jesus died at exactly 33 years old.",
+      "what_the_text_says": "Luke 3:23 says he was 'about thirty years old' when he began his work. No gospel gives his age at death, and none states the length of his ministry as a number.",
+      "references": [
+        "Luke 3:23",
+        "John 2:13",
+        "John 6:4",
+        "John 11:55"
+      ],
+      "what_it_rests_on": "An inference: John mentions three Passovers, suggesting a ministry of roughly three years, added to 'about thirty'. Both ends of the sum are approximate.",
+      "origin": {
+        "who": "harmonising inference from John's Passover references",
+        "when": "patristic era onward"
+      },
+      "held_by": [
+        "popular Christianity",
+        "cross-denominational"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "thirty[- ]three years",
+        "scope": "english",
+        "books": [
+          "Matthew",
+          "Mark",
+          "Luke",
+          "John"
+        ],
+        "expect_versions": 0
+      },
+      "caveat": "The Synoptics mention only one Passover, which would give a ministry closer to a year. 33 is a reasonable estimate presented with false precision.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chronology_of_Jesus"
+      ]
+    },
+    {
+      "id": "peter-at-the-pearly-gates",
+      "title": "Saint Peter admits people at the pearly gates",
+      "type": "imported-imagery",
+      "consensus": "strong",
+      "claim": "Peter stands at the gates of heaven checking arrivals against a list.",
+      "what_the_text_says": "Revelation 21:21 describes the New Jerusalem's twelve gates as each made of a single pearl - a city, not an admissions desk, and Peter is not there. Matthew 16:19 gives Peter 'the keys of the kingdom of heaven', a phrase about authority to bind and loose, not gatekeeping the afterlife.",
+      "references": [
+        "Revelation 21:21",
+        "Matthew 16:19"
+      ],
+      "what_it_rests_on": "Two unrelated images welded together, then carried by centuries of cartoons and jokes.",
+      "origin": {
+        "who": "popular and satirical tradition",
+        "when": "medieval onward"
+      },
+      "held_by": [
+        "popular culture",
+        "cross-denominational folk belief"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "pearly gates",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "Matthew 16:19 does give Peter keys, so the image is not built from nothing - but the keys are of the kingdom of heaven, a phrase Matthew uses throughout for God's reign breaking into the present, not for the afterlife's front door. The gatekeeping scene has no textual source at all.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pearly_gates"
+      ]
+    },
+    {
+      "id": "satan-rules-hell",
+      "title": "Satan rules hell and torments the damned",
+      "type": "imported-imagery",
+      "consensus": "strong",
+      "claim": "The devil is the ruler of hell, presiding over the punishment of sinners, typically with horns and a pitchfork.",
+      "what_the_text_says": "The opposite. Revelation 20:10 has the devil THROWN INTO the lake of fire, where he 'will be tormented day and night forever and ever'. He is a prisoner of the place, not its warden. Matthew 25:41 calls it a fire 'prepared for the devil and his angels'.",
+      "references": [
+        "Revelation 20:10",
+        "Matthew 25:41"
+      ],
+      "what_it_rests_on": "Dante's Inferno (c. 1320) placed Satan at the centre of hell; Milton's Paradise Lost (1667) gave him a kingdom and a court. The horns and pitchfork come from medieval drama and from Greco-Roman Pan and Hades iconography.",
+      "origin": {
+        "who": "Dante, Milton, medieval mystery plays",
+        "when": "14th-17th c."
+      },
+      "held_by": [
+        "popular culture",
+        "popular Christianity"
+      ],
+      "caveat": "Several New Testament texts do call Satan a ruler of this world (John 12:31, 2 Corinthians 4:4) - but of the world, not of hell. That is the distinction the popular picture collapses.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Devil_in_Christianity"
+      ]
+    },
+    {
+      "id": "purgatory",
+      "title": "Purgatory",
+      "type": "later-doctrine",
+      "consensus": "contested",
+      "claim": "Souls destined for heaven undergo purification in an intermediate state.",
+      "what_the_text_says": "The word occurs in no English Bible in this corpus. No passage describes such a state directly.",
+      "references": [
+        "1 Corinthians 3:15",
+        "Matthew 12:32"
+      ],
+      "what_it_rests_on": "For Catholics: 2 Maccabees 12:43-46, where Judas Maccabeus makes atonement for the dead - a book in the Catholic canon but not the Protestant one, which is why the argument is circular across the divide. Also 1 Corinthians 3:15 ('saved, but only as through fire') and Matthew 12:32 ('neither in this age nor in the age to come'). The doctrine was defined at the Councils of Lyon (1274), Florence (1439) and Trent (1563).",
+      "origin": {
+        "who": "developed in Western theology; defined at Lyon, Florence and Trent",
+        "when": "1274-1563"
+      },
+      "held_by": [
+        "Catholic"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "purgator",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "Graded contested, not strong, because Catholic theology does not claim purgatory is described in scripture - it claims the doctrine is consistent with scripture and developed through tradition. The Orthodox reject the Latin formulation while holding a prayer-for-the-dead practice; Protestants reject it outright. This is the clearest case in the dataset where the 'not in the Bible' objection only bites under sola scriptura.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Purgatory"
+      ]
+    },
+    {
+      "id": "the-word-trinity",
+      "title": "The word \"Trinity\"",
+      "type": "later-doctrine",
+      "consensus": "strong",
+      "claim": "Often assumed to be a biblical term.",
+      "what_the_text_says": "The word appears in no English Bible in this corpus as part of the text. Nor does 'consubstantial', 'hypostatic union' or 'person' in the technical sense.",
+      "references": [
+        "Matthew 28:19",
+        "2 Corinthians 13:13",
+        "John 1:1"
+      ],
+      "what_it_rests_on": "Texts that name Father, Son and Spirit together - Matthew 28:19, 2 Corinthians 13:13 - plus John 1:1 and others, from which the doctrine is inferred. Tertullian coined the Latin trinitas around 200 CE; the formulation was hammered out at Nicaea (325) and Constantinople (381).",
+      "origin": {
+        "who": "Tertullian; defined at Nicaea and Constantinople",
+        "when": "c. 200-381"
+      },
+      "held_by": [
+        "Catholic",
+        "Orthodox",
+        "Protestant"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "\\btrinity\\b",
+        "scope": "english",
+        "expect_versions": 1,
+        "note": "The Amplified Bible uses it once inside editorial brackets at Revelation 7:10, which is a gloss rather than text."
+      },
+      "caveat": "That a word is post-biblical says nothing about whether the doctrine it names is a fair summary of the texts - every tradition holding the Trinity argues exactly that. Related: the Comma Johanneum (1 John 5:7), for three centuries the most-quoted English proof-text for the Trinity, is an interpolation - see the mistranslations dataset, case 1john-5-7-comma-johanneum.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trinity"
+      ]
+    },
+    {
+      "id": "immaculate-conception",
+      "title": "The Immaculate Conception",
+      "type": "later-doctrine",
+      "consensus": "contested",
+      "claim": "Very widely misunderstood as referring to the virgin birth of Jesus. It is in fact the doctrine that MARY was conceived without original sin.",
+      "what_the_text_says": "Neither the doctrine nor the term appears. The word 'immaculate' occurs only in the Catholic Public Domain Version, rendering Latin immaculatus of unblemished sacrificial animals.",
+      "references": [
+        "Luke 1:28"
+      ],
+      "what_it_rests_on": "Luke 1:28, kecharitomene, rendered in the Vulgate as 'gratia plena', full of grace - see the mistranslations dataset, case luke-1-28-kecharitomene. Defined as dogma by Pius IX in the bull Ineffabilis Deus, 1854, which also cites the Vulgate's 'ipsa conteret' at Genesis 3:15, itself a translation artefact.",
+      "origin": {
+        "who": "Pius IX, Ineffabilis Deus",
+        "when": "1854"
+      },
+      "held_by": [
+        "Catholic"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "immaculate conception",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "Two of its supporting texts are cases in the companion mistranslations dataset, which makes this the strongest link between the two datasets. Orthodox Christianity rejects the dogma, partly because it presupposes an Augustinian account of original sin the East never adopted.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Immaculate_Conception"
+      ]
+    },
+    {
+      "id": "seven-deadly-sins",
+      "title": "The seven deadly sins",
+      "type": "later-doctrine",
+      "consensus": "strong",
+      "claim": "A biblical list of seven sins: pride, greed, lust, envy, gluttony, wrath, sloth.",
+      "what_the_text_says": "No such list exists. Proverbs 6:16-19 gives a list of seven things the LORD hates, but the items are different - haughty eyes, a lying tongue, hands that shed innocent blood, and so on. Galatians 5:19-21 lists works of the flesh, and has fifteen.",
+      "references": [
+        "Proverbs 6:16",
+        "Proverbs 6:17",
+        "Galatians 5:19"
+      ],
+      "what_it_rests_on": "Evagrius Ponticus listed eight evil thoughts in the 4th century; John Cassian brought them west; Gregory the Great reduced them to seven around 590. Dante and later catechesis fixed the popular form.",
+      "origin": {
+        "who": "Evagrius Ponticus, then Gregory the Great",
+        "when": "4th-6th c."
+      },
+      "held_by": [
+        "Catholic",
+        "popular culture"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "seven deadly",
+        "scope": "english",
+        "expect_versions": 0
+      },
+      "caveat": "The list is a genuine and useful piece of moral psychology with a long pedigree - the point is only that its pedigree is monastic and patristic rather than scriptural. Sloth (acedia) in particular is a desert-monastery category with no biblical vocabulary behind it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Seven_deadly_sins"
+      ]
+    },
+    {
+      "id": "christmas-december-25",
+      "title": "Christmas on 25 December",
+      "type": "later-doctrine",
+      "consensus": "contested",
+      "claim": "Jesus was born on 25 December. A common counter-claim is that the date was stolen from the pagan festival of Sol Invictus.",
+      "what_the_text_says": "No gospel gives a date or a season. Luke 2:8 has shepherds in the fields at night, which some read as suggesting a warmer month, though this is not decisive.",
+      "references": [
+        "Luke 2:8"
+      ],
+      "what_it_rests_on": "Two competing accounts. The syncretism theory holds the date was set against Sol Invictus, whose feast Aurelian established in 274. The computation theory holds early Christians calculated it from a supposed 25 March conception, nine months earlier. Both are defended by serious historians.",
+      "origin": {
+        "who": "Western church practice, attested from the 4th century",
+        "when": "c. 336"
+      },
+      "held_by": [
+        "Catholic",
+        "Protestant",
+        "most of Christianity; some Orthodox use 7 January by the Julian calendar"
+      ],
+      "caveat": "BOTH the belief and its usual debunking overreach. The date is certainly not biblical; but the confident claim that it was lifted from Sol Invictus is contested - no early Christian writer describes such a borrowing, and the first suggestion of it dates only to the 12th century. Included as a control on the dataset's own method: 'not in the Bible' is a much easier claim to establish than 'therefore it came from here'.",
+      "sources": [
+        "https://www.biblicalarchaeology.org/daily/people-cultures-in-the-bible/jesus-historical-jesus/how-december-25-became-christmas/",
+        "https://www.britannica.com/story/why-is-christmas-in-december"
+      ]
+    },
+    {
+      "id": "the-rapture",
+      "title": "The Rapture as a distinct event",
+      "type": "later-doctrine",
+      "consensus": "contested",
+      "claim": "Believers will be secretly removed from the earth before a seven-year tribulation.",
+      "what_the_text_says": "1 Thessalonians 4:17 says believers will be 'caught up' (harpagesometha) to meet the Lord in the air. The passage describes a single public event with a trumpet and a shout, not a secret removal, and the word 'rapture' is not used as a noun anywhere.",
+      "references": [
+        "1 Thessalonians 4:16",
+        "1 Thessalonians 4:17",
+        "1 Corinthians 15:52"
+      ],
+      "what_it_rests_on": "The Latin rapiemur gave English the noun. The pre-tribulational scheme was developed by John Nelson Darby in the 1830s and spread through the Scofield Reference Bible (1909).",
+      "origin": {
+        "who": "John Nelson Darby; popularised by C. I. Scofield",
+        "when": "1830s / 1909"
+      },
+      "held_by": [
+        "dispensationalist Protestant, largely American evangelical"
+      ],
+      "verified": {
+        "kind": "phrase",
+        "pattern": "\\brapture\\b",
+        "scope": "english",
+        "books": [
+          "1 Thessalonians",
+          "1 Corinthians",
+          "Matthew",
+          "Revelation"
+        ],
+        "expect_versions": 1,
+        "note": "The Family 35 New Testament file has a section heading, 'The Rapture', bleeding into the verse text at Matthew 24:35 - a data artefact in that version file, not a translation of anything."
+      },
+      "caveat": "That believers meet Christ at his return is held across Christianity; what is post-biblical is the specific pre-tribulational, secret, two-stage scheme. Most Christians worldwide, including Catholics and Orthodox, do not hold it. See also the mistranslations dataset, case 1thess-4-17-harpazo-rapture.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rapture"
+      ]
+    },
+    {
+      "id": "original-sin-inherited-guilt",
+      "title": "Inherited guilt from Adam",
+      "type": "later-doctrine",
+      "consensus": "majority",
+      "claim": "Every human inherits Adam's guilt, not merely mortality.",
+      "what_the_text_says": "Romans 5:12 says death spread to all 'eph' ho all sinned' - because all sinned. The Greek does not say humanity sinned IN Adam.",
+      "references": [
+        "Romans 5:12",
+        "Ezekiel 18:20",
+        "Psalms 51:5"
+      ],
+      "what_it_rests_on": "The Latin rendering in quo, 'in whom', on which Augustine built the doctrine against Pelagius in the early 5th century. Ezekiel 18:20 points the other way: 'A child shall not suffer for the iniquity of a parent.'",
+      "origin": {
+        "who": "Augustine, reading the Old Latin and Vulgate",
+        "when": "c. 412"
+      },
+      "held_by": [
+        "Catholic",
+        "Reformed and Lutheran Protestant"
+      ],
+      "caveat": "The Eastern Orthodox churches, reading the Greek, hold that humanity inherits mortality and a corrupted nature but not personal guilt - ancestral sin rather than original sin. This is the largest doctrinal divergence between Eastern and Western Christianity traceable to a translation. See the mistranslations dataset, case rom-5-12-eph-ho-in-quo.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Original_sin"
+      ]
+    },
+    {
+      "id": "angels-are-winged-humans-with-harps",
+      "title": "Angels are winged people who play harps on clouds",
+      "type": "imported-imagery",
+      "consensus": "majority",
+      "claim": "Angels are humanlike figures with feathered wings, haloes and harps, and the righteous dead become them.",
+      "what_the_text_says": "Angels who appear to people in scripture are repeatedly mistaken for ordinary men and are never described with wings - Genesis 18:2, Luke 24:4, Acts 1:10. Winged beings do appear, but they are cherubim and seraphim, which are not humanlike: Ezekiel 1 gives four faces and four wings, Isaiah 6:2 gives six. Nowhere do humans become angels.",
+      "references": [
+        "Genesis 18:2",
+        "Luke 24:4",
+        "Acts 1:10",
+        "Isaiah 6:2",
+        "Ezekiel 1:6"
+      ],
+      "what_it_rests_on": "Greco-Roman winged Victory iconography entering Christian art from the 4th century; haloes from imperial and solar imagery; harps from Revelation 5:8, where it is the elders and living creatures who hold them, not angels.",
+      "origin": {
+        "who": "late antique and medieval Christian art",
+        "when": "4th c. onward"
+      },
+      "held_by": [
+        "popular culture",
+        "popular Christianity"
+      ],
+      "caveat": "Graded majority because a few texts do give angelic figures wings in visionary contexts (Revelation 14:6), so 'never winged' overstates it. The humanlike-with-feathered-wings composite, and the idea that the dead become angels, are the parts with no textual basis.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Angels_in_art"
+      ]
+    },
+    {
+      "id": "hell-as-dantes-underworld",
+      "title": "Hell as a fiery underworld of graded punishments",
+      "type": "imported-imagery",
+      "consensus": "majority",
+      "claim": "Hell is a subterranean realm with circles or levels, punishments matched to sins, and demons as torturers.",
+      "what_the_text_says": "The New Testament uses several distinct terms that English collapses into one word - Gehenna (a valley outside Jerusalem), Hades (the Greek realm of the dead), Tartarus, and the lake of fire. None of them is described with levels, matched punishments or demon torturers.",
+      "references": [
+        "Matthew 5:22",
+        "Matthew 10:28",
+        "Luke 16:23",
+        "Revelation 20:14"
+      ],
+      "what_it_rests_on": "Dante's Inferno (c. 1320) supplied the architecture; the Apocalypse of Peter (2nd c.) and other apocrypha supplied matched punishments. The English flattening of four terms into 'hell' is itself a translation case - see the mistranslations dataset, case hell-sheol-hades-gehenna.",
+      "origin": {
+        "who": "apocryphal apocalypses, then Dante",
+        "when": "2nd c. / 14th c."
+      },
+      "held_by": [
+        "popular culture",
+        "popular Christianity"
+      ],
+      "caveat": "The New Testament does speak of judgement and of fire, so this is a case of elaboration rather than invention. What is imported is the map.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Christian_views_on_Hell"
+      ]
+    }
+  ]
+}
