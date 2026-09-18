@@ -3,7 +3,7 @@
 A companion to [`../mistranslations`](../mistranslations). That dataset is about text
 being **rendered wrongly**. This one is about text that was **never there**.
 
-24 cases · 19 lexical checks · 101 support passages quoted · 0 errors
+24 cases · 19 lexical checks · 101 support passages quoted · 13 objections answered · 0 errors
 
 ## Two questions, not one
 
@@ -34,6 +34,18 @@ a graded verdict. All 101 references are resolved and quoted by the verifier, so
 The verifier **refuses a case that has a lexical check but no support audit**, so "not in the
 Bible" can never rest on a regex alone. A verdict of `none` with any supporting passage cited
 is also an error.
+
+**Objections carry the tradition's reply.** A passage marked `against` may have a `reply`
+field giving the standard answer from the tradition that holds the belief — and for
+`later-doctrine` cases the verifier *reports any objection that lacks one*, because an
+objection printed without its answer reads as a refutation. 13 of them carry a reply.
+
+The worked example is `immaculate-conception`. Romans 3:23 — "all have sinned" — is the
+standard Protestant objection, and it was in the first cut flatly labelled `against` as if
+that settled it. It doesn't: the verb *hemarton* is **aorist**, about committed acts, while
+the doctrine concerns the inherited condition at conception. And scripture already excepts
+one person from that "all" at Hebrews 4:15. The reply field now records the Catholic answer
+(preservative rather than liberative redemption) alongside the objection.
 
 Output: [`SUPPORT.md`](SUPPORT.md).
 

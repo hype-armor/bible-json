@@ -90,8 +90,9 @@ def run_strongs(lex: Lexicon, spec: dict) -> dict:
 def main() -> int:
     data = json.load(open(DATASET, encoding="utf-8"))
     bible, lex = Bible(), Lexicon()
-    errors, warnings = [], []
+    errors, warnings, unanswered = [], [], []
     quoted = 0
+    replies = 0
     VERDICTS = set(data["support_verdicts"])
     types, levels = set(data["taxonomy"]), set(data["consensus_levels"])
     checked = 0
@@ -145,6 +146,14 @@ def main() -> int:
                 errors.append(f"{cid}: passage {entry.get('ref')!r} has no for/against direction")
             if not entry.get("why"):
                 errors.append(f"{cid}: passage {entry.get('ref')!r} has no reason given")
+            if entry.get("direction") == "against":
+                if entry.get("reply"):
+                    replies += 1
+                elif case.get("type") == "later-doctrine":
+                    unanswered.append(
+                        f"{cid}: objection {entry.get('ref')!r} carries no reply, and this is a "
+                        "later-doctrine case - an objection printed without the tradition's answer "
+                        "reads as a refutation")
             key, text = quote(bible, entry.get("ref", ""))
             if text is None:
                 errors.append(f"{cid}: support passage {entry.get('ref')!r} does not resolve")
@@ -201,10 +210,14 @@ def main() -> int:
            "build the belief from, and the passages that cut against it. Every verse is resolved and",
            "quoted by `tools/verify.py` — the **quotations are mechanical, the gradings are judgement**,",
            "and they are kept visibly separate.", "",
+           "Where a passage cuts **against** a belief and the tradition holding it has a standard answer,",
+           "that answer is printed beneath the objection. Without it this file would be a one-sided brief:",
+           "an objection presented as though it were a refutation.", "",
            "| Verdict | Cases | Meaning |", "| --- | ---: | --- |"]
     for v, meaning in data["support_verdicts"].items():
         sup.append(f"| `{v}` | {tally.get(v, 0)} | {meaning} |")
-    sup += ["", f"**{quoted} passages resolved and quoted across {len(data['cases'])} cases.**", ""]
+    sup += ["", f"**{quoted} passages resolved and quoted across {len(data['cases'])} cases; "
+                f"{replies} objections carry the tradition's reply.**", ""]
     for case in data["cases"]:
         s_ = case["conceptual_support"]
         sup += [f"## {case['title']}", "",
@@ -214,6 +227,8 @@ def main() -> int:
             arrow = "**supports**" if entry["direction"] == "for" else "**against**"
             sup.append(f"- {arrow} &nbsp; `{entry['ref']}` — {entry['why']}  ")
             sup.append(f"  > {entry.get('_text', '')}")
+            if entry.get("reply"):
+                sup.append(f"  <br>↳ *Reply:* {entry['reply']}")
         sup += ["", "---", ""]
     with open(SUPPORT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(sup) + "\n")
@@ -221,9 +236,15 @@ def main() -> int:
     print(f"cases:            {len(data['cases'])}")
     print(f"lexical checks:   {checked:>4}")
     print(f"support passages: {quoted:>4} resolved and quoted")
+    print(f"objections w/reply:{replies:>4}")
     print("verdicts:         " + ", ".join(f"{k} {v}" for k, v in sorted(tally.items())))
     print(f"historical only:  {len(warnings):>4}")
+    print(f"unanswered objs:  {len(unanswered):>4}")
     print(f"errors:           {len(errors):>4}")
+    if unanswered:
+        print("\n-- doctrinal objections with no reply recorded --")
+        for u in unanswered:
+            print("  " + u)
     if errors:
         print("\n-- errors --")
         for e in errors:

@@ -8,6 +8,10 @@ build the belief from, and the passages that cut against it. Every verse is reso
 quoted by `tools/verify.py` — the **quotations are mechanical, the gradings are judgement**,
 and they are kept visibly separate.
 
+Where a passage cuts **against** a belief and the tradition holding it has a standard answer,
+that answer is printed beneath the objection. Without it this file would be a one-sided brief:
+an objection presented as though it were a refutation.
+
 | Verdict | Cases | Meaning |
 | --- | ---: | --- |
 | `none` | 3 | No passage supplies the idea. The belief has to come from somewhere else. |
@@ -16,7 +20,7 @@ and they are kept visibly separate.
 | `strong` | 4 | The idea is well supported; only the wording, the label or the systematisation is post-biblical. |
 | `contradicted` | 1 | The text addresses the point and says something incompatible. |
 
-**101 passages resolved and quoted across 24 cases.**
+**101 passages resolved and quoted across 24 cases; 13 objections carry the tradition's reply.**
 
 ## "God helps those who help themselves"
 
@@ -51,6 +55,7 @@ Ritual purity is a huge biblical category, so the idea has a real Levitical shap
   > with the water Aaron and his sons shall wash their hands and their feet.
 - **against** &nbsp; `Mark 7:15` — nothing outside a person can defile them  
   > there is nothing outside a person that by going in can defile, but the things that come out are what defile.”
+  <br>↳ *Reply:* Read as relativising ritual purity in favour of moral purity rather than dismissing cleanness as a category - which leaves the proverb's sense intact if 'cleanliness' is taken morally.
 - **against** &nbsp; `Matthew 23:25` — cleaning the outside of the cup while the inside is full of greed  
   > “Woe to you, scribes and Pharisees, hypocrites! For you clean the outside of the cup and of the plate, but inside they are full of greed and self-indulgence.
 
@@ -91,6 +96,7 @@ The idea is plainly in Proverbs; only the rhyming form is Butler's. This is a mi
   > The rod and reproof give wisdom, but a mother is disgraced by a neglected child.
 - **against** &nbsp; `Ephesians 6:4` — 'do not provoke your children to anger' tempers the Proverbs material  
   > And, fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.
+  <br>↳ *Reply:* Usually harmonised as setting a limit on the manner of discipline rather than forbidding it, so the Proverbs material stands with a caution attached.
 
 ---
 
@@ -144,6 +150,7 @@ The number comes from counting the gifts. The kingly status has a genuine intert
   > Nations shall come to your light, and kings to the brightness of your dawn.
 - **against** &nbsp; `Matthew 2:1` — Matthew says magoi, astrologers or Persian priests, not kings  
   > In the time of King Herod, after Jesus was born in Bethlehem of Judea, wise men from the East came to Jerusalem,
+  <br>↳ *Reply:* The kingly reading is defended typologically rather than lexically - Psalm 72 and Isaiah 60 are taken as the prophecy Matthew's magi fulfil, which makes 'kings' an interpretation rather than a translation.
 - **against** &nbsp; `Matthew 2:16` — Herod kills boys up to two years old, implying the visit was not at the birth  
   > When Herod saw that he had been tricked by the wise men, he was infuriated, and he sent and killed all the children in and around Bethlehem who were two years old or under, according to the time that he had learned from the wise men.
 
@@ -266,6 +273,7 @@ The ruler language is biblical but attached to the wrong domain: Satan rules THI
   > In their case the god of this world has blinded the minds of the unbelievers, to keep them from seeing the light of the gospel of the glory of Christ, who is the image of God.
 - **against** &nbsp; `Revelation 20:10` — the devil is thrown INTO the lake of fire and tormented there  
   > And the devil who had deceived them was thrown into the lake of fire and sulfur, where the beast and the false prophet were, and they will be tormented day and night forever and ever.
+  <br>↳ *Reply:* No real reply is offered here - popular belief and the text simply diverge, which is why this is the dataset's only 'contradicted' verdict.
 - **against** &nbsp; `Matthew 25:41` — the fire is 'prepared for the devil and his angels' - made for him, not by him  
   > Then he will say to those at his left hand, ‘You that are accursed, depart from me into the eternal fire prepared for the devil and his angels;
 
@@ -285,8 +293,10 @@ Genuine candidate texts exist and are contested rather than absent. This is not 
   > for indeed our God is a consuming fire.
 - **against** &nbsp; `Hebrews 9:27` — 'it is appointed for mortals to die once, and after that the judgment'  
   > And just as it is appointed for mortals to die once, and after that the judgment,
+  <br>↳ *Reply:* Catholic theology reads the judgement as immediate and purgatory as the working-out of a verdict already given, not a second trial - so a single death and judgement is not in tension with it.
 - **against** &nbsp; `Luke 23:43` — 'today you will be with me in Paradise' - no intermediate purification  
   > He replied, “Truly I tell you, today you will be with me in Paradise.”
+  <br>↳ *Reply:* Read as a particular case rather than a rule: the thief is granted immediate entry by a direct promise of Christ, which says nothing about the ordinary path.
 
 ---
 
@@ -319,10 +329,12 @@ The supporting texts are thin and two of them are translation artefacts, which i
   > And he came to her and said, “Greetings, favored one! The Lord is with you.”
 - **supports** &nbsp; `Luke 1:42` — 'blessed are you among women'  
   > and exclaimed with a loud cry, “Blessed are you among women, and blessed is the fruit of your womb.
-- **against** &nbsp; `Romans 3:23` — 'all have sinned and fall short of the glory of God'  
+- **against** &nbsp; `Romans 3:23` — The standard Protestant objection: if all have sinned, Mary is included. Note the limits of it - the verb hemarton (G264) is AORIST, 'all sinned', which is about committed acts, while the Immaculate Conception is about the inherited condition at conception. The two are different categories.  
   > since all have sinned and fall short of the glory of God;
-- **against** &nbsp; `Luke 1:47` — Mary calls God 'my Saviour', which several Fathers read as implying she needed one  
+  <br>↳ *Reply:* Catholic theology answers on two fronts. First, Paul's 'all' here is arguing that neither Jew nor Gentile is exempt by ethnicity, not running a census - and scripture already excepts one person from it at Hebrews 4:15 and 2 Corinthians 5:21, so 'all' is not a rigid universal. Second, Mary is not held to be exempt from redemption but redeemed differently: Ineffabilis Deus (1854) calls it preservative rather than liberative redemption - kept from the pit rather than pulled out of it. On that account she still needed a saviour and had one.
+- **against** &nbsp; `Luke 1:47` — The stronger of the two objections: Mary calls God 'my Saviour', which several Fathers read as implying she needed saving like anyone else.  
   > and my spirit rejoices in God my Savior,
+  <br>↳ *Reply:* The preservative-redemption answer applies here too, and Catholic theology treats this verse as consistent with the dogma rather than awkward for it - being preserved from sin is itself an act of a saviour, so the Magnificat is exactly what a preserved person would sing.
 
 ---
 
@@ -351,6 +363,7 @@ No passage bears on the date. The one datum sometimes cited points, weakly, away
 
 - **against** &nbsp; `Luke 2:8` — shepherds living in the fields at night, which some read as suggesting a warmer season  
   > In that region there were shepherds living in the fields, keeping watch over their flock by night.
+  <br>↳ *Reply:* The shepherd argument is weak in both directions: flocks near Bethlehem could be pastured year-round in a mild climate, and Luke gives no month. Defenders of the date rest on the computation theory - a conception reckoned to 25 March, nine months earlier - rather than on anything in the nativity scene itself.
 
 ---
 
@@ -370,8 +383,10 @@ The catching-up is plainly described. What is post-biblical is the pre-tribulati
   > Then two will be in the field; one will be taken and one will be left.
 - **against** &nbsp; `1 Thessalonians 4:16` — a shout and a trumpet are not a secret removal  
   > For the Lord himself, with a cry of command, with the archangel’s call and with the sound of God’s trumpet, will descend from heaven, and the dead in Christ will rise first.
+  <br>↳ *Reply:* Dispensationalist readings hold the shout and trumpet are directed at those being gathered rather than announced to the world. Critics regard this as strained, which is part of why the case is graded partial rather than strong.
 - **against** &nbsp; `Matthew 24:29` — Matthew places the gathering AFTER the tribulation, not before  
   > “Immediately after the suffering of those days the sun will be darkened, and the moon will not give its light; the stars will fall from heaven, and the powers of heaven will be shaken.
+  <br>↳ *Reply:* Dispensationalist readings hold that Matthew 24 concerns Christ's later appearing in glory while 1 Thessalonians 4 concerns a prior gathering, so the two describe different events rather than one contradictory sequence.
 
 ---
 
@@ -391,6 +406,7 @@ Substantial material ties humanity's condition to Adam. The disputed specificati
   > All of us once lived among them in the passions of our flesh, following the desires of flesh and senses, and we were by nature children of wrath, like everyone else.
 - **against** &nbsp; `Ezekiel 18:20` — 'A child shall not suffer for the iniquity of a parent'  
   > The person who sins shall die. A child shall not suffer for the iniquity of a parent, nor a parent suffer for the iniquity of a child; the righteousness of the righteous shall be his own, and the wickedness of the wicked shall be his own.
+  <br>↳ *Reply:* Augustinian theology distinguishes the guilt inherited in Adam, which is a shared condition of nature, from the personal guilt of individual acts that Ezekiel is refusing to transfer between generations.
 
 ---
 
@@ -433,6 +449,7 @@ Fire, torment and exclusion are all described. The architecture - circles, match
   > Then Death and Hades were thrown into the lake of fire. This is the second death, the lake of fire;
 - **against** &nbsp; `Revelation 20:10` — demons are tormented in it rather than staffing it  
   > And the devil who had deceived them was thrown into the lake of fire and sulfur, where the beast and the false prophet were, and they will be tormented day and night forever and ever.
+  <br>↳ *Reply:* The architecture is acknowledged as imaginative elaboration by most theologians; it is defended as pedagogy rather than description.
 
 ---
 

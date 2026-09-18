@@ -133,7 +133,8 @@
           {
             "ref": "Mark 7:15",
             "direction": "against",
-            "why": "nothing outside a person can defile them"
+            "why": "nothing outside a person can defile them",
+            "reply": "Read as relativising ritual purity in favour of moral purity rather than dismissing cleanness as a category - which leaves the proverb's sense intact if 'cleanliness' is taken morally."
           },
           {
             "ref": "Matthew 23:25",
@@ -264,7 +265,8 @@
           {
             "ref": "Ephesians 6:4",
             "direction": "against",
-            "why": "'do not provoke your children to anger' tempers the Proverbs material"
+            "why": "'do not provoke your children to anger' tempers the Proverbs material",
+            "reply": "Usually harmonised as setting a limit on the manner of discipline rather than forbidding it, so the Proverbs material stands with a caution attached."
           }
         ]
       }
@@ -445,7 +447,8 @@
           {
             "ref": "Matthew 2:1",
             "direction": "against",
-            "why": "Matthew says magoi, astrologers or Persian priests, not kings"
+            "why": "Matthew says magoi, astrologers or Persian priests, not kings",
+            "reply": "The kingly reading is defended typologically rather than lexically - Psalm 72 and Isaiah 60 are taken as the prophecy Matthew's magi fulfil, which makes 'kings' an interpretation rather than a translation."
           },
           {
             "ref": "Matthew 2:16",
@@ -895,7 +898,8 @@
           {
             "ref": "Revelation 20:10",
             "direction": "against",
-            "why": "the devil is thrown INTO the lake of fire and tormented there"
+            "why": "the devil is thrown INTO the lake of fire and tormented there",
+            "reply": "No real reply is offered here - popular belief and the text simply diverge, which is why this is the dataset's only 'contradicted' verdict."
           },
           {
             "ref": "Matthew 25:41",
@@ -956,12 +960,14 @@
           {
             "ref": "Hebrews 9:27",
             "direction": "against",
-            "why": "'it is appointed for mortals to die once, and after that the judgment'"
+            "why": "'it is appointed for mortals to die once, and after that the judgment'",
+            "reply": "Catholic theology reads the judgement as immediate and purgatory as the working-out of a verdict already given, not a second trial - so a single death and judgement is not in tension with it."
           },
           {
             "ref": "Luke 23:43",
             "direction": "against",
-            "why": "'today you will be with me in Paradise' - no intermediate purification"
+            "why": "'today you will be with me in Paradise' - no intermediate purification",
+            "reply": "Read as a particular case rather than a rule: the thief is granted immediate entry by a direct promise of Christ, which says nothing about the ordinary path."
           }
         ]
       }
@@ -1076,12 +1082,14 @@
           {
             "ref": "Romans 3:23",
             "direction": "against",
-            "why": "'all have sinned and fall short of the glory of God'"
+            "why": "The standard Protestant objection: if all have sinned, Mary is included. Note the limits of it - the verb hemarton (G264) is AORIST, 'all sinned', which is about committed acts, while the Immaculate Conception is about the inherited condition at conception. The two are different categories.",
+            "reply": "Catholic theology answers on two fronts. First, Paul's 'all' here is arguing that neither Jew nor Gentile is exempt by ethnicity, not running a census - and scripture already excepts one person from it at Hebrews 4:15 and 2 Corinthians 5:21, so 'all' is not a rigid universal. Second, Mary is not held to be exempt from redemption but redeemed differently: Ineffabilis Deus (1854) calls it preservative rather than liberative redemption - kept from the pit rather than pulled out of it. On that account she still needed a saviour and had one."
           },
           {
             "ref": "Luke 1:47",
             "direction": "against",
-            "why": "Mary calls God 'my Saviour', which several Fathers read as implying she needed one"
+            "why": "The stronger of the two objections: Mary calls God 'my Saviour', which several Fathers read as implying she needed saving like anyone else.",
+            "reply": "The preservative-redemption answer applies here too, and Catholic theology treats this verse as consistent with the dogma rather than awkward for it - being preserved from sin is itself an act of a saviour, so the Magnificat is exactly what a preserved person would sing."
           }
         ]
       }
@@ -1176,7 +1184,8 @@
           {
             "ref": "Luke 2:8",
             "direction": "against",
-            "why": "shepherds living in the fields at night, which some read as suggesting a warmer season"
+            "why": "shepherds living in the fields at night, which some read as suggesting a warmer season",
+            "reply": "The shepherd argument is weak in both directions: flocks near Bethlehem could be pastured year-round in a mild climate, and Luke gives no month. Defenders of the date rest on the computation theory - a conception reckoned to 25 March, nine months earlier - rather than on anything in the nativity scene itself."
           }
         ]
       }
@@ -1245,12 +1254,14 @@
           {
             "ref": "1 Thessalonians 4:16",
             "direction": "against",
-            "why": "a shout and a trumpet are not a secret removal"
+            "why": "a shout and a trumpet are not a secret removal",
+            "reply": "Dispensationalist readings hold the shout and trumpet are directed at those being gathered rather than announced to the world. Critics regard this as strained, which is part of why the case is graded partial rather than strong."
           },
           {
             "ref": "Matthew 24:29",
             "direction": "against",
-            "why": "Matthew places the gathering AFTER the tribulation, not before"
+            "why": "Matthew places the gathering AFTER the tribulation, not before",
+            "reply": "Dispensationalist readings hold that Matthew 24 concerns Christ's later appearing in glory while 1 Thessalonians 4 concerns a prior gathering, so the two describe different events rather than one contradictory sequence."
           }
         ]
       }
@@ -1307,7 +1318,8 @@
           {
             "ref": "Ezekiel 18:20",
             "direction": "against",
-            "why": "'A child shall not suffer for the iniquity of a parent'"
+            "why": "'A child shall not suffer for the iniquity of a parent'",
+            "reply": "Augustinian theology distinguishes the guilt inherited in Adam, which is a shared condition of nature, from the personal guilt of individual acts that Ezekiel is refusing to transfer between generations."
           }
         ]
       }
@@ -1434,13 +1446,14 @@
           {
             "ref": "Revelation 20:10",
             "direction": "against",
-            "why": "demons are tormented in it rather than staffing it"
+            "why": "demons are tormented in it rather than staffing it",
+            "reply": "The architecture is acknowledged as imaginative elaboration by most theologians; it is defended as pedagogy rather than description."
           }
         ]
       }
     }
   ],
-  "conceptual_support_note": "A lexical check proves only that a WORDING is absent, which is the weak claim. The interesting question is whether the Bible contains material from which someone could reasonably derive the belief without ever having seen the phrase. That is what this field records: the candidate passages, each graded, plus the passages that cut AGAINST the belief. Every reference is resolved and quoted by tools/verify.py, so the evidence is mechanical even though the grading is judgement. A case cannot carry a lexical check without also carrying this field - the verifier refuses it.",
+  "conceptual_support_note": "A lexical check proves only that a WORDING is absent, which is the weak claim. The interesting question is whether the Bible contains material from which someone could reasonably derive the belief without ever having seen the phrase. That is what this field records: the candidate passages, each graded, plus the passages that cut AGAINST the belief. Every reference is resolved and quoted by tools/verify.py, so the evidence is mechanical even though the grading is judgement. A case cannot carry a lexical check without also carrying this field - the verifier refuses it. Passages marked `against` may carry a `reply`: the standard answer the tradition holding the belief gives to that objection. Without it the field would be a one-sided brief - an objection printed as if it were a refutation. Where a `reply` is absent, none is being suppressed; the objection is simply factual (a detail the text does not contain) rather than contested.",
   "support_verdicts": {
     "none": "No passage supplies the idea. The belief has to come from somewhere else.",
     "weak": "Something in the text gestures at it, but the belief adds most of its content.",
