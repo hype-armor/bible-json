@@ -58,8 +58,8 @@ def main() -> int:
             errors.append(f"{cid}: unknown type {case.get('type')!r}")
         if case.get("consensus") not in levels:
             errors.append(f"{cid}: unknown consensus {case.get('consensus')!r}")
-        if not case.get("sources"):
-            errors.append(f"{cid}: no sources cited")
+        if not case.get("sources") and not case.get("scholarship"):
+            errors.append(f"{cid}: no sources and no scholarship cited")
 
         refs = []
         for raw in case.get("references", []):

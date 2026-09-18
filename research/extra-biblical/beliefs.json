@@ -46,9 +46,7 @@
         "expect_versions": 0
       },
       "caveat": "Proverbs does commend diligence (e.g. 6:6-11), so the sentiment is not anti-biblical - it simply is not a verse.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/God_helps_those_who_help_themselves"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "The work ethic is thoroughly biblical; the theology of self-reliance is the opposite of the New Testament's. The proverb smuggles the second in under the first.",
@@ -84,7 +82,13 @@
             "why": "the tax collector who can only ask for mercy is the one justified"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Jennifer Speake, ed., The Oxford Dictionary of Proverbs (Oxford) - traces the saying through Aesop, Algernon Sidney and Franklin."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/God_helps_those_who_help_themselves"
+      ]
     },
     {
       "id": "cleanliness-next-to-godliness",
@@ -113,9 +117,7 @@
         "expect_versions": 0
       },
       "caveat": "The word 'cleanliness' does appear in a few versions at 2 Samuel 22:21-25, rendering a Hebrew term for moral innocence, not hygiene.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Cleanliness_is_next_to_godliness"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "Ritual purity is a huge biblical category, so the idea has a real Levitical shape - but Jesus explicitly relativises external cleanness, which is why this is not simply 'weak'.",
@@ -142,7 +144,14 @@
             "why": "cleaning the outside of the cup while the inside is full of greed"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "John Wesley, sermon 'On Dress' (1778) - the earliest well-attested English use, itself quoting it as a received proverb.",
+        "Jennifer Speake, ed., The Oxford Dictionary of Proverbs (Oxford)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Cleanliness_is_next_to_godliness"
+      ]
     },
     {
       "id": "god-works-in-mysterious-ways",
@@ -172,9 +181,7 @@
         "expect_versions": 0
       },
       "caveat": "The Contemporary English Version uses 'mysterious ways' as ordinary English in a few places (1 Corinthians 4:1, Ephesians 1:9), which is not the proverb.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/God_Moves_in_a_Mysterious_Way"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "strong",
         "summary": "This one is a fair summary of a major biblical theme. Only the wording is Cowper's. Included to show the dataset does not treat 'not a verse' as 'not biblical'.",
@@ -205,7 +212,14 @@
             "why": "you do not know the work of God who makes everything"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "William Cowper, 'Light Shining out of Darkness', in Olney Hymns (1779).",
+        "Elizabeth Knowles, ed., The Oxford Dictionary of Quotations (Oxford)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/God_Moves_in_a_Mysterious_Way"
+      ]
     },
     {
       "id": "spare-the-rod-spoil-the-child",
@@ -235,9 +249,7 @@
         "expect_versions": 0
       },
       "caveat": "Graded majority rather than strong because the underlying Proverbs verses do exist and do commend the rod. The dispute is over the proverb's form and the reading of 'rod' (shevet, also a shepherd's implement and a symbol of authority), not over whether Proverbs discusses discipline.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Spare_the_rod_and_spoil_the_child"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "strong",
         "summary": "The idea is plainly in Proverbs; only the rhyming form is Butler's. This is a misattributed QUOTE, not a misattributed belief - a distinction the lexical check alone cannot make.",
@@ -269,7 +281,14 @@
             "reply": "Usually harmonised as setting a limit on the manner of discipline rather than forbidding it, so the Proverbs material stands with a caution attached."
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Michael V. Fox, Proverbs (Anchor Yale Bible, 2000-2009) - on the rod sayings and shevet.",
+        "Samuel Butler, Hudibras (1662), Part II, Canto I - the source of the rhyming form."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Spare_the_rod_and_spoil_the_child"
+      ]
     },
     {
       "id": "hate-the-sin-love-the-sinner",
@@ -298,9 +317,7 @@
         "expect_versions": 0
       },
       "caveat": "That the phrase is not scripture says nothing about whether the principle is sound; that is a separate argument.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Hate_the_sin,_love_the_sinner"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "Both halves have support, but holding them together as a single policy is the later synthesis.",
@@ -331,7 +348,14 @@
             "why": "'have mercy on some who are wavering'"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Augustine, Letter 211 (c. 424) - 'cum dilectione hominum et odio vitiorum'.",
+        "Elizabeth Knowles, ed., The Oxford Dictionary of Quotations (Oxford)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Hate_the_sin,_love_the_sinner"
+      ]
     },
     {
       "id": "this-too-shall-pass",
@@ -360,9 +384,7 @@
         "expect_versions": 0
       },
       "caveat": "Occasionally defended as a paraphrase of 2 Corinthians 4:17-18, but that passage contrasts temporary affliction with eternal glory rather than counselling patience - a different consolation. The saying is also widely attributed to Solomon, which is how it acquires its biblical air.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/This_too_shall_pass"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "The transience of affliction is a real biblical theme; the fatalistic framing of the saying is not quite the biblical one, which contrasts the temporary with the eternal rather than counselling endurance alone.",
@@ -388,7 +410,13 @@
             "why": "'for a little while you have had to suffer various trials'"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Jennifer Speake, ed., The Oxford Dictionary of Proverbs (Oxford) - on the Persian provenance and Lincoln's 1859 use."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/This_too_shall_pass"
+      ]
     },
     {
       "id": "three-wise-men",
@@ -422,9 +450,7 @@
         "expect_versions": 0
       },
       "caveat": "Eastern traditions often count twelve magi, which shows the number was never fixed by the text. The Christmas card conflation of magi and shepherds at the manger merges Matthew's account with Luke's, which share no scene.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Biblical_Magi"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "weak",
         "summary": "The number comes from counting the gifts. The kingly status has a genuine intertext, which is worth naming rather than dismissing: Psalm 72 and Isaiah 60 describe kings bringing gifts, and the tradition read them into Matthew.",
@@ -459,6 +485,9 @@
       },
       "scholarship": [
         "Raymond E. Brown, The Birth of the Messiah, 2nd ed. (Doubleday, 1993) - the standard critical commentary on the infancy narratives."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Biblical_Magi"
       ]
     },
     {
@@ -472,10 +501,10 @@
         "Genesis 2:17",
         "Genesis 3:6"
       ],
-      "what_it_rests_on": "A Latin pun. In the Vulgate the tree is of the knowledge of good and evil - bonum et malum - and malum also means 'apple'. The visual tradition followed the pun, cemented by Renaissance painting and by Milton.",
+      "what_it_rests_on": "The usual explanation is a Latin pun: in the Vulgate the tree is of bonum et malum, and malum also means 'apple'. Azzan Yadin-Israel's monograph on exactly this question argues that explanation is wrong. He finds the apple first in TWELFTH-CENTURY FRENCH ART, and traces the cause to vernacular semantics: the ordinary words for 'fruit' in Old French, German and English narrowed over time toward 'apple', so the identification became self-evident to lay audiences long before any theologian argued for it.",
       "origin": {
-        "who": "Latin wordplay, then Western art",
-        "when": "from c. 400, fixed by the 16th-17th c."
+        "who": "vernacular semantic narrowing and 12th-c. French art, per Yadin-Israel; traditionally credited to the Latin pun",
+        "when": "12th c. onward"
       },
       "held_by": [
         "popular Christianity",
@@ -489,10 +518,8 @@
         ],
         "note": "H8598 tappuach, 'apple', occurs in Proverbs, Song of Solomon and Joel - never in Genesis."
       },
-      "caveat": "Jewish tradition variously suggests a fig, a grape or wheat; the pomegranate appears in other strands. The point is not that apple is wrong so much as that the text declines to say.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Forbidden_fruit"
-      ],
+      "caveat": "CORRECTED after reading the dedicated study. Jewish tradition variously suggests a fig, a grape or wheat. The earlier version of this case confidently blamed the Latin malum pun - which is the explanation most often repeated, including by scholars, and which Yadin-Israel argues does not survive the evidence. The lexical point stands regardless: the Hebrew says peri, generic fruit, and tappuach never appears in Genesis. What changed is the account of HOW the apple got in.",
+      "sources": [],
       "conceptual_support": {
         "verdict": "none",
         "summary": "No passage anywhere names or hints at a species. This is one of the few cases where the concept audit comes back genuinely empty.",
@@ -503,7 +530,13 @@
             "why": "the text says only 'fruit'; the species is simply not a question the narrative raises"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Azzan Yadin-Israel, Temptation Transformed: The Story of How the Forbidden Fruit Became an Apple (University of Chicago Press, 2023) - the dedicated monograph, and it overturns the Latin-pun explanation this case previously gave."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Forbidden_fruit"
+      ]
     },
     {
       "id": "jonah-and-the-whale",
@@ -536,9 +569,7 @@
         "note": "Brenton's translation of the Greek Old Testament reads 'a great whale' at Jonah 1:17, rendering the Septuagint's ketos. Allowed for, and informative: it shows the whale entering through the Greek, not the Hebrew."
       },
       "caveat": "Ancient categories did not separate whales from large fish, so 'whale' is not straightforwardly wrong for ketos - it is anachronistically precise. This case sits on the boundary with the mistranslations dataset. The corpus check turned up a useful detail: of 57 English versions, exactly one has 'whale' in Jonah - Brenton, who is translating the GREEK Old Testament, not the Hebrew. The Hebrew says great fish in every English version there is; the whale arrives via Greek ketos, and the KJV then put it into Matthew 12:40.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Book_of_Jonah"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "A whale is a possible member of the category the text names. The belief is over-specification rather than error.",
@@ -554,7 +585,13 @@
             "why": "ketos, sea monster, is a category that includes whales"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Jack M. Sasson, Jonah (Anchor Bible, 1990) - on dag gadol and the Greek ketos."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Book_of_Jonah"
+      ]
     },
     {
       "id": "serpent-in-eden-is-satan",
@@ -593,9 +630,7 @@
         "note": "Allowed for, and the single hit is the strongest evidence in the case: the Amplified Bible inserts '(Satan)' into the verse itself - 'And the serpent (Satan) said to the woman'. One modern version supplies the identification inside the text that the Hebrew declines to make."
       },
       "caveat": "Revelation 12:9 is a real biblical basis for the identification, so this is not a belief invented from nothing - it is a belief read into Genesis from elsewhere in the canon. The verified check proves only that Genesis itself does not make it. Caught while running that check: of 57 English versions, exactly one puts the word into the verse - the Amplified Bible reads 'And the serpent (Satan) said to the woman'. That is the whole phenomenon this dataset tracks, visible in a single parenthesis.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Serpents_in_the_Bible"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "strong",
         "summary": "This is the case the lexical check most misleads on. Genesis never says it - but Revelation says it twice, explicitly, using the word 'ancient serpent'. The belief is thoroughly biblical; it is just not in Genesis.",
@@ -621,7 +656,14 @@
             "why": "Genesis introduces the serpent as one of the wild animals God had made"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Henry Ansgar Kelly, Satan: A Biography (Cambridge, 2006).",
+        "Jeffrey Burton Russell, The Devil: Perceptions of Evil from Antiquity to Primitive Christianity (Cornell, 1977)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Serpents_in_the_Bible"
+      ]
     },
     {
       "id": "mary-magdalene-was-a-prostitute",
@@ -653,8 +695,7 @@
       },
       "caveat": "The Catholic Church corrected this in 1969, when the revised calendar separated the three figures; the Eastern churches never merged them. Fourteen centuries of Western art did, which is why the image persists.",
       "sources": [
-        "https://uscatholic.org/articles/201603/who-framed-mary-magdalene/",
-        "https://en.wikipedia.org/wiki/Mary_Magdalene"
+        "https://uscatholic.org/articles/201603/who-framed-mary-magdalene/"
       ],
       "conceptual_support": {
         "verdict": "none",
@@ -680,6 +721,9 @@
       "scholarship": [
         "Susan Haskins, Mary Magdalen: Myth and Metaphor (HarperCollins, 1993).",
         "Katherine Ludwig Jansen, The Making of the Magdalen (Princeton, 2000)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Mary_Magdalene"
       ]
     },
     {
@@ -717,9 +761,7 @@
         ]
       },
       "caveat": "A minority of scholars defend 'inn'. The ox and ass come from reading Isaiah 1:3 into the scene, and appear in art from the 4th century.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nativity_of_Jesus"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "weak",
         "summary": "'No room' plus a manger does imply displacement, so the scene is not invented from nothing. The innkeeper, the stable and the animals are all supplied.",
@@ -748,6 +790,9 @@
       },
       "scholarship": [
         "Kenneth E. Bailey, Jesus Through Middle Eastern Eyes (IVP Academic, 2008), ch. 1 - the standard argument that kataluma is a guest room."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Nativity_of_Jesus"
       ]
     },
     {
@@ -785,9 +830,7 @@
         "expect_versions": 0
       },
       "caveat": "The Synoptics mention only one Passover, which would give a ministry closer to a year. 33 is a reasonable estimate presented with false precision.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Chronology_of_Jesus"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "weak",
         "summary": "A real inference from two approximate data points, presented with false precision.",
@@ -813,7 +856,13 @@
             "why": "a third, suggesting a ministry of roughly three years"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Harold W. Hoehner, Chronological Aspects of the Life of Christ (Zondervan, 1977)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Chronology_of_Jesus"
+      ]
     },
     {
       "id": "peter-at-the-pearly-gates",
@@ -842,9 +891,7 @@
         "expect_versions": 0
       },
       "caveat": "Matthew 16:19 does give Peter keys, so the image is not built from nothing - but the keys are of the kingdom of heaven, a phrase Matthew uses throughout for God's reign breaking into the present, not for the afterlife's front door. The gatekeeping scene has no textual source at all.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Pearly_gates"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "weak",
         "summary": "Both halves exist separately; the scene is the welding.",
@@ -865,7 +912,13 @@
             "why": "judgement is by books opened before the throne, with no gatekeeper named"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "David E. Aune, Revelation (Word Biblical Commentary, 1997-98) - on the twelve pearl gates of the New Jerusalem."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Pearly_gates"
+      ]
     },
     {
       "id": "satan-rules-hell",
@@ -888,9 +941,7 @@
         "popular Christianity"
       ],
       "caveat": "Several New Testament texts do call Satan a ruler of this world (John 12:31, 2 Corinthians 4:4) - but of the world, not of hell. That is the distinction the popular picture collapses.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Devil_in_Christianity"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "contradicted",
         "summary": "The ruler language is biblical but attached to the wrong domain: Satan rules THIS WORLD in the New Testament and is a prisoner of the lake of fire, not its warden.",
@@ -917,7 +968,14 @@
             "why": "the fire is 'prepared for the devil and his angels' - made for him, not by him"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Alan E. Bernstein, The Formation of Hell (Cornell, 1993).",
+        "Henry Ansgar Kelly, Satan: A Biography (Cambridge, 2006)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Devil_in_Christianity"
+      ]
     },
     {
       "id": "purgatory",
@@ -945,9 +1003,7 @@
         "expect_versions": 0
       },
       "caveat": "Graded contested, not strong, because Catholic theology does not claim purgatory is described in scripture - it claims the doctrine is consistent with scripture and developed through tradition. The Orthodox reject the Latin formulation while holding a prayer-for-the-dead practice; Protestants reject it outright. This is the clearest case in the dataset where the 'not in the Bible' objection only bites under sola scriptura.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Purgatory"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "Genuine candidate texts exist and are contested rather than absent. This is not a doctrine conjured from nothing.",
@@ -980,7 +1036,13 @@
             "reply": "Read as a particular case rather than a rule: the thief is granted immediate entry by a direct promise of Christ, which says nothing about the ordinary path."
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Jacques Le Goff, The Birth of Purgatory, tr. Arthur Goldhammer (University of Chicago Press, 1984) - the standard study; dates purgatory as a PLACE to the 12th century."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Purgatory"
+      ]
     },
     {
       "id": "the-word-trinity",
@@ -1012,9 +1074,7 @@
         "note": "The Amplified Bible uses it once inside editorial brackets at Revelation 7:10, which is a gloss rather than text."
       },
       "caveat": "That a word is post-biblical says nothing about whether the doctrine it names is a fair summary of the texts - every tradition holding the Trinity argues exactly that. Related: the Comma Johanneum (1 John 5:7), for three centuries the most-quoted English proof-text for the Trinity, is an interpolation - see the mistranslations dataset, case 1john-5-7-comma-johanneum.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Trinity"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "strong",
         "summary": "Substantial material supports the doctrine. Only the vocabulary is post-biblical, which is exactly what the case says.",
@@ -1045,7 +1105,14 @@
             "why": "the Father sends another Advocate"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "J. N. D. Kelly, Early Christian Doctrines, 5th ed. (A&C Black, 1977).",
+        "Lewis Ayres, Nicaea and its Legacy (Oxford, 2004)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Trinity"
+      ]
     },
     {
       "id": "immaculate-conception",
@@ -1072,9 +1139,7 @@
         "expect_versions": 0
       },
       "caveat": "Two of its supporting texts are cases in the companion mistranslations dataset, which makes this the strongest link between the two datasets. Orthodox Christianity rejects the dogma, partly because it presupposes an Augustinian account of original sin the East never adopted.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Immaculate_Conception"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "weak",
         "summary": "The supporting texts are thin and two of them are translation artefacts, which is what makes this the dataset's strongest link to the mistranslations work.",
@@ -1102,7 +1167,13 @@
             "reply": "The preservative-redemption answer applies here too, and Catholic theology treats this verse as consistent with the dogma rather than awkward for it - being preserved from sin is itself an act of a saviour, so the Magnificat is exactly what a preserved person would sing."
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Marina Warner, Alone of All Her Sex: The Myth and the Cult of the Virgin Mary (Knopf, 1976)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Immaculate_Conception"
+      ]
     },
     {
       "id": "seven-deadly-sins",
@@ -1132,9 +1203,7 @@
         "expect_versions": 0
       },
       "caveat": "The list is a genuine and useful piece of moral psychology with a long pedigree - the point is only that its pedigree is monastic and patristic rather than scriptural. Sloth (acedia) in particular is a desert-monastery category with no biblical vocabulary behind it.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Seven_deadly_sins"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "Vice lists are a real biblical form, and one of them even has seven items - the contents just do not match.",
@@ -1163,6 +1232,9 @@
       },
       "scholarship": [
         "Morton W. Bloomfield, The Seven Deadly Sins (Michigan State, 1952) - traces the list from Evagrius through Gregory."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Seven_deadly_sins"
       ]
     },
     {
@@ -1240,9 +1312,7 @@
         "note": "The Family 35 New Testament file has a section heading, 'The Rapture', bleeding into the verse text at Matthew 24:35 - a data artefact in that version file, not a translation of anything."
       },
       "caveat": "That believers meet Christ at his return is held across Christianity; what is post-biblical is the specific pre-tribulational, secret, two-stage scheme. Most Christians worldwide, including Catholics and Orthodox, do not hold it. See also the mistranslations dataset, case 1thess-4-17-harpazo-rapture.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Rapture"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "The catching-up is plainly described. What is post-biblical is the pre-tribulational, secret, two-stage scheme built around it.",
@@ -1284,6 +1354,9 @@
       "scholarship": [
         "Ernest R. Sandeen, The Roots of Fundamentalism (Chicago, 1970).",
         "Timothy P. Weber, Living in the Shadow of the Second Coming (Oxford, 1979)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Rapture"
       ]
     },
     {
@@ -1308,9 +1381,7 @@
         "Reformed and Lutheran Protestant"
       ],
       "caveat": "The Eastern Orthodox churches, reading the Greek, hold that humanity inherits mortality and a corrupted nature but not personal guilt - ancestral sin rather than original sin. This is the largest doctrinal divergence between Eastern and Western Christianity traceable to a translation. See the mistranslations dataset, case rom-5-12-eph-ho-in-quo.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Original_sin"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "Substantial material ties humanity's condition to Adam. The disputed specification is inherited GUILT as against inherited mortality, and one text cuts directly against it.",
@@ -1342,7 +1413,14 @@
             "reply": "Augustinian theology distinguishes the guilt inherited in Adam, which is a shared condition of nature, from the personal guilt of individual acts that Ezekiel is refusing to transfer between generations."
           }
         ]
-      }
+      },
+      "scholarship": [
+        "J. N. D. Kelly, Early Christian Doctrines, 5th ed. (A&C Black, 1977).",
+        "Alan Jacobs, Original Sin: A Cultural History (HarperOne, 2008)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Original_sin"
+      ]
     },
     {
       "id": "angels-are-winged-humans-with-harps",
@@ -1368,9 +1446,7 @@
         "popular Christianity"
       ],
       "caveat": "Graded majority because a few texts do give angelic figures wings in visionary contexts (Revelation 14:6), so 'never winged' overstates it. The humanlike-with-feathered-wings composite, and the idea that the dead become angels, are the parts with no textual basis.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Angels_in_art"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "Wings are genuinely biblical for some heavenly beings; the humanlike composite and the idea that the dead become angels are not.",
@@ -1411,7 +1487,14 @@
             "why": "it is the elders and living creatures who hold harps, not angels"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Ellen Muehlberger, Angels in Late Ancient Christianity (Oxford, 2013).",
+        "David Keck, Angels and Angelology in the Middle Ages (Oxford, 1998)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Angels_in_art"
+      ]
     },
     {
       "id": "hell-as-dantes-underworld",
@@ -1436,9 +1519,7 @@
         "popular Christianity"
       ],
       "caveat": "The New Testament does speak of judgement and of fire, so this is a case of elaboration rather than invention. What is imported is the map.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Christian_views_on_Hell"
-      ],
+      "sources": [],
       "conceptual_support": {
         "verdict": "partial",
         "summary": "Fire, torment and exclusion are all described. The architecture - circles, matched punishments, demon torturers - is what Dante supplies.",
@@ -1470,7 +1551,14 @@
             "reply": "The architecture is acknowledged as imaginative elaboration by most theologians; it is defended as pedagogy rather than description."
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Alan E. Bernstein, The Formation of Hell (Cornell, 1993).",
+        "Alison Morgan, Dante and the Medieval Other World (Cambridge, 1990)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Christian_views_on_Hell"
+      ]
     }
   ],
   "conceptual_support_note": "A lexical check proves only that a WORDING is absent, which is the weak claim. The interesting question is whether the Bible contains material from which someone could reasonably derive the belief without ever having seen the phrase. That is what this field records: the candidate passages, each graded, plus the passages that cut AGAINST the belief. Every reference is resolved and quoted by tools/verify.py, so the evidence is mechanical even though the grading is judgement. A case cannot carry a lexical check without also carrying this field - the verifier refuses it. Passages marked `against` may carry a `reply`: the standard answer the tradition holding the belief gives to that objection. Without it the field would be a one-sided brief - an objection printed as if it were a refutation. Where a `reply` is absent, none is being suppressed; the objection is simply factual (a detail the text does not contain) rather than contested.",
@@ -1481,5 +1569,5 @@
     "strong": "The idea is well supported; only the wording, the label or the systematisation is post-biblical.",
     "contradicted": "The text addresses the point and says something incompatible."
   },
-  "scholarship_note": "A citation audit found 58 of 72 links across both datasets were Wikipedia. Where a `scholarship` field exists it names the standard work; where it does not, the case rests on general reference material and should be treated as less well grounded. A known weakness, recorded rather than papered over."
+  "scholarship_note": "A citation audit found 58 of 72 links across both datasets were Wikipedia - the encyclopedia article ABOUT the scholarship rather than the scholarship. `scholarship` now names the standard work per case and Wikipedia links are demoted to `further_reading`: fine as an entry point, not an authority. Where `scholarship` is absent the case rests on general reference material and should be treated as less well grounded. Doing this properly corrected two cases outright - see forbidden-fruit-was-an-apple here, and exod-34-29-qaran-horned in the companion dataset."
 }

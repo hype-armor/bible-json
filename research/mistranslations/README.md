@@ -359,6 +359,31 @@ Romans 9:5 punctuation; *ekklesia* → "church" and *baptizō* → "baptize" as 
 decisions; John 3:3 *anōthen*; Isaiah 45:7 *ra'*; 1 Samuel 13:1's broken numerals;
 Hebrews 11:1 *hypostasis*; Acts 20:28; Titus 2:13 and the Granville Sharp rule.
 
+## Sourcing
+
+Every one of the 62 cases across both datasets now cites a **standard scholarly work** —
+94 in total. Wikipedia appears in **0** `sources` fields; where it was the only citation it
+has been demoted to `further_reading`, which is what it is good for.
+
+This followed an audit that returned an uncomfortable number: **58 of 72 original citations
+were Wikipedia**, and 53 of 62 cases had exactly one source. The claims were mainstream;
+the evidence offered for them was not.
+
+Doing it properly **corrected two cases outright**, which is the argument for having done it:
+
+- **`exod-34-29-qaran-horned`** — I'd implied the Vulgate's *cornuta* caused the antisemitic
+  horned-Jew trope. Ruth Mellinkoff's *The Horned Moses in Medieval Art and Thought* (1970),
+  the standard monograph, argues Jerome most likely meant horns as a metaphor for **power** —
+  horns signified divine authority across the ancient Near East — and treats the antisemitic
+  reading as a later development, not the origin.
+- **`forbidden-fruit-was-an-apple`** — I'd confidently blamed the Latin *malum* pun. Azzan
+  Yadin-Israel's *Temptation Transformed* (Chicago, 2023), the dedicated monograph, argues
+  that explanation does not survive the evidence: the apple appears first in **12th-century
+  French art**, and the cause is vernacular semantic narrowing, not a theologian's pun.
+
+Both are flagged `CORRECTED` in their caveats. The lexical findings in each were unaffected —
+what changed was the causal story built on top of them.
+
 ## Caution
 
 This is a research artifact about the history of translation, not a devotional or polemical

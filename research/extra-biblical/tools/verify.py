@@ -110,6 +110,8 @@ def main() -> int:
                 if field not in case:
                     errors.append(f"{cid}: missing field 'caveat' (use null to say none applies)")
                 continue
+            if field == "sources" and case.get("scholarship"):
+                continue
             if not case.get(field):
                 errors.append(f"{cid}: missing or empty field {field!r}")
         if cid in seen:

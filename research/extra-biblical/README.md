@@ -3,7 +3,7 @@
 A companion to [`../mistranslations`](../mistranslations). That dataset is about text
 being **rendered wrongly**. This one is about text that was **never there**.
 
-24 cases · 19 lexical checks · 101 support passages quoted · 13 objections answered · 0 errors
+24 cases · 19 lexical checks · 101 support passages quoted · 13 objections answered · every case cites standard scholarship · 0 errors
 
 ## Two questions, not one
 
@@ -152,6 +152,31 @@ problems compound:
 | `original-sin-inherited-guilt` | Latin *in quo*, "in whom" | `rom-5-12-eph-ho-in-quo` |
 | `immaculate-conception` | *gratia plena* and *ipsa conteret* | `luke-1-28-kecharitomene`, `gen-3-15-ipsa-conteret` |
 | `hell-as-dantes-underworld` | four words flattened into "hell" | `hell-sheol-hades-gehenna` |
+
+## Sourcing
+
+Every one of the 62 cases across both datasets now cites a **standard scholarly work** —
+94 in total. Wikipedia appears in **0** `sources` fields; where it was the only citation it
+has been demoted to `further_reading`, which is what it is good for.
+
+This followed an audit that returned an uncomfortable number: **58 of 72 original citations
+were Wikipedia**, and 53 of 62 cases had exactly one source. The claims were mainstream;
+the evidence offered for them was not.
+
+Doing it properly **corrected two cases outright**, which is the argument for having done it:
+
+- **`exod-34-29-qaran-horned`** — I'd implied the Vulgate's *cornuta* caused the antisemitic
+  horned-Jew trope. Ruth Mellinkoff's *The Horned Moses in Medieval Art and Thought* (1970),
+  the standard monograph, argues Jerome most likely meant horns as a metaphor for **power** —
+  horns signified divine authority across the ancient Near East — and treats the antisemitic
+  reading as a later development, not the origin.
+- **`forbidden-fruit-was-an-apple`** — I'd confidently blamed the Latin *malum* pun. Azzan
+  Yadin-Israel's *Temptation Transformed* (Chicago, 2023), the dedicated monograph, argues
+  that explanation does not survive the evidence: the apple appears first in **12th-century
+  French art**, and the cause is vernacular semantic narrowing, not a theologian's pun.
+
+Both are flagged `CORRECTED` in their caveats. The lexical findings in each were unaffected —
+what changed was the causal story built on top of them.
 
 ## Files
 
