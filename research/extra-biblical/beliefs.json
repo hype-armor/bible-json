@@ -456,7 +456,10 @@
             "why": "Herod kills boys up to two years old, implying the visit was not at the birth"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Raymond E. Brown, The Birth of the Messiah, 2nd ed. (Doubleday, 1993) - the standard critical commentary on the infancy narratives."
+      ]
     },
     {
       "id": "forbidden-fruit-was-an-apple",
@@ -673,7 +676,11 @@
             "why": "she is the first witness of the resurrection, the opposite of a marginal figure"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Susan Haskins, Mary Magdalen: Myth and Metaphor (HarperCollins, 1993).",
+        "Katherine Ludwig Jansen, The Making of the Magdalen (Princeton, 2000)."
+      ]
     },
     {
       "id": "nativity-stable-and-innkeeper",
@@ -738,7 +745,10 @@
             "why": "Luke uses a different word, pandocheion, when he means a commercial inn"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Kenneth E. Bailey, Jesus Through Middle Eastern Eyes (IVP Academic, 2008), ch. 1 - the standard argument that kataluma is a guest room."
+      ]
     },
     {
       "id": "jesus-was-33",
@@ -1150,7 +1160,10 @@
             "why": "another list: fornication, impurity, passion, evil desire, greed"
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Morton W. Bloomfield, The Seven Deadly Sins (Michigan State, 1952) - traces the list from Evagrius through Gregory."
+      ]
     },
     {
       "id": "christmas-december-25",
@@ -1188,7 +1201,10 @@
             "reply": "The shepherd argument is weak in both directions: flocks near Bethlehem could be pastured year-round in a mild climate, and Luke gives no month. Defenders of the date rest on the computation theory - a conception reckoned to 25 March, nine months earlier - rather than on anything in the nativity scene itself."
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Susan K. Roll, Toward the Origins of Christmas (Kok Pharos, 1995) - surveys the computation and history-of-religions theories without resolving them."
+      ]
     },
     {
       "id": "the-rapture",
@@ -1264,7 +1280,11 @@
             "reply": "Dispensationalist readings hold that Matthew 24 concerns Christ's later appearing in glory while 1 Thessalonians 4 concerns a prior gathering, so the two describe different events rather than one contradictory sequence."
           }
         ]
-      }
+      },
+      "scholarship": [
+        "Ernest R. Sandeen, The Roots of Fundamentalism (Chicago, 1970).",
+        "Timothy P. Weber, Living in the Shadow of the Second Coming (Oxford, 1979)."
+      ]
     },
     {
       "id": "original-sin-inherited-guilt",
@@ -1460,5 +1480,6 @@
     "partial": "Real material supports part of the belief while another part is imported or disputed.",
     "strong": "The idea is well supported; only the wording, the label or the systematisation is post-biblical.",
     "contradicted": "The text addresses the point and says something incompatible."
-  }
+  },
+  "scholarship_note": "A citation audit found 58 of 72 links across both datasets were Wikipedia. Where a `scholarship` field exists it names the standard work; where it does not, the case rests on general reference material and should be treated as less well grounded. A known weakness, recorded rather than papered over."
 }

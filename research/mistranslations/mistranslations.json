@@ -121,7 +121,7 @@
         "Douay-Rheims"
       ],
       "what_happened": "The Hebrew verb qāran is denominative from qeren, 'horn', and in this context means that Moses' face emitted beams of light. Jerome rendered it literally as 'horned'.",
-      "doctrinal_impact": "A millennium of Western art depicted Moses with horns - Michelangelo's Moses in San Pietro in Vincoli is the famous case. The image fed a durable antisemitic trope of horned Jews in medieval and early-modern Europe. A rare case where the downstream damage was iconographic and social rather than doctrinal.",
+      "doctrinal_impact": "A millennium of Western art depicted Moses with horns - Michelangelo's Moses in San Pietro in Vincoli is the famous case. The image was later attached to an antisemitic trope of horned Jews in medieval and early-modern Europe. A rare case where the downstream effect was iconographic and social rather than doctrinal.",
       "impact_domains": [
         "art",
         "antisemitism",
@@ -152,12 +152,15 @@
           "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "Some argue Jerome intended 'horned' as a recognised idiom for radiance rather than as an error. The Septuagint already read it as glorification (dedoxastai), showing the radiance reading was available to him.",
+      "caveat": "CORRECTED after checking the standard monograph. Ruth Mellinkoff's 'The Horned Moses in Medieval Art and Thought' (1970) argues that Jerome most likely intended 'cornuta' as a metaphor for Moses' newly evident POWER, not as an error and not as a slur: horns signified divine authority across the ancient Near East, and horned headgear marked priests and kings. She distinguishes medieval 'horns of honour' from 'horns of dishonour' and treats the antisemitic reading as a later development rather than the origin. The earlier version of this case overstated the causal chain: the Vulgate reading is real and the art tradition is real, but 'the mistranslation caused the antisemitic trope' is not what the definitive study concludes. The Septuagint had already read it as glorification (dedoxastai), showing the radiance reading was available to Jerome.",
       "sources": [
         "https://en.wikipedia.org/wiki/Horns_of_Moses"
       ],
       "strongs": [
         "H7160"
+      ],
+      "scholarship": [
+        "Ruth Mellinkoff, The Horned Moses in Medieval Art and Thought (University of California Press, 1970) - the standard monograph, and it qualifies this case rather than supporting it."
       ]
     },
     {
@@ -241,7 +244,10 @@
           "2 Corinthians 13:14"
         ],
         "note": "The Comma was the most-quoted English proof-text for three centuries, but the doctrine was defined at Nicaea and Constantinople by Greek-speaking bishops whose manuscripts did not contain it. Removing it removes a proof-text, not the doctrine."
-      }
+      },
+      "scholarship": [
+        "Bruce M. Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (UBS, 1994), on 1 John 5:7-8 - traces the clause to a 4th-century Latin treatise and its entry into Vulgate MSS from the 6th century."
+      ]
     },
     {
       "id": "matt-4-17-paenitentiam-agite",
@@ -465,6 +471,9 @@
         "https://www.cbeinternational.org/resource/junia-female-apostle-examination-historical-record/",
         "https://www.bibleodyssey.org/articles/junia/",
         "https://etsjets.org/wp-content/uploads/2020/09/files_JETS-PDFs_63_63-3_JETS_63.3_517-33_Ng.pdf"
+      ],
+      "scholarship": [
+        "Eldon Jay Epp, Junia: The First Woman Apostle (Fortress, 2005) - the standard treatment, tracing the masculinisation through manuscripts, accentuation and modern critical editions."
       ]
     },
     {
@@ -551,6 +560,9 @@
       },
       "strongs": [
         "H5959"
+      ],
+      "scholarship": [
+        "Peter J. Thuesen, In Discordance with the Scriptures: American Protestant Battles over Translating the Bible (Oxford, 1999) - on the RSV controversy this verse triggered."
       ]
     },
     {
@@ -1032,6 +1044,9 @@
       "caveat": "Not a mistranslation but a transmission event, included because the doctrinal and practical effects are of the same kind. Warning: this repository's version files carry no textual apparatus, so versions that bracket or footnote these verses are indistinguishable here from versions that print them as plain text. Verify against a critical edition before drawing conclusions from the JSON alone.",
       "sources": [
         "https://en.wikipedia.org/wiki/Mark_16"
+      ],
+      "scholarship": [
+        "Bruce M. Metzger, A Textual Commentary on the Greek New Testament, pp. 122-126 - the UBS committee printed the verses in double square brackets to mark them as by a hand other than the evangelist."
       ]
     },
     {
@@ -1096,6 +1111,9 @@
       "caveat": "Many scholars who judge it non-Johannine still regard the story as early and plausibly historical. As with Mark 16, the repository's plain-text JSON cannot show which versions bracket the passage.",
       "sources": [
         "https://en.wikipedia.org/wiki/Jesus_and_the_woman_taken_in_adultery"
+      ],
+      "scholarship": [
+        "Bruce M. Metzger, A Textual Commentary on the Greek New Testament, on John 7:53-8:11."
       ]
     },
     {
@@ -1981,6 +1999,9 @@
       ],
       "strongs": [
         "G726"
+      ],
+      "scholarship": [
+        "Ernest R. Sandeen, The Roots of Fundamentalism: British and American Millenarianism 1800-1930 (Chicago, 1970) - on Darby and the pre-tribulational scheme."
       ]
     },
     {
@@ -2313,6 +2334,9 @@
       ],
       "strongs": [
         "G725"
+      ],
+      "scholarship": [
+        "Roy W. Hoover, 'The Harpagmos Enigma: A Philological Solution', Harvard Theological Review 64 (1971) - established the idiomatic sense now followed by most modern versions."
       ]
     },
     {
@@ -2661,6 +2685,9 @@
       "caveat": "Two things complicate the neat story. First, the LATIN sides with the critical text: both the Clementine and Sixtine Vulgates read 'pater eius', so this is a Greek Byzantine development, not a Latin one - which cuts against any account that makes the Vulgate the villain of Marian readings generally. Second, Tyndale (1526) already has 'his father and mother', so the English tradition had the critical reading eighty-five years before the KJV adopted the Byzantine one. The repository's plain-text JSON carries no apparatus, so versions that footnote the variant are indistinguishable here from versions that print one reading silently.",
       "sources": [
         "https://en.wikipedia.org/wiki/Textual_variants_in_the_Gospel_of_Luke"
+      ],
+      "scholarship": [
+        "Bart D. Ehrman, The Orthodox Corruption of Scripture (Oxford, 1993) - the standard study of scribal alterations made for doctrinal reasons, which is the category this case belongs to."
       ]
     }
   ],
@@ -2668,6 +2695,7 @@
     "study": "Path to a worked example under studies/, generated from a spec by tools/build_study.py.",
     "distinguish_from": "What the case is NOT. Names the doctrinal claim people attach to the verse and the texts that claim actually rests on. Guards against the commonest failure mode in this subject: treating a translation shift in a proof-text as though it invented the doctrine.",
     "strongs": "Strong's numbers anchoring the disputed term. Resolvable against lexicon/ via tools/lexicon.py, which gives lemma-accurate occurrence lists without surface-form matching.",
-    "narrative_context": "Where a case turns on WHEN something is said inside the story, this records the sequence and the verb morphology that establishes it. Added because 'what the text says' and 'what the character could have known at that point' are different questions, and the second is easy to get wrong."
+    "narrative_context": "Where a case turns on WHEN something is said inside the story, this records the sequence and the verb morphology that establishes it. Added because 'what the text says' and 'what the character could have known at that point' are different questions, and the second is easy to get wrong.",
+    "scholarship": "Standard scholarly works behind the case, as distinct from `sources`, which are the links used while compiling it. Added after an audit found that 58 of 72 citations across both datasets were Wikipedia - the encyclopedia article ABOUT the scholarship rather than the scholarship. Where this field is absent the case rests on general reference works and should be treated as less well grounded."
   }
 }
