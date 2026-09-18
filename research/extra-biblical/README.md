@@ -45,14 +45,14 @@ theology never claimed it was described in scripture.
 
 | Category | Cases | |
 | --- | ---: | --- |
-| `misattributed-quote` | 6 | Sayings quoted as scripture that appear nowhere in it |
 | `later-doctrine` | 7 | Formulated after the New Testament |
-| `imported-imagery` | 3 | From art, poetry and drama rather than scripture |
+| `misattributed-quote` | 6 | Sayings quoted as scripture that appear nowhere in it |
+| `imported-imagery` | 4 | From art, poetry and drama rather than scripture |
 | `detail-supplied` | 3 | The text is silent; tradition filled it in |
-| `detail-altered` | 3 | The text says something different |
+| `detail-altered` | 2 | The text says something different |
 | `figures-merged` | 2 | Distinct people or things conflated |
 
-Graded `strong` 14 · `majority` 4 · `contested` 3.
+Graded `strong` 14 · `majority` 6 · `contested` 4.
 
 ## A few results
 
