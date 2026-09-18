@@ -48,7 +48,43 @@
       "caveat": "Proverbs does commend diligence (e.g. 6:6-11), so the sentiment is not anti-biblical - it simply is not a verse.",
       "sources": [
         "https://en.wikipedia.org/wiki/God_helps_those_who_help_themselves"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "The work ethic is thoroughly biblical; the theology of self-reliance is the opposite of the New Testament's. The proverb smuggles the second in under the first.",
+        "passages": [
+          {
+            "ref": "Proverbs 6:6",
+            "direction": "for",
+            "why": "the sluggard is sent to the ant; diligence is commended in its own right"
+          },
+          {
+            "ref": "2 Thessalonians 3:10",
+            "direction": "for",
+            "why": "'anyone unwilling to work should not eat' - the closest thing to the proverb in the NT"
+          },
+          {
+            "ref": "Proverbs 13:4",
+            "direction": "for",
+            "why": "the diligent soul is richly supplied"
+          },
+          {
+            "ref": "Romans 5:6",
+            "direction": "against",
+            "why": "Christ died for us 'while we were still weak' - help arrives precisely where self-help fails"
+          },
+          {
+            "ref": "Ephesians 2:8",
+            "direction": "against",
+            "why": "salvation by grace 'not the result of works'"
+          },
+          {
+            "ref": "Luke 18:13",
+            "direction": "against",
+            "why": "the tax collector who can only ask for mercy is the one justified"
+          }
+        ]
+      }
     },
     {
       "id": "cleanliness-next-to-godliness",
@@ -79,7 +115,33 @@
       "caveat": "The word 'cleanliness' does appear in a few versions at 2 Samuel 22:21-25, rendering a Hebrew term for moral innocence, not hygiene.",
       "sources": [
         "https://en.wikipedia.org/wiki/Cleanliness_is_next_to_godliness"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "Ritual purity is a huge biblical category, so the idea has a real Levitical shape - but Jesus explicitly relativises external cleanness, which is why this is not simply 'weak'.",
+        "passages": [
+          {
+            "ref": "Leviticus 11:44",
+            "direction": "for",
+            "why": "'be holy, for I am holy' sits inside an extended purity code"
+          },
+          {
+            "ref": "Exodus 30:19",
+            "direction": "for",
+            "why": "priests wash before approaching the altar"
+          },
+          {
+            "ref": "Mark 7:15",
+            "direction": "against",
+            "why": "nothing outside a person can defile them"
+          },
+          {
+            "ref": "Matthew 23:25",
+            "direction": "against",
+            "why": "cleaning the outside of the cup while the inside is full of greed"
+          }
+        ]
+      }
     },
     {
       "id": "god-works-in-mysterious-ways",
@@ -111,7 +173,38 @@
       "caveat": "The Contemporary English Version uses 'mysterious ways' as ordinary English in a few places (1 Corinthians 4:1, Ephesians 1:9), which is not the proverb.",
       "sources": [
         "https://en.wikipedia.org/wiki/God_Moves_in_a_Mysterious_Way"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "strong",
+        "summary": "This one is a fair summary of a major biblical theme. Only the wording is Cowper's. Included to show the dataset does not treat 'not a verse' as 'not biblical'.",
+        "passages": [
+          {
+            "ref": "Isaiah 55:8",
+            "direction": "for",
+            "why": "'my thoughts are not your thoughts'"
+          },
+          {
+            "ref": "Isaiah 55:9",
+            "direction": "for",
+            "why": "the heavens are higher than the earth, so are God's ways"
+          },
+          {
+            "ref": "Romans 11:33",
+            "direction": "for",
+            "why": "'how unsearchable his judgments and how inscrutable his ways'"
+          },
+          {
+            "ref": "Deuteronomy 29:29",
+            "direction": "for",
+            "why": "'the secret things belong to the LORD our God'"
+          },
+          {
+            "ref": "Ecclesiastes 11:5",
+            "direction": "for",
+            "why": "you do not know the work of God who makes everything"
+          }
+        ]
+      }
     },
     {
       "id": "spare-the-rod-spoil-the-child",
@@ -143,7 +236,38 @@
       "caveat": "Graded majority rather than strong because the underlying Proverbs verses do exist and do commend the rod. The dispute is over the proverb's form and the reading of 'rod' (shevet, also a shepherd's implement and a symbol of authority), not over whether Proverbs discusses discipline.",
       "sources": [
         "https://en.wikipedia.org/wiki/Spare_the_rod_and_spoil_the_child"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "strong",
+        "summary": "The idea is plainly in Proverbs; only the rhyming form is Butler's. This is a misattributed QUOTE, not a misattributed belief - a distinction the lexical check alone cannot make.",
+        "passages": [
+          {
+            "ref": "Proverbs 13:24",
+            "direction": "for",
+            "why": "'those who spare the rod hate their children'"
+          },
+          {
+            "ref": "Proverbs 22:15",
+            "direction": "for",
+            "why": "the rod of discipline drives folly out of a child"
+          },
+          {
+            "ref": "Proverbs 23:13",
+            "direction": "for",
+            "why": "do not withhold discipline"
+          },
+          {
+            "ref": "Proverbs 29:15",
+            "direction": "for",
+            "why": "the rod and reproof give wisdom"
+          },
+          {
+            "ref": "Ephesians 6:4",
+            "direction": "against",
+            "why": "'do not provoke your children to anger' tempers the Proverbs material"
+          }
+        ]
+      }
     },
     {
       "id": "hate-the-sin-love-the-sinner",
@@ -174,7 +298,38 @@
       "caveat": "That the phrase is not scripture says nothing about whether the principle is sound; that is a separate argument.",
       "sources": [
         "https://en.wikipedia.org/wiki/Hate_the_sin,_love_the_sinner"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "Both halves have support, but holding them together as a single policy is the later synthesis.",
+        "passages": [
+          {
+            "ref": "Romans 12:9",
+            "direction": "for",
+            "why": "'hate what is evil, hold fast to what is good'"
+          },
+          {
+            "ref": "Psalms 97:10",
+            "direction": "for",
+            "why": "'the LORD loves those who hate evil'"
+          },
+          {
+            "ref": "John 8:11",
+            "direction": "for",
+            "why": "'neither do I condemn you. Go your way, and from now on do not sin again'"
+          },
+          {
+            "ref": "Matthew 7:3",
+            "direction": "against",
+            "why": "the log in your own eye complicates any sorting of sinners from sins"
+          },
+          {
+            "ref": "Jude 1:22",
+            "direction": "for",
+            "why": "'have mercy on some who are wavering'"
+          }
+        ]
+      }
     },
     {
       "id": "this-too-shall-pass",
@@ -205,7 +360,33 @@
       "caveat": "Occasionally defended as a paraphrase of 2 Corinthians 4:17-18, but that passage contrasts temporary affliction with eternal glory rather than counselling patience - a different consolation. The saying is also widely attributed to Solomon, which is how it acquires its biblical air.",
       "sources": [
         "https://en.wikipedia.org/wiki/This_too_shall_pass"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "The transience of affliction is a real biblical theme; the fatalistic framing of the saying is not quite the biblical one, which contrasts the temporary with the eternal rather than counselling endurance alone.",
+        "passages": [
+          {
+            "ref": "2 Corinthians 4:17",
+            "direction": "for",
+            "why": "'this slight momentary affliction is preparing us for an eternal weight of glory'"
+          },
+          {
+            "ref": "Psalms 30:5",
+            "direction": "for",
+            "why": "'weeping may linger for the night, but joy comes with the morning'"
+          },
+          {
+            "ref": "Ecclesiastes 3:1",
+            "direction": "for",
+            "why": "a time for everything - the nearest thing to the saying's cadence"
+          },
+          {
+            "ref": "1 Peter 1:6",
+            "direction": "for",
+            "why": "'for a little while you have had to suffer various trials'"
+          }
+        ]
+      }
     },
     {
       "id": "three-wise-men",
@@ -241,7 +422,38 @@
       "caveat": "Eastern traditions often count twelve magi, which shows the number was never fixed by the text. The Christmas card conflation of magi and shepherds at the manger merges Matthew's account with Luke's, which share no scene.",
       "sources": [
         "https://en.wikipedia.org/wiki/Biblical_Magi"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "weak",
+        "summary": "The number comes from counting the gifts. The kingly status has a genuine intertext, which is worth naming rather than dismissing: Psalm 72 and Isaiah 60 describe kings bringing gifts, and the tradition read them into Matthew.",
+        "passages": [
+          {
+            "ref": "Matthew 2:11",
+            "direction": "for",
+            "why": "three gifts named - gold, frankincense, myrrh - hence the number"
+          },
+          {
+            "ref": "Psalms 72:10",
+            "direction": "for",
+            "why": "kings of Sheba and Seba bring gifts; a real source for 'kings'"
+          },
+          {
+            "ref": "Isaiah 60:3",
+            "direction": "for",
+            "why": "'nations shall come to your light, and kings to the brightness of your dawn'"
+          },
+          {
+            "ref": "Matthew 2:1",
+            "direction": "against",
+            "why": "Matthew says magoi, astrologers or Persian priests, not kings"
+          },
+          {
+            "ref": "Matthew 2:16",
+            "direction": "against",
+            "why": "Herod kills boys up to two years old, implying the visit was not at the birth"
+          }
+        ]
+      }
     },
     {
       "id": "forbidden-fruit-was-an-apple",
@@ -274,7 +486,18 @@
       "caveat": "Jewish tradition variously suggests a fig, a grape or wheat; the pomegranate appears in other strands. The point is not that apple is wrong so much as that the text declines to say.",
       "sources": [
         "https://en.wikipedia.org/wiki/Forbidden_fruit"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "none",
+        "summary": "No passage anywhere names or hints at a species. This is one of the few cases where the concept audit comes back genuinely empty.",
+        "passages": [
+          {
+            "ref": "Genesis 3:6",
+            "direction": "against",
+            "why": "the text says only 'fruit'; the species is simply not a question the narrative raises"
+          }
+        ]
+      }
     },
     {
       "id": "jonah-and-the-whale",
@@ -309,7 +532,23 @@
       "caveat": "Ancient categories did not separate whales from large fish, so 'whale' is not straightforwardly wrong for ketos - it is anachronistically precise. This case sits on the boundary with the mistranslations dataset. The corpus check turned up a useful detail: of 57 English versions, exactly one has 'whale' in Jonah - Brenton, who is translating the GREEK Old Testament, not the Hebrew. The Hebrew says great fish in every English version there is; the whale arrives via Greek ketos, and the KJV then put it into Matthew 12:40.",
       "sources": [
         "https://en.wikipedia.org/wiki/Book_of_Jonah"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "A whale is a possible member of the category the text names. The belief is over-specification rather than error.",
+        "passages": [
+          {
+            "ref": "Jonah 1:17",
+            "direction": "for",
+            "why": "'a large fish' - ancient taxonomy did not separate whales from big fish"
+          },
+          {
+            "ref": "Matthew 12:40",
+            "direction": "for",
+            "why": "ketos, sea monster, is a category that includes whales"
+          }
+        ]
+      }
     },
     {
       "id": "serpent-in-eden-is-satan",
@@ -350,7 +589,33 @@
       "caveat": "Revelation 12:9 is a real biblical basis for the identification, so this is not a belief invented from nothing - it is a belief read into Genesis from elsewhere in the canon. The verified check proves only that Genesis itself does not make it. Caught while running that check: of 57 English versions, exactly one puts the word into the verse - the Amplified Bible reads 'And the serpent (Satan) said to the woman'. That is the whole phenomenon this dataset tracks, visible in a single parenthesis.",
       "sources": [
         "https://en.wikipedia.org/wiki/Serpents_in_the_Bible"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "strong",
+        "summary": "This is the case the lexical check most misleads on. Genesis never says it - but Revelation says it twice, explicitly, using the word 'ancient serpent'. The belief is thoroughly biblical; it is just not in Genesis.",
+        "passages": [
+          {
+            "ref": "Revelation 12:9",
+            "direction": "for",
+            "why": "'the great dragon... that ancient serpent, who is called the Devil and Satan'"
+          },
+          {
+            "ref": "Revelation 20:2",
+            "direction": "for",
+            "why": "the same identification repeated"
+          },
+          {
+            "ref": "Romans 16:20",
+            "direction": "for",
+            "why": "'the God of peace will shortly crush Satan under your feet' echoes Genesis 3:15"
+          },
+          {
+            "ref": "Genesis 3:1",
+            "direction": "against",
+            "why": "Genesis introduces the serpent as one of the wild animals God had made"
+          }
+        ]
+      }
     },
     {
       "id": "mary-magdalene-was-a-prostitute",
@@ -384,7 +649,28 @@
       "sources": [
         "https://uscatholic.org/articles/201603/who-framed-mary-magdalene/",
         "https://en.wikipedia.org/wiki/Mary_Magdalene"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "none",
+        "summary": "Nothing connects them. The conflation requires reading Luke 7 onto Luke 8 against the text's own separation of the two scenes.",
+        "passages": [
+          {
+            "ref": "Luke 8:2",
+            "direction": "against",
+            "why": "she is introduced by name as freed from seven demons, among the women funding the ministry"
+          },
+          {
+            "ref": "Luke 7:37",
+            "direction": "against",
+            "why": "the anointing woman is unnamed and in a different episode"
+          },
+          {
+            "ref": "John 20:16",
+            "direction": "against",
+            "why": "she is the first witness of the resurrection, the opposite of a marginal figure"
+          }
+        ]
+      }
     },
     {
       "id": "nativity-stable-and-innkeeper",
@@ -423,7 +709,33 @@
       "caveat": "A minority of scholars defend 'inn'. The ox and ass come from reading Isaiah 1:3 into the scene, and appear in art from the 4th century.",
       "sources": [
         "https://en.wikipedia.org/wiki/Nativity_of_Jesus"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "weak",
+        "summary": "'No room' plus a manger does imply displacement, so the scene is not invented from nothing. The innkeeper, the stable and the animals are all supplied.",
+        "passages": [
+          {
+            "ref": "Luke 2:7",
+            "direction": "for",
+            "why": "no room in the kataluma, and a manger, which does imply animal quarters nearby"
+          },
+          {
+            "ref": "Isaiah 1:3",
+            "direction": "for",
+            "why": "'the ox knows its owner, and the donkey its master's crib' - where the animals come from"
+          },
+          {
+            "ref": "Luke 22:11",
+            "direction": "against",
+            "why": "kataluma is the guest room of the Last Supper, not an inn"
+          },
+          {
+            "ref": "Luke 10:34",
+            "direction": "against",
+            "why": "Luke uses a different word, pandocheion, when he means a commercial inn"
+          }
+        ]
+      }
     },
     {
       "id": "jesus-was-33",
@@ -462,7 +774,33 @@
       "caveat": "The Synoptics mention only one Passover, which would give a ministry closer to a year. 33 is a reasonable estimate presented with false precision.",
       "sources": [
         "https://en.wikipedia.org/wiki/Chronology_of_Jesus"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "weak",
+        "summary": "A real inference from two approximate data points, presented with false precision.",
+        "passages": [
+          {
+            "ref": "Luke 3:23",
+            "direction": "for",
+            "why": "'about thirty years old' when he began"
+          },
+          {
+            "ref": "John 2:13",
+            "direction": "for",
+            "why": "the first of John's Passovers"
+          },
+          {
+            "ref": "John 6:4",
+            "direction": "for",
+            "why": "a second Passover"
+          },
+          {
+            "ref": "John 11:55",
+            "direction": "for",
+            "why": "a third, suggesting a ministry of roughly three years"
+          }
+        ]
+      }
     },
     {
       "id": "peter-at-the-pearly-gates",
@@ -493,7 +831,28 @@
       "caveat": "Matthew 16:19 does give Peter keys, so the image is not built from nothing - but the keys are of the kingdom of heaven, a phrase Matthew uses throughout for God's reign breaking into the present, not for the afterlife's front door. The gatekeeping scene has no textual source at all.",
       "sources": [
         "https://en.wikipedia.org/wiki/Pearly_gates"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "weak",
+        "summary": "Both halves exist separately; the scene is the welding.",
+        "passages": [
+          {
+            "ref": "Matthew 16:19",
+            "direction": "for",
+            "why": "Peter is given 'the keys of the kingdom of heaven'"
+          },
+          {
+            "ref": "Revelation 21:21",
+            "direction": "for",
+            "why": "the twelve gates are twelve pearls"
+          },
+          {
+            "ref": "Revelation 20:12",
+            "direction": "against",
+            "why": "judgement is by books opened before the throne, with no gatekeeper named"
+          }
+        ]
+      }
     },
     {
       "id": "satan-rules-hell",
@@ -518,7 +877,33 @@
       "caveat": "Several New Testament texts do call Satan a ruler of this world (John 12:31, 2 Corinthians 4:4) - but of the world, not of hell. That is the distinction the popular picture collapses.",
       "sources": [
         "https://en.wikipedia.org/wiki/Devil_in_Christianity"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "contradicted",
+        "summary": "The ruler language is biblical but attached to the wrong domain: Satan rules THIS WORLD in the New Testament and is a prisoner of the lake of fire, not its warden.",
+        "passages": [
+          {
+            "ref": "John 12:31",
+            "direction": "for",
+            "why": "'the ruler of this world will be driven out' - the source of the ruler idea"
+          },
+          {
+            "ref": "2 Corinthians 4:4",
+            "direction": "for",
+            "why": "'the god of this world has blinded the minds of unbelievers'"
+          },
+          {
+            "ref": "Revelation 20:10",
+            "direction": "against",
+            "why": "the devil is thrown INTO the lake of fire and tormented there"
+          },
+          {
+            "ref": "Matthew 25:41",
+            "direction": "against",
+            "why": "the fire is 'prepared for the devil and his angels' - made for him, not by him"
+          }
+        ]
+      }
     },
     {
       "id": "purgatory",
@@ -548,7 +933,38 @@
       "caveat": "Graded contested, not strong, because Catholic theology does not claim purgatory is described in scripture - it claims the doctrine is consistent with scripture and developed through tradition. The Orthodox reject the Latin formulation while holding a prayer-for-the-dead practice; Protestants reject it outright. This is the clearest case in the dataset where the 'not in the Bible' objection only bites under sola scriptura.",
       "sources": [
         "https://en.wikipedia.org/wiki/Purgatory"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "Genuine candidate texts exist and are contested rather than absent. This is not a doctrine conjured from nothing.",
+        "passages": [
+          {
+            "ref": "1 Corinthians 3:15",
+            "direction": "for",
+            "why": "'saved, but only as through fire'"
+          },
+          {
+            "ref": "Matthew 12:32",
+            "direction": "for",
+            "why": "'neither in this age nor in the age to come' implies some post-mortem resolution"
+          },
+          {
+            "ref": "Hebrews 12:29",
+            "direction": "for",
+            "why": "'our God is a consuming fire'"
+          },
+          {
+            "ref": "Hebrews 9:27",
+            "direction": "against",
+            "why": "'it is appointed for mortals to die once, and after that the judgment'"
+          },
+          {
+            "ref": "Luke 23:43",
+            "direction": "against",
+            "why": "'today you will be with me in Paradise' - no intermediate purification"
+          }
+        ]
+      }
     },
     {
       "id": "the-word-trinity",
@@ -582,7 +998,38 @@
       "caveat": "That a word is post-biblical says nothing about whether the doctrine it names is a fair summary of the texts - every tradition holding the Trinity argues exactly that. Related: the Comma Johanneum (1 John 5:7), for three centuries the most-quoted English proof-text for the Trinity, is an interpolation - see the mistranslations dataset, case 1john-5-7-comma-johanneum.",
       "sources": [
         "https://en.wikipedia.org/wiki/Trinity"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "strong",
+        "summary": "Substantial material supports the doctrine. Only the vocabulary is post-biblical, which is exactly what the case says.",
+        "passages": [
+          {
+            "ref": "Matthew 28:19",
+            "direction": "for",
+            "why": "baptising in the name of the Father, Son and Holy Spirit"
+          },
+          {
+            "ref": "2 Corinthians 13:13",
+            "direction": "for",
+            "why": "grace, love and communion attributed to the three together"
+          },
+          {
+            "ref": "John 1:1",
+            "direction": "for",
+            "why": "'the Word was God'"
+          },
+          {
+            "ref": "John 10:30",
+            "direction": "for",
+            "why": "'the Father and I are one'"
+          },
+          {
+            "ref": "John 14:16",
+            "direction": "for",
+            "why": "the Father sends another Advocate"
+          }
+        ]
+      }
     },
     {
       "id": "immaculate-conception",
@@ -611,7 +1058,33 @@
       "caveat": "Two of its supporting texts are cases in the companion mistranslations dataset, which makes this the strongest link between the two datasets. Orthodox Christianity rejects the dogma, partly because it presupposes an Augustinian account of original sin the East never adopted.",
       "sources": [
         "https://en.wikipedia.org/wiki/Immaculate_Conception"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "weak",
+        "summary": "The supporting texts are thin and two of them are translation artefacts, which is what makes this the dataset's strongest link to the mistranslations work.",
+        "passages": [
+          {
+            "ref": "Luke 1:28",
+            "direction": "for",
+            "why": "kecharitomene, 'favoured one', rendered 'full of grace' in Latin"
+          },
+          {
+            "ref": "Luke 1:42",
+            "direction": "for",
+            "why": "'blessed are you among women'"
+          },
+          {
+            "ref": "Romans 3:23",
+            "direction": "against",
+            "why": "'all have sinned and fall short of the glory of God'"
+          },
+          {
+            "ref": "Luke 1:47",
+            "direction": "against",
+            "why": "Mary calls God 'my Saviour', which several Fathers read as implying she needed one"
+          }
+        ]
+      }
     },
     {
       "id": "seven-deadly-sins",
@@ -643,7 +1116,33 @@
       "caveat": "The list is a genuine and useful piece of moral psychology with a long pedigree - the point is only that its pedigree is monastic and patristic rather than scriptural. Sloth (acedia) in particular is a desert-monastery category with no biblical vocabulary behind it.",
       "sources": [
         "https://en.wikipedia.org/wiki/Seven_deadly_sins"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "Vice lists are a real biblical form, and one of them even has seven items - the contents just do not match.",
+        "passages": [
+          {
+            "ref": "Proverbs 6:16",
+            "direction": "for",
+            "why": "'six things the LORD hates, seven that are an abomination'"
+          },
+          {
+            "ref": "Proverbs 6:17",
+            "direction": "for",
+            "why": "the list itself: haughty eyes, a lying tongue, hands that shed innocent blood"
+          },
+          {
+            "ref": "Galatians 5:19",
+            "direction": "for",
+            "why": "the works of the flesh, a vice list of fifteen"
+          },
+          {
+            "ref": "Colossians 3:5",
+            "direction": "for",
+            "why": "another list: fornication, impurity, passion, evil desire, greed"
+          }
+        ]
+      }
     },
     {
       "id": "christmas-december-25",
@@ -669,7 +1168,18 @@
       "sources": [
         "https://www.biblicalarchaeology.org/daily/people-cultures-in-the-bible/jesus-historical-jesus/how-december-25-became-christmas/",
         "https://www.britannica.com/story/why-is-christmas-in-december"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "none",
+        "summary": "No passage bears on the date. The one datum sometimes cited points, weakly, away from midwinter.",
+        "passages": [
+          {
+            "ref": "Luke 2:8",
+            "direction": "against",
+            "why": "shepherds living in the fields at night, which some read as suggesting a warmer season"
+          }
+        ]
+      }
     },
     {
       "id": "the-rapture",
@@ -707,7 +1217,43 @@
       "caveat": "That believers meet Christ at his return is held across Christianity; what is post-biblical is the specific pre-tribulational, secret, two-stage scheme. Most Christians worldwide, including Catholics and Orthodox, do not hold it. See also the mistranslations dataset, case 1thess-4-17-harpazo-rapture.",
       "sources": [
         "https://en.wikipedia.org/wiki/Rapture"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "The catching-up is plainly described. What is post-biblical is the pre-tribulational, secret, two-stage scheme built around it.",
+        "passages": [
+          {
+            "ref": "1 Thessalonians 4:16",
+            "direction": "for",
+            "why": "the Lord descends with a cry of command and a trumpet"
+          },
+          {
+            "ref": "1 Thessalonians 4:17",
+            "direction": "for",
+            "why": "'we will be caught up in the clouds to meet the Lord in the air'"
+          },
+          {
+            "ref": "1 Corinthians 15:52",
+            "direction": "for",
+            "why": "'we will be changed, in a moment, in the twinkling of an eye'"
+          },
+          {
+            "ref": "Matthew 24:40",
+            "direction": "for",
+            "why": "'one will be taken and one will be left'"
+          },
+          {
+            "ref": "1 Thessalonians 4:16",
+            "direction": "against",
+            "why": "a shout and a trumpet are not a secret removal"
+          },
+          {
+            "ref": "Matthew 24:29",
+            "direction": "against",
+            "why": "Matthew places the gathering AFTER the tribulation, not before"
+          }
+        ]
+      }
     },
     {
       "id": "original-sin-inherited-guilt",
@@ -733,7 +1279,38 @@
       "caveat": "The Eastern Orthodox churches, reading the Greek, hold that humanity inherits mortality and a corrupted nature but not personal guilt - ancestral sin rather than original sin. This is the largest doctrinal divergence between Eastern and Western Christianity traceable to a translation. See the mistranslations dataset, case rom-5-12-eph-ho-in-quo.",
       "sources": [
         "https://en.wikipedia.org/wiki/Original_sin"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "Substantial material ties humanity's condition to Adam. The disputed specification is inherited GUILT as against inherited mortality, and one text cuts directly against it.",
+        "passages": [
+          {
+            "ref": "Romans 5:12",
+            "direction": "for",
+            "why": "death spread to all because all sinned"
+          },
+          {
+            "ref": "Romans 5:19",
+            "direction": "for",
+            "why": "'by the one man's disobedience the many were made sinners'"
+          },
+          {
+            "ref": "Psalms 51:5",
+            "direction": "for",
+            "why": "'I was born guilty, a sinner when my mother conceived me'"
+          },
+          {
+            "ref": "Ephesians 2:3",
+            "direction": "for",
+            "why": "'we were by nature children of wrath'"
+          },
+          {
+            "ref": "Ezekiel 18:20",
+            "direction": "against",
+            "why": "'A child shall not suffer for the iniquity of a parent'"
+          }
+        ]
+      }
     },
     {
       "id": "angels-are-winged-humans-with-harps",
@@ -761,7 +1338,48 @@
       "caveat": "Graded majority because a few texts do give angelic figures wings in visionary contexts (Revelation 14:6), so 'never winged' overstates it. The humanlike-with-feathered-wings composite, and the idea that the dead become angels, are the parts with no textual basis.",
       "sources": [
         "https://en.wikipedia.org/wiki/Angels_in_art"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "Wings are genuinely biblical for some heavenly beings; the humanlike composite and the idea that the dead become angels are not.",
+        "passages": [
+          {
+            "ref": "Isaiah 6:2",
+            "direction": "for",
+            "why": "seraphim with six wings"
+          },
+          {
+            "ref": "Ezekiel 1:6",
+            "direction": "for",
+            "why": "living creatures with four faces and four wings"
+          },
+          {
+            "ref": "Daniel 9:21",
+            "direction": "for",
+            "why": "Gabriel comes 'in swift flight'"
+          },
+          {
+            "ref": "Revelation 14:6",
+            "direction": "for",
+            "why": "an angel flying in midheaven"
+          },
+          {
+            "ref": "Genesis 18:2",
+            "direction": "against",
+            "why": "the visitors appear simply as three men"
+          },
+          {
+            "ref": "Luke 24:4",
+            "direction": "against",
+            "why": "'two men in dazzling clothes' at the tomb"
+          },
+          {
+            "ref": "Revelation 5:8",
+            "direction": "against",
+            "why": "it is the elders and living creatures who hold harps, not angels"
+          }
+        ]
+      }
     },
     {
       "id": "hell-as-dantes-underworld",
@@ -788,7 +1406,46 @@
       "caveat": "The New Testament does speak of judgement and of fire, so this is a case of elaboration rather than invention. What is imported is the map.",
       "sources": [
         "https://en.wikipedia.org/wiki/Christian_views_on_Hell"
-      ]
+      ],
+      "conceptual_support": {
+        "verdict": "partial",
+        "summary": "Fire, torment and exclusion are all described. The architecture - circles, matched punishments, demon torturers - is what Dante supplies.",
+        "passages": [
+          {
+            "ref": "Matthew 25:41",
+            "direction": "for",
+            "why": "'eternal fire prepared for the devil and his angels'"
+          },
+          {
+            "ref": "Mark 9:48",
+            "direction": "for",
+            "why": "'where their worm never dies, and the fire is never quenched'"
+          },
+          {
+            "ref": "Luke 16:23",
+            "direction": "for",
+            "why": "torment, thirst and a fixed chasm in the Hades parable"
+          },
+          {
+            "ref": "Revelation 20:14",
+            "direction": "for",
+            "why": "the lake of fire"
+          },
+          {
+            "ref": "Revelation 20:10",
+            "direction": "against",
+            "why": "demons are tormented in it rather than staffing it"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "conceptual_support_note": "A lexical check proves only that a WORDING is absent, which is the weak claim. The interesting question is whether the Bible contains material from which someone could reasonably derive the belief without ever having seen the phrase. That is what this field records: the candidate passages, each graded, plus the passages that cut AGAINST the belief. Every reference is resolved and quoted by tools/verify.py, so the evidence is mechanical even though the grading is judgement. A case cannot carry a lexical check without also carrying this field - the verifier refuses it.",
+  "support_verdicts": {
+    "none": "No passage supplies the idea. The belief has to come from somewhere else.",
+    "weak": "Something in the text gestures at it, but the belief adds most of its content.",
+    "partial": "Real material supports part of the belief while another part is imported or disputed.",
+    "strong": "The idea is well supported; only the wording, the label or the systematisation is post-biblical.",
+    "contradicted": "The text addresses the point and says something incompatible."
+  }
 }

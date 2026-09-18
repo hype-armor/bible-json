@@ -32,9 +32,24 @@ from lexicon import Lexicon  # noqa: E402
 
 DATASET = os.path.join(HERE, "..", "beliefs.json")
 REPORT = os.path.join(HERE, "..", "ABSENCE.md")
+SUPPORT = os.path.join(HERE, "..", "SUPPORT.md")
 
 REQUIRED = ["id", "title", "type", "consensus", "claim", "what_the_text_says",
-            "what_it_rests_on", "origin", "held_by", "caveat", "sources"]
+            "what_it_rests_on", "origin", "held_by", "caveat", "sources",
+            "conceptual_support"]
+
+QUOTE_FROM = ["en/NEW REVISED STANDARD VERSION", "en/KING JAMES BIBLE",
+              "apocrypha/NEW REVISED STANDARD VERSION"]
+
+
+def quote(bible, raw):
+    """Return (version_key, text) for a reference, trying the canon then the deuterocanon."""
+    for key in QUOTE_FROM:
+        if key in bible.versions:
+            text = bible.try_verse(key, raw)
+            if text:
+                return key, text
+    return None, None
 
 
 def english_versions(bible: Bible) -> list[str]:
@@ -76,6 +91,8 @@ def main() -> int:
     data = json.load(open(DATASET, encoding="utf-8"))
     bible, lex = Bible(), Lexicon()
     errors, warnings = [], []
+    quoted = 0
+    VERDICTS = set(data["support_verdicts"])
     types, levels = set(data["taxonomy"]), set(data["consensus_levels"])
     checked = 0
     lines = ["# Verified absences", "",
@@ -113,9 +130,34 @@ def main() -> int:
                not bible.has("en/KING JAMES BIBLE", ref):
                 errors.append(f"{cid}: reference {raw!r} does not resolve")
 
+        support = case.get("conceptual_support") or {}
+        verdict = support.get("verdict")
+        if verdict not in VERDICTS:
+            errors.append(f"{cid}: conceptual_support.verdict {verdict!r} not one of {sorted(VERDICTS)}")
+        if not support.get("summary"):
+            errors.append(f"{cid}: conceptual_support has no summary")
+        passages = support.get("passages") or []
+        if not passages:
+            errors.append(f"{cid}: conceptual_support cites no passages - "
+                          "an empty audit is a claim too, and must be made explicitly")
+        for entry in passages:
+            if entry.get("direction") not in ("for", "against"):
+                errors.append(f"{cid}: passage {entry.get('ref')!r} has no for/against direction")
+            if not entry.get("why"):
+                errors.append(f"{cid}: passage {entry.get('ref')!r} has no reason given")
+            key, text = quote(bible, entry.get("ref", ""))
+            if text is None:
+                errors.append(f"{cid}: support passage {entry.get('ref')!r} does not resolve")
+            else:
+                entry["_quoted_from"] = key
+                entry["_text"] = text
+                quoted += 1
+        if verdict == "none" and any(e.get("direction") == "for" for e in passages):
+            errors.append(f"{cid}: verdict 'none' but a supporting passage is cited")
+
         spec = case.get("verified")
         if not spec:
-            warnings.append(f"{cid}: historical claim, no mechanical check")
+            warnings.append(f"{cid}: historical claim, no lexical check")
             continue
         checked += 1
         if spec["kind"] == "phrase":
@@ -140,13 +182,46 @@ def main() -> int:
         else:
             errors.append(f"{cid}: unknown check kind {spec['kind']!r}")
 
-    lines += ["", f"**{checked} of {len(data['cases'])} cases carry a mechanical check.** "
-                  "The rest are historical claims, carried by citation instead."]
+    lines += ["", f"**{checked} of {len(data['cases'])} cases carry a lexical check.** "
+                  "The rest are historical claims, carried by citation instead.", "",
+              "A lexical result on its own proves only that a *wording* is absent. "
+              "See [`SUPPORT.md`](SUPPORT.md) for whether the *idea* is derivable from the text."]
     with open(REPORT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
 
+    tally = {}
+    for case in data["cases"]:
+        v = (case.get("conceptual_support") or {}).get("verdict", "?")
+        tally[v] = tally.get(v, 0) + 1
+    sup = ["# Conceptual support", "",
+           "Could someone arrive at this belief from the Bible without ever seeing the phrase?",
+           "",
+           "A regex proves a wording is absent. It says nothing about whether the idea is there.",
+           "This report is the other half: for every case, the passages a reasonable reader could",
+           "build the belief from, and the passages that cut against it. Every verse is resolved and",
+           "quoted by `tools/verify.py` — the **quotations are mechanical, the gradings are judgement**,",
+           "and they are kept visibly separate.", "",
+           "| Verdict | Cases | Meaning |", "| --- | ---: | --- |"]
+    for v, meaning in data["support_verdicts"].items():
+        sup.append(f"| `{v}` | {tally.get(v, 0)} | {meaning} |")
+    sup += ["", f"**{quoted} passages resolved and quoted across {len(data['cases'])} cases.**", ""]
+    for case in data["cases"]:
+        s_ = case["conceptual_support"]
+        sup += [f"## {case['title']}", "",
+                f"`{case['id']}` &middot; verdict: **{s_['verdict']}**", "",
+                s_["summary"], ""]
+        for entry in s_["passages"]:
+            arrow = "**supports**" if entry["direction"] == "for" else "**against**"
+            sup.append(f"- {arrow} &nbsp; `{entry['ref']}` — {entry['why']}  ")
+            sup.append(f"  > {entry.get('_text', '')}")
+        sup += ["", "---", ""]
+    with open(SUPPORT, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(sup) + "\n")
+
     print(f"cases:            {len(data['cases'])}")
-    print(f"mechanical checks:{checked:>4}")
+    print(f"lexical checks:   {checked:>4}")
+    print(f"support passages: {quoted:>4} resolved and quoted")
+    print("verdicts:         " + ", ".join(f"{k} {v}" for k, v in sorted(tally.items())))
     print(f"historical only:  {len(warnings):>4}")
     print(f"errors:           {len(errors):>4}")
     if errors:

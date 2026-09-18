@@ -26,4 +26,6 @@ in the book people place it in. Nothing here is asserted by hand.
 | `seven-deadly-sins` | phrase `seven deadly` | appears in **0 of 57** English versions (allowed 0) |
 | `the-rapture` | phrase `\brapture\b` | appears in **1 of 57** English versions (allowed 1) |
 
-**19 of 24 cases carry a mechanical check.** The rest are historical claims, carried by citation instead.
+**19 of 24 cases carry a lexical check.** The rest are historical claims, carried by citation instead.
+
+A lexical result on its own proves only that a *wording* is absent. See [`SUPPORT.md`](SUPPORT.md) for whether the *idea* is derivable from the text.

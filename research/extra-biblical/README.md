@@ -3,29 +3,65 @@
 A companion to [`../mistranslations`](../mistranslations). That dataset is about text
 being **rendered wrongly**. This one is about text that was **never there**.
 
-24 cases · 19 with a machine-checkable claim · 0 errors
+24 cases · 19 lexical checks · 101 support passages quoted · 0 errors
 
-## The method that makes this different
+## Two questions, not one
 
-Most lists of "things not in the Bible" are assertions. With 142 versions on disk,
-absence is **provable**: a phrase that appears in 0 of 57 English Bibles is a result, not
-an opinion. `tools/verify.py` runs every such claim on demand and exits non-zero if one
-fails, so the dataset cannot quietly drift away from the corpus.
+A regex proves that a **wording** is absent. That is the easy half, and on its own it is
+close to worthless — it would let you "prove" that a belief is unbiblical when the idea is
+all over the text in different words.
 
-```bash
-python3 research/extra-biblical/tools/verify.py   # validate + regenerate ABSENCE.md
-```
+So every case answers two separate questions.
 
-Two check kinds:
+### 1. Is the wording there? — mechanical
 
-| Kind | Proves | Example |
-| --- | --- | --- |
-| `phrase` | A wording appears in at most N versions | "God helps those who help themselves" — **0 of 57** |
-| `strongs_absent` | A source word never occurs in a given book | Hebrew *tappuach* "apple" (`H8598`) — **6× in the Bible, 0× in Genesis** |
+`tools/verify.py` runs these against all 142 versions and exits non-zero on failure:
 
-Five cases are historical claims (when a doctrine was formulated, who coined a phrase).
-Those carry citations instead, and the summary always reports the ratio so you can see
-how much of the dataset is machine-backed.
+| Kind | Example |
+| --- | --- |
+| `phrase` | "God helps those who help themselves" — **0 of 57** English versions |
+| `strongs_absent` | *tappuach* "apple" (`H8598`) — **6× in the Bible, 0× in Genesis** |
+
+Output: [`ABSENCE.md`](ABSENCE.md).
+
+### 2. Could someone derive the idea anyway? — the part that matters
+
+Every case carries a **`conceptual_support`** block: the passages a reasonable reader could
+build the belief from, the passages that cut **against** it, a one-line reason for each, and
+a graded verdict. All 101 references are resolved and quoted by the verifier, so the
+**quotations are mechanical while the gradings are judgement** — kept visibly separate.
+
+The verifier **refuses a case that has a lexical check but no support audit**, so "not in the
+Bible" can never rest on a regex alone. A verdict of `none` with any supporting passage cited
+is also an error.
+
+Output: [`SUPPORT.md`](SUPPORT.md).
+
+| Verdict | Cases | |
+| --- | ---: | --- |
+| `strong` | 4 | The idea is well supported; only the wording or label is post-biblical |
+| `partial` | 11 | Part is supported, part imported or disputed |
+| `weak` | 5 | The text gestures at it; the belief adds most of the content |
+| `none` | 3 | No passage supplies it |
+| `contradicted` | 1 | The text addresses the point and says the opposite |
+
+**Only 3 of 24 beliefs have no textual basis at all.** That is the honest headline, and it is
+the opposite of what a list of "things not in the Bible" usually implies.
+
+### Where the lexical check actively misleads
+
+- **The serpent in Eden is Satan** — graded `strong`. Genesis never says it, and the regex
+  duly returns near-zero. But Revelation 12:9 and 20:2 both say "that ancient serpent, who
+  is called the Devil and Satan", explicitly. The belief is thoroughly biblical; it is just
+  not in Genesis. A lexical-only dataset would file this as a myth.
+- **"Spare the rod and spoil the child"** — graded `strong`. The rhyme is Samuel Butler's,
+  but Proverbs 13:24, 22:15, 23:13 and 29:15 say the thing. This is a misattributed
+  *quotation*, not a misattributed *belief* — a distinction absence-testing cannot make.
+- **"God works in mysterious ways"** — graded `strong`. Cowper wrote the line; Isaiah 55:8-9,
+  Romans 11:33 and Deuteronomy 29:29 supply the idea.
+- **Satan rules hell** — the only `contradicted` verdict. The *ruler* language is real
+  (John 12:31, 2 Corinthians 4:4) but attached to **this world**. Revelation 20:10 has him
+  thrown into the lake of fire and tormented there.
 
 ## The fairness problem, handled up front
 
@@ -110,8 +146,9 @@ problems compound:
 | Path | |
 | --- | --- |
 | `beliefs.json` | The dataset |
-| `ABSENCE.md` | **Generated.** Every mechanical check and its result |
-| `tools/verify.py` | Validates the dataset and runs the checks |
+| `ABSENCE.md` | **Generated.** Every lexical check and its result |
+| `SUPPORT.md` | **Generated.** Every support passage, quoted, with its grading |
+| `tools/verify.py` | Validates the dataset, runs the checks, writes both reports |
 
 Reuses `research/mistranslations/tools/bible.py` and the repo-root `tools/lexicon.py`.
 No dependencies beyond the standard library.
