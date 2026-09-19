@@ -81,7 +81,11 @@
             "direction": "against",
             "why": "the tax collector who can only ask for mercy is the one justified"
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "Diligence as a virtue - Proverbs 6:6, 2 Thessalonians 3:10 support this directly.",
+        "imported_component": "That divine help is CONDITIONAL on self-reliance. Not merely unsupported but contradicted: Romans 5:6 and Ephesians 2:8 make grace precisely what arrives where self-help fails.",
+        "dissent": "Some would grade this `contradicted`, on the grounds that the proverb's actual force is the soteriological half, not the work-ethic half. Graded partial because the saying is genuinely used in both senses."
       },
       "scholarship": [
         "Jennifer Speake, ed., The Oxford Dictionary of Proverbs (Oxford) - traces the saying through Aesop, Algernon Sidney and Franklin."
@@ -119,7 +123,7 @@
       "caveat": "The word 'cleanliness' does appear in a few versions at 2 Samuel 22:21-25, rendering a Hebrew term for moral innocence, not hygiene.",
       "sources": [],
       "conceptual_support": {
-        "verdict": "partial",
+        "verdict": "weak",
         "summary": "Ritual purity is a huge biblical category, so the idea has a real Levitical shape - but Jesus explicitly relativises external cleanness, which is why this is not simply 'weak'.",
         "passages": [
           {
@@ -143,7 +147,9 @@
             "direction": "against",
             "why": "cleaning the outside of the cup while the inside is full of greed"
           }
-        ]
+        ],
+        "rubric_test": "inferential",
+        "dissent": "DOWNGRADED from partial on review. The priestly washing and purity codes are about RITUAL purity; Wesley's proverb is about literal tidiness. That is a category shift, not a shared component, so the support is inferential rather than partial. Someone reading 'cleanliness' morally rather than hygienically could defend partial."
       },
       "scholarship": [
         "John Wesley, sermon 'On Dress' (1778) - the earliest well-attested English use, itself quoting it as a received proverb.",
@@ -211,7 +217,9 @@
             "direction": "for",
             "why": "you do not know the work of God who makes everything"
           }
-        ]
+        ],
+        "rubric_test": "states-directly",
+        "dissent": "Hard to dissent from: Isaiah 55:8-9 states the substance in as many words."
       },
       "scholarship": [
         "William Cowper, 'Light Shining out of Darkness', in Olney Hymns (1779).",
@@ -280,7 +288,9 @@
             "why": "'do not provoke your children to anger' tempers the Proverbs material",
             "reply": "Usually harmonised as setting a limit on the manner of discipline rather than forbidding it, so the Proverbs material stands with a caution attached."
           }
-        ]
+        ],
+        "rubric_test": "states-directly",
+        "dissent": "Dissent would come from those reading shevet as a shepherd's staff and the sayings as metaphors for guidance; that changes what the verses commend, not whether they commend it."
       },
       "scholarship": [
         "Michael V. Fox, Proverbs (Anchor Yale Bible, 2000-2009) - on the rod sayings and shevet.",
@@ -347,7 +357,11 @@
             "direction": "for",
             "why": "'have mercy on some who are wavering'"
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "Both halves separately - Romans 12:9 for hating evil, John 8:11 for not condemning the person.",
+        "imported_component": "Holding them together as a single pastoral policy, which is a later synthesis and is what the phrase actually asserts.",
+        "dissent": "Critics of the phrase argue the synthesis is incoherent in practice; that is an ethical objection, not a textual one, and does not affect the grading."
       },
       "scholarship": [
         "Augustine, Letter 211 (c. 424) - 'cum dilectione hominum et odio vitiorum'.",
@@ -409,7 +423,11 @@
             "direction": "for",
             "why": "'for a little while you have had to suffer various trials'"
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "That affliction is temporary - 2 Corinthians 4:17, Psalm 30:5, 1 Peter 1:6.",
+        "imported_component": "The fatalistic framing. The biblical texts contrast the temporary with the ETERNAL; the saying counsels endurance with no such horizon.",
+        "dissent": "A reader who hears the saying as simple consolation rather than fatalism could defend `strong`."
       },
       "scholarship": [
         "Jennifer Speake, ed., The Oxford Dictionary of Proverbs (Oxford) - on the Persian provenance and Lincoln's 1859 use."
@@ -481,7 +499,9 @@
             "direction": "against",
             "why": "Herod kills boys up to two years old, implying the visit was not at the birth"
           }
-        ]
+        ],
+        "rubric_test": "inferential",
+        "dissent": "The kingly element has a real intertext in Psalm 72 and Isaiah 60, which some would count as `partial`. Graded weak because those texts are read INTO Matthew rather than cited by him."
       },
       "scholarship": [
         "Raymond E. Brown, The Birth of the Messiah, 2nd ed. (Doubleday, 1993) - the standard critical commentary on the infancy narratives."
@@ -529,7 +549,9 @@
             "direction": "against",
             "why": "the text says only 'fruit'; the species is simply not a question the narrative raises"
           }
-        ]
+        ],
+        "rubric_test": "silent",
+        "dissent": "No dissent available: the species is not a question the narrative raises."
       },
       "scholarship": [
         "Azzan Yadin-Israel, Temptation Transformed: The Story of How the Forbidden Fruit Became an Apple (University of Chicago Press, 2023) - the dedicated monograph, and it overturns the Latin-pun explanation this case previously gave."
@@ -584,7 +606,11 @@
             "direction": "for",
             "why": "ketos, sea monster, is a category that includes whales"
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "Swallowed by a large sea creature - the text says exactly this.",
+        "imported_component": "That the creature was specifically a whale. The belief over-specifies a category the text leaves open.",
+        "dissent": "Given that ancient taxonomy did not separate whales from large fish, some would call this no error at all and grade it `strong`."
       },
       "scholarship": [
         "Jack M. Sasson, Jonah (Anchor Bible, 1990) - on dag gadol and the Greek ketos."
@@ -655,7 +681,9 @@
             "direction": "against",
             "why": "Genesis introduces the serpent as one of the wild animals God had made"
           }
-        ]
+        ],
+        "rubric_test": "states-directly",
+        "dissent": "Dissent is possible on canonical grounds - Revelation is a different book written centuries later, so a reader restricting themselves to Genesis would grade `none`. Graded strong because the dataset asks whether the BIBLE supplies the idea, not whether Genesis does."
       },
       "scholarship": [
         "Henry Ansgar Kelly, Satan: A Biography (Cambridge, 2006).",
@@ -716,7 +744,9 @@
             "direction": "against",
             "why": "she is the first witness of the resurrection, the opposite of a marginal figure"
           }
-        ]
+        ],
+        "rubric_test": "silent",
+        "dissent": "No dissent: the two women are in different chapters and the text never links them."
       },
       "scholarship": [
         "Susan Haskins, Mary Magdalen: Myth and Metaphor (HarperCollins, 1993).",
@@ -786,7 +816,9 @@
             "direction": "against",
             "why": "Luke uses a different word, pandocheion, when he means a commercial inn"
           }
-        ]
+        ],
+        "rubric_test": "inferential",
+        "dissent": "'No room' plus a manger does imply displacement, which some would count as partial support for the scene if not for the innkeeper."
       },
       "scholarship": [
         "Kenneth E. Bailey, Jesus Through Middle Eastern Eyes (IVP Academic, 2008), ch. 1 - the standard argument that kataluma is a guest room."
@@ -855,7 +887,9 @@
             "direction": "for",
             "why": "a third, suggesting a ministry of roughly three years"
           }
-        ]
+        ],
+        "rubric_test": "inferential",
+        "dissent": "The inference is sound; only its precision is not. A reader treating 'about thirty' plus three Passovers as adequate would grade `partial`."
       },
       "scholarship": [
         "Harold W. Hoehner, Chronological Aspects of the Life of Christ (Zondervan, 1977)."
@@ -911,7 +945,9 @@
             "direction": "against",
             "why": "judgement is by books opened before the throne, with no gatekeeper named"
           }
-        ]
+        ],
+        "rubric_test": "inferential",
+        "dissent": "The keys of Matthew 16:19 are real, so the figure of Peter holding keys is not invented - only the gatekeeping scene is."
       },
       "scholarship": [
         "David E. Aune, Revelation (Word Biblical Commentary, 1997-98) - on the twelve pearl gates of the New Jerusalem."
@@ -967,7 +1003,9 @@
             "direction": "against",
             "why": "the fire is 'prepared for the devil and his angels' - made for him, not by him"
           }
-        ]
+        ],
+        "rubric_test": "asserts-otherwise",
+        "dissent": "The only verdict in the dataset with no reply recorded. Revelation 20:10 addresses the point directly and reverses it."
       },
       "scholarship": [
         "Alan E. Bernstein, The Formation of Hell (Cornell, 1993).",
@@ -1035,7 +1073,11 @@
             "why": "'today you will be with me in Paradise' - no intermediate purification",
             "reply": "Read as a particular case rather than a rule: the thief is granted immediate entry by a direct promise of Christ, which says nothing about the ordinary path."
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "A post-mortem process involving fire and incompleteness - 1 Corinthians 3:15, Matthew 12:32 are real candidate texts.",
+        "imported_component": "Purgatory as a distinct PLACE with a defined role in the economy of salvation. Le Goff dates the place-concept to the 12th century.",
+        "dissent": "Catholic theology would reject the framing entirely: it does not claim purgatory is described in scripture, so 'partial support' is not a deficiency on its own terms."
       },
       "scholarship": [
         "Jacques Le Goff, The Birth of Purgatory, tr. Arthur Goldhammer (University of Chicago Press, 1984) - the standard study; dates purgatory as a PLACE to the 12th century."
@@ -1104,7 +1146,9 @@
             "direction": "for",
             "why": "the Father sends another Advocate"
           }
-        ]
+        ],
+        "rubric_test": "converges",
+        "dissent": "Unitarian and some Jehovah's Witness readings would grade `weak`, holding that the passages are being harmonised rather than converging. That is the substance of a very old argument."
       },
       "scholarship": [
         "J. N. D. Kelly, Early Christian Doctrines, 5th ed. (A&C Black, 1977).",
@@ -1166,7 +1210,9 @@
             "why": "The stronger of the two objections: Mary calls God 'my Saviour', which several Fathers read as implying she needed saving like anyone else.",
             "reply": "The preservative-redemption answer applies here too, and Catholic theology treats this verse as consistent with the dogma rather than awkward for it - being preserved from sin is itself an act of a saviour, so the Magnificat is exactly what a preserved person would sing."
           }
-        ]
+        ],
+        "rubric_test": "inferential",
+        "dissent": "Catholic theology would again reject the framing: the dogma is held on the authority of tradition, and Luke 1:28 is illustrative rather than probative."
       },
       "scholarship": [
         "Marina Warner, Alone of All Her Sex: The Myth and the Cult of the Virgin Mary (Knopf, 1976)."
@@ -1228,7 +1274,11 @@
             "direction": "for",
             "why": "another list: fornication, impurity, passion, evil desire, greed"
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "The FORM - biblical vice lists exist, and Proverbs 6:16-19 is even a list of seven.",
+        "imported_component": "The CONTENTS. Not one of the traditional seven matches Proverbs' list, and sloth (acedia) has no biblical vocabulary behind it at all.",
+        "dissent": "Someone treating the list as a convenient summary of Galatians 5:19-21 rather than a distinct claim could grade `strong`."
       },
       "scholarship": [
         "Morton W. Bloomfield, The Seven Deadly Sins (Michigan State, 1952) - traces the list from Evagrius through Gregory."
@@ -1272,7 +1322,9 @@
             "why": "shepherds living in the fields at night, which some read as suggesting a warmer season",
             "reply": "The shepherd argument is weak in both directions: flocks near Bethlehem could be pastured year-round in a mild climate, and Luke gives no month. Defenders of the date rest on the computation theory - a conception reckoned to 25 March, nine months earlier - rather than on anything in the nativity scene itself."
           }
-        ]
+        ],
+        "rubric_test": "silent",
+        "dissent": "Luke 2:8 is sometimes offered as weak counter-evidence for the season, which would make this `contradicted` rather than `none`. Graded none because shepherds in fields is too thin to establish a month."
       },
       "scholarship": [
         "Susan K. Roll, Toward the Origins of Christmas (Kok Pharos, 1995) - surveys the computation and history-of-religions theories without resolving them."
@@ -1349,7 +1401,11 @@
             "why": "Matthew places the gathering AFTER the tribulation, not before",
             "reply": "Dispensationalist readings hold that Matthew 24 concerns Christ's later appearing in glory while 1 Thessalonians 4 concerns a prior gathering, so the two describe different events rather than one contradictory sequence."
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "A gathering of believers to meet Christ - 1 Thessalonians 4:16-17, 1 Corinthians 15:52 state this plainly.",
+        "imported_component": "The pre-tribulational, secret, two-stage structure. Nothing in the passages separates the gathering from the public return.",
+        "dissent": "Dispensationalist readers would grade `strong`, holding that the two-stage structure follows from harmonising these texts with Matthew 24 and Daniel."
       },
       "scholarship": [
         "Ernest R. Sandeen, The Roots of Fundamentalism (Chicago, 1970).",
@@ -1412,7 +1468,11 @@
             "why": "'A child shall not suffer for the iniquity of a parent'",
             "reply": "Augustinian theology distinguishes the guilt inherited in Adam, which is a shared condition of nature, from the personal guilt of individual acts that Ezekiel is refusing to transfer between generations."
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "That humanity's condition is bound up with Adam's - Romans 5:12-19 is explicit.",
+        "imported_component": "That what is inherited is GUILT rather than mortality and a corrupted nature. Ezekiel 18:20 cuts against, and the Eastern churches never drew the conclusion.",
+        "dissent": "Augustinian and Reformed readers would grade this `strong`; Orthodox readers closer to `weak`. The split is itself the finding."
       },
       "scholarship": [
         "J. N. D. Kelly, Early Christian Doctrines, 5th ed. (A&C Black, 1977).",
@@ -1486,7 +1546,11 @@
             "direction": "against",
             "why": "it is the elders and living creatures who hold harps, not angels"
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "Wings on heavenly beings - Isaiah 6:2, Ezekiel 1:6, and Gabriel in 'swift flight' at Daniel 9:21.",
+        "imported_component": "The humanlike composite with haloes and harps, and the idea that the dead become angels. Angels who meet people in scripture are taken for ordinary men, and Revelation 5:8 gives the harps to the elders.",
+        "dissent": "A reader treating seraphim and angels as one category would grade `strong` on the wings alone."
       },
       "scholarship": [
         "Ellen Muehlberger, Angels in Late Ancient Christianity (Oxford, 2013).",
@@ -1550,7 +1614,11 @@
             "why": "demons are tormented in it rather than staffing it",
             "reply": "The architecture is acknowledged as imaginative elaboration by most theologians; it is defended as pedagogy rather than description."
           }
-        ]
+        ],
+        "rubric_test": "component-split",
+        "supported_component": "Fire, torment and exclusion - Matthew 25:41, Mark 9:48, Luke 16:23, Revelation 20:14.",
+        "imported_component": "The architecture: circles, punishments matched to sins, demons as staff. Dante supplies all of it.",
+        "dissent": "Universalist and annihilationist readers would grade the supported component lower, since they read the fire language as figurative or terminal rather than as eternal conscious torment."
       },
       "scholarship": [
         "Alan E. Bernstein, The Formation of Hell (Cornell, 1993).",
@@ -1569,5 +1637,17 @@
     "strong": "The idea is well supported; only the wording, the label or the systematisation is post-biblical.",
     "contradicted": "The text addresses the point and says something incompatible."
   },
-  "scholarship_note": "A citation audit found 58 of 72 links across both datasets were Wikipedia - the encyclopedia article ABOUT the scholarship rather than the scholarship. `scholarship` now names the standard work per case and Wikipedia links are demoted to `further_reading`: fine as an entry point, not an authority. Where `scholarship` is absent the case rests on general reference material and should be treated as less well grounded. Doing this properly corrected two cases outright - see forbidden-fruit-was-an-apple here, and exod-34-29-qaran-horned in the companion dataset."
+  "scholarship_note": "A citation audit found 58 of 72 links across both datasets were Wikipedia - the encyclopedia article ABOUT the scholarship rather than the scholarship. `scholarship` now names the standard work per case and Wikipedia links are demoted to `further_reading`: fine as an entry point, not an authority. Where `scholarship` is absent the case rests on general reference material and should be treated as less well grounded. Doing this properly corrected two cases outright - see forbidden-fruit-was-an-apple here, and exod-34-29-qaran-horned in the companion dataset.",
+  "grading_rubric": {
+    "why": "The verdicts were previously my unreviewed judgement. They still involve judgement - no tool can decide whether a passage supports an idea - but the criteria are now explicit, each case records WHICH test decided it, and every `partial` names the supported and imported components separately. That makes a grading challengeable on stated grounds rather than on taste.",
+    "tests": {
+      "states-directly": "At least one passage asserts the substance of the belief, not merely something compatible with it. -> strong",
+      "converges": "Several passages independently imply it, none stating it outright. -> strong",
+      "component-split": "The belief has separable components; the text supports at least one and is silent on, disputes, or contradicts another. Both must be named. -> partial",
+      "inferential": "Support requires chaining passages, or combining ones that do not address the topic together. The belief supplies most of its own content. -> weak",
+      "silent": "No passage addresses the question the belief answers. -> none",
+      "asserts-otherwise": "A passage addresses the point and asserts something incompatible, with no standard reply. -> contradicted"
+    },
+    "note": "A `partial` where the unsupported component is actively CONTRADICTED is more damaging to the belief than one where it is merely unaddressed. The verdict alone does not carry that distinction, so the components field states it."
+  }
 }

@@ -3,7 +3,7 @@
 A companion to [`../mistranslations`](../mistranslations). That dataset is about text
 being **rendered wrongly**. This one is about text that was **never there**.
 
-24 cases · 19 lexical checks · 101 support passages quoted · 13 objections answered · every case cites standard scholarship · 0 errors
+24 cases · 19 lexical checks · 101 passages quoted · 13 objections answered · every verdict rubric-tested · 0 errors
 
 ## Two questions, not one
 
@@ -49,16 +49,50 @@ one person from that "all" at Hebrews 4:15. The reply field now records the Cath
 
 Output: [`SUPPORT.md`](SUPPORT.md).
 
-| Verdict | Cases | |
+| Verdict | Cases | Decided by |
 | --- | ---: | --- |
-| `strong` | 4 | The idea is well supported; only the wording or label is post-biblical |
-| `partial` | 11 | Part is supported, part imported or disputed |
-| `weak` | 5 | The text gestures at it; the belief adds most of the content |
-| `none` | 3 | No passage supplies it |
-| `contradicted` | 1 | The text addresses the point and says the opposite |
+| `strong` | 4 | `states-directly` or `converges` |
+| `partial` | 10 | `component-split` — both components must be named |
+| `weak` | 6 | `inferential` |
+| `none` | 3 | `silent` |
+| `contradicted` | 1 | `asserts-otherwise`, with no standing reply |
 
 **Only 3 of 24 beliefs have no textual basis at all.** That is the honest headline, and it is
 the opposite of what a list of "things not in the Bible" usually implies.
+
+### How the gradings are decided
+
+The verdicts involve judgement — no tool can decide whether a passage supports an idea. What
+changed is that the criteria are now **explicit**, each case records **which test decided it**,
+and the verifier enforces the mapping. A grading can now be challenged on stated grounds
+rather than on taste.
+
+| Test | Decides |
+| --- | --- |
+| `states-directly` | A passage asserts the substance, not merely something compatible → **strong** |
+| `converges` | Several passages independently imply it, none stating it → **strong** |
+| `component-split` | Supports one component, silent on or contradicts another → **partial** |
+| `inferential` | Requires chaining passages that don't address the topic together → **weak** |
+| `silent` | No passage addresses the question → **none** |
+| `asserts-otherwise` | A passage addresses it and says something incompatible → **contradicted** |
+
+Three rules the verifier enforces, each tested by deliberately breaking a case:
+
+- **A `partial` must name its supported *and* imported components.** An unsplit `partial` is
+  the grading equivalent of hand-waving.
+- **The rubric test must match the verdict.** You cannot grade `strong` off `component-split`.
+- **Every case must record `dissent`** — who would grade it differently and why — or say
+  explicitly that no dissent is available.
+
+A `partial` whose unsupported half is actively **contradicted** is more damaging to a belief
+than one whose half is merely unaddressed. The verdict alone can't carry that, so the
+components field says which it is. `god-helps-those-who-help-themselves` is the example: the
+work-ethic half is supported, and the divine-aid half is contradicted outright by Romans 5:6.
+
+Reviewing against the rubric moved one grading: **`cleanliness-next-to-godliness` from
+`partial` to `weak`**. The priestly washing texts are about *ritual* purity and Wesley's
+proverb is about *tidiness* — a category shift, not a shared component, so the support is
+inferential.
 
 ### Where the lexical check actively misleads
 

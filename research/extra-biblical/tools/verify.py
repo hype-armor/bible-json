@@ -94,6 +94,9 @@ def main() -> int:
     quoted = 0
     replies = 0
     VERDICTS = set(data["support_verdicts"])
+    RUBRIC = data["grading_rubric"]["tests"]
+    # each test's description ends with "-> verdict"; that mapping is the contract
+    TEST_VERDICT = {k: v.rsplit("->", 1)[1].strip() for k, v in RUBRIC.items()}
     types, levels = set(data["taxonomy"]), set(data["consensus_levels"])
     checked = 0
     lines = ["# Verified absences", "",
@@ -139,6 +142,22 @@ def main() -> int:
             errors.append(f"{cid}: conceptual_support.verdict {verdict!r} not one of {sorted(VERDICTS)}")
         if not support.get("summary"):
             errors.append(f"{cid}: conceptual_support has no summary")
+
+        # --- the grading rubric is a contract, not a suggestion ---
+        test = support.get("rubric_test")
+        if test not in RUBRIC:
+            errors.append(f"{cid}: rubric_test {test!r} is not one of {sorted(RUBRIC)}")
+        elif TEST_VERDICT[test] != verdict:
+            errors.append(f"{cid}: rubric_test {test!r} implies verdict "
+                          f"{TEST_VERDICT[test]!r}, but the case says {verdict!r}")
+        if verdict == "partial":
+            for part in ("supported_component", "imported_component"):
+                if not support.get(part):
+                    errors.append(f"{cid}: a 'partial' verdict must name its {part} - "
+                                  "an unsplit 'partial' is the grading equivalent of hand-waving")
+        if not support.get("dissent"):
+            errors.append(f"{cid}: no dissent recorded. State who would grade this differently, "
+                          "or say explicitly that no dissent is available")
         passages = support.get("passages") or []
         if not passages:
             errors.append(f"{cid}: conceptual_support cites no passages - "
@@ -165,6 +184,9 @@ def main() -> int:
                 quoted += 1
         if verdict == "none" and any(e.get("direction") == "for" for e in passages):
             errors.append(f"{cid}: verdict 'none' but a supporting passage is cited")
+        if verdict == "contradicted" and not any(
+                e.get("direction") == "against" and not e.get("reply") for e in passages):
+            errors.append(f"{cid}: verdict 'contradicted' requires an objection with no standing reply")
 
         spec = case.get("verified")
         if not spec:
@@ -215,6 +237,14 @@ def main() -> int:
            "Where a passage cuts **against** a belief and the tradition holding it has a standard answer,",
            "that answer is printed beneath the objection. Without it this file would be a one-sided brief:",
            "an objection presented as though it were a refutation.", "",
+           "**How the verdicts are decided.** The gradings involve judgement — no tool can decide whether",
+           "a passage supports an idea — but the criteria are explicit and each case records which test",
+           "decided it, so a grading can be challenged on stated grounds rather than on taste.", "",
+           "| Test | Decides |", "| --- | --- |"]
+    for k, v in data["grading_rubric"]["tests"].items():
+        sup_hdr, _, verdict_of = v.rpartition("->")
+        sup.append(f"| `{k}` | {sup_hdr.strip()} **{verdict_of.strip()}** |")
+    sup += ["", data["grading_rubric"]["note"], "",
            "| Verdict | Cases | Meaning |", "| --- | ---: | --- |"]
     for v, meaning in data["support_verdicts"].items():
         sup.append(f"| `{v}` | {tally.get(v, 0)} | {meaning} |")
@@ -223,14 +253,20 @@ def main() -> int:
     for case in data["cases"]:
         s_ = case["conceptual_support"]
         sup += [f"## {case['title']}", "",
-                f"`{case['id']}` &middot; verdict: **{s_['verdict']}**", "",
+                f"`{case['id']}` &middot; verdict: **{s_['verdict']}** "
+                f"&middot; decided by `{s_.get('rubric_test', '?')}`", "",
                 s_["summary"], ""]
+        if s_.get("supported_component"):
+            sup += [f"**Supported:** {s_['supported_component']}  ",
+                    f"**Imported or disputed:** {s_.get('imported_component', '')}", ""]
         for entry in s_["passages"]:
             arrow = "**supports**" if entry["direction"] == "for" else "**against**"
             sup.append(f"- {arrow} &nbsp; `{entry['ref']}` — {entry['why']}  ")
             sup.append(f"  > {entry.get('_text', '')}")
             if entry.get("reply"):
                 sup.append(f"  <br>↳ *Reply:* {entry['reply']}")
+        if s_.get("dissent"):
+            sup += ["", f"*Dissent:* {s_['dissent']}"]
         sup += ["", "---", ""]
     with open(SUPPORT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(sup) + "\n")
