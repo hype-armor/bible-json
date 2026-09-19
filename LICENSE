@@ -1,0 +1,158 @@
+# Licence and third-party notices
+
+This repository holds several kinds of material with **different and incompatible
+terms**. There is no single licence covering all of it, and this file does not
+attempt to impose one.
+
+| Part of the repository | Terms |
+| --- | --- |
+| Code (`tools/`, `research/mistranslations/tools/`) | MIT — see §1 |
+| Curated research data (`research/mistranslations/*.json`, `versions.json`) | CC BY 4.0 — see §1 |
+| Lexical data (`lexicon/`) | Third-party. **Includes CC BY-SA** — see §2 |
+| Bible texts (`versions/`, `apocrypha-versions/`) | Mixed, per text. **Some are under active copyright and are not licensed by this file** — see §3 and §4 |
+
+---
+
+## 1. Original work in this repository
+
+The tooling and the curated research dataset are the repository's own work.
+
+**Code** — everything under `tools/` and `research/mistranslations/tools/`:
+
+> MIT Licence
+>
+> Permission is hereby granted, free of charge, to any person obtaining a copy of
+> this software and associated documentation files (the "Software"), to deal in
+> the Software without restriction, including without limitation the rights to
+> use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+> the Software, and to permit persons to whom the Software is furnished to do so,
+> subject to the following conditions:
+>
+> The above copyright notice and this permission notice shall be included in all
+> copies or substantial portions of the Software.
+>
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+> FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+> COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+> IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+> CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+**Curated data** — `research/mistranslations/mistranslations.json`, the study
+specs, and the editorial fields of `versions.json` (year, base text, translation
+philosophy, tradition, notes): CC BY 4.0. Quoted scripture inside the generated
+files (`EVIDENCE.md`, `evidence.json`, `studies/*.md`) carries the terms of
+whichever version it is quoted from — see §3.
+
+---
+
+## 2. Share-alike obligations — these travel with the files
+
+**Two components are licensed CC BY-SA, and share-alike is a condition, not a
+courtesy.** If you redistribute these files, or anything derived from them, you
+must license that redistribution under CC BY-SA 4.0 (or a compatible licence) and
+keep the attribution intact.
+
+| Path | Upstream | Licence |
+| --- | --- | --- |
+| `lexicon/strongs-hebrew.json` | [openscriptures/strongs](https://github.com/openscriptures/strongs) | **CC BY-SA** |
+| `lexicon/strongs-greek.json` | [openscriptures/strongs](https://github.com/openscriptures/strongs) | **CC BY-SA** |
+| `versions/en/FAMILY 35 NEW TESTAMENT.json` | Wilbur N. Pickering, *The New Testament with Commentary according to Family 35* | **CC BY-SA 4.0** |
+
+Practical consequences:
+
+- **Do not relicense these files** under MIT, Apache-2.0, or any other
+  non-share-alike licence.
+- **A modified Strong's dictionary is still CC BY-SA.** Reformatting, merging into
+  a database, or extracting a subset all produce derivative works.
+- **Attribution must survive.** Name the upstream project and licence wherever you
+  redistribute.
+
+This does **not** convert the whole repository to CC BY-SA. Share-alike attaches
+to those files and to works derived from them, not to independent files merely
+distributed alongside them. If you are building a product that mixes this data
+with proprietary code, get that boundary reviewed by someone qualified rather
+than relying on this paragraph.
+
+### Attribution-only (CC BY) — attribution required, share-alike not
+
+| Path | Upstream | Licence |
+| --- | --- | --- |
+| `lexicon/hebrew.json` | [openscriptures/morphhb](https://github.com/openscriptures/morphhb) (Westminster Leningrad Codex with Strong's lemmas and morphology) | CC BY 4.0 |
+| `versions/en/TEXT-CRITICAL ENGLISH NEW TESTAMENT.json` | Robert Adam Boyd | CC BY 4.0 |
+
+### Public domain
+
+| Path | Upstream |
+| --- | --- |
+| `lexicon/greek.json` | [byztxt/byzantine-majority-text](https://github.com/byztxt/byzantine-majority-text) — Robinson-Pierpont, explicitly placed in the public domain |
+
+`lexicon/SOURCES.md` records the same provenance alongside the build report.
+
+---
+
+## 3. Bible texts — status varies by text
+
+`versions.json` carries a `year`, `base_text` and `note` for each version and is
+the best starting point for working out the status of any one file.
+
+**Public domain by age (verified licence statement at source):** Wycliffe (1395),
+Tyndale New Testament (1526), Geneva Bible (1599), Leeser Old Testament (1853),
+Targum Onkelos / Etheridge (1862), Noyes Translation (1869), KJV Cambridge
+Paragraph Bible (1873), Darby Bible (1890), Bible in Basic English, and the
+long-standing public-domain texts already in the corpus (KJV, ASV, YLT,
+Douay-Rheims, Webster, JPS 1917, Brenton, the Greek and Hebrew source editions,
+the Clementine Vulgate, and the older non-English versions).
+
+**Public domain by age of the underlying text, digital edition's licence not
+individually verified:** Samaritan Pentateuch, Syriac Peshitta, Vulgata Sixtina
+(1590), Gothic Bible / Wulfila (c. 350), Rotherham Emphasised Bible (1902),
+Twentieth Century New Testament (1904). The texts themselves are far out of
+copyright; the transcriptions were obtained via
+[scrollmapper/bible_databases](https://github.com/scrollmapper/bible_databases).
+
+**Licence not verified:** `versions/he/MIQRA AL PI HAMESORAH` is a *modern*
+(2013) critical edition, so age does not put it in the public domain. Confirm its
+terms before redistributing it specifically.
+
+---
+
+## 4. Modern translations under active copyright — read this before redistributing
+
+**This repository contains complete texts of modern English translations that are
+under active copyright and are not licensed by this file.** They predate the
+lexicon and research work and no permission or licensing arrangement for them is
+recorded anywhere in the repository.
+
+At minimum the following appear to fall in this category:
+
+> Amplified Bible · Aramaic Bible in Plain English · Berean Standard Bible ·
+> Christian Standard Bible · Contemporary English Version · English Standard
+> Version · God's Word Translation · Good News Translation · Holman Christian
+> Standard Bible · International Standard Version · Legacy Standard Bible ·
+> Literal Standard Version · Majority Standard Bible · NASB 1977 · NASB 1995 ·
+> NET Bible · New American Bible · New American Standard Bible · New Heart English
+> Bible · New International Version · New King James Version · New Living
+> Translation · New Revised Standard Version · Peshitta Holy Bible Translated
+>
+> …and the Contemporary English Version, Good News Translation, New American Bible
+> and New Revised Standard Version files under `apocrypha-versions/`.
+
+Most publishers permit limited quotation without written permission — typically a
+few hundred to a thousand verses, not exceeding a stated fraction of the work, and
+not a whole book. Redistributing a complete text goes well beyond that. Anyone
+relying on this repository, and the repository owner, should treat these files as
+a question to resolve rather than a settled permission.
+
+This section is a factual note about what the repository contains. It grants no
+rights and is not a determination of infringement.
+
+---
+
+## 5. Not legal advice
+
+This file records the provenance and stated terms of the material as far as they
+could be established from the sources, and it is written by the repository's
+contributors, not by a lawyer. It is a starting point for doing your own
+diligence, not a substitute for it. Where a source's own licence statement
+conflicts with anything here, **the source's statement governs.**

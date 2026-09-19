@@ -13,7 +13,8 @@
     "transliteration-as-name": "A common noun or epithet was carried over as if it were a proper name.",
     "anachronism": "A term was rendered with a concept that did not exist when the text was written.",
     "interpretive-gloss": "The rendering imports a later doctrinal reading rather than translating the words.",
-    "folk-etymology": "A popular claim of mistranslation that scholarship does not support. Included so the dataset can be used to test claims, not only to confirm them."
+    "folk-etymology": "A popular claim of mistranslation that scholarship does not support. Included so the dataset can be used to test claims, not only to confirm them.",
+    "scribal-harmonization": "A scribe altered wording to remove a theological difficulty. Distinguished from textual-interpolation by motive and shape: nothing is added, a word is swapped for a safer one."
   },
   "consensus_levels": {
     "strong": "Broad agreement across confessional lines that the rendering departs from the source.",
@@ -88,7 +89,13 @@
       },
       "caveat": "That 'in quo' is not what the Greek says is near-universally granted; whether Augustine's doctrine actually depends on it, or merely found support in it, is debated. Some read eph' hō as 'on the basis of which' or even 'on which condition'. The English split is now datable: Geneva 1599 reads 'in who all men haue sinned', carrying the Latin; Tyndale 1526 reads 'in somoche that all men synned', which is the causal sense of the Greek. Tyndale, working from Erasmus, got there seventy years earlier. Wycliffe (1395) is now the earliest English witness and carries the Latin straight through: 'deth passide forth in to alle men, in whic alle men synneden'.",
       "sources": [
-        "https://ethosinstitute.sg/adams-sin/",
+        "https://ethosinstitute.sg/adams-sin/"
+      ],
+      "scholarship": [
+        "Joseph A. Fitzmyer, Romans (Anchor Bible, 1993) - on eph' ho and the Latin rendering.",
+        "Peter Brown, Augustine of Hippo: A Biography, rev. ed. (California, 2000)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Original_sin"
       ]
     },
@@ -120,7 +127,7 @@
         "Douay-Rheims"
       ],
       "what_happened": "The Hebrew verb qāran is denominative from qeren, 'horn', and in this context means that Moses' face emitted beams of light. Jerome rendered it literally as 'horned'.",
-      "doctrinal_impact": "A millennium of Western art depicted Moses with horns - Michelangelo's Moses in San Pietro in Vincoli is the famous case. The image fed a durable antisemitic trope of horned Jews in medieval and early-modern Europe. A rare case where the downstream damage was iconographic and social rather than doctrinal.",
+      "doctrinal_impact": "A millennium of Western art depicted Moses with horns - Michelangelo's Moses in San Pietro in Vincoli is the famous case. The image was later attached to an antisemitic trope of horned Jews in medieval and early-modern Europe. A rare case where the downstream effect was iconographic and social rather than doctrinal.",
       "impact_domains": [
         "art",
         "antisemitism",
@@ -151,12 +158,16 @@
           "en/GENEVA BIBLE 1599"
         ]
       },
-      "caveat": "Some argue Jerome intended 'horned' as a recognised idiom for radiance rather than as an error. The Septuagint already read it as glorification (dedoxastai), showing the radiance reading was available to him.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Horns_of_Moses"
-      ],
+      "caveat": "CORRECTED after checking the standard monograph. Ruth Mellinkoff's 'The Horned Moses in Medieval Art and Thought' (1970) argues that Jerome most likely intended 'cornuta' as a metaphor for Moses' newly evident POWER, not as an error and not as a slur: horns signified divine authority across the ancient Near East, and horned headgear marked priests and kings. She distinguishes medieval 'horns of honour' from 'horns of dishonour' and treats the antisemitic reading as a later development rather than the origin. The earlier version of this case overstated the causal chain: the Vulgate reading is real and the art tradition is real, but 'the mistranslation caused the antisemitic trope' is not what the definitive study concludes. The Septuagint had already read it as glorification (dedoxastai), showing the radiance reading was available to Jerome.",
+      "sources": [],
       "strongs": [
         "H7160"
+      ],
+      "scholarship": [
+        "Ruth Mellinkoff, The Horned Moses in Medieval Art and Thought (University of California Press, 1970) - the standard monograph, and it qualifies this case rather than supporting it."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Horns_of_Moses"
       ]
     },
     {
@@ -229,9 +240,7 @@
         ]
       },
       "caveat": "This repository is unusually good for this case: the Byzantine Majority Text omits the Comma while the two Textus Receptus editions include it, so the contrast is visible inside the Greek files alone. Wycliffe 1395 carries the Comma into English from the Vulgate, four generations before Erasmus admitted it to the printed Greek - which is the clearest demonstration that it reached English through Latin, not through Greek manuscripts.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Johannine_Comma"
-      ],
+      "sources": [],
       "distinguish_from": {
         "claim": "The doctrine of the Trinity",
         "rests_on": [
@@ -240,7 +249,13 @@
           "2 Corinthians 13:14"
         ],
         "note": "The Comma was the most-quoted English proof-text for three centuries, but the doctrine was defined at Nicaea and Constantinople by Greek-speaking bishops whose manuscripts did not contain it. Removing it removes a proof-text, not the doctrine."
-      }
+      },
+      "scholarship": [
+        "Bruce M. Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (UBS, 1994), on 1 John 5:7-8 - traces the clause to a 4th-century Latin treatise and its entry into Vulgate MSS from the 6th century."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Johannine_Comma"
+      ]
     },
     {
       "id": "matt-4-17-paenitentiam-agite",
@@ -312,11 +327,17 @@
       },
       "caveat": "Catholic scholars note that 'paenitentiam agere' could carry a broader sense of 'be penitent' in Jerome's Latin, and that the penitential system did not derive from this verse alone. The historical effect is not in dispute. Now visible end to end in English: Wycliffe (1395), translating the Vulgate, reads 'Do ye penaunce'; Tyndale (1526), translating Erasmus' Greek, reads 'repent'; Geneva (1599) reads 'Amende your liues'. The Reformation's central exegetical claim is legible as a change of two English words between two translations.",
       "sources": [
-        "https://en.wikipedia.org/wiki/Poenitentiam_agite",
         "https://www.1517.org/articles/the-mistranslation-that-sparked-the-reformation"
       ],
       "strongs": [
         "G3340"
+      ],
+      "scholarship": [
+        "David Daniell, The Bible in English: Its History and Influence (Yale, 2003).",
+        "Erika Rummel, Erasmus' Annotations on the New Testament (Toronto, 1986)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Poenitentiam_agite"
       ]
     },
     {
@@ -384,9 +405,7 @@
         ]
       },
       "caveat": "The identification of Isaiah 14 with Satan predates the Vulgate (it is in Origen and Tertullian), so the Latin word reinforced an existing reading rather than creating it from nothing. The capitalisation in English is what fixed it as a proper name. Geneva 1599 already reads 'O Lucifer, sonne of the morning', so the capitalised proper name entered English at least twelve years before the KJV. Wycliffe 1395 - 'A! Lucifer, that risidist eerli' - is the earliest English witness. The split is not chronological but confessional and text-critical: Leeser's Jewish translation reads 'O morning-star' in 1853 and Rotherham 'O Shining One' in 1902, while Darby and Noyes keep 'Lucifer' in the same period.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Lucifer"
-      ],
+      "sources": [],
       "distinguish_from": {
         "claim": "Satan's fall from heaven",
         "rests_on": [
@@ -397,6 +416,13 @@
       },
       "strongs": [
         "H1966"
+      ],
+      "scholarship": [
+        "Joseph Blenkinsopp, Isaiah 1-39 (Anchor Bible, 2000).",
+        "Jeffrey Burton Russell, The Devil: Perceptions of Evil from Antiquity to Primitive Christianity (Cornell, 1977)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Lucifer"
       ]
     },
     {
@@ -464,6 +490,9 @@
         "https://www.cbeinternational.org/resource/junia-female-apostle-examination-historical-record/",
         "https://www.bibleodyssey.org/articles/junia/",
         "https://etsjets.org/wp-content/uploads/2020/09/files_JETS-PDFs_63_63-3_JETS_63.3_517-33_Ng.pdf"
+      ],
+      "scholarship": [
+        "Eldon Jay Epp, Junia: The First Woman Apostle (Fortress, 2005) - the standard treatment, tracing the masculinisation through manuscripts, accentuation and modern critical editions."
       ]
     },
     {
@@ -535,7 +564,6 @@
       },
       "caveat": "Not a clean error. Most scholars hold 'young woman' is the better rendering, but 'almāh does not exclude virginity, and an unmarried young woman would ordinarily be presumed a virgin. Best described as interpretive narrowing that later bore enormous doctrinal weight. Matthew's argument depends on the Greek, so for Matthew 1:23 'virgin' is simply correct. MAJOR CORRECTION on the evidence now in this repository: the RSV did not introduce 'young woman' into English in 1952. Leeser's Jewish translation reads 'this young woman' in 1853, Noyes reads 'the damsel' in 1869, and the Bible in Basic English reads 'a young woman' in 1949 - three English versions with the non-virgin reading, spanning a century before the RSV. The 1952 controversy was not about a novel rendering; it was about that rendering appearing in a mainline pulpit Bible.",
       "sources": [
-        "https://en.wikipedia.org/wiki/Isaiah_7:14",
         "https://bibleinterp.arizona.edu/opeds/hag368019"
       ],
       "study": "studies/isa-7-14-almah.md",
@@ -550,6 +578,12 @@
       },
       "strongs": [
         "H5959"
+      ],
+      "scholarship": [
+        "Peter J. Thuesen, In Discordance with the Scriptures: American Protestant Battles over Translating the Bible (Oxford, 1999) - on the RSV controversy this verse triggered."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Isaiah_7:14"
       ]
     },
     {
@@ -634,6 +668,10 @@
       "strongs": [
         "G733",
         "G3120"
+      ],
+      "scholarship": [
+        "Dale B. Martin, Sex and the Single Savior: Gender and Sexuality in Biblical Interpretation (Westminster John Knox, 2006) - includes his essay on arsenokoites and malakos.",
+        "Anthony C. Thiselton, The First Epistle to the Corinthians (NIGTC, Eerdmans, 2000) - surveys the lexical debate from the other side."
       ]
     },
     {
@@ -699,7 +737,12 @@
         ]
       },
       "caveat": "Whether Jerome himself wrote 'ipsa' or it entered in transmission is disputed; his commentary on Isaiah shows he knew the Hebrew is masculine. Modern Catholic scholarship does not defend 'ipsa' as a translation, only the typology it came to carry. This case is now as close to settled as the dataset gets. FOUR independent ancient traditions read a masculine subject: the Masoretic Text, the Samaritan Pentateuch (a Hebrew tradition separate from the Jewish one since c. 200 BCE), the Septuagint, and Targum Onkelos. Only the Latin reads a feminine - and it does so in BOTH official printed editions, the Sixtine of 1590 and the Clementine of 1592, so this was not a stray printing. Wycliffe then carried it into English as 'sche schal breke thin heed'.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Claus Westermann, Genesis 1-11: A Commentary (Fortress, 1984).",
+        "Marina Warner, Alone of All Her Sex: The Myth and the Cult of the Virgin Mary (Knopf, 1976)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Protoevangelium"
       ]
     },
@@ -763,11 +806,15 @@
         ]
       },
       "caveat": "In the 4th century 'sacramentum' was a reasonable equivalent; the drift happened in the Latin word, not at the moment of translation. This is a case of a translation aging badly rather than being wrong when made. Tyndale and Geneva both read 'a great secrete', refusing the sacramental vocabulary outright. The Reformation's rejection of marriage as a sacrament is visible in the word choice itself.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sacrament"
-      ],
+      "sources": [],
       "strongs": [
         "G3466"
+      ],
+      "scholarship": [
+        "Ernest Best, Ephesians (ICC, T&T Clark, 1998)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Sacrament"
       ]
     },
     {
@@ -832,11 +879,16 @@
         ]
       },
       "caveat": "'Full of grace' is defensible as dynamic equivalence; the perfect passive does imply a completed, abiding state. The dispute is over how much theological weight the participle can carry, not over a flat error. Wycliffe and Tyndale both read 'full of grace'; Geneva 1599 breaks with them - 'Haile thou that art freely beloued' - which is close to what modern critical versions do, four centuries early.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Hail_Mary"
-      ],
+      "sources": [],
       "strongs": [
         "G5487"
+      ],
+      "scholarship": [
+        "Joseph A. Fitzmyer, The Gospel According to Luke I-IX (Anchor Bible, 1981).",
+        "Marina Warner, Alone of All Her Sex (Knopf, 1976)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Hail_Mary"
       ]
     },
     {
@@ -903,7 +955,11 @@
         ]
       },
       "caveat": "The Latin itself reflects a real variant tradition; Erasmus did not invent the reading so much as enshrine it in Greek. Note that the Vulgate here is a witness to the shifted reading.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Bruce M. Metzger and Bart D. Ehrman, The Text of the New Testament, 4th ed. (Oxford, 2005) - on Erasmus' back-translation of the final leaf."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Textus_Receptus"
       ]
     },
@@ -965,7 +1021,12 @@
         ]
       },
       "caveat": "In early modern English 'Easter' could still denote the paschal season generally, so the KJV translators were less obviously wrong than they look now. The NKJV's silent correction is itself informative. Verified here: Webster's 1833 revision of the KJV silently reads 'the passover', so the correction was being made in the KJV's own line of descent nearly two centuries before the NKJV. CORRECTION: the rendering originates with Tyndale (1526), who reads 'entendynge after ester'. More striking, Geneva 1599 had already corrected it to 'after the Passeouer' - so the KJV translators had the right reading in front of them and reverted to Tyndale's. That makes this a deliberate choice rather than an oversight.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "David Daniell, The Bible in English (Yale, 2003).",
+        "David Daniell, William Tyndale: A Biography (Yale, 1994)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Easter"
       ]
     },
@@ -1029,7 +1090,11 @@
         ]
       },
       "caveat": "Not a mistranslation but a transmission event, included because the doctrinal and practical effects are of the same kind. Warning: this repository's version files carry no textual apparatus, so versions that bracket or footnote these verses are indistinguishable here from versions that print them as plain text. Verify against a critical edition before drawing conclusions from the JSON alone.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Bruce M. Metzger, A Textual Commentary on the Greek New Testament, pp. 122-126 - the UBS committee printed the verses in double square brackets to mark them as by a hand other than the evangelist."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Mark_16"
       ]
     },
@@ -1093,7 +1158,11 @@
         ]
       },
       "caveat": "Many scholars who judge it non-Johannine still regard the story as early and plausibly historical. As with Mark 16, the repository's plain-text JSON cannot show which versions bracket the passage.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Bruce M. Metzger, A Textual Commentary on the Greek New Testament, on John 7:53-8:11."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Jesus_and_the_woman_taken_in_adultery"
       ]
     },
@@ -1157,7 +1226,11 @@
         ]
       },
       "caveat": "The KJV is not really mistranslating; the popular proverb is. Useful as a control case: it tests whether an analysis pipeline can distinguish a translation problem from a reception problem. Tyndale reads 'coveteousnes is the rote of all evyll' and Geneva 'the desire of money is the roote of all euill' - both keep the subject on the desire rather than the money.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "I. Howard Marshall, The Pastoral Epistles (ICC, T&T Clark, 1999)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Love_of_money"
       ]
     },
@@ -1230,6 +1303,10 @@
       ],
       "strongs": [
         "H3784"
+      ],
+      "scholarship": [
+        "Nahum M. Sarna, The JPS Torah Commentary: Exodus (JPS, 1991) - on mekhashephah within the covenant code.",
+        "Brian P. Levack, The Witch-Hunt in Early Modern Europe, 4th ed. (Routledge, 2016) - on how far scriptural warrant actually drove the prosecutions."
       ]
     },
     {
@@ -1299,11 +1376,16 @@
         ]
       },
       "caveat": "A minority argues rātsach is broader than 'murder' because it covers negligent homicide, so 'murder' overcorrects. 'Kill' is nonetheless too broad.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Thou_shalt_not_kill"
-      ],
+      "sources": [],
       "strongs": [
         "H7523"
+      ],
+      "scholarship": [
+        "Wilma Ann Bailey, 'You Shall Not Kill' or 'You Shall Not Murder'? The Assault on a Biblical Text (Liturgical Press, 2005) - a book-length treatment of exactly this case.",
+        "Nahum M. Sarna, The JPS Torah Commentary: Exodus (JPS, 1991)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Thou_shalt_not_kill"
       ]
     },
     {
@@ -1361,11 +1443,15 @@
         ]
       },
       "caveat": "'Shifted' and 'corrected' are not neutral labels here and the dataset flags this case as contested for that reason. Serious scholars defend both renderings; the evidence base is a handful of occurrences in Greek literature spanning centuries. Verified here: the KJV's 'usurp authority' and the NIV 2011's 'assume authority' permit a narrower reading, while the ESV, NASB, CSB, NRSV and NET all use the ordinary office language. The split does not track conservative against progressive, which is itself the point.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/1_Timothy_2:12"
-      ],
+      "sources": [],
       "strongs": [
         "G831"
+      ],
+      "scholarship": [
+        "I. Howard Marshall, The Pastoral Epistles (ICC, 1999) - surveys the lexical evidence for authentein from both sides of the debate."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/1_Timothy_2:12"
       ]
     },
     {
@@ -1435,11 +1521,15 @@
         ]
       },
       "caveat": "'Helper' is not wrong, only underdetermined; the argument is about what English connotations it carries. Not every scholar accepts that kenegdo implies equality. Note that the JPS TANAKH 1917 reproduces the KJV's 'help meet' exactly, so this is not a Christian-versus-Jewish divergence - the versions that render kenegdo as 'partner' or 'counterpart' are all recent.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ezer_kenegdo"
-      ],
+      "sources": [],
       "strongs": [
         "H5828"
+      ],
+      "scholarship": [
+        "Phyllis Trible, God and the Rhetoric of Sexuality (Fortress, 1978) - the landmark study of this phrase."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Ezer_kenegdo"
       ]
     },
     {
@@ -1503,9 +1593,7 @@
         ]
       },
       "caveat": "Calling either reading the 'mistranslation' is tendentious, which is why the consensus grade is contested. The Dead Sea Scrolls evidence that bears on it is not in this repository - see the coverage report. Leeser 1853 and Noyes 1869 both print 'like lions', following the Masoretic vocalization, while Rotherham and Darby print 'pierced'. The split runs between translators of the same generation reading the same consonants.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Psalm_22"
-      ],
+      "sources": [],
       "distinguish_from": {
         "claim": "That Jesus was crucified",
         "rests_on": [
@@ -1514,7 +1602,14 @@
           "Mark 15:24"
         ],
         "note": "The crucifixion narrative is independent of Psalm 22:16. The disputed vocalization bears on whether the Hebrew Bible prophesied it, not on whether the Gospels report it."
-      }
+      },
+      "scholarship": [
+        "Emanuel Tov, Textual Criticism of the Hebrew Bible, 3rd ed. (Fortress, 2012).",
+        "John Goldingay, Psalms, vol. 1 (Baker Academic, 2006)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Psalm_22"
+      ]
     },
     {
       "id": "deut-32-8-sons-of-god",
@@ -1577,7 +1672,12 @@
         ]
       },
       "caveat": "The direction of the change is inferred, not observed; a minority holds the Masoretic reading original. The Qumran witness is decisive for most scholars and is absent from this repository, but Brenton and Swete let you see the Septuagint side. New evidence here, and it cuts against the majority view: the Samaritan Pentateuch - an independent Hebrew tradition - also reads 'sons of Israel'. So the Hebrew manuscript traditions agree with each other and the Greek stands alone, which is the opposite of the pattern at Genesis 3:15. Anyone using this dataset should notice that the same kind of argument points different ways at these two verses.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Emanuel Tov, Textual Criticism of the Hebrew Bible, 3rd ed. (Fortress, 2012).",
+        "Jeffrey H. Tigay, The JPS Torah Commentary: Deuteronomy (JPS, 1996)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Deuteronomy_32"
       ]
     },
@@ -1650,13 +1750,17 @@
         ]
       },
       "caveat": "This is the dataset's one multi-reference lexical case; treat each reference separately when analysing. The ASV's consistent transliteration makes it the best control version in this repository for the whole word-family. Geneva 1599 renders Psalm 16:10 'thou wilt not leaue my soule in the graue', not 'in hell' - so the correction the ASV is usually credited with had already been made in 1599 and was then undone by the KJV. Darby (1890) prints 'Sheol' and Rotherham (1902) 'hades' at Psalm 16:10, so the distinction the ASV is usually credited with was being made by several 19th-century translators. Wycliffe is deliberately NOT cited here: its Psalms follow Vulgate numbering, so Wycliffe Psalm 16 is the Hebrew Psalm 17.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Christian_views_on_Hades"
-      ],
+      "sources": [],
       "strongs": [
         "H7585",
         "G86",
         "G1067"
+      ],
+      "scholarship": [
+        "Alan E. Bernstein, The Formation of Hell: Death and Retribution in the Ancient and Early Christian Worlds (Cornell, 1993)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Christian_views_on_Hades"
       ]
     },
     {
@@ -1723,11 +1827,16 @@
         ]
       },
       "caveat": "Here the 'corrected' column is the disputed one: many scholars hold 'firmament' better conveys what the author meant, and 'expanse' is the tendentious rendering. A good test case for a dataset that should not assume newer is truer. Verified here: the JPS TANAKH 1917 reads 'firmament' alongside the KJV, so this is not a case where Jewish and Christian versions diverge.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Firmament"
-      ],
+      "sources": [],
       "strongs": [
         "H7549"
+      ],
+      "scholarship": [
+        "Paul H. Seely, 'The Firmament and the Water Above', Westminster Theological Journal (1991).",
+        "Claus Westermann, Genesis 1-11 (Fortress, 1984)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Firmament"
       ]
     },
     {
@@ -1786,7 +1895,11 @@
         ]
       },
       "caveat": "A minority holds Matthew understood the parallelism perfectly well and reports two animals for reasons of his own. Verified here, and it reshapes the case: at Matthew 21:5 every English version renders two clauses, because Matthew's Greek has two. The versions only diverge at 21:7, where the KJV, NRSV and NET all read 'he sat on them' and the NIV alone writes 'for Jesus to sit on'. The NIV's rendering is a harmonisation rather than a correction, so 'corrected' is a label of convenience here - treat this case as a study of how versions handle an awkward text, not of who got it right.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "W. D. Davies and Dale C. Allison, The Gospel According to Saint Matthew (ICC, T&T Clark, 1988-97)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Triumphal_entry_into_Jerusalem"
       ]
     },
@@ -1855,7 +1968,12 @@
         ]
       },
       "caveat": "Strictly a textual variant that then forces a translation choice. The Vulgate sides with the critical text here, which makes it a useful counterexample to any assumption that the Latin always follows the Byzantine.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Bruce M. Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (UBS, 1994), on Luke 2:14.",
+        "Joseph A. Fitzmyer, The Gospel According to Luke I-IX (Anchor Bible, 1981)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Gloria_in_excelsis_Deo"
       ]
     },
@@ -1916,7 +2034,11 @@
         ]
       },
       "caveat": "Labels inverted on purpose: the majority of grammarians favour the predicative reading the KJV has, so here the older version is the better one and the revision is the outlier. Included to keep the dataset from encoding a 'newer is truer' bias. Verified here: only the English Revised Version carries the attributive reading; the NRSV reverted to 'All scripture is inspired by God', so the 1881 revision stands alone against every other version in this repository. The attributive reading is not an 1881 novelty: Tyndale 1526 reads 'all scripture geve by inspiracion of god is proffitable', which is the construction that caused an outcry when the Revised Version printed it 355 years later. Geneva 1599 has the predicative 'the whole Scripture is giuen by inspiration of God'.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "I. Howard Marshall, The Pastoral Epistles (ICC, 1999) - on the predicative and attributive construals."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Biblical_inspiration"
       ]
     },
@@ -1975,11 +2097,15 @@
         ]
       },
       "caveat": "No English version reads 'rapture' here, so this is reception rather than translation: the Latin made an English noun available and theology did the rest. Kept in the dataset because it shows a translation effect no verse-comparison alone would reveal.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Rapture"
-      ],
+      "sources": [],
       "strongs": [
         "G726"
+      ],
+      "scholarship": [
+        "Ernest R. Sandeen, The Roots of Fundamentalism: British and American Millenarianism 1800-1930 (Chicago, 1970) - on Darby and the pre-tribulational scheme."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Rapture"
       ]
     },
     {
@@ -2052,6 +2178,9 @@
       ],
       "strongs": [
         "G2574"
+      ],
+      "scholarship": [
+        "W. D. Davies and Dale C. Allison, The Gospel According to Saint Matthew (ICC, T&T Clark, 1988-97) - treats kamelos as secure and the rope variant as secondary."
       ]
     },
     {
@@ -2118,7 +2247,12 @@
         ]
       },
       "caveat": "Genuinely open. The absolute reading has strong defenders on grammatical grounds, and most English versions retain it. The dataset records the dispute. Verified here: only the NRSV and NAB carry the dependent reading in their main text. The NET's dependent reading lives in a translator's note, which this corpus does not store - an instance of the apparatus gap described in COVERAGE.md.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Claus Westermann, Genesis 1-11 (Fortress, 1984).",
+        "Gordon J. Wenham, Genesis 1-15 (Word Biblical Commentary, 1987)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Genesis_1:1"
       ]
     },
@@ -2182,7 +2316,12 @@
         ]
       },
       "caveat": "Not a mistranslation in any straightforward sense - it is a case where translation cannot preserve a pun, and the untranslatable residue became a confessional fault line. Verified here, and the result is blunt: the KJV, NRSV and NET obscure the wordplay exactly as the Vulgate and Douay-Rheims do, all reading 'Peter ... rock'. Only the two Peshitta-derived versions show it - the Aramaic Bible in Plain English reads 'you are Kaypha, and upon this stone', and the Lamsa Bible 'you are a stone, and upon this stone'. Confessional allegiance does not predict the rendering; source language does. Wycliffe is a third witness that preserves something of the pun - 'thou art Petre, and on this stoon' - where Tyndale, Geneva and the KJV all read 'rocke'/'rock'. The Peshitta is now present in Syriac itself, not only in English translation: at Matthew 16:18 it reads kepha twice, which is the Aramaic situation the whole Protestant-Catholic argument is reconstructing from a distance.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "W. D. Davies and Dale C. Allison, Matthew (ICC, 1988-97).",
+        "Oscar Cullmann, Peter: Disciple, Apostle, Martyr, 2nd ed. (Westminster, 1962)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Matthew_16:18"
       ]
     },
@@ -2246,7 +2385,12 @@
         ]
       },
       "caveat": "The Hebrew is genuinely corrupt or elliptical here; no reading is comfortable. Contested rather than settled, and a good stress test for any pipeline: within this repository the NIV, ESV and CSB carry the third-person reading while the KJV, NASB, NET and JPS 1917 carry 'I hate', so the same verse splits the modern versions down the middle rather than along the usual old/new line. Geneva 1599 reads 'If thou hatest her, put her away ... yet he couereth the iniurie vnder his garment' - the conditional third-person construction that the ESV and CSB adopted in the 2010s. The 'I hate divorce' reading is the innovation here, not the correction.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Andrew E. Hill, Malachi (Anchor Bible, 1998).",
+        "David Instone-Brewer, Divorce and Remarriage in the Bible (Eerdmans, 2002)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/Malachi_2"
       ]
     },
@@ -2307,11 +2451,15 @@
         ]
       },
       "caveat": "The lexical dispute is technical and the word is rare; 'majority' rather than 'strong' for that reason.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Philippians_2"
-      ],
+      "sources": [],
       "strongs": [
         "G725"
+      ],
+      "scholarship": [
+        "Roy W. Hoover, 'The Harpagmos Enigma: A Philological Solution', Harvard Theological Review 64 (1971) - established the idiomatic sense now followed by most modern versions."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Philippians_2"
       ]
     },
     {
@@ -2366,7 +2514,12 @@
         ]
       },
       "caveat": "Graded contested because the grammatical question is real even though the consensus verdict is not close: 'a god' is rejected by the overwhelming majority of Greek grammarians. The New World Translation is not in this repository, so the disputed rendering cannot be quoted from it here - see the coverage report.",
-      "sources": [
+      "sources": [],
+      "scholarship": [
+        "Daniel B. Wallace, Greek Grammar Beyond the Basics (Zondervan, 1996) - on anarthrous pre-verbal predicate nominatives and the limits of Colwell's rule.",
+        "Raymond E. Brown, The Gospel According to John I-XII (Anchor Bible, 1966)."
+      ],
+      "further_reading": [
         "https://en.wikipedia.org/wiki/John_1:1"
       ]
     },
@@ -2429,11 +2582,16 @@
         ]
       },
       "caveat": "No rendering is agreed; 'corrected' here means 'preserves the ambiguity' rather than 'gets it right'.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Divorce_in_Christianity"
-      ],
+      "sources": [],
       "strongs": [
         "G4202"
+      ],
+      "scholarship": [
+        "David Instone-Brewer, Divorce and Remarriage in the Bible (Eerdmans, 2002).",
+        "W. D. Davies and Dale C. Allison, Matthew (ICC, 1988-97)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Divorce_in_Christianity"
       ]
     },
     {
@@ -2493,17 +2651,196 @@
         ]
       },
       "caveat": "Some hold the office of deacon was not yet fixed when Romans was written, making 'servant' defensible. That defence has to explain the inconsistent handling of the same word within a single version, which is the analysable part and the reason this case is well suited to automated comparison. Verified here: the KJV, ESV, NASB, NET and CSB all read 'servant' at Romans 16:1 and 'deacons' at 1 Timothy 3:8; the NRSV and NIV read 'deacon' in both places.",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Phoebe_(biblical_figure)"
-      ],
+      "sources": [],
       "strongs": [
         "G1249"
+      ],
+      "scholarship": [
+        "Carolyn Osiek and Margaret Y. MacDonald, A Woman's Place: House Churches in Earliest Christianity (Fortress, 2006).",
+        "Eldon Jay Epp, Junia: The First Woman Apostle (Fortress, 2005)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Phoebe_(biblical_figure)"
+      ]
+    },
+    {
+      "id": "luke-1-34-andra-ou-ginosko",
+      "title": "andra ou ginōskō -> 'I am a virgin': a verb becomes an identity",
+      "type": "interpretive-gloss",
+      "consensus": "majority",
+      "references": [
+        "Luke 1:34"
+      ],
+      "source_term": {
+        "language": "greek",
+        "form": "ἄνδρα οὐ γινώσκω",
+        "translit": "andra ou ginōskō",
+        "gloss": "I do not know a man (or: a husband) - present indicative active"
+      },
+      "rendered_as": {
+        "language": "english",
+        "form": "since I am a virgin",
+        "gloss": "a statement of status"
+      },
+      "transmission_chain": [
+        "Greek NT",
+        "Latin (virum non cognosco)",
+        "literal English through the KJV",
+        "20th-century English versions"
+      ],
+      "what_happened": "Mary's only statement about her own sexual history is a verb phrase in the present tense: 'I do not know a man'. Sixteen English versions in this repository render it as a predicate noun - 'I am a virgin' - converting a statement about what she has not done into a statement about what she is. The Greek noun for virgin, parthenos (G3933), does occur in this chapter, at Luke 1:27, where the NARRATOR introduces Mary. It does not occur in her own speech. That contrast is computable from lexicon/ and is the cleanest evidence in the case.",
+      "narrative_context": "Mary is NOT yet pregnant when she says this, and the verb morphology settles it. At Luke 1:31 Gabriel says syllēmpsē, 'you WILL conceive' (V-FDI-2S, future). Mary's question at 1:34 uses estai, 'how WILL this be' (V-FDI-3S, future), with ginōskō in the present (V-PAI-1S). Gabriel's answer at 1:35 is future throughout: epeleusetai 'will come upon' (V-FDI-3S), episkiasei 'will overshadow' (V-FAI-3S). At 1:38 she consents with genoito, an aorist optative of wish - 'may it be'. Luke never narrates the conception itself; by Elizabeth's greeting at 1:42 she is pregnant. So her question precedes the conception, and cannot be a claim about any child's paternity. In Matthew there is no annunciation to Mary at all - 1:18 opens with her already 'found to be with child', and Mary never speaks anywhere in that gospel.",
+      "doctrinal_impact": "Shapes who is understood to be the witness to the virgin birth. Under 'I am a virgin', Mary appears to assert her own status, and the verse reads as her testimony. Under the Greek, she asks a question whose premise is that she has not had sex, and every assertion about the child's origin is made by someone else: the angel at Luke 1:35, the narrator at Matthew 1:18, the angel to Joseph at 1:20. The doctrine is unaffected; its attribution is not. The same verse is also the textual anchor for later claims about Mary's perpetual virginity, which the present-tense verb does not support on its own.",
+      "impact_domains": [
+        "mariology",
+        "christology",
+        "doctrine-of-scripture"
+      ],
+      "first_attested": {
+        "where": "20th-century English versions; not in the KJV line",
+        "approx_date": "c. 1901-1970"
+      },
+      "strongs": [
+        "G435",
+        "G1097",
+        "G3933"
+      ],
+      "witnesses": {
+        "source": [
+          "el/WESTCOTT AND HORT 1881",
+          "el/NESTLE GREEK NEW TESTAMENT 1904",
+          "el/SCRIVENER'S TEXTUS RECEPTUS 1894"
+        ],
+        "shifted": [
+          "en/NEW INTERNATIONAL VERSION",
+          "en/ENGLISH STANDARD VERSION",
+          "en/NEW REVISED STANDARD VERSION",
+          "en/NEW AMERICAN STANDARD BIBLE",
+          "en/NASB 1995",
+          "en/NEW LIVING TRANSLATION",
+          "en/GOOD NEWS TRANSLATION",
+          "en/LEGACY STANDARD BIBLE",
+          "en/AMPLIFIED BIBLE",
+          "en/WORLD ENGLISH BIBLE"
+        ],
+        "corrected": [
+          "en/WYCLIFFE BIBLE",
+          "en/TYNDALE NEW TESTAMENT",
+          "en/GENEVA BIBLE 1599",
+          "en/KING JAMES BIBLE",
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/ROTHERHAM EMPHASISED BIBLE",
+          "en/DARBY BIBLE 1890",
+          "en/NET BIBLE",
+          "en/CHRISTIAN STANDARD BIBLE",
+          "en/NEW AMERICAN BIBLE",
+          "en/TWENTIETH CENTURY NEW TESTAMENT"
+        ]
+      },
+      "distinguish_from": {
+        "claim": "The virgin birth of Jesus",
+        "rests_on": [
+          "Luke 1:35",
+          "Matthew 1:18",
+          "Matthew 1:20"
+        ],
+        "note": "Nothing here weakens the virgin birth, which Luke and Matthew assert plainly in their own voice. What it changes is who is said to testify to it. Mary never uses the word 'virgin' of herself and never says the child has no human father; at Luke 2:48 she calls Joseph 'your father', which is ordinarily read as legal or adoptive fatherhood."
+      },
+      "caveat": "'I am a virgin' is defensible as dynamic equivalence - it conveys the presupposition of her question accurately enough, and no one disputes that Luke means she has not had sex. Graded majority, not strong, for that reason. Note also that the versions split three ways rather than two: 16 use the identity noun; the KJV line keeps the literal 'I know not a man'; and a third group (CSB, NET, NAB, HCSB, ISV, GWT) keeps the verb but modernises it - 'I have not had sexual relations with a man'. That third group is arguably the best rendering and is filed here as corrected. A minority reads andra as 'husband' rather than 'man', giving 'I have no husband' (Weymouth, Twentieth Century), which shifts the sense toward her betrothed but unconsummated status.",
+      "sources": [],
+      "scholarship": [
+        "Joseph A. Fitzmyer, The Gospel According to Luke I-IX (Anchor Bible, 1981).",
+        "Raymond E. Brown, The Birth of the Messiah, 2nd ed. (Doubleday, 1993)."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Annunciation",
+        "https://en.wikipedia.org/wiki/Virgin_birth_of_Jesus"
+      ]
+    },
+    {
+      "id": "luke-2-33-joseph-for-father",
+      "title": "'his father' -> 'Joseph': scribes edit Joseph out of fatherhood",
+      "type": "scribal-harmonization",
+      "consensus": "strong",
+      "references": [
+        "Luke 2:33",
+        "Luke 2:43"
+      ],
+      "source_term": {
+        "language": "greek",
+        "form": "ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ",
+        "translit": "ho patēr autou kai hē mētēr",
+        "gloss": "his father and his mother"
+      },
+      "rendered_as": {
+        "language": "greek",
+        "form": "Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ",
+        "translit": "Iōsēph kai hē mētēr autou",
+        "gloss": "Joseph and his mother"
+      },
+      "transmission_chain": [
+        "Greek NT",
+        "Byzantine text",
+        "Textus Receptus",
+        "KJV"
+      ],
+      "what_happened": "At Luke 2:33 the earliest witnesses read 'his father and his mother'; the Byzantine text and the Textus Receptus read 'Joseph and his mother'. The same substitution recurs at 2:43, where the critical text has 'his parents' (hoi goneis autou) and the TR again names Joseph. The direction of change is not seriously disputed: 'his father' is the harder reading, and no scribe defending the virgin birth would introduce it, while the motive for removing it is obvious.",
+      "doctrinal_impact": "A rare case where a scribal motive is legible from the change itself. Luke's own narrative calls Joseph Jesus' father without embarrassment - at 2:41 and 2:43 the parents are 'his parents', at 2:48 Mary says 'your father and I', and at 3:23 Luke adds his own hedge, 'as was supposed'. Scribes smoothed some of these and not others, so the KJV reader meets a Luke slightly more anxious about Joseph's status than Luke was. Relevant to Mariology, to perpetual-virginity debates, and as a demonstration that doctrinal pressure on the text is measurable rather than merely alleged.",
+      "impact_domains": [
+        "mariology",
+        "textual-criticism",
+        "christology"
+      ],
+      "first_attested": {
+        "where": "Byzantine tradition",
+        "approx_date": "5th c. CE onward"
+      },
+      "witnesses": {
+        "source": [
+          "el/WESTCOTT AND HORT 1881",
+          "el/NESTLE GREEK NEW TESTAMENT 1904",
+          "el/TISCHENDORF 8TH EDITION",
+          "la/LATIN: VULGATA CLEMENTINA",
+          "la/LATIN: VULGATA SIXTINA"
+        ],
+        "shifted": [
+          "el/SCRIVENER'S TEXTUS RECEPTUS 1894",
+          "el/STEPHANUS TEXTUS RECEPTUS 1550",
+          "el/RP BYZANTINE MAJORITY TEXT 2005",
+          "el/GREEK ORTHODOX CHURCH 1904",
+          "en/KING JAMES BIBLE",
+          "en/NEW KING JAMES VERSION",
+          "en/GENEVA BIBLE 1599",
+          "en/YOUNG'S LITERAL TRANSLATION",
+          "en/WORLD ENGLISH BIBLE"
+        ],
+        "corrected": [
+          "en/TYNDALE NEW TESTAMENT",
+          "en/AMERICAN STANDARD VERSION",
+          "en/ENGLISH REVISED VERSION",
+          "en/NEW REVISED STANDARD VERSION",
+          "en/ENGLISH STANDARD VERSION",
+          "en/CHRISTIAN STANDARD BIBLE",
+          "en/DARBY BIBLE 1890",
+          "en/BIBLE IN BASIC ENGLISH"
+        ]
+      },
+      "caveat": "Two things complicate the neat story. First, the LATIN sides with the critical text: both the Clementine and Sixtine Vulgates read 'pater eius', so this is a Greek Byzantine development, not a Latin one - which cuts against any account that makes the Vulgate the villain of Marian readings generally. Second, Tyndale (1526) already has 'his father and mother', so the English tradition had the critical reading eighty-five years before the KJV adopted the Byzantine one. The repository's plain-text JSON carries no apparatus, so versions that footnote the variant are indistinguishable here from versions that print one reading silently.",
+      "sources": [],
+      "scholarship": [
+        "Bart D. Ehrman, The Orthodox Corruption of Scripture (Oxford, 1993) - the standard study of scribal alterations made for doctrinal reasons, which is the category this case belongs to."
+      ],
+      "further_reading": [
+        "https://en.wikipedia.org/wiki/Textual_variants_in_the_Gospel_of_Luke"
       ]
     }
   ],
   "field_notes": {
     "study": "Path to a worked example under studies/, generated from a spec by tools/build_study.py.",
     "distinguish_from": "What the case is NOT. Names the doctrinal claim people attach to the verse and the texts that claim actually rests on. Guards against the commonest failure mode in this subject: treating a translation shift in a proof-text as though it invented the doctrine.",
-    "strongs": "Strong's numbers anchoring the disputed term. Resolvable against lexicon/ via tools/lexicon.py, which gives lemma-accurate occurrence lists without surface-form matching."
+    "strongs": "Strong's numbers anchoring the disputed term. Resolvable against lexicon/ via tools/lexicon.py, which gives lemma-accurate occurrence lists without surface-form matching.",
+    "narrative_context": "Where a case turns on WHEN something is said inside the story, this records the sequence and the verb morphology that establishes it. Added because 'what the text says' and 'what the character could have known at that point' are different questions, and the second is easy to get wrong.",
+    "scholarship": "Standard scholarly works behind the case, as distinct from `sources`, which are the links used while compiling it. Added after an audit found that 58 of 72 citations across both datasets were Wikipedia - the encyclopedia article ABOUT the scholarship rather than the scholarship. Where this field is absent the case rests on general reference works and should be treated as less well grounded.",
+    "further_reading": "Accessible overviews, including Wikipedia. Demoted here from `sources` after an audit: fine as an entry point, not an authority. `scholarship` carries the standard works."
   }
 }
